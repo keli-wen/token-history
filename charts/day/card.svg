@@ -20,8 +20,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="bg" width="880" height="236"/>
 <g class="b">
 <text class="tm" x="48" y="58" font-size="10.5" letter-spacing="2.5">LAST 30 DAYS · TOKENS</text>
-<text class="ts" x="46" y="122" font-size="58" font-weight="700">6.02B</text>
-<text class="t2" x="48" y="150" font-size="13">≈ $6,179 API-equivalent</text>
+<text class="ts" x="46" y="122" font-size="58" font-weight="700">5.90B</text>
+<text class="t2" x="48" y="150" font-size="13">≈ $6,034 API-equivalent</text>
 </g>
 <line class="axis" x1="400" y1="46" x2="400" y2="150"/>
 <g class="b" style="animation-delay:120ms">
@@ -31,7 +31,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </g>
 <g class="b" style="animation-delay:210ms">
 <text class="tm" x="590" y="64" font-size="10" letter-spacing="1.8">DAILY AVG</text>
-<text class="ts" x="590" y="100" font-size="26" font-weight="700">201M</text>
+<text class="ts" x="590" y="100" font-size="26" font-weight="700">197M</text>
 <text class="tm" x="590" y="122" font-size="11">per active day</text>
 </g>
 <g class="b" style="animation-delay:300ms">
@@ -40,12 +40,12 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="tm" x="740" y="122" font-size="11">days with usage</text>
 </g>
 <g class="b" style="animation-delay:320ms">
-<path class="s-claude" d="M52.5,176.0 H398.0 V185.0 H52.5 A4.5,4.5 0 0 1 48.0,180.5 V180.5 A4.5,4.5 0 0 1 52.5,176.0 Z"/>
-<path class="s-codex" d="M400.0,176.0 H827.5 A4.5,4.5 0 0 1 832.0,180.5 V180.5 A4.5,4.5 0 0 1 827.5,185.0 H400.0 V176.0 Z"/>
+<path class="s-claude" d="M52.5,176.0 H402.8 V185.0 H52.5 A4.5,4.5 0 0 1 48.0,180.5 V180.5 A4.5,4.5 0 0 1 52.5,176.0 Z"/>
+<path class="s-codex" d="M404.8,176.0 H827.5 A4.5,4.5 0 0 1 832.0,180.5 V180.5 A4.5,4.5 0 0 1 827.5,185.0 H404.8 V176.0 Z"/>
 <circle class="s-claude" cx="53" cy="203" r="4"/>
 <text class="t2" x="63" y="207" font-size="12">Claude Code 45% · 2.7B</text>
 <circle class="s-codex" cx="667" cy="203" r="4"/>
-<text class="t2" x="677" y="207" font-size="12">Codex 55% · 3.3B</text>
+<text class="t2" x="677" y="207" font-size="12">Codex 55% · 3.2B</text>
 </g>
-<text class="tm" x="48" y="226" font-size="10">Generated 2026-08-08 13:00 UTC</text>
+<text class="tm" x="48" y="226" font-size="10">Generated 2026-08-08 16:30 UTC</text>
 </svg>
