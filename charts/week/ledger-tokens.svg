@@ -25,8 +25,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="t2" x="143" y="73" font-size="12">Codex</text>
 <line class="grid" x1="28" y1="128" x2="848" y2="128"/>
 <text class="t2" x="28" y="116.0" font-size="12.5">Aug 10 – 16</text>
-<path class="s-claude wip" d="M180.9,105.5 H180.9 A0.9,0.9 0 0 1 181.7,106.4 V117.6 A0.9,0.9 0 0 1 180.9,118.5 H180.9 A0.9,0.9 0 0 1 180.0,117.6 V106.4 A0.9,0.9 0 0 1 180.9,105.5 Z"/>
-<text class="tm" x="848" y="116.0" font-size="12" text-anchor="end">5.9M *</text>
+<path class="s-claude wip" d="M181.0,105.5 H181.0 A1.0,1.0 0 0 1 182.0,106.5 V117.5 A1.0,1.0 0 0 1 181.0,118.5 H181.0 A1.0,1.0 0 0 1 180.0,117.5 V106.5 A1.0,1.0 0 0 1 181.0,105.5 Z"/>
+<text class="tm" x="848" y="116.0" font-size="12" text-anchor="end">6.8M *</text>
 <line class="grid" x1="28" y1="160" x2="848" y2="160"/>
 <text class="t2" x="28" y="148.0" font-size="12.5">Aug 03 – 09</text>
 <path class="s-claude" d="M186.0,137.5 H469.5 V150.5 H186.0 A6.0,6.0 0 0 1 180.0,144.5 V143.5 A6.0,6.0 0 0 1 186.0,137.5 Z"/>
@@ -52,5 +52,5 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <path class="s-claude" d="M186.0,265.5 H248.0 V278.5 H186.0 A6.0,6.0 0 0 1 180.0,272.5 V271.5 A6.0,6.0 0 0 1 186.0,265.5 Z"/>
 <path class="s-codex" d="M250.0,265.5 H408.7 A6.0,6.0 0 0 1 414.7,271.5 V272.5 A6.0,6.0 0 0 1 408.7,278.5 H250.0 V265.5 Z"/>
 <text class="tm" x="848" y="276.0" font-size="12" text-anchor="end">794M</text>
-<text class="tm" x="28" y="318" font-size="10.5">Generated 2026-08-09 16:30 UTC</text>
+<text class="tm" x="28" y="318" font-size="10.5">Generated 2026-08-10 04:00 UTC</text>
 </svg>
