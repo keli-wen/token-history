@@ -1,6 +1,6 @@
 {
   "ccusageVersion": "20.0.19",
-  "collectedAt": "2026-08-10T04:00:11Z",
+  "collectedAt": "2026-08-10T13:00:10Z",
   "date": "2026-08-10",
   "host": "host2",
   "sources": {
@@ -29,6 +29,33 @@
       },
       "output": 35176,
       "total": 964316
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 10537344,
+      "costUSD": 9.002885,
+      "input": 513539,
+      "models": {
+        "gpt-5.6-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 9177216,
+          "input": 437583,
+          "output": 56210,
+          "reasoningOutput": 25822,
+          "total": 9671009
+        },
+        "gpt-5.6-terra": {
+          "cacheCreation": 0,
+          "cacheRead": 1360128,
+          "input": 75956,
+          "output": 9677,
+          "reasoningOutput": 3471,
+          "total": 1445761
+        }
+      },
+      "output": 65887,
+      "reasoningOutput": 29293,
+      "total": 11116770
     }
   },
   "status": "partial",
