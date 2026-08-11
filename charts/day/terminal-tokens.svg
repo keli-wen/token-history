@@ -34,192 +34,191 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="tn" x="199.50" y="108" font-size="12"><tspan class="i2">codex</tspan></text>
 <text class="tn" x="257.50" y="108" font-size="12"><tspan class="im">stacked · █ ≈ 5.5M tokens · * in progress (faded)</tspan></text>
 <g class="row" style="animation-delay:0ms">
-<text class="tn" x="40" y="142" font-size="12"><tspan class="im">07-13</tspan></text>
-<text class="tn" x="98.00" y="142" font-size="12" textLength="116.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">███████████████▋</tspan></text>
-<text class="tn" x="214.00" y="142" font-size="12" textLength="108.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██████████████▉</tspan></text>
-<text class="tn" x="828" y="142" font-size="12" text-anchor="end"><tspan class="i2">168M</tspan></text>
+<text class="tn" x="40" y="142" font-size="12"><tspan class="im">07-14</tspan></text>
+<text class="tn" x="98.00" y="142" font-size="12" textLength="14.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█▋</tspan></text>
+<text class="tn" x="112.50" y="142" font-size="12" textLength="261.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">███████████████████████████████████▍</tspan></text>
+<text class="tn" x="828" y="142" font-size="12" text-anchor="end"><tspan class="i2">203M</tspan></text>
 </g>
 <g class="row" style="animation-delay:18ms">
-<text class="tn" x="40" y="159" font-size="12"><tspan class="im">07-14</tspan></text>
-<text class="tn" x="98.00" y="159" font-size="12" textLength="14.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█▋</tspan></text>
-<text class="tn" x="112.50" y="159" font-size="12" textLength="261.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">███████████████████████████████████▍</tspan></text>
-<text class="tn" x="828" y="159" font-size="12" text-anchor="end"><tspan class="i2">203M</tspan></text>
+<text class="tn" x="40" y="159" font-size="12"><tspan class="im">07-15</tspan></text>
+<text class="tn" x="98.00" y="159" font-size="12" textLength="101.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█████████████▎</tspan></text>
+<text class="tn" x="199.50" y="159" font-size="12" textLength="275.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">█████████████████████████████████████▌</tspan></text>
+<text class="tn" x="828" y="159" font-size="12" text-anchor="end"><tspan class="i2">279M</tspan></text>
 </g>
 <g class="row" style="animation-delay:36ms">
-<text class="tn" x="40" y="176" font-size="12"><tspan class="im">07-15</tspan></text>
-<text class="tn" x="98.00" y="176" font-size="12" textLength="101.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█████████████▎</tspan></text>
-<text class="tn" x="199.50" y="176" font-size="12" textLength="275.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">█████████████████████████████████████▌</tspan></text>
-<text class="tn" x="828" y="176" font-size="12" text-anchor="end"><tspan class="i2">279M</tspan></text>
+<text class="tn" x="40" y="176" font-size="12"><tspan class="im">07-16</tspan></text>
+<text class="tn" x="98.00" y="176" font-size="12" textLength="210.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">████████████████████████████▊</tspan></text>
+<text class="tn" x="308.25" y="176" font-size="12" textLength="377.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">███████████████████████████████████████████████████▎</tspan></text>
+<text class="tn" x="828" y="176" font-size="12" text-anchor="end"><tspan class="i2">440M</tspan></text>
 </g>
 <g class="row" style="animation-delay:54ms">
-<text class="tn" x="40" y="193" font-size="12"><tspan class="im">07-16</tspan></text>
-<text class="tn" x="98.00" y="193" font-size="12" textLength="210.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">████████████████████████████▊</tspan></text>
-<text class="tn" x="308.25" y="193" font-size="12" textLength="377.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">███████████████████████████████████████████████████▎</tspan></text>
-<text class="tn" x="828" y="193" font-size="12" text-anchor="end"><tspan class="i2">440M</tspan></text>
+<text class="tn" x="40" y="193" font-size="12"><tspan class="im">07-17</tspan></text>
+<text class="tn" x="98.00" y="193" font-size="12" textLength="159.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█████████████████████▌</tspan></text>
+<text class="tn" x="257.50" y="193" font-size="12" textLength="195.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██████████████████████████▌</tspan></text>
+<text class="tn" x="828" y="193" font-size="12" text-anchor="end"><tspan class="i2">264M</tspan></text>
 </g>
 <g class="row" style="animation-delay:72ms">
-<text class="tn" x="40" y="210" font-size="12"><tspan class="im">07-17</tspan></text>
-<text class="tn" x="98.00" y="210" font-size="12" textLength="159.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█████████████████████▌</tspan></text>
-<text class="tn" x="257.50" y="210" font-size="12" textLength="195.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██████████████████████████▌</tspan></text>
-<text class="tn" x="828" y="210" font-size="12" text-anchor="end"><tspan class="i2">264M</tspan></text>
+<text class="tn" x="40" y="210" font-size="12"><tspan class="im">07-18</tspan></text>
+<text class="tn" x="98.00" y="210" font-size="12" textLength="166.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">██████████████████████▌</tspan></text>
+<text class="tn" x="264.75" y="210" font-size="12" textLength="420.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">█████████████████████████████████████████████████████████▎</tspan></text>
+<text class="tn" x="828" y="210" font-size="12" text-anchor="end"><tspan class="i2">439M</tspan></text>
 </g>
 <g class="row" style="animation-delay:90ms">
-<text class="tn" x="40" y="227" font-size="12"><tspan class="im">07-18</tspan></text>
-<text class="tn" x="98.00" y="227" font-size="12" textLength="166.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">██████████████████████▌</tspan></text>
-<text class="tn" x="264.75" y="227" font-size="12" textLength="420.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">█████████████████████████████████████████████████████████▎</tspan></text>
-<text class="tn" x="828" y="227" font-size="12" text-anchor="end"><tspan class="i2">439M</tspan></text>
+<text class="tn" x="40" y="227" font-size="12"><tspan class="im">07-19</tspan></text>
+<text class="tn" x="98.00" y="227" font-size="12" textLength="246.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█████████████████████████████████▎</tspan></text>
+<text class="tn" x="344.50" y="227" font-size="12" textLength="94.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">████████████▍</tspan></text>
+<text class="tn" x="828" y="227" font-size="12" text-anchor="end"><tspan class="i2">251M</tspan></text>
 </g>
 <g class="row" style="animation-delay:108ms">
-<text class="tn" x="40" y="244" font-size="12"><tspan class="im">07-19</tspan></text>
-<text class="tn" x="98.00" y="244" font-size="12" textLength="246.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█████████████████████████████████▎</tspan></text>
-<text class="tn" x="344.50" y="244" font-size="12" textLength="94.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">████████████▍</tspan></text>
-<text class="tn" x="828" y="244" font-size="12" text-anchor="end"><tspan class="i2">251M</tspan></text>
+<text class="tn" x="40" y="244" font-size="12"><tspan class="im">07-20</tspan></text>
+<text class="tn" x="98.00" y="244" font-size="12" textLength="123.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">████████████████▍</tspan></text>
+<text class="tn" x="221.25" y="244" font-size="12" textLength="217.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██████████████████████████████</tspan></text>
+<text class="tn" x="828" y="244" font-size="12" text-anchor="end"><tspan class="i2">255M</tspan></text>
 </g>
 <g class="row" style="animation-delay:126ms">
-<text class="tn" x="40" y="261" font-size="12"><tspan class="im">07-20</tspan></text>
-<text class="tn" x="98.00" y="261" font-size="12" textLength="123.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">████████████████▍</tspan></text>
-<text class="tn" x="221.25" y="261" font-size="12" textLength="217.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██████████████████████████████</tspan></text>
-<text class="tn" x="828" y="261" font-size="12" text-anchor="end"><tspan class="i2">255M</tspan></text>
+<text class="tn" x="40" y="261" font-size="12"><tspan class="im">07-21</tspan></text>
+<text class="tn" x="98.00" y="261" font-size="12" textLength="239.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">████████████████████████████████▋</tspan></text>
+<text class="tn" x="337.25" y="261" font-size="12" textLength="108.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██████████████▋</tspan></text>
+<text class="tn" x="828" y="261" font-size="12" text-anchor="end"><tspan class="i2">260M</tspan></text>
 </g>
 <g class="row" style="animation-delay:144ms">
-<text class="tn" x="40" y="278" font-size="12"><tspan class="im">07-21</tspan></text>
-<text class="tn" x="98.00" y="278" font-size="12" textLength="239.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">████████████████████████████████▋</tspan></text>
-<text class="tn" x="337.25" y="278" font-size="12" textLength="108.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██████████████▋</tspan></text>
-<text class="tn" x="828" y="278" font-size="12" text-anchor="end"><tspan class="i2">260M</tspan></text>
+<text class="tn" x="40" y="278" font-size="12"><tspan class="im">07-22</tspan></text>
+<text class="tn" x="98.00" y="278" font-size="12" textLength="137.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">██████████████████▎</tspan></text>
+<text class="tn" x="235.75" y="278" font-size="12" textLength="166.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">███████████████████████</tspan></text>
+<text class="tn" x="828" y="278" font-size="12" text-anchor="end"><tspan class="i2">227M</tspan></text>
 </g>
 <g class="row" style="animation-delay:162ms">
-<text class="tn" x="40" y="295" font-size="12"><tspan class="im">07-22</tspan></text>
-<text class="tn" x="98.00" y="295" font-size="12" textLength="137.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">██████████████████▎</tspan></text>
-<text class="tn" x="235.75" y="295" font-size="12" textLength="166.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">███████████████████████</tspan></text>
-<text class="tn" x="828" y="295" font-size="12" text-anchor="end"><tspan class="i2">227M</tspan></text>
+<text class="tn" x="40" y="295" font-size="12"><tspan class="im">07-23</tspan></text>
+<text class="tn" x="98.00" y="295" font-size="12" textLength="174.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">███████████████████████▊</tspan></text>
+<text class="tn" x="272.00" y="295" font-size="12" textLength="72.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">█████████▏</tspan></text>
+<text class="tn" x="828" y="295" font-size="12" text-anchor="end"><tspan class="i2">181M</tspan></text>
 </g>
 <g class="row" style="animation-delay:180ms">
-<text class="tn" x="40" y="312" font-size="12"><tspan class="im">07-23</tspan></text>
-<text class="tn" x="98.00" y="312" font-size="12" textLength="174.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">███████████████████████▊</tspan></text>
-<text class="tn" x="272.00" y="312" font-size="12" textLength="72.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">█████████▏</tspan></text>
-<text class="tn" x="828" y="312" font-size="12" text-anchor="end"><tspan class="i2">181M</tspan></text>
+<text class="tn" x="40" y="312" font-size="12"><tspan class="im">07-24</tspan></text>
+<text class="tn" x="98.00" y="312" font-size="12" textLength="79.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">██████████▍</tspan></text>
+<text class="tn" x="177.75" y="312" font-size="12" textLength="87.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">███████████▏</tspan></text>
+<text class="tn" x="828" y="312" font-size="12" text-anchor="end"><tspan class="i2">118M</tspan></text>
 </g>
 <g class="row" style="animation-delay:198ms">
-<text class="tn" x="40" y="329" font-size="12"><tspan class="im">07-24</tspan></text>
-<text class="tn" x="98.00" y="329" font-size="12" textLength="79.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">██████████▍</tspan></text>
-<text class="tn" x="177.75" y="329" font-size="12" textLength="87.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">███████████▏</tspan></text>
-<text class="tn" x="828" y="329" font-size="12" text-anchor="end"><tspan class="i2">118M</tspan></text>
+<text class="tn" x="40" y="329" font-size="12"><tspan class="im">07-25</tspan></text>
+<text class="tn" x="98.00" y="329" font-size="12" textLength="21.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">███</tspan></text>
+<text class="tn" x="119.75" y="329" font-size="12" textLength="29.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">███▊</tspan></text>
+<text class="tn" x="828" y="329" font-size="12" text-anchor="end"><tspan class="i2">37M</tspan></text>
 </g>
 <g class="row" style="animation-delay:216ms">
-<text class="tn" x="40" y="346" font-size="12"><tspan class="im">07-25</tspan></text>
-<text class="tn" x="98.00" y="346" font-size="12" textLength="21.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">███</tspan></text>
-<text class="tn" x="119.75" y="346" font-size="12" textLength="29.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">███▊</tspan></text>
-<text class="tn" x="828" y="346" font-size="12" text-anchor="end"><tspan class="i2">37M</tspan></text>
+<text class="tn" x="40" y="346" font-size="12"><tspan class="im">07-26</tspan></text>
+<text class="tn" x="98.00" y="346" font-size="12" textLength="87.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">███████████▊</tspan></text>
+<text class="tn" x="185.00" y="346" font-size="12" textLength="36.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">████▊</tspan></text>
+<text class="tn" x="828" y="346" font-size="12" text-anchor="end"><tspan class="i2">91M</tspan></text>
 </g>
 <g class="row" style="animation-delay:234ms">
-<text class="tn" x="40" y="363" font-size="12"><tspan class="im">07-26</tspan></text>
-<text class="tn" x="98.00" y="363" font-size="12" textLength="87.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">███████████▊</tspan></text>
-<text class="tn" x="185.00" y="363" font-size="12" textLength="36.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">████▊</tspan></text>
-<text class="tn" x="828" y="363" font-size="12" text-anchor="end"><tspan class="i2">91M</tspan></text>
+<text class="tn" x="40" y="363" font-size="12"><tspan class="im">07-27</tspan></text>
+<text class="tn" x="98.00" y="363" font-size="12" textLength="7.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">▏</tspan></text>
+<text class="tn" x="105.25" y="363" font-size="12" textLength="14.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██</tspan></text>
+<text class="tn" x="828" y="363" font-size="12" text-anchor="end"><tspan class="i2">11M</tspan></text>
 </g>
 <g class="row" style="animation-delay:252ms">
-<text class="tn" x="40" y="380" font-size="12"><tspan class="im">07-27</tspan></text>
-<text class="tn" x="98.00" y="380" font-size="12" textLength="7.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">▏</tspan></text>
-<text class="tn" x="105.25" y="380" font-size="12" textLength="14.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██</tspan></text>
+<text class="tn" x="40" y="380" font-size="12"><tspan class="im">07-28</tspan></text>
+<text class="tn" x="98.00" y="380" font-size="12" textLength="7.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">▌</tspan></text>
+<text class="tn" x="105.25" y="380" font-size="12" textLength="14.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">█▌</tspan></text>
 <text class="tn" x="828" y="380" font-size="12" text-anchor="end"><tspan class="i2">11M</tspan></text>
 </g>
 <g class="row" style="animation-delay:270ms">
-<text class="tn" x="40" y="397" font-size="12"><tspan class="im">07-28</tspan></text>
-<text class="tn" x="98.00" y="397" font-size="12" textLength="7.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">▌</tspan></text>
-<text class="tn" x="105.25" y="397" font-size="12" textLength="14.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">█▌</tspan></text>
-<text class="tn" x="828" y="397" font-size="12" text-anchor="end"><tspan class="i2">11M</tspan></text>
+<text class="tn" x="40" y="397" font-size="12"><tspan class="im">07-29</tspan></text>
+<text class="tn" x="98.00" y="397" font-size="12" textLength="94.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">████████████▉</tspan></text>
+<text class="tn" x="192.25" y="397" font-size="12" textLength="50.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██████▊</tspan></text>
+<text class="tn" x="828" y="397" font-size="12" text-anchor="end"><tspan class="i2">108M</tspan></text>
 </g>
 <g class="row" style="animation-delay:288ms">
-<text class="tn" x="40" y="414" font-size="12"><tspan class="im">07-29</tspan></text>
-<text class="tn" x="98.00" y="414" font-size="12" textLength="94.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">████████████▉</tspan></text>
-<text class="tn" x="192.25" y="414" font-size="12" textLength="50.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██████▊</tspan></text>
-<text class="tn" x="828" y="414" font-size="12" text-anchor="end"><tspan class="i2">108M</tspan></text>
+<text class="tn" x="40" y="414" font-size="12"><tspan class="im">07-30</tspan></text>
+<text class="tn" x="98.00" y="414" font-size="12" textLength="87.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">███████████▎</tspan></text>
+<text class="tn" x="185.00" y="414" font-size="12" textLength="50.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">███████</tspan></text>
+<text class="tn" x="828" y="414" font-size="12" text-anchor="end"><tspan class="i2">100M</tspan></text>
 </g>
 <g class="row" style="animation-delay:306ms">
-<text class="tn" x="40" y="431" font-size="12"><tspan class="im">07-30</tspan></text>
-<text class="tn" x="98.00" y="431" font-size="12" textLength="87.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">███████████▎</tspan></text>
-<text class="tn" x="185.00" y="431" font-size="12" textLength="50.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">███████</tspan></text>
-<text class="tn" x="828" y="431" font-size="12" text-anchor="end"><tspan class="i2">100M</tspan></text>
+<text class="tn" x="40" y="431" font-size="12"><tspan class="im">07-31</tspan></text>
+<text class="tn" x="98.00" y="431" font-size="12" textLength="130.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">██████████████████</tspan></text>
+<text class="tn" x="228.50" y="431" font-size="12" textLength="36.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">████▍</tspan></text>
+<text class="tn" x="828" y="431" font-size="12" text-anchor="end"><tspan class="i2">123M</tspan></text>
 </g>
 <g class="row" style="animation-delay:324ms">
-<text class="tn" x="40" y="448" font-size="12"><tspan class="im">07-31</tspan></text>
-<text class="tn" x="98.00" y="448" font-size="12" textLength="130.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">██████████████████</tspan></text>
-<text class="tn" x="228.50" y="448" font-size="12" textLength="36.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">████▍</tspan></text>
-<text class="tn" x="828" y="448" font-size="12" text-anchor="end"><tspan class="i2">123M</tspan></text>
+<text class="tn" x="40" y="448" font-size="12"><tspan class="im">08-01</tspan></text>
+<text class="tn" x="98.00" y="448" font-size="12" textLength="21.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██▋</tspan></text>
+<text class="tn" x="828" y="448" font-size="12" text-anchor="end"><tspan class="i2">14M</tspan></text>
 </g>
 <g class="row" style="animation-delay:342ms">
-<text class="tn" x="40" y="465" font-size="12"><tspan class="im">08-01</tspan></text>
-<text class="tn" x="98.00" y="465" font-size="12" textLength="21.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██▋</tspan></text>
-<text class="tn" x="828" y="465" font-size="12" text-anchor="end"><tspan class="i2">14M</tspan></text>
+<text class="tn" x="40" y="465" font-size="12"><tspan class="im">08-02</tspan></text>
+<text class="tn" x="98.00" y="465" font-size="12" textLength="43.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█████▉</tspan></text>
+<text class="tn" x="141.50" y="465" font-size="12" textLength="224.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██████████████████████████████▉</tspan></text>
+<text class="tn" x="828" y="465" font-size="12" text-anchor="end"><tspan class="i2">202M</tspan></text>
 </g>
 <g class="row" style="animation-delay:360ms">
-<text class="tn" x="40" y="482" font-size="12"><tspan class="im">08-02</tspan></text>
-<text class="tn" x="98.00" y="482" font-size="12" textLength="43.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█████▉</tspan></text>
-<text class="tn" x="141.50" y="482" font-size="12" textLength="224.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██████████████████████████████▉</tspan></text>
-<text class="tn" x="828" y="482" font-size="12" text-anchor="end"><tspan class="i2">202M</tspan></text>
+<text class="tn" x="40" y="482" font-size="12"><tspan class="im">08-03</tspan></text>
+<text class="tn" x="98.00" y="482" font-size="12" textLength="79.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">██████████▎</tspan></text>
+<text class="tn" x="177.75" y="482" font-size="12" textLength="50.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██████▏</tspan></text>
+<text class="tn" x="828" y="482" font-size="12" text-anchor="end"><tspan class="i2">90M</tspan></text>
 </g>
 <g class="row" style="animation-delay:378ms">
-<text class="tn" x="40" y="499" font-size="12"><tspan class="im">08-03</tspan></text>
-<text class="tn" x="98.00" y="499" font-size="12" textLength="79.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">██████████▎</tspan></text>
-<text class="tn" x="177.75" y="499" font-size="12" textLength="50.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██████▏</tspan></text>
-<text class="tn" x="828" y="499" font-size="12" text-anchor="end"><tspan class="i2">90M</tspan></text>
+<text class="tn" x="40" y="499" font-size="12"><tspan class="im">08-04</tspan></text>
+<text class="tn" x="98.00" y="499" font-size="12" textLength="108.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">██████████████▋</tspan></text>
+<text class="tn" x="206.75" y="499" font-size="12" textLength="188.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">█████████████████████████▏</tspan></text>
+<text class="tn" x="828" y="499" font-size="12" text-anchor="end"><tspan class="i2">218M</tspan></text>
 </g>
 <g class="row" style="animation-delay:396ms">
-<text class="tn" x="40" y="516" font-size="12"><tspan class="im">08-04</tspan></text>
-<text class="tn" x="98.00" y="516" font-size="12" textLength="108.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">██████████████▋</tspan></text>
-<text class="tn" x="206.75" y="516" font-size="12" textLength="188.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">█████████████████████████▏</tspan></text>
-<text class="tn" x="828" y="516" font-size="12" text-anchor="end"><tspan class="i2">218M</tspan></text>
+<text class="tn" x="40" y="516" font-size="12"><tspan class="im">08-05</tspan></text>
+<text class="tn" x="98.00" y="516" font-size="12" textLength="326.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">████████████████████████████████████████████▌</tspan></text>
+<text class="tn" x="424.25" y="516" font-size="12" textLength="217.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">█████████████████████████████▌</tspan></text>
+<text class="tn" x="828" y="516" font-size="12" text-anchor="end"><tspan class="i2">407M</tspan></text>
 </g>
 <g class="row" style="animation-delay:414ms">
-<text class="tn" x="40" y="533" font-size="12"><tspan class="im">08-05</tspan></text>
-<text class="tn" x="98.00" y="533" font-size="12" textLength="326.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">████████████████████████████████████████████▌</tspan></text>
-<text class="tn" x="424.25" y="533" font-size="12" textLength="217.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">█████████████████████████████▌</tspan></text>
-<text class="tn" x="828" y="533" font-size="12" text-anchor="end"><tspan class="i2">407M</tspan></text>
+<text class="tn" x="40" y="533" font-size="12" font-weight="600"><tspan class="i2">08-06</tspan></text>
+<text class="tn" x="98.00" y="533" font-size="12" textLength="435.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">███████████████████████████████████████████████████████████▏</tspan></text>
+<text class="tn" x="533.00" y="533" font-size="12" textLength="210.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">████████████████████████████▉</tspan></text>
+<text class="tn" x="828" y="533" font-size="12" text-anchor="end" font-weight="700"><tspan>484M</tspan></text>
 </g>
 <g class="row" style="animation-delay:432ms">
-<text class="tn" x="40" y="550" font-size="12" font-weight="600"><tspan class="i2">08-06</tspan></text>
-<text class="tn" x="98.00" y="550" font-size="12" textLength="435.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">███████████████████████████████████████████████████████████▏</tspan></text>
-<text class="tn" x="533.00" y="550" font-size="12" textLength="210.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">████████████████████████████▉</tspan></text>
-<text class="tn" x="828" y="550" font-size="12" text-anchor="end" font-weight="700"><tspan>484M</tspan></text>
+<text class="tn" x="40" y="550" font-size="12"><tspan class="im">08-07</tspan></text>
+<text class="tn" x="98.00" y="550" font-size="12" textLength="159.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█████████████████████▏</tspan></text>
+<text class="tn" x="257.50" y="550" font-size="12" textLength="123.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">████████████████▋</tspan></text>
+<text class="tn" x="828" y="550" font-size="12" text-anchor="end"><tspan class="i2">208M</tspan></text>
 </g>
 <g class="row" style="animation-delay:450ms">
-<text class="tn" x="40" y="567" font-size="12"><tspan class="im">08-07</tspan></text>
-<text class="tn" x="98.00" y="567" font-size="12" textLength="159.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█████████████████████▏</tspan></text>
-<text class="tn" x="257.50" y="567" font-size="12" textLength="123.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">████████████████▋</tspan></text>
-<text class="tn" x="828" y="567" font-size="12" text-anchor="end"><tspan class="i2">208M</tspan></text>
+<text class="tn" x="40" y="567" font-size="12"><tspan class="im">08-08</tspan></text>
+<text class="tn" x="98.00" y="567" font-size="12" textLength="123.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">████████████████▎</tspan></text>
+<text class="tn" x="221.25" y="567" font-size="12" textLength="261.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">███████████████████████████████████▍</tspan></text>
+<text class="tn" x="828" y="567" font-size="12" text-anchor="end"><tspan class="i2">284M</tspan></text>
 </g>
 <g class="row" style="animation-delay:468ms">
-<text class="tn" x="40" y="584" font-size="12"><tspan class="im">08-08</tspan></text>
-<text class="tn" x="98.00" y="584" font-size="12" textLength="123.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">████████████████▎</tspan></text>
-<text class="tn" x="221.25" y="584" font-size="12" textLength="261.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">███████████████████████████████████▍</tspan></text>
-<text class="tn" x="828" y="584" font-size="12" text-anchor="end"><tspan class="i2">284M</tspan></text>
+<text class="tn" x="40" y="584" font-size="12"><tspan class="im">08-09</tspan></text>
+<text class="tn" x="98.00" y="584" font-size="12" textLength="101.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█████████████▌</tspan></text>
+<text class="tn" x="199.50" y="584" font-size="12" textLength="195.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">███████████████████████████</tspan></text>
+<text class="tn" x="828" y="584" font-size="12" text-anchor="end"><tspan class="i2">223M</tspan></text>
 </g>
 <g class="row" style="animation-delay:486ms">
-<text class="tn" x="40" y="601" font-size="12"><tspan class="im">08-09</tspan></text>
-<text class="tn" x="98.00" y="601" font-size="12" textLength="101.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█████████████▌</tspan></text>
-<text class="tn" x="199.50" y="601" font-size="12" textLength="195.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">███████████████████████████</tspan></text>
-<text class="tn" x="828" y="601" font-size="12" text-anchor="end"><tspan class="i2">223M</tspan></text>
+<text class="tn" x="40" y="601" font-size="12"><tspan class="im">08-10</tspan></text>
+<text class="tn" x="98.00" y="601" font-size="12" textLength="14.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█▎</tspan></text>
+<text class="tn" x="112.50" y="601" font-size="12" textLength="21.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██▊</tspan></text>
+<text class="tn" x="828" y="601" font-size="12" text-anchor="end"><tspan class="i2">22M</tspan></text>
 </g>
 <g class="row" style="animation-delay:504ms">
-<text class="tn" x="40" y="618" font-size="12"><tspan class="im">08-10</tspan></text>
-<text class="tn" x="98.00" y="618" font-size="12" textLength="14.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█▎</tspan></text>
-<text class="tn" x="112.50" y="618" font-size="12" textLength="21.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██▊</tspan></text>
-<text class="tn" x="828" y="618" font-size="12" text-anchor="end"><tspan class="i2">22M</tspan></text>
+<text class="tn" x="40" y="618" font-size="12"><tspan class="im">08-11</tspan></text>
+<text class="tn" x="98.00" y="618" font-size="12" textLength="43.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█████▏</tspan></text>
+<text class="tn" x="141.50" y="618" font-size="12" textLength="79.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██████████▎</tspan></text>
+<text class="tn" x="828" y="618" font-size="12" text-anchor="end"><tspan class="i2">84M</tspan></text>
 </g>
 <g class="row" style="animation-delay:522ms">
-<text class="tn" x="40" y="635" font-size="12"><tspan class="im">08-11</tspan></text>
-<text class="tn" x="98.00" y="635" font-size="12" textLength="7.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude wip">▊</tspan></text>
-<text class="tn" x="105.25" y="635" font-size="12" textLength="29.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex wip">███▍</tspan></text>
-<text class="tn" x="828" y="635" font-size="12" text-anchor="end"><tspan class="i2">23M</tspan></text>
+<text class="tn" x="40" y="635" font-size="12"><tspan class="im">08-12</tspan></text>
+<text class="tn" x="98.00" y="635" font-size="12" textLength="58.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude wip">███████▊</tspan></text>
+<text class="tn" x="828" y="635" font-size="12" text-anchor="end"><tspan class="i2">42M</tspan></text>
 <text class="tn" x="832" y="635" font-size="12"><tspan class="im">*</tspan></text>
 </g>
 <line class="grid" x1="40" y1="647" x2="840" y2="647"/>
-<text class="tn" x="40" y="669" font-size="12" font-weight="700">TOTAL  5.74B tokens<tspan class="i2" font-weight="400"> · $5,801 API-equivalent</tspan></text>
+<text class="tn" x="40" y="669" font-size="12" font-weight="700">TOTAL  5.67B tokens<tspan class="i2" font-weight="400"> · $5,754 API-equivalent</tspan></text>
 <text class="tn" x="90.75" y="686" font-size="12" textLength="7.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█</tspan></text>
-<text class="tn" x="105.25" y="686" font-size="12"><tspan class="i2">claude-code 2.7B (46%)</tspan></text>
+<text class="tn" x="105.25" y="686" font-size="12"><tspan class="i2">claude-code 2.6B (46%)</tspan></text>
 <text class="tn" x="286.50" y="686" font-size="12" textLength="7.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">█</tspan></text>
-<text class="tn" x="301.00" y="686" font-size="12"><tspan class="i2">codex 3.1B (54%)</tspan></text>
+<text class="tn" x="301.00" y="686" font-size="12"><tspan class="i2">codex 3.0B (54%)</tspan></text>
 <text class="tn" x="438.75" y="686" font-size="12"><tspan class="im">peak 484M on 08-06</tspan></text>
-<text class="tn" x="40" y="720" font-size="12"><tspan class="im"># Generated 2026-08-11 16:30 UTC</tspan></text>
+<text class="tn" x="40" y="720" font-size="12"><tspan class="im"># Generated 2026-08-11 16:31 UTC</tspan></text>
 <text class="tn" x="40" y="737" font-size="12"><tspan class="im">$ </tspan><tspan class="cur">█</tspan></text>
 </svg>
