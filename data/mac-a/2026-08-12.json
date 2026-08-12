@@ -1,6 +1,6 @@
 {
   "ccusageVersion": "20.0.19",
-  "collectedAt": "2026-08-12T04:00:14Z",
+  "collectedAt": "2026-08-12T13:00:09Z",
   "date": "2026-08-12",
   "host": "mac-a",
   "sources": {
@@ -48,39 +48,47 @@
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 56428800,
-      "costUSD": 42.035299,
-      "input": 2790061,
+      "cacheRead": 112162688,
+      "costUSD": 66.454773,
+      "input": 6291947,
       "models": {
         "gpt-5.5": {
           "cacheCreation": 0,
-          "cacheRead": 2536448,
-          "input": 523931,
+          "cacheRead": 10316928,
+          "input": 1312511,
           "modelNameIsFallback": true,
-          "output": 8897,
-          "reasoningOutput": 3673,
-          "total": 3069276
+          "output": 40801,
+          "reasoningOutput": 14903,
+          "total": 11670240
+        },
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 32597760,
+          "input": 1557149,
+          "output": 107549,
+          "reasoningOutput": 45283,
+          "total": 34262458
         },
         "gpt-5.6-sol": {
           "cacheCreation": 0,
-          "cacheRead": 41888000,
-          "input": 1530534,
-          "output": 157875,
-          "reasoningOutput": 54122,
-          "total": 43576409
+          "cacheRead": 56699136,
+          "input": 2592153,
+          "output": 207781,
+          "reasoningOutput": 72605,
+          "total": 59499070
         },
         "gpt-5.6-terra": {
           "cacheCreation": 0,
-          "cacheRead": 12004352,
-          "input": 735596,
-          "output": 56294,
-          "reasoningOutput": 22837,
-          "total": 12796242
+          "cacheRead": 12548864,
+          "input": 830134,
+          "output": 58623,
+          "reasoningOutput": 23168,
+          "total": 13437621
         }
       },
-      "output": 223066,
-      "reasoningOutput": 80632,
-      "total": 59441927
+      "output": 414754,
+      "reasoningOutput": 155959,
+      "total": 118869389
     }
   },
   "status": "partial",
