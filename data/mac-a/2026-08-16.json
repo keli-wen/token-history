@@ -1,22 +1,22 @@
 {
   "ccusageVersion": "20.0.20",
-  "collectedAt": "2026-08-16T13:00:14Z",
+  "collectedAt": "2026-08-16T16:36:55Z",
   "date": "2026-08-16",
   "host": "mac-a",
   "sources": {
     "claude": {
-      "cacheCreation": 1204733,
-      "cacheRead": 29138981,
-      "costUSD": 46.302973,
-      "input": 535,
+      "cacheCreation": 1446856,
+      "cacheRead": 32760358,
+      "costUSD": 57.264089,
+      "input": 583,
       "models": {
         "claude-fable-5": {
-          "cacheCreation": 761231,
-          "cacheRead": 13904190,
-          "costUSD": 34.4151,
-          "input": 169,
-          "output": 105692,
-          "total": 14771282
+          "cacheCreation": 1003354,
+          "cacheRead": 17525567,
+          "costUSD": 45.376217,
+          "input": 217,
+          "output": 155628,
+          "total": 18684766
         },
         "claude-opus-5": {
           "cacheCreation": 345726,
@@ -35,14 +35,14 @@
           "total": 1235132
         }
       },
-      "output": 206925,
-      "total": 30551174
+      "output": 256861,
+      "total": 34464658
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 19638528,
-      "costUSD": 15.627311,
-      "input": 1761445,
+      "cacheRead": 19661824,
+      "costUSD": 15.835749,
+      "input": 1799141,
       "models": {
         "gpt-5.5": {
           "cacheCreation": 0,
@@ -63,11 +63,11 @@
         },
         "gpt-5.6-sol": {
           "cacheCreation": 0,
-          "cacheRead": 10146560,
-          "input": 968054,
-          "output": 83723,
-          "reasoningOutput": 24483,
-          "total": 11198337
+          "cacheRead": 10169856,
+          "input": 1005750,
+          "output": 84000,
+          "reasoningOutput": 24508,
+          "total": 11259606
         },
         "gpt-5.6-terra": {
           "cacheCreation": 0,
@@ -78,11 +78,11 @@
           "total": 2693231
         }
       },
-      "output": 130035,
-      "reasoningOutput": 47426,
-      "total": 21530008
+      "output": 130312,
+      "reasoningOutput": 47451,
+      "total": 21591277
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
