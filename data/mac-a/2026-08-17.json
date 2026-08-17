@@ -1,0 +1,64 @@
+{
+  "ccusageVersion": "20.0.20",
+  "collectedAt": "2026-08-17T04:00:13Z",
+  "date": "2026-08-17",
+  "host": "mac-a",
+  "sources": {
+    "claude": {
+      "cacheCreation": 1591649,
+      "cacheRead": 31267876,
+      "costUSD": 65.985781,
+      "input": 392,
+      "models": {
+        "claude-fable-5": {
+          "cacheCreation": 1507176,
+          "cacheRead": 30885302,
+          "costUSD": 65.625632,
+          "input": 366,
+          "output": 229698,
+          "total": 32622542
+        },
+        "claude-sonnet-5": {
+          "cacheCreation": 84473,
+          "cacheRead": 382574,
+          "costUSD": 0.360149,
+          "input": 26,
+          "output": 7240,
+          "total": 474313
+        }
+      },
+      "output": 236938,
+      "total": 33096855
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 7525376,
+      "costUSD": 8.993408,
+      "input": 766250,
+      "models": {
+        "gpt-5.5": {
+          "cacheCreation": 0,
+          "cacheRead": 233728,
+          "input": 90040,
+          "modelNameIsFallback": true,
+          "output": 2346,
+          "reasoningOutput": 1422,
+          "total": 326114
+        },
+        "gpt-5.6-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 7291648,
+          "input": 676210,
+          "output": 44303,
+          "reasoningOutput": 13688,
+          "total": 8012161
+        }
+      },
+      "output": 46649,
+      "reasoningOutput": 15110,
+      "total": 8338275
+    }
+  },
+  "status": "partial",
+  "timezone": "Asia/Shanghai"
+}
