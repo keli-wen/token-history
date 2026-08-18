@@ -18,7 +18,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </style>
 <rect class="bg" width="560" height="279"/>
 <text class="t" x="28" y="30" font-size="17" font-weight="600">Token calendar</text>
-<text class="t2" x="28" y="50" font-size="12">Jul 07, 2026 – Aug 18, 2026 · 8.2B tokens · peak 566M on Aug 13</text>
+<text class="t2" x="28" y="50" font-size="12">Jul 07, 2026 – Aug 19, 2026 · 8.3B tokens · peak 566M on Aug 13</text>
 <text class="tm" x="64" y="88" font-size="10.5">Jun</text>
 <text class="tm" x="80" y="88" font-size="10.5">Jul</text>
 <text class="tm" x="144" y="88" font-size="10.5">Aug</text>
@@ -59,7 +59,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="r2" x="128" y="144" width="13" height="13" rx="3"/>
 <rect class="r2" x="128" y="160" width="13" height="13" rx="3"/>
 <rect class="r1" x="128" y="176" width="13" height="13" rx="3"/>
-<rect class="r2" x="128" y="192" width="13" height="13" rx="3"/>
+<rect class="r3" x="128" y="192" width="13" height="13" rx="3"/>
 <rect class="r2" x="144" y="96" width="13" height="13" rx="3"/>
 <rect class="r3" x="144" y="112" width="13" height="13" rx="3"/>
 <rect class="r4" x="144" y="128" width="13" height="13" rx="3"/>
@@ -68,14 +68,15 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="r4" x="144" y="176" width="13" height="13" rx="3"/>
 <rect class="r3" x="144" y="192" width="13" height="13" rx="3"/>
 <rect class="r1" x="160" y="96" width="13" height="13" rx="3"/>
-<rect class="r1" x="160" y="112" width="13" height="13" rx="3"/>
+<rect class="r2" x="160" y="112" width="13" height="13" rx="3"/>
 <rect class="r4" x="160" y="128" width="13" height="13" rx="3"/>
 <rect class="r4" x="160" y="144" width="13" height="13" rx="3"/>
 <rect class="r4" x="160" y="160" width="13" height="13" rx="3"/>
 <rect class="r3" x="160" y="176" width="13" height="13" rx="3"/>
 <rect class="r1" x="160" y="192" width="13" height="13" rx="3"/>
 <rect class="r2" x="176" y="96" width="13" height="13" rx="3"/>
-<rect class="r1 wip" x="176" y="112" width="13" height="13" rx="3"/>
+<rect class="r1" x="176" y="112" width="13" height="13" rx="3"/>
+<rect class="r1 wip" x="176" y="128" width="13" height="13" rx="3"/>
 <text class="tm" x="416" y="231" font-size="10.5" text-anchor="end">Less</text>
 <rect class="r0" x="422" y="221" width="13" height="13" rx="3"/>
 <rect class="r1" x="438" y="221" width="13" height="13" rx="3"/>
