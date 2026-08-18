@@ -62,5 +62,5 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <circle class="dot" cx="635.4" cy="105.6" r="3.5" fill="var(--primary)"/>
 <text class="t" x="635.4" y="95.6" font-size="11.5" font-weight="600" text-anchor="middle">566M</text>
 </g>
-<text class="tm" x="28" y="366" font-size="10.5">Generated 2026-08-17 16:30 UTC</text>
+<text class="tm" x="28" y="366" font-size="10.5">Generated 2026-08-18 04:00 UTC</text>
 </svg>
