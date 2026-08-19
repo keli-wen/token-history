@@ -1,0 +1,47 @@
+{
+  "ccusageVersion": "20.0.20",
+  "collectedAt": "2026-08-19T16:30:13Z",
+  "date": "2026-08-20",
+  "host": "mac-a",
+  "sources": {
+    "claude": {
+      "cacheCreation": 672602,
+      "cacheRead": 20920,
+      "costUSD": 6.806015,
+      "input": 2,
+      "models": {
+        "claude-opus-5": {
+          "cacheCreation": 672602,
+          "cacheRead": 20920,
+          "costUSD": 6.806015,
+          "input": 2,
+          "output": 2781,
+          "total": 696305
+        }
+      },
+      "output": 2781,
+      "total": 696305
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 493312,
+      "costUSD": 0.581301,
+      "input": 45395,
+      "models": {
+        "gpt-5.6-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 493312,
+          "input": 45395,
+          "output": 3589,
+          "reasoningOutput": 831,
+          "total": 542296
+        }
+      },
+      "output": 3589,
+      "reasoningOutput": 831,
+      "total": 542296
+    }
+  },
+  "status": "partial",
+  "timezone": "Asia/Shanghai"
+}
