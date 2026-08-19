@@ -18,7 +18,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </style>
 <rect class="bg" width="880" height="368"/>
 <text class="t" x="28" y="30" font-size="17" font-weight="600">Daily API-equivalent value</text>
-<text class="t2" x="28" y="50" font-size="12">Jul 21, 2026 – Aug 19, 2026 · $4,825 over 30 days</text>
+<text class="t2" x="28" y="50" font-size="12">Jul 21, 2026 – Aug 19, 2026 · $4,949 over 30 days</text>
 <rect class="s-claude" x="28" y="62" width="10" height="10" rx="2"/>
 <text class="t2" x="44" y="71" font-size="12">Claude Code</text>
 <rect class="s-codex" x="127" y="62" width="10" height="10" rx="2"/>
@@ -99,9 +99,10 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <path class="s-codex" d="M779.3,252.2 V241.9 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V252.2 Z"/>
 <path class="s-claude" d="M805.2,285.9 h16.0 v30.1 h-16.0 Z"/>
 <path class="s-codex" d="M805.2,283.9 V283.9 a3.2,3.2 0 0 1 3.2,-3.2 h9.6 a3.2,3.2 0 0 1 3.2,3.2 V283.9 Z"/>
-<path class="s-claude wip" d="M831.0,316.0 V315.8 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V316.0 Z"/>
+<path class="s-claude wip" d="M831.0,258.3 h16.0 v57.7 h-16.0 Z"/>
+<path class="s-codex wip" d="M831.0,256.3 V256.3 a0.1,0.1 0 0 1 0.1,-0.1 h15.8 a0.1,0.1 0 0 1 0.1,0.1 V256.3 Z"/>
 <text class="tm" x="839.1" y="336" font-size="10.5" text-anchor="middle">08/19</text>
 <text class="t" x="502.8" y="125.3" font-size="11.5" font-weight="600" text-anchor="middle">$408</text>
-<text class="t" x="839.1" y="303.8" font-size="11.5" font-weight="600" text-anchor="middle">$9.5</text>
-<text class="tm" x="28" y="354" font-size="10.5">Generated 2026-08-18 16:30 UTC</text>
+<text class="t" x="839.1" y="248.2" font-size="11.5" font-weight="600" text-anchor="middle">$133</text>
+<text class="tm" x="28" y="354" font-size="10.5">Generated 2026-08-19 04:00 UTC</text>
 </svg>

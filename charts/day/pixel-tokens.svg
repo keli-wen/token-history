@@ -19,7 +19,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </style>
 <rect class="bg" width="880" height="396"/>
 <text class="tt" x="28" y="36" font-size="17">DAILY TOKENS</text>
-<text class="sub" x="28" y="57" font-size="11">JUL 21 - AUG 19, 2026 / 5.2B TOKENS OVER 30 DAYS / 1PX = 20M</text>
+<text class="sub" x="28" y="57" font-size="11">JUL 21 - AUG 19, 2026 / 5.3B TOKENS OVER 30 DAYS / 1PX = 20M</text>
 <rect class="px s-claude" x="28" y="68" width="8" height="8"/>
 <text class="t2" x="42" y="76" font-size="12" font-family="var(--fm)">Claude Code</text>
 <rect class="px s-codex" x="136" y="68" width="8" height="8"/>
@@ -415,10 +415,17 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px s-codex" x="814" y="322" width="8" height="8"/>
 </g>
 <g class="col wip" style="animation-delay:522ms">
-<rect class="px s-claude blink" x="830" y="332" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="332" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="332" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="322" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="322" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="312" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="312" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="302" width="8" height="8"/>
+<rect class="px s-codex blink" x="840" y="302" width="8" height="8"/>
 </g>
 <text class="tm" x="839" y="359" font-size="10.5" text-anchor="middle" font-family="var(--fm)">08/19</text>
 <text class="tn" x="684" y="184" font-size="11" font-weight="700" text-anchor="middle">566M</text>
-<text class="tn" x="839" y="314" font-size="11" font-weight="700" text-anchor="middle">16M</text>
-<text class="tm" x="28" y="382" font-size="10.5">Generated 2026-08-18 16:30 UTC</text>
+<text class="tn" x="839" y="294" font-size="11" font-weight="700" text-anchor="middle">136M</text>
+<text class="tm" x="28" y="382" font-size="10.5">Generated 2026-08-19 04:00 UTC</text>
 </svg>
