@@ -21,7 +21,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <g class="b">
 <text class="tm" x="48" y="58" font-size="10.5" letter-spacing="2.5">LAST 30 DAYS · TOKENS</text>
 <text class="ts" x="46" y="122" font-size="58" font-weight="700">4.89B</text>
-<text class="t2" x="48" y="150" font-size="13">≈ $4,426 API-equivalent</text>
+<text class="t2" x="48" y="150" font-size="13">≈ $4,436 API-equivalent</text>
 </g>
 <line class="axis" x1="400" y1="46" x2="400" y2="150"/>
 <g class="b" style="animation-delay:120ms">
@@ -31,7 +31,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </g>
 <g class="b" style="animation-delay:210ms">
 <text class="tm" x="590" y="64" font-size="10" letter-spacing="1.8">DAILY AVG</text>
-<text class="ts" x="590" y="100" font-size="26" font-weight="700">168M</text>
+<text class="ts" x="590" y="100" font-size="26" font-weight="700">169M</text>
 <text class="tm" x="590" y="122" font-size="11">per active day</text>
 </g>
 <g class="b" style="animation-delay:300ms">
@@ -40,12 +40,12 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="tm" x="740" y="122" font-size="11">days with usage</text>
 </g>
 <g class="b" style="animation-delay:320ms">
-<path class="s-claude" d="M52.5,176.0 H396.3 V185.0 H52.5 A4.5,4.5 0 0 1 48.0,180.5 V180.5 A4.5,4.5 0 0 1 52.5,176.0 Z"/>
-<path class="s-codex" d="M398.3,176.0 H827.5 A4.5,4.5 0 0 1 832.0,180.5 V180.5 A4.5,4.5 0 0 1 827.5,185.0 H398.3 V176.0 Z"/>
+<path class="s-claude" d="M52.5,176.0 H396.5 V185.0 H52.5 A4.5,4.5 0 0 1 48.0,180.5 V180.5 A4.5,4.5 0 0 1 52.5,176.0 Z"/>
+<path class="s-codex" d="M398.5,176.0 H827.5 A4.5,4.5 0 0 1 832.0,180.5 V180.5 A4.5,4.5 0 0 1 827.5,185.0 H398.5 V176.0 Z"/>
 <circle class="s-claude" cx="53" cy="203" r="4"/>
 <text class="t2" x="63" y="207" font-size="12">Claude Code 45% · 2.2B</text>
 <circle class="s-codex" cx="667" cy="203" r="4"/>
 <text class="t2" x="677" y="207" font-size="12">Codex 55% · 2.7B</text>
 </g>
-<text class="tm" x="48" y="226" font-size="10">Generated 2026-08-25 13:00 UTC</text>
+<text class="tm" x="48" y="226" font-size="10">Generated 2026-08-25 13:10 UTC</text>
 </svg>
