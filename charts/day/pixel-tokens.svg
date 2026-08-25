@@ -401,10 +401,11 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px s-codex" x="804" y="322" width="8" height="8"/>
 </g>
 <g class="col" style="animation-delay:522ms">
-<rect class="px s-codex" x="830" y="332" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="332" width="8" height="8"/>
+<rect class="px s-codex" x="840" y="332" width="8" height="8"/>
 </g>
 <text class="tm" x="839" y="359" font-size="10.5" text-anchor="middle" font-family="var(--fm)">08/24</text>
 <text class="tn" x="555" y="184" font-size="11" font-weight="700" text-anchor="middle">566M</text>
-<text class="tn" x="839" y="314" font-size="11" font-weight="700" text-anchor="middle">5.4M</text>
-<text class="tm" x="28" y="382" font-size="10.5">Generated 2026-08-25 04:00 UTC</text>
+<text class="tn" x="839" y="314" font-size="11" font-weight="700" text-anchor="middle">10M</text>
+<text class="tm" x="28" y="382" font-size="10.5">Generated 2026-08-25 05:31 UTC</text>
 </svg>
