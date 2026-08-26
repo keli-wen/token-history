@@ -1,54 +1,62 @@
 {
   "ccusageVersion": "20.0.20",
-  "collectedAt": "2026-08-26T04:00:15Z",
+  "collectedAt": "2026-08-26T13:00:14Z",
   "date": "2026-08-26",
   "host": "mac-a",
   "sources": {
     "claude": {
-      "cacheCreation": 318549,
-      "cacheRead": 1719185,
-      "costUSD": 9.088175,
-      "input": 21,
+      "cacheCreation": 1784752,
+      "cacheRead": 21481658,
+      "costUSD": 41.565803,
+      "input": 480,
       "models": {
         "claude-fable-5": {
-          "cacheCreation": 318549,
-          "cacheRead": 1719185,
-          "costUSD": 9.088175,
-          "input": 21,
-          "output": 19956,
-          "total": 2057711
+          "cacheCreation": 542468,
+          "cacheRead": 3835224,
+          "costUSD": 18.967734,
+          "input": 80,
+          "output": 85647,
+          "total": 4463419
+        },
+        "claude-opus-5": {
+          "cacheCreation": 1242284,
+          "cacheRead": 17646434,
+          "costUSD": 22.598069,
+          "input": 400,
+          "output": 213341,
+          "total": 19102459
         }
       },
-      "output": 19956,
-      "total": 2057711
+      "output": 298988,
+      "total": 23565878
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 34789888,
-      "costUSD": 46.715452,
-      "input": 1320327,
+      "cacheRead": 125807488,
+      "costUSD": 148.384827,
+      "input": 6033217,
       "models": {
         "gpt-5.5": {
           "cacheCreation": 0,
-          "cacheRead": 2551296,
-          "input": 368299,
+          "cacheRead": 3154688,
+          "input": 584721,
           "modelNameIsFallback": true,
-          "output": 5408,
-          "reasoningOutput": 2290,
-          "total": 2925003
+          "output": 7644,
+          "reasoningOutput": 3259,
+          "total": 3747053
         },
         "gpt-5.6-sol": {
           "cacheCreation": 0,
-          "cacheRead": 32238592,
-          "input": 952028,
-          "output": 117762,
-          "reasoningOutput": 44736,
-          "total": 33308382
+          "cacheRead": 122652800,
+          "input": 5448496,
+          "output": 313028,
+          "reasoningOutput": 121275,
+          "total": 128414324
         }
       },
-      "output": 123170,
-      "reasoningOutput": 47026,
-      "total": 36233385
+      "output": 320672,
+      "reasoningOutput": 124534,
+      "total": 132161377
     }
   },
   "status": "partial",
