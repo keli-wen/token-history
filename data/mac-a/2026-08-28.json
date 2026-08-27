@@ -1,0 +1,28 @@
+{
+  "ccusageVersion": "20.0.20",
+  "collectedAt": "2026-08-27T16:30:15Z",
+  "date": "2026-08-28",
+  "host": "mac-a",
+  "sources": {
+    "claude": {
+      "cacheCreation": 2810,
+      "cacheRead": 137891,
+      "costUSD": 0.257111,
+      "input": 2,
+      "models": {
+        "claude-fable-5": {
+          "cacheCreation": 2810,
+          "cacheRead": 137891,
+          "costUSD": 0.257111,
+          "input": 2,
+          "output": 1260,
+          "total": 141963
+        }
+      },
+      "output": 1260,
+      "total": 141963
+    }
+  },
+  "status": "partial",
+  "timezone": "Asia/Shanghai"
+}
