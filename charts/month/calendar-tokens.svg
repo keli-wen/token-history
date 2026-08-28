@@ -19,7 +19,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </style>
 <rect class="bg" width="880" height="608"/>
 <text class="ts" x="36" y="54" font-size="30">August 2026</text>
-<text class="t2" x="36" y="78" font-size="12.5">5.8B tokens · $5,155 API-equivalent so far</text>
+<text class="t2" x="36" y="78" font-size="12.5">5.8B tokens · $5,160 API-equivalent so far</text>
 <text class="tm" x="46.0" y="120" font-size="10" letter-spacing="1.5">MON</text>
 <text class="tm" x="162.6" y="120" font-size="10" letter-spacing="1.5">TUE</text>
 <text class="tm" x="279.1" y="120" font-size="10" letter-spacing="1.5">WED</text>
@@ -162,10 +162,9 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="on4" x="484.3" y="474" font-size="11" text-anchor="end" font-family="var(--fm)">708M</text>
 </g>
 <g class="pop" style="animation-delay:448ms">
-<rect class="r3 wip" x="502.3" y="420" width="108.6" height="64" rx="10"/>
+<rect class="r3" x="502.3" y="420" width="108.6" height="64" rx="10"/>
 <text class="on3" x="512.3" y="440" font-size="12" font-weight="600" font-family="var(--f)">28</text>
-<text class="on3" x="600.9" y="474" font-size="11" text-anchor="end" font-family="var(--fm)">213M</text>
-<rect class="ring" x="503.0" y="420.75" width="107.1" height="62.5" rx="10"/>
+<text class="on3" x="600.9" y="474" font-size="11" text-anchor="end" font-family="var(--fm)">215M</text>
 </g>
 <g class="pop" style="animation-delay:462ms">
 <rect class="future" x="618.9" y="420" width="108.6" height="64" rx="10"/>
@@ -186,5 +185,5 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="r3" x="746" y="578" width="13" height="13" rx="3"/>
 <rect class="r4" x="762" y="578" width="13" height="13" rx="3"/>
 <text class="tm" x="782" y="588" font-size="10.5">More</text>
-<text class="tm" x="36" y="592" font-size="10.5">Generated 2026-08-28 13:00 UTC</text>
+<text class="tm" x="36" y="592" font-size="10.5">Generated 2026-08-28 16:30 UTC</text>
 </svg>

@@ -615,7 +615,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px m-codex-luna" x="814" y="178" width="8" height="8"><title>LUNA</title></rect>
 <rect class="px bg" x="816" y="180" width="4" height="4"/>
 </g>
-<g class="col wip" style="animation-delay:522ms">
+<g class="col" style="animation-delay:522ms">
 <rect class="px m-claude-fable" x="830" y="348" width="8" height="8"><title>FABLE</title></rect>
 <rect class="px m-claude-fable" x="840" y="348" width="8" height="8"><title>FABLE</title></rect>
 <rect class="px m-claude-fable" x="830" y="338" width="8" height="8"><title>FABLE</title></rect>
@@ -633,10 +633,10 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px m-codex-core" x="840" y="308" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-luna" x="830" y="298" width="8" height="8"><title>LUNA</title></rect>
 <rect class="px bg" x="832" y="300" width="4" height="4"/>
-<rect class="px m-codex-luna blink" x="840" y="298" width="8" height="8"><title>LUNA</title></rect>
-<rect class="px bg blink" x="842" y="300" width="4" height="4"/>
+<rect class="px m-codex-luna" x="840" y="298" width="8" height="8"><title>LUNA</title></rect>
+<rect class="px bg" x="842" y="300" width="4" height="4"/>
 </g>
 <text class="tm" x="839" y="375" font-size="10.5" text-anchor="middle" font-family="var(--fm)">08/28</text>
 <text class="tn" x="813" y="170" font-size="11" font-weight="700" text-anchor="middle">708M</text>
-<text class="tm" x="28" y="398" font-size="10.5">Generated 2026-08-28 13:00 UTC</text>
+<text class="tm" x="28" y="398" font-size="10.5">Generated 2026-08-28 16:30 UTC</text>
 </svg>
