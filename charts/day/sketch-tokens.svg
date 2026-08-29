@@ -45,13 +45,13 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <path fill="none" stroke="var(--claude)" stroke-width="1.6" stroke-linecap="round" d="M744.0,308.0 Q724.1,315.0 719.0,335.4"/>
 <path fill="none" stroke="var(--claude)" stroke-width="1.6" stroke-linecap="round" d="M717.7,330.1 L719.0,335.4 M719.0,335.4 L722.7,331.4"/>
 <text class="hx" x="750.0" y="306.0" font-size="13" text-anchor="start" font-weight="700" transform="rotate(-1.6 750.0 306.0)">CLAUDE CODE</text>
-<text class="hx2" x="750.0" y="322.0" font-size="12" text-anchor="start" transform="rotate(-1.4 750.0 322.0)">5.3M*</text>
+<text class="hx2" x="750.0" y="322.0" font-size="12" text-anchor="start" transform="rotate(-1.4 750.0 322.0)">5.3M</text>
 </g>
 <g class="late">
 <path fill="none" stroke="var(--codex)" stroke-width="1.6" stroke-linecap="round" d="M744.0,280.0 Q733.1,291.9 719.0,284.0"/>
 <path fill="none" stroke="var(--codex)" stroke-width="1.6" stroke-linecap="round" d="M724.5,284.1 L719.0,284.0 M719.0,284.0 L722.0,288.6"/>
 <text class="hx" x="750.0" y="278.0" font-size="13" text-anchor="start" font-weight="700" transform="rotate(0.3 750.0 278.0)">CODEX</text>
-<text class="hx2" x="750.0" y="294.0" font-size="12" text-anchor="start" transform="rotate(-0.1 750.0 294.0)">112M*</text>
+<text class="hx2" x="750.0" y="294.0" font-size="12" text-anchor="start" transform="rotate(-0.1 750.0 294.0)">112M</text>
 </g>
 <g class="late">
 <path class="ink" stroke-width="1.6" d="M382.2,104.5 Q386.0,107.7 386.2,109.5 Q386.4,111.4 387.8,113.1 Q389.2,114.9 388.1,116.6 Q387.0,118.3 385.8,120.4 Q384.6,122.5 383.2,124.1 Q381.8,125.8 380.3,126.9 Q378.9,128.1 376.4,128.6 Q374.0,129.1 371.7,129.7 Q369.4,130.3 366.9,129.9 Q364.5,129.5 362.3,130.3 Q360.1,131.0 357.8,129.2 Q355.6,127.3 353.4,126.2 Q351.1,125.1 349.6,124.0 Q348.1,122.8 347.4,121.3 Q346.8,119.8 345.4,117.7 Q344.1,115.6 345.0,113.6 Q345.8,111.6 345.8,109.8 Q345.8,108.0 347.8,106.2 Q349.8,104.4 351.8,102.8 Q353.8,101.2 355.8,101.4 Q357.8,101.5 360.0,100.0 Q362.2,98.5 364.7,99.0 Q367.2,99.6 369.5,98.7 Q371.9,97.8 374.2,99.2 Q376.6,100.6 378.8,101.6 Q381.0,102.5 382.7,104.6 Q384.4,106.7 385.6,108.1 Q386.9,109.5 387.1,111.1 Q387.2,112.7 387.5,114.7 L387.8,116.7"/>
@@ -60,5 +60,5 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="hx" x="483.5" y="88.0" font-size="13.5" text-anchor="start" font-weight="700" transform="rotate(0.2 483.5 88.0)">THE DAY THE AGENTS TOOK OVER</text>
 <text class="hx2" x="485.5" y="105.0" font-size="12" text-anchor="start" transform="rotate(0.3 485.5 105.0)">(468M tokens. one day. aug 13.)</text>
 </g>
-<text class="hxm" x="28.0" y="386.0" font-size="11" text-anchor="start" transform="rotate(0.4 28.0 386.0)">Generated 2026-08-29 13:00 UTC</text>
+<text class="hxm" x="28.0" y="386.0" font-size="11" text-anchor="start" transform="rotate(0.4 28.0 386.0)">Generated 2026-08-29 16:30 UTC</text>
 </svg>
