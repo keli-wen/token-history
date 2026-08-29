@@ -26,7 +26,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <line class="grid" x1="28" y1="128" x2="848" y2="128"/>
 <text class="t2" x="28" y="116.0" font-size="12.5">Aug 24 – 30</text>
 <path class="s-claude wip" d="M186.0,105.5 H373.3 V118.5 H186.0 A6.0,6.0 0 0 1 180.0,112.5 V111.5 A6.0,6.0 0 0 1 186.0,105.5 Z"/>
-<path class="s-codex wip" d="M375.3,105.5 H549.5 A6.0,6.0 0 0 1 555.5,111.5 V112.5 A6.0,6.0 0 0 1 549.5,118.5 H375.3 V105.5 Z"/>
+<path class="s-codex wip" d="M375.3,105.5 H558.0 A6.0,6.0 0 0 1 564.0,111.5 V112.5 A6.0,6.0 0 0 1 558.0,118.5 H375.3 V105.5 Z"/>
 <text class="tm" x="848" y="116.0" font-size="12" text-anchor="end">1.3B *</text>
 <line class="grid" x1="28" y1="160" x2="848" y2="160"/>
 <text class="t2" x="28" y="148.0" font-size="12.5">Aug 17 – 23</text>
