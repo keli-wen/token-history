@@ -1,32 +1,40 @@
 {
   "ccusageVersion": "20.0.20",
-  "collectedAt": "2026-08-30T16:30:15Z",
+  "collectedAt": "2026-08-31T04:15:20Z",
   "date": "2026-08-31",
   "host": "mac-a",
   "sources": {
     "claude": {
-      "cacheCreation": 107,
-      "cacheRead": 76154,
-      "costUSD": 0.039787,
-      "input": 3,
+      "cacheCreation": 86555,
+      "cacheRead": 3554496,
+      "costUSD": 3.491474,
+      "input": 76,
       "models": {
+        "claude-fable-5": {
+          "cacheCreation": 48284,
+          "cacheRead": 233882,
+          "costUSD": 1.033272,
+          "input": 14,
+          "output": 3914,
+          "total": 286094
+        },
         "claude-opus-4-6": {
-          "cacheCreation": 107,
-          "cacheRead": 76154,
-          "costUSD": 0.039787,
-          "input": 3,
-          "output": 25,
-          "total": 76289
+          "cacheCreation": 38271,
+          "cacheRead": 3320614,
+          "costUSD": 2.458202,
+          "input": 62,
+          "output": 16595,
+          "total": 3375542
         }
       },
-      "output": 25,
-      "total": 76289
+      "output": 20509,
+      "total": 3661636
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 4566528,
-      "costUSD": 8.91315,
-      "input": 504906,
+      "cacheRead": 5062144,
+      "costUSD": 9.401108,
+      "input": 561494,
       "models": {
         "gpt-5.5": {
           "cacheCreation": 0,
@@ -39,16 +47,16 @@
         },
         "gpt-5.6-sol": {
           "cacheCreation": 0,
-          "cacheRead": 4449024,
-          "input": 468633,
-          "output": 17599,
-          "reasoningOutput": 5797,
-          "total": 4935256
+          "cacheRead": 4944640,
+          "input": 525221,
+          "output": 20767,
+          "reasoningOutput": 7050,
+          "total": 5490628
         }
       },
-      "output": 18359,
-      "reasoningOutput": 6164,
-      "total": 5089793
+      "output": 21527,
+      "reasoningOutput": 7417,
+      "total": 5645165
     }
   },
   "status": "partial",
