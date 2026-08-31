@@ -1,6 +1,6 @@
 {
   "ccusageVersion": "20.0.20",
-  "collectedAt": "2026-08-31T04:15:20Z",
+  "collectedAt": "2026-08-31T15:23:43Z",
   "date": "2026-08-30",
   "host": "mac-a",
   "sources": {
@@ -41,7 +41,7 @@
     "codex": {
       "cacheCreation": 0,
       "cacheRead": 184363776,
-      "costUSD": 234.963122,
+      "costUSD": 254.392561,
       "input": 7851909,
       "models": {
         "gpt-5.5": {
