@@ -1,0 +1,36 @@
+{
+  "ccusageVersion": "20.0.20",
+  "collectedAt": "2026-09-01T04:00:36Z",
+  "date": "2026-09-01",
+  "host": "host2",
+  "sources": {
+    "claude": {
+      "cacheCreation": 310049,
+      "cacheRead": 4978897,
+      "costUSD": 5.230796,
+      "input": 152,
+      "models": {
+        "claude-opus-5": {
+          "cacheCreation": 142696,
+          "cacheRead": 3563374,
+          "costUSD": 4.106777,
+          "input": 66,
+          "output": 35912,
+          "total": 3742048
+        },
+        "claude-sonnet-5": {
+          "cacheCreation": 167353,
+          "cacheRead": 1415523,
+          "costUSD": 1.124019,
+          "input": 86,
+          "output": 42236,
+          "total": 1625198
+        }
+      },
+      "output": 78148,
+      "total": 5367246
+    }
+  },
+  "status": "partial",
+  "timezone": "Asia/Shanghai"
+}
