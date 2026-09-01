@@ -1,6 +1,6 @@
 {
   "ccusageVersion": "20.0.20",
-  "collectedAt": "2026-09-01T13:00:41Z",
+  "collectedAt": "2026-09-01T16:30:51Z",
   "date": "2026-09-01",
   "host": "host2",
   "sources": {
@@ -33,7 +33,7 @@
     "codex": {
       "cacheCreation": 0,
       "cacheRead": 5476352,
-      "costUSD": 3.601191,
+      "costUSD": 4.444179,
       "input": 328595,
       "models": {
         "gpt-5.6-sol": {
@@ -58,6 +58,6 @@
       "total": 5841598
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
