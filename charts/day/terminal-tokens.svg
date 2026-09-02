@@ -207,12 +207,12 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <g class="row" style="animation-delay:522ms">
 <text class="tn" x="40" y="635" font-size="12"><tspan class="im">09-02</tspan></text>
 <text class="tn" x="98.00" y="635" font-size="12" textLength="29.00" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude wip">███▉</tspan></text>
-<text class="tn" x="127.00" y="635" font-size="12" textLength="65.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex wip">████████▎</tspan></text>
-<text class="tn" x="828" y="635" font-size="12" text-anchor="end"><tspan class="i2">98M</tspan></text>
+<text class="tn" x="127.00" y="635" font-size="12" textLength="65.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex wip">████████▋</tspan></text>
+<text class="tn" x="828" y="635" font-size="12" text-anchor="end"><tspan class="i2">101M</tspan></text>
 <text class="tn" x="832" y="635" font-size="12"><tspan class="im">*</tspan></text>
 </g>
 <line class="grid" x1="40" y1="647" x2="840" y2="647"/>
-<text class="tn" x="40" y="669" font-size="12" font-weight="700">TOTAL  6.12B tokens<tspan class="i2" font-weight="400"> · $5,682 API-equivalent</tspan></text>
+<text class="tn" x="40" y="669" font-size="12" font-weight="700">TOTAL  6.12B tokens<tspan class="i2" font-weight="400"> · $5,684 API-equivalent</tspan></text>
 <text class="tn" x="90.75" y="686" font-size="12" textLength="7.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█</tspan></text>
 <text class="tn" x="105.25" y="686" font-size="12"><tspan class="i2">claude-code 2.7B (45%)</tspan></text>
 <text class="tn" x="286.50" y="686" font-size="12" textLength="7.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">█</tspan></text>
