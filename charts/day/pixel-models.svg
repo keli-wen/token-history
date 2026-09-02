@@ -635,10 +635,12 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px m-codex-core" x="814" y="308" width="8" height="8"><title>5.5 / SOL</title></rect>
 </g>
 <g class="col wip" style="animation-delay:522ms">
-<rect class="px m-codex-core blink" x="830" y="348" width="8" height="8"><title>5.5 / SOL</title></rect>
+<rect class="px m-claude-opus" x="830" y="348" width="8" height="8"><title>OPUS</title></rect>
+<rect class="px bg" x="833" y="351" width="2" height="2"/>
+<rect class="px m-codex-core blink" x="840" y="348" width="8" height="8"><title>5.5 / SOL</title></rect>
 </g>
 <text class="tm" x="839" y="375" font-size="10.5" text-anchor="middle" font-family="var(--fm)">09/02</text>
 <text class="tn" x="684" y="170" font-size="11" font-weight="700" text-anchor="middle">708M</text>
-<text class="tn" x="839" y="300" font-size="11" font-weight="700" text-anchor="middle">3.8M</text>
-<text class="tm" x="28" y="398" font-size="10.5">Generated 2026-09-01 16:31 UTC</text>
+<text class="tn" x="839" y="300" font-size="11" font-weight="700" text-anchor="middle">7.4M</text>
+<text class="tm" x="28" y="398" font-size="10.5">Generated 2026-09-02 04:01 UTC</text>
 </svg>
