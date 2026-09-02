@@ -18,7 +18,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </style>
 <rect class="bg" width="880" height="368"/>
 <text class="t" x="28" y="30" font-size="17" font-weight="600">Daily token usage</text>
-<text class="t2" x="28" y="50" font-size="12">Aug 04, 2026 – Sep 02, 2026 · 6.0B tokens over 30 days</text>
+<text class="t2" x="28" y="50" font-size="12">Aug 04, 2026 – Sep 02, 2026 · 6.1B tokens over 30 days</text>
 <rect class="s-claude" x="28" y="62" width="10" height="10" rx="2"/>
 <text class="t2" x="44" y="71" font-size="12">Claude Code</text>
 <rect class="s-codex" x="127" y="62" width="10" height="10" rx="2"/>
@@ -95,10 +95,10 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <path class="s-codex" d="M779.3,313.1 V313.1 a3.6,3.6 0 0 1 3.6,-3.6 h8.7 a3.6,3.6 0 0 1 3.6,3.6 V313.1 Z"/>
 <path class="s-claude" d="M805.2,277.2 h16.0 v38.8 h-16.0 Z"/>
 <path class="s-codex" d="M805.2,275.2 V273.3 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V275.2 Z"/>
-<path class="s-claude wip" d="M831.0,315.9 h16.0 v0.1 h-16.0 Z"/>
-<path class="s-codex wip" d="M831.0,313.9 V313.9 a3.4,3.4 0 0 1 3.4,-3.4 h9.2 a3.4,3.4 0 0 1 3.4,3.4 V313.9 Z"/>
+<path class="s-claude wip" d="M831.0,309.2 h16.0 v6.8 h-16.0 Z"/>
+<path class="s-codex wip" d="M831.0,307.2 V292.7 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V307.2 Z"/>
 <text class="tm" x="839.1" y="336" font-size="10.5" text-anchor="middle">09/02</text>
-<text class="t" x="839.1" y="302.5" font-size="11.5" font-weight="600" text-anchor="middle">20M</text>
+<text class="t" x="839.1" y="280.7" font-size="11.5" font-weight="600" text-anchor="middle">98M</text>
 <text class="t" x="683.9" y="109.8" font-size="11.5" font-weight="600" text-anchor="middle">708M</text>
-<text class="tm" x="28" y="354" font-size="10.5">Generated 2026-09-02 04:01 UTC</text>
+<text class="tm" x="28" y="354" font-size="10.5">Generated 2026-09-02 13:00 UTC</text>
 </svg>
