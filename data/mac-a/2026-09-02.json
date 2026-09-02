@@ -1,14 +1,14 @@
 {
   "ccusageVersion": "20.0.20",
-  "collectedAt": "2026-09-02T13:00:13Z",
+  "collectedAt": "2026-09-02T16:30:15Z",
   "date": "2026-09-02",
   "host": "mac-a",
   "sources": {
     "claude": {
-      "cacheCreation": 2131294,
-      "cacheRead": 25504365,
-      "costUSD": 41.131802,
-      "input": 19621,
+      "cacheCreation": 2602881,
+      "cacheRead": 28055142,
+      "costUSD": 52.327066,
+      "input": 20474,
       "models": {
         "claude-fable-5": {
           "cacheCreation": 360563,
@@ -19,12 +19,12 @@
           "total": 2991332
         },
         "claude-fable-5-1": {
-          "cacheCreation": 482225,
-          "cacheRead": 13384108,
-          "costUSD": 18.574667,
-          "input": 19359,
-          "output": 107811,
-          "total": 13993503
+          "cacheCreation": 953812,
+          "cacheRead": 15934885,
+          "costUSD": 29.769931,
+          "input": 20212,
+          "output": 130157,
+          "total": 17039066
         },
         "claude-opus-5": {
           "cacheCreation": 654123,
@@ -43,31 +43,31 @@
           "total": 8117581
         }
       },
-      "output": 225451,
-      "total": 27880731
+      "output": 247797,
+      "total": 30926294
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 62479232,
-      "costUSD": 58.986432,
-      "input": 3342826,
+      "cacheRead": 142253696,
+      "costUSD": 135.904254,
+      "input": 6257248,
       "models": {
         "gpt-5.5": {
           "cacheCreation": 0,
-          "cacheRead": 29300864,
-          "input": 1652924,
+          "cacheRead": 77704960,
+          "input": 4448471,
           "modelNameIsFallback": true,
-          "output": 157684,
-          "reasoningOutput": 29099,
-          "total": 31111472
+          "output": 359196,
+          "reasoningOutput": 83705,
+          "total": 82512627
         },
         "gpt-5.6-sol": {
           "cacheCreation": 0,
-          "cacheRead": 31301632,
-          "input": 1429656,
-          "output": 137840,
-          "reasoningOutput": 63785,
-          "total": 32869128
+          "cacheRead": 62672000,
+          "input": 1548531,
+          "output": 167758,
+          "reasoningOutput": 76084,
+          "total": 64388289
         },
         "gpt-5.6-terra": {
           "cacheCreation": 0,
@@ -78,11 +78,11 @@
           "total": 2161141
         }
       },
-      "output": 319683,
-      "reasoningOutput": 106134,
-      "total": 66141741
+      "output": 551113,
+      "reasoningOutput": 173039,
+      "total": 149062057
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
