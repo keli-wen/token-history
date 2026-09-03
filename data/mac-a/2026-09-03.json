@@ -1,36 +1,62 @@
 {
   "ccusageVersion": "20.0.20",
-  "collectedAt": "2026-09-02T16:30:15Z",
+  "collectedAt": "2026-09-03T04:00:10Z",
   "date": "2026-09-03",
   "host": "mac-a",
   "sources": {
+    "claude": {
+      "cacheCreation": 676059,
+      "cacheRead": 14331209,
+      "costUSD": 19.002773,
+      "input": 10582,
+      "models": {
+        "claude-fable-5-1": {
+          "cacheCreation": 602176,
+          "cacheRead": 12231043,
+          "costUSD": 18.375641,
+          "input": 10506,
+          "output": 63386,
+          "total": 12907111
+        },
+        "claude-sonnet-5": {
+          "cacheCreation": 73883,
+          "cacheRead": 2100166,
+          "costUSD": 0.627133,
+          "input": 76,
+          "output": 2224,
+          "total": 2176349
+        }
+      },
+      "output": 65610,
+      "total": 15083460
+    },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 21120512,
-      "costUSD": 21.218869,
-      "input": 565926,
+      "cacheRead": 51601024,
+      "costUSD": 40.055489,
+      "input": 1359239,
       "models": {
         "gpt-5.5": {
           "cacheCreation": 0,
-          "cacheRead": 9140224,
-          "input": 478936,
+          "cacheRead": 13528576,
+          "input": 699845,
           "modelNameIsFallback": true,
-          "output": 50694,
-          "reasoningOutput": 13094,
-          "total": 9669854
+          "output": 56129,
+          "reasoningOutput": 15388,
+          "total": 14284550
         },
         "gpt-5.6-sol": {
           "cacheCreation": 0,
-          "cacheRead": 11980288,
-          "input": 86990,
-          "output": 7890,
-          "reasoningOutput": 2520,
-          "total": 12075168
+          "cacheRead": 38072448,
+          "input": 659394,
+          "output": 100267,
+          "reasoningOutput": 43671,
+          "total": 38832109
         }
       },
-      "output": 58584,
-      "reasoningOutput": 15614,
-      "total": 21745022
+      "output": 156396,
+      "reasoningOutput": 59059,
+      "total": 53116659
     }
   },
   "status": "partial",
