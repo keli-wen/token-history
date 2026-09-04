@@ -84,7 +84,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="r2" x="192" y="112" width="13" height="13" rx="3"/>
 <rect class="r2" x="192" y="128" width="13" height="13" rx="3"/>
 <rect class="r4" x="192" y="144" width="13" height="13" rx="3"/>
-<rect class="r2 wip" x="192" y="160" width="13" height="13" rx="3"/>
+<rect class="r2" x="192" y="160" width="13" height="13" rx="3"/>
 <text class="tm" x="416" y="231" font-size="10.5" text-anchor="end">Less</text>
 <rect class="r0" x="422" y="221" width="13" height="13" rx="3"/>
 <rect class="r1" x="438" y="221" width="13" height="13" rx="3"/>

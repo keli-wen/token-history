@@ -45,13 +45,13 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <path fill="none" stroke="var(--claude)" stroke-width="1.6" stroke-linecap="round" d="M744.0,308.0 Q724.4,313.8 719.0,333.5"/>
 <path fill="none" stroke="var(--claude)" stroke-width="1.6" stroke-linecap="round" d="M717.8,328.2 L719.0,333.5 M719.0,333.5 L722.8,329.5"/>
 <text class="hx" x="750.0" y="306.0" font-size="13" text-anchor="start" font-weight="700" transform="rotate(-1.6 750.0 306.0)">CLAUDE CODE</text>
-<text class="hx2" x="750.0" y="322.0" font-size="12" text-anchor="start" transform="rotate(-1.4 750.0 322.0)">9.2M*</text>
+<text class="hx2" x="750.0" y="322.0" font-size="12" text-anchor="start" transform="rotate(-1.4 750.0 322.0)">9.2M</text>
 </g>
 <g class="late">
 <path fill="none" stroke="var(--codex)" stroke-width="1.6" stroke-linecap="round" d="M744.0,288.7 Q729.5,281.5 719.0,293.9"/>
 <path fill="none" stroke="var(--codex)" stroke-width="1.6" stroke-linecap="round" d="M720.2,288.6 L719.0,293.9 M719.0,293.9 L724.1,291.9"/>
 <text class="hx" x="750.0" y="286.7" font-size="13" text-anchor="start" font-weight="700" transform="rotate(0.3 750.0 286.7)">CODEX</text>
-<text class="hx2" x="750.0" y="302.7" font-size="12" text-anchor="start" transform="rotate(-0.1 750.0 302.7)">91M*</text>
+<text class="hx2" x="750.0" y="302.7" font-size="12" text-anchor="start" transform="rotate(-0.1 750.0 302.7)">91M</text>
 </g>
 <g class="late">
 <path class="ink" stroke-width="1.6" d="M252.3,104.5 Q256.1,107.7 256.3,109.5 Q256.4,111.4 257.8,113.1 Q259.2,114.9 258.1,116.6 Q257.0,118.3 255.9,120.4 Q254.7,122.5 253.3,124.1 Q251.9,125.8 250.4,126.9 Q248.9,128.1 246.5,128.6 Q244.1,129.1 241.8,129.7 Q239.4,130.3 237.0,129.9 Q234.6,129.5 232.4,130.3 Q230.2,131.0 227.9,129.2 Q225.7,127.3 223.4,126.2 Q221.2,125.1 219.7,124.0 Q218.1,122.8 217.5,121.3 Q216.8,119.8 215.5,117.7 Q214.2,115.6 215.0,113.6 Q215.9,111.6 215.9,109.8 Q215.9,108.0 217.9,106.2 Q219.9,104.4 221.9,102.8 Q223.9,101.2 225.9,101.4 Q227.9,101.5 230.1,100.0 Q232.3,98.5 234.8,99.0 Q237.3,99.6 239.6,98.7 Q242.0,97.8 244.3,99.2 Q246.6,100.6 248.8,101.6 Q251.0,102.5 252.7,104.6 Q254.5,106.7 255.7,108.1 Q257.0,109.5 257.1,111.1 Q257.3,112.7 257.6,114.7 L257.9,116.7"/>
