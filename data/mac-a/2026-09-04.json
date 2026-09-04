@@ -1,22 +1,22 @@
 {
   "ccusageVersion": "20.0.20",
-  "collectedAt": "2026-09-03T16:30:14Z",
+  "collectedAt": "2026-09-04T04:00:15Z",
   "date": "2026-09-04",
   "host": "mac-a",
   "sources": {
     "claude": {
-      "cacheCreation": 334398,
-      "cacheRead": 2239688,
-      "costUSD": 7.352317,
-      "input": 569,
+      "cacheCreation": 608916,
+      "cacheRead": 3161426,
+      "costUSD": 13.387112,
+      "input": 829,
       "models": {
         "claude-fable-5-1": {
-          "cacheCreation": 267548,
-          "cacheRead": 1747358,
-          "costUSD": 6.333689,
-          "input": 549,
-          "output": 10808,
-          "total": 2026263
+          "cacheCreation": 542066,
+          "cacheRead": 2669096,
+          "costUSD": 12.368484,
+          "input": 809,
+          "output": 17036,
+          "total": 3229007
         },
         "claude-opus-5": {
           "cacheCreation": 66850,
@@ -27,23 +27,23 @@
           "total": 573382
         }
       },
-      "output": 24990,
-      "total": 2599645
+      "output": 31218,
+      "total": 3802389
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 13246080,
-      "costUSD": 2.945815,
-      "input": 778678,
+      "cacheRead": 14573952,
+      "costUSD": 4.910006,
+      "input": 941475,
       "models": {
         "gpt-5.5": {
           "cacheCreation": 0,
-          "cacheRead": 1594240,
-          "input": 278174,
+          "cacheRead": 2922112,
+          "input": 440971,
           "modelNameIsFallback": true,
-          "output": 6950,
-          "reasoningOutput": 3373,
-          "total": 1879364
+          "output": 23159,
+          "reasoningOutput": 10264,
+          "total": 3386242
         },
         "gpt-5.6-luna": {
           "cacheCreation": 0,
@@ -54,9 +54,9 @@
           "total": 12171784
         }
       },
-      "output": 26390,
-      "reasoningOutput": 11771,
-      "total": 14051148
+      "output": 42599,
+      "reasoningOutput": 18662,
+      "total": 15558026
     }
   },
   "status": "partial",
