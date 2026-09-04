@@ -19,7 +19,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </style>
 <rect class="bg" width="880" height="396"/>
 <text class="tt" x="28" y="36" font-size="17">DAILY TOKENS</text>
-<text class="sub" x="28" y="57" font-size="11">AUG 06 - SEP 04, 2026 / 5.9B TOKENS OVER 30 DAYS / 1PX = 20M</text>
+<text class="sub" x="28" y="57" font-size="11">AUG 06 - SEP 04, 2026 / 6.0B TOKENS OVER 30 DAYS / 1PX = 20M</text>
 <rect class="px s-claude" x="28" y="68" width="8" height="8"/>
 <text class="t2" x="42" y="76" font-size="12" font-family="var(--fm)">Claude Code</text>
 <rect class="px s-codex" x="136" y="68" width="8" height="8"/>
@@ -454,6 +454,6 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </g>
 <text class="tm" x="839" y="359" font-size="10.5" text-anchor="middle" font-family="var(--fm)">09/04</text>
 <text class="tn" x="632" y="154" font-size="11" font-weight="700" text-anchor="middle">708M</text>
-<text class="tn" x="839" y="254" font-size="11" font-weight="700" text-anchor="middle">86M</text>
-<text class="tm" x="28" y="382" font-size="10.5">Generated 2026-09-04 13:00 UTC</text>
+<text class="tn" x="839" y="254" font-size="11" font-weight="700" text-anchor="middle">89M</text>
+<text class="tm" x="28" y="382" font-size="10.5">Generated 2026-09-04 13:01 UTC</text>
 </svg>
