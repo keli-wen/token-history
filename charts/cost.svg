@@ -18,7 +18,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </style>
 <rect class="bg" width="880" height="368"/>
 <text class="t" x="28" y="30" font-size="17" font-weight="600">Daily API-equivalent value</text>
-<text class="t2" x="28" y="50" font-size="12">Aug 07, 2026 – Sep 05, 2026 · $5,197 over 30 days</text>
+<text class="t2" x="28" y="50" font-size="12">Aug 08, 2026 – Sep 06, 2026 · $5,064 over 30 days</text>
 <rect class="s-claude" x="28" y="62" width="10" height="10" rx="2"/>
 <text class="t2" x="44" y="71" font-size="12">Claude Code</text>
 <rect class="s-codex" x="127" y="62" width="10" height="10" rx="2"/>
@@ -37,72 +37,72 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <line class="grid" x1="76" y1="92.0" x2="852" y2="92.0"/>
 <text class="tm" x="66" y="96.0" font-size="11" text-anchor="end">$600</text>
 <line class="axis" x1="76" y1="316.0" x2="852" y2="316.0"/>
-<path class="s-claude" d="M80.9,280.2 h16.0 v35.8 h-16.0 Z"/>
-<path class="s-codex" d="M80.9,278.2 V255.1 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V278.2 Z"/>
-<path class="s-claude" d="M106.8,290.3 h16.0 v25.7 h-16.0 Z"/>
-<path class="s-codex" d="M106.8,288.3 V245.1 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V288.3 Z"/>
-<text class="tm" x="114.8" y="336" font-size="10.5" text-anchor="middle">08/08</text>
-<path class="s-claude" d="M132.6,295.0 h16.0 v21.0 h-16.0 Z"/>
-<path class="s-codex" d="M132.6,293.0 V256.7 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V293.0 Z"/>
-<path class="s-claude" d="M158.5,312.8 h16.0 v3.2 h-16.0 Z"/>
-<path class="s-codex" d="M158.5,310.8 V309.9 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V310.8 Z"/>
-<path class="s-claude" d="M184.4,300.1 h16.0 v15.9 h-16.0 Z"/>
-<path class="s-codex" d="M184.4,298.1 V288.8 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V298.1 Z"/>
-<path class="s-claude" d="M210.2,270.2 h16.0 v45.8 h-16.0 Z"/>
-<path class="s-codex" d="M210.2,268.2 V219.3 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V268.2 Z"/>
-<text class="tm" x="218.3" y="336" font-size="10.5" text-anchor="middle">08/12</text>
-<path class="s-claude" d="M236.1,284.7 h16.0 v31.3 h-16.0 Z"/>
-<path class="s-codex" d="M236.1,282.7 V168.7 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V282.7 Z"/>
-<path class="s-claude" d="M262.0,282.7 h16.0 v33.3 h-16.0 Z"/>
-<path class="s-codex" d="M262.0,280.7 V234.0 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V280.7 Z"/>
-<path class="s-claude" d="M287.8,271.8 h16.0 v44.2 h-16.0 Z"/>
-<path class="s-codex" d="M287.8,269.8 V241.0 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V269.8 Z"/>
-<path class="s-claude" d="M313.7,296.6 h16.0 v19.4 h-16.0 Z"/>
-<path class="s-codex" d="M313.7,294.6 V288.8 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V294.6 Z"/>
-<text class="tm" x="321.7" y="336" font-size="10.5" text-anchor="middle">08/16</text>
-<path class="s-claude" d="M339.6,264.9 h16.0 v51.1 h-16.0 Z"/>
-<path class="s-codex" d="M339.6,262.9 V254.9 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V262.9 Z"/>
-<path class="s-claude" d="M365.4,291.3 h16.0 v24.7 h-16.0 Z"/>
-<path class="s-codex" d="M365.4,289.3 V289.3 a2.7,2.7 0 0 1 2.7,-2.7 h10.7 a2.7,2.7 0 0 1 2.7,2.7 V289.3 Z"/>
-<path class="s-claude" d="M391.3,227.2 h16.0 v88.8 h-16.0 Z"/>
-<path class="s-codex" d="M391.3,225.2 V225.2 a0.7,0.7 0 0 1 0.7,-0.7 h14.6 a0.7,0.7 0 0 1 0.7,0.7 V225.2 Z"/>
-<path class="s-claude" d="M417.2,305.5 h16.0 v10.5 h-16.0 Z"/>
-<path class="s-codex" d="M417.2,303.5 V252.7 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V303.5 Z"/>
-<text class="tm" x="425.2" y="336" font-size="10.5" text-anchor="middle">08/20</text>
-<path class="s-claude" d="M443.0,290.0 h16.0 v26.0 h-16.0 Z"/>
-<path class="s-codex" d="M443.0,288.0 V267.3 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V288.0 Z"/>
-<path class="s-codex" d="M494.8,316.0 V299.6 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V316.0 Z"/>
-<path class="s-claude" d="M520.6,314.1 h16.0 v1.9 h-16.0 Z"/>
-<path class="s-codex" d="M520.6,312.1 V312.1 a2.1,2.1 0 0 1 2.1,-2.1 h11.8 a2.1,2.1 0 0 1 2.1,2.1 V312.1 Z"/>
-<text class="tm" x="528.7" y="336" font-size="10.5" text-anchor="middle">08/24</text>
-<path class="s-claude" d="M546.5,302.7 h16.0 v13.3 h-16.0 Z"/>
-<path class="s-codex" d="M546.5,300.7 V281.6 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V300.7 Z"/>
-<path class="s-claude" d="M572.4,286.5 h16.0 v29.5 h-16.0 Z"/>
-<path class="s-codex" d="M572.4,284.5 V214.3 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V284.5 Z"/>
-<path class="s-claude" d="M598.2,179.7 h16.0 v136.3 h-16.0 Z"/>
-<path class="s-codex" d="M598.2,177.7 V119.7 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V177.7 Z"/>
-<path class="s-claude" d="M624.1,248.6 h16.0 v67.4 h-16.0 Z"/>
-<path class="s-codex" d="M624.1,246.6 V235.8 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V246.6 Z"/>
-<text class="tm" x="632.1" y="336" font-size="10.5" text-anchor="middle">08/28</text>
-<path class="s-claude" d="M650.0,315.7 h16.0 v0.3 h-16.0 Z"/>
-<path class="s-codex" d="M650.0,313.7 V259.5 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V313.7 Z"/>
-<path class="s-claude" d="M675.8,302.4 h16.0 v13.6 h-16.0 Z"/>
-<path class="s-codex" d="M675.8,300.4 V215.4 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V300.4 Z"/>
-<path class="s-claude" d="M701.7,311.8 h16.0 v4.2 h-16.0 Z"/>
-<path class="s-codex" d="M701.7,309.8 V308.4 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V309.8 Z"/>
-<path class="s-claude" d="M727.6,246.8 h16.0 v69.2 h-16.0 Z"/>
-<path class="s-codex" d="M727.6,244.8 V240.2 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V244.8 Z"/>
-<text class="tm" x="735.6" y="336" font-size="10.5" text-anchor="middle">09/01</text>
-<path class="s-claude" d="M753.4,296.8 h16.0 v19.2 h-16.0 Z"/>
-<path class="s-codex" d="M753.4,294.8 V247.3 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V294.8 Z"/>
-<path class="s-claude" d="M779.3,284.2 h16.0 v31.8 h-16.0 Z"/>
-<path class="s-codex" d="M779.3,282.2 V216.6 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V282.2 Z"/>
-<path class="s-claude" d="M805.2,310.3 h16.0 v5.7 h-16.0 Z"/>
-<path class="s-codex" d="M805.2,308.3 V278.2 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V308.3 Z"/>
-<path class="s-claude wip" d="M831.0,316.0 h16.0 v0.0 h-16.0 Z"/>
-<path class="s-codex wip" d="M831.0,314.3 V307.9 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V314.3 Z"/>
-<text class="tm" x="839.1" y="336" font-size="10.5" text-anchor="middle">09/05</text>
-<text class="t" x="606.3" y="107.7" font-size="11.5" font-weight="600" text-anchor="middle">$537</text>
-<text class="t" x="839.1" y="295.9" font-size="11.5" font-weight="600" text-anchor="middle">$32.4</text>
-<text class="tm" x="28" y="354" font-size="10.5">Generated 2026-09-05 13:01 UTC</text>
+<path class="s-claude" d="M80.9,290.3 h16.0 v25.7 h-16.0 Z"/>
+<path class="s-codex" d="M80.9,288.3 V245.1 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V288.3 Z"/>
+<path class="s-claude" d="M106.8,295.0 h16.0 v21.0 h-16.0 Z"/>
+<path class="s-codex" d="M106.8,293.0 V256.7 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V293.0 Z"/>
+<text class="tm" x="114.8" y="336" font-size="10.5" text-anchor="middle">08/09</text>
+<path class="s-claude" d="M132.6,312.8 h16.0 v3.2 h-16.0 Z"/>
+<path class="s-codex" d="M132.6,310.8 V309.9 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V310.8 Z"/>
+<path class="s-claude" d="M158.5,300.1 h16.0 v15.9 h-16.0 Z"/>
+<path class="s-codex" d="M158.5,298.1 V288.8 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V298.1 Z"/>
+<path class="s-claude" d="M184.4,270.2 h16.0 v45.8 h-16.0 Z"/>
+<path class="s-codex" d="M184.4,268.2 V219.3 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V268.2 Z"/>
+<path class="s-claude" d="M210.2,284.7 h16.0 v31.3 h-16.0 Z"/>
+<path class="s-codex" d="M210.2,282.7 V168.7 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V282.7 Z"/>
+<text class="tm" x="218.3" y="336" font-size="10.5" text-anchor="middle">08/13</text>
+<path class="s-claude" d="M236.1,282.7 h16.0 v33.3 h-16.0 Z"/>
+<path class="s-codex" d="M236.1,280.7 V234.0 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V280.7 Z"/>
+<path class="s-claude" d="M262.0,271.8 h16.0 v44.2 h-16.0 Z"/>
+<path class="s-codex" d="M262.0,269.8 V241.0 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V269.8 Z"/>
+<path class="s-claude" d="M287.8,296.6 h16.0 v19.4 h-16.0 Z"/>
+<path class="s-codex" d="M287.8,294.6 V288.8 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V294.6 Z"/>
+<path class="s-claude" d="M313.7,264.9 h16.0 v51.1 h-16.0 Z"/>
+<path class="s-codex" d="M313.7,262.9 V254.9 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V262.9 Z"/>
+<text class="tm" x="321.7" y="336" font-size="10.5" text-anchor="middle">08/17</text>
+<path class="s-claude" d="M339.6,291.3 h16.0 v24.7 h-16.0 Z"/>
+<path class="s-codex" d="M339.6,289.3 V289.3 a2.7,2.7 0 0 1 2.7,-2.7 h10.7 a2.7,2.7 0 0 1 2.7,2.7 V289.3 Z"/>
+<path class="s-claude" d="M365.4,227.2 h16.0 v88.8 h-16.0 Z"/>
+<path class="s-codex" d="M365.4,225.2 V225.2 a0.7,0.7 0 0 1 0.7,-0.7 h14.6 a0.7,0.7 0 0 1 0.7,0.7 V225.2 Z"/>
+<path class="s-claude" d="M391.3,305.5 h16.0 v10.5 h-16.0 Z"/>
+<path class="s-codex" d="M391.3,303.5 V252.7 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V303.5 Z"/>
+<path class="s-claude" d="M417.2,290.0 h16.0 v26.0 h-16.0 Z"/>
+<path class="s-codex" d="M417.2,288.0 V267.3 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V288.0 Z"/>
+<text class="tm" x="425.2" y="336" font-size="10.5" text-anchor="middle">08/21</text>
+<path class="s-codex" d="M468.9,316.0 V299.6 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V316.0 Z"/>
+<path class="s-claude" d="M494.8,314.1 h16.0 v1.9 h-16.0 Z"/>
+<path class="s-codex" d="M494.8,312.1 V312.1 a2.1,2.1 0 0 1 2.1,-2.1 h11.8 a2.1,2.1 0 0 1 2.1,2.1 V312.1 Z"/>
+<path class="s-claude" d="M520.6,302.7 h16.0 v13.3 h-16.0 Z"/>
+<path class="s-codex" d="M520.6,300.7 V281.6 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V300.7 Z"/>
+<text class="tm" x="528.7" y="336" font-size="10.5" text-anchor="middle">08/25</text>
+<path class="s-claude" d="M546.5,286.5 h16.0 v29.5 h-16.0 Z"/>
+<path class="s-codex" d="M546.5,284.5 V214.3 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V284.5 Z"/>
+<path class="s-claude" d="M572.4,179.7 h16.0 v136.3 h-16.0 Z"/>
+<path class="s-codex" d="M572.4,177.7 V119.7 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V177.7 Z"/>
+<path class="s-claude" d="M598.2,248.6 h16.0 v67.4 h-16.0 Z"/>
+<path class="s-codex" d="M598.2,246.6 V235.8 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V246.6 Z"/>
+<path class="s-claude" d="M624.1,315.7 h16.0 v0.3 h-16.0 Z"/>
+<path class="s-codex" d="M624.1,313.7 V259.5 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V313.7 Z"/>
+<text class="tm" x="632.1" y="336" font-size="10.5" text-anchor="middle">08/29</text>
+<path class="s-claude" d="M650.0,302.4 h16.0 v13.6 h-16.0 Z"/>
+<path class="s-codex" d="M650.0,300.4 V215.4 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V300.4 Z"/>
+<path class="s-claude" d="M675.8,311.8 h16.0 v4.2 h-16.0 Z"/>
+<path class="s-codex" d="M675.8,309.8 V308.4 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V309.8 Z"/>
+<path class="s-claude" d="M701.7,246.8 h16.0 v69.2 h-16.0 Z"/>
+<path class="s-codex" d="M701.7,244.8 V240.2 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V244.8 Z"/>
+<path class="s-claude" d="M727.6,296.8 h16.0 v19.2 h-16.0 Z"/>
+<path class="s-codex" d="M727.6,294.8 V247.3 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V294.8 Z"/>
+<text class="tm" x="735.6" y="336" font-size="10.5" text-anchor="middle">09/02</text>
+<path class="s-claude" d="M753.4,284.2 h16.0 v31.8 h-16.0 Z"/>
+<path class="s-codex" d="M753.4,282.2 V216.6 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V282.2 Z"/>
+<path class="s-claude" d="M779.3,310.3 h16.0 v5.7 h-16.0 Z"/>
+<path class="s-codex" d="M779.3,308.3 V278.2 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V308.3 Z"/>
+<path class="s-claude wip" d="M805.2,309.1 h16.0 v6.9 h-16.0 Z"/>
+<path class="s-codex wip" d="M805.2,307.1 V298.2 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V307.1 Z"/>
+<path class="s-claude wip" d="M831.0,313.7 h16.0 v2.3 h-16.0 Z"/>
+<path class="s-codex wip" d="M831.0,311.7 V311.7 a1.3,1.3 0 0 1 1.3,-1.3 h13.4 a1.3,1.3 0 0 1 1.3,1.3 V311.7 Z"/>
+<text class="tm" x="839.1" y="336" font-size="10.5" text-anchor="middle">09/06</text>
+<text class="t" x="580.4" y="107.7" font-size="11.5" font-weight="600" text-anchor="middle">$537</text>
+<text class="t" x="839.1" y="302.4" font-size="11.5" font-weight="600" text-anchor="middle">$14.9</text>
+<text class="tm" x="28" y="354" font-size="10.5">Generated 2026-09-05 16:30 UTC</text>
 </svg>
