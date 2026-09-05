@@ -560,7 +560,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px m-codex-luna" x="788" y="328" width="8" height="8"><title>LUNA</title></rect>
 <rect class="px bg" x="790" y="330" width="4" height="4"/>
 </g>
-<g class="col wip" style="animation-delay:504ms">
+<g class="col" style="animation-delay:504ms">
 <rect class="px m-claude-fable" x="804" y="348" width="8" height="8"><title>FABLE</title></rect>
 <rect class="px m-claude-opus" x="814" y="348" width="8" height="8"><title>OPUS</title></rect>
 <rect class="px bg" x="817" y="351" width="2" height="2"/>

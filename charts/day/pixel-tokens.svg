@@ -413,7 +413,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px s-codex" x="778" y="312" width="8" height="8"/>
 <rect class="px s-codex" x="788" y="312" width="8" height="8"/>
 </g>
-<g class="col wip" style="animation-delay:504ms">
+<g class="col" style="animation-delay:504ms">
 <rect class="px s-claude" x="804" y="332" width="8" height="8"/>
 <rect class="px s-claude" x="814" y="332" width="8" height="8"/>
 <rect class="px s-codex" x="804" y="322" width="8" height="8"/>

@@ -200,10 +200,9 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </g>
 <g class="row" style="animation-delay:504ms">
 <text class="tn" x="40" y="618" font-size="12"><tspan class="im">09-05</tspan></text>
-<text class="tn" x="98.00" y="618" font-size="12" textLength="21.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude wip">███</tspan></text>
-<text class="tn" x="119.75" y="618" font-size="12" textLength="21.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex wip">███</tspan></text>
+<text class="tn" x="98.00" y="618" font-size="12" textLength="21.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">███</tspan></text>
+<text class="tn" x="119.75" y="618" font-size="12" textLength="21.75" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">███</tspan></text>
 <text class="tn" x="828" y="618" font-size="12" text-anchor="end"><tspan class="i2">49M</tspan></text>
-<text class="tn" x="832" y="618" font-size="12"><tspan class="im">*</tspan></text>
 </g>
 <g class="row" style="animation-delay:522ms">
 <text class="tn" x="40" y="635" font-size="12"><tspan class="im">09-06</tspan></text>
