@@ -19,7 +19,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </style>
 <rect class="bg" width="880" height="536"/>
 <text class="ts" x="36" y="54" font-size="30">September 2026</text>
-<text class="t2" x="36" y="78" font-size="12.5">944M tokens · $1,076 API-equivalent so far</text>
+<text class="t2" x="36" y="78" font-size="12.5">951M tokens · $1,079 API-equivalent so far</text>
 <text class="tm" x="46.0" y="120" font-size="10" letter-spacing="1.5">MON</text>
 <text class="tm" x="162.6" y="120" font-size="10" letter-spacing="1.5">TUE</text>
 <text class="tm" x="279.1" y="120" font-size="10" letter-spacing="1.5">WED</text>
@@ -60,7 +60,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <g class="pop" style="animation-delay:98ms">
 <rect class="r1 wip" x="36.0" y="204" width="108.6" height="64" rx="10"/>
 <text class="t2" x="46.0" y="224" font-size="12" font-weight="600" font-family="var(--f)">7</text>
-<text class="t2" x="134.6" y="258" font-size="11" text-anchor="end" font-family="var(--fm)">27M</text>
+<text class="t2" x="134.6" y="258" font-size="11" text-anchor="end" font-family="var(--fm)">33M</text>
 <rect class="ring" x="36.8" y="204.75" width="107.1" height="62.5" rx="10"/>
 </g>
 <g class="pop" style="animation-delay:112ms">
@@ -162,5 +162,5 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="r3" x="746" y="506" width="13" height="13" rx="3"/>
 <rect class="r4" x="762" y="506" width="13" height="13" rx="3"/>
 <text class="tm" x="782" y="516" font-size="10.5">More</text>
-<text class="tm" x="36" y="520" font-size="10.5">Generated 2026-09-07 04:00 UTC</text>
+<text class="tm" x="36" y="520" font-size="10.5">Generated 2026-09-07 13:00 UTC</text>
 </svg>
