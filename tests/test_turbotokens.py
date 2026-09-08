@@ -27,7 +27,7 @@ class TurbotokensContractTests(unittest.TestCase):
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)
         self.root = Path(self.tmp.name)
-        self.binary = str(Path(BINARY).resolve())
+        self.binary = os.path.abspath(BINARY)
         claude_home = self.root / "home/.claude"
         codex_home = self.root / "home/.codex"
         claude_log = claude_home / "projects/synthetic/session.jsonl"
@@ -55,13 +55,14 @@ class TurbotokensContractTests(unittest.TestCase):
         for path, rows in [(claude_log, claude_rows), (codex_log, codex_rows)]:
             path.write_text("".join(json.dumps(row, separators=(",", ":")) + "\n" for row in rows))
         # Isolate config and make pricing deterministic without network access.
+        # Keep PATH so npm-installed launchers can locate their Node interpreter.
         pricing_config = json.dumps({"defaults": {
             "offline": True, "pricingOverrides": {"gpt-5": {
                 "inputCostPerToken": 0.00000125, "outputCostPerToken": 0.00001,
                 "cacheReadInputTokenCost": 0.000000125}}}})
         for name in ("turbotokens.json", "ccusage.json"):
             (claude_home / name).write_text(pricing_config)
-        env = {"HOME": str(self.root / "home"), "PATH": os.defpath, "TZ": "UTC",
+        env = {"HOME": str(self.root / "home"), "PATH": os.environ.get("PATH", os.defpath), "TZ": "UTC",
                "XDG_CONFIG_HOME": str(self.root / "home/.config"),
                "XDG_CACHE_HOME": str(self.root / "home/.cache"),
                "CLAUDE_CONFIG_DIR": str(claude_home), "CODEX_HOME": str(codex_home)}
@@ -108,7 +109,7 @@ class TurbotokensContractTests(unittest.TestCase):
             for timezone in ("UTC", "America/Los_Angeles"):
                 for end in (1, 2):
                     with self.subTest(source=source, timezone=timezone, end=end):
-                        rows = collect.fetch_source([str(Path(CCUSAGE_BINARY).resolve())], source,
+                        rows = collect.fetch_source([os.path.abspath(CCUSAGE_BINARY)], source,
                                                     dt.date(2026, 9, 1), dt.date(2026, 9, end), timezone)
                         expected = {date: collect.NORMALIZERS[source](row) for date, row in rows.items()}
                         self.assertEqual(self.fetch(source, timezone, end), expected)
