@@ -104,7 +104,7 @@ To use an installed [turbotokens](https://github.com/maxmoneycash/turbotokens) b
 }
 ```
 
-Use the path printed by `command -v turbotokens` on your machine. An absolute path also works under launchd's minimal `PATH`. This setting accepts one executable, including paths containing spaces; it does not accept shell commands or extra arguments.
+Use the absolute path printed by `command -v turbotokens` on your machine. An absolute path is required so scheduled runs work with launchd's minimal `PATH`; bare names and relative paths are rejected. This setting accepts one executable, including paths containing spaces; it does not accept shell commands or extra arguments. Script wrappers also need their interpreter on the scheduler's `PATH`; use the native turbotokens binary for Node-free scheduled runs.
 
 The collector still requests `claude daily` and `codex daily` separately, with the configured dates, timezone, and `--mode auto`. Other executables must accept these arguments and emit the same per-source JSON. Removing `collector` restores `npx -y ccusage@latest` (or your existing `ccusage.spec`). A failed custom executable stops collection.
 
