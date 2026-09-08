@@ -108,17 +108,19 @@ def daterange(start, end):
 
 
 def resolve_collector(cfg):
-    """Resolve one executable, or retain the existing npx ccusage invocation."""
+    """Resolve an absolute executable path, or retain the npx ccusage invocation."""
     collector = cfg.get("collector", {})
     if not isinstance(collector, dict):
-        die("collector must be an object containing an executable name or path")
+        die("collector must be an object containing an executable path")
     executable = collector.get("executable")
     if executable is not None:
         if not isinstance(executable, str) or not executable.strip():
-            die("collector.executable must be a non-empty executable name or path")
+            die("collector.executable must be a non-empty absolute executable path")
+        if not os.path.isabs(executable):
+            die("collector.executable must be an absolute path so scheduled runs do not depend on PATH.")
         path = shutil.which(executable)
         if not path:
-            die("collector executable not found: {}. Install it or set an absolute path.".format(executable))
+            die("collector executable not found or not executable: {}.".format(executable))
         return [path], os.path.basename(executable)
 
     npx = shutil.which("npx")
