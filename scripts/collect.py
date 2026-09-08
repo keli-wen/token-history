@@ -22,6 +22,7 @@ Targets Python 3.9 (macOS system python3). Standard library only.
 import argparse
 import datetime as dt
 import json
+import math
 import os
 import shutil
 import subprocess
@@ -146,6 +147,61 @@ def collector_version(command):
     return line.split()[-1] if line else "unknown"
 
 
+TOKEN_FIELDS = ("inputTokens", "outputTokens", "cacheCreationTokens", "cacheReadTokens", "totalTokens")
+
+
+def validate_metrics(record, fields, context):
+    """Reject incompatible metrics before normalization can replace them with zero."""
+    if not isinstance(record, dict):
+        die("{} must be an object".format(context))
+    for field in fields:
+        value = record.get(field)
+        valid = type(value) in (int, float) and value >= 0
+        if valid:
+            try:
+                valid = math.isfinite(value)
+            except OverflowError:
+                valid = False
+        if not valid:
+            die("{} {} must be a finite, non-negative number".format(context, field))
+
+
+def validate_daily_row(source, row):
+    context = "collector {} daily row {}".format(source, row["date"])
+    try:
+        valid_date = dt.date.fromisoformat(row["date"]).isoformat() == row["date"]
+    except ValueError:
+        valid_date = False
+    if not valid_date:
+        die("{} must use a YYYY-MM-DD date".format(context))
+
+    cost_field = "totalCost" if source == "claude" else "costUSD"
+    validate_metrics(row, TOKEN_FIELDS + (cost_field,), context)
+    if source == "claude":
+        models = row.get("modelBreakdowns")
+        if not isinstance(models, list):
+            die("{} modelBreakdowns must be an array".format(context))
+        for model in models:
+            validate_metrics(model, TOKEN_FIELDS[:-1] + ("cost",), context + " modelBreakdowns")
+            if not isinstance(model.get("modelName"), str) or not model["modelName"]:
+                die("{} modelBreakdowns modelName must be a non-empty string".format(context))
+    else:
+        models = row.get("models")
+        if not isinstance(models, dict):
+            die("{} models must be an object".format(context))
+        if "reasoningOutputTokens" in row:
+            validate_metrics(row, ("reasoningOutputTokens",), context)
+        for name, model in models.items():
+            if not name:
+                die("{} models must use non-empty model names".format(context))
+            model_context = context + " models." + name
+            validate_metrics(model, TOKEN_FIELDS, model_context)
+            if "reasoningOutputTokens" in model:
+                validate_metrics(model, ("reasoningOutputTokens",), model_context)
+            if "isFallback" in model and not isinstance(model["isFallback"], bool):
+                die("{} isFallback must be a boolean".format(model_context))
+
+
 def fetch_source(command, source, since, until, tz_name):
     """Return {date: raw ccusage daily record} for one source."""
     raw = run_collector(command, [
@@ -164,6 +220,8 @@ def fetch_source(command, source, since, until, tz_name):
     rows = payload["daily"]
     if any(not isinstance(r, dict) or not isinstance(r.get("date"), str) for r in rows):
         die("collector {} daily rows must use the per-source date field".format(source))
+    for row in rows:
+        validate_daily_row(source, row)
     return {r["date"]: r for r in rows}
 
 

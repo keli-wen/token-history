@@ -1,6 +1,7 @@
 """Collector selection and snapshot contracts; no packages or user logs needed."""
 
 import contextlib
+import copy
 import datetime as dt
 import importlib.util
 import io
@@ -15,6 +16,25 @@ SPEC = importlib.util.spec_from_file_location(
     "collect", Path(__file__).resolve().parents[1] / "scripts" / "collect.py")
 collect = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(collect)
+
+
+def daily_row(source, zero=False):
+    row = {"date": "2026-09-01", "inputTokens": 100, "outputTokens": 20,
+           "cacheCreationTokens": 30, "cacheReadTokens": 40, "totalTokens": 190}
+    model = {key: value for key, value in row.items() if key != "date"}
+    if source == "claude":
+        model.pop("totalTokens")
+        model.update(modelName="claude-sonnet-4", cost=0.125)
+        row.update(totalCost=0.125, modelBreakdowns=[model])
+    else:
+        row.update(costUSD=0.125, reasoningOutputTokens=10, models={"gpt-5": model})
+        model.update(reasoningOutputTokens=10, isFallback=False)
+    if zero:
+        for record in (row, model):
+            for key, value in record.items():
+                if type(value) in (int, float):
+                    record[key] = 0
+    return row
 
 
 class CollectorTests(unittest.TestCase):
@@ -76,8 +96,8 @@ class CollectorTests(unittest.TestCase):
 
     def test_focused_source_dates_timezone_and_cost_mode_are_preserved(self):
         command = ["turbotokens"]
-        row = {"date": "2026-09-01", "totalTokens": 42}
         for source in ("claude", "codex"):
+            row = daily_row(source)
             with self.subTest(source=source), mock.patch.object(collect, "run_collector",
                     return_value=json.dumps({"daily": [row]})) as run:
                 actual = collect.fetch_source(command, source, dt.date(2026, 9, 1),
@@ -97,36 +117,141 @@ class CollectorTests(unittest.TestCase):
             self.assertEqual(collect.fetch_source(["tool"], "claude", dt.date(2026, 9, 1),
                                                  dt.date(2026, 9, 1), "UTC"), {})
 
+    def test_missing_or_invalid_metrics_are_rejected_for_both_sources(self):
+        invalid = [None, True, False, "0", [], {}, -1, float("nan"), float("inf"), -float("inf"), 10 ** 400]
+        for source in ("claude", "codex"):
+            row = daily_row(source)
+            model = row["modelBreakdowns"][0] if source == "claude" else row["models"]["gpt-5"]
+            for location, record in [("row", row), ("model", model)]:
+                fields = [key for key, value in record.items() if type(value) in (int, float)]
+                for field in fields:
+                    for value in invalid + ["missing"]:
+                        candidate = copy.deepcopy(row)
+                        target = candidate if location == "row" else (
+                            candidate["modelBreakdowns"][0] if source == "claude" else candidate["models"]["gpt-5"])
+                        if value == "missing":
+                            del target[field]
+                            if field == "reasoningOutputTokens":
+                                continue  # The existing normalizer treats this count as optional.
+                        else:
+                            target[field] = value
+                        with self.subTest(source=source, location=location, field=field, value=value), \
+                             mock.patch.object(collect, "run_collector", return_value=json.dumps({"daily": [candidate]})), \
+                             contextlib.redirect_stderr(io.StringIO()) as stderr, self.assertRaises(SystemExit):
+                            collect.fetch_source(["tool"], source, dt.date(2026, 9, 1), dt.date(2026, 9, 1), "UTC")
+                        self.assertIn(source, stderr.getvalue())
+                        self.assertIn(field, stderr.getvalue())
+
+    def test_invalid_model_shapes_are_rejected_before_normalization(self):
+        for source, field, invalid in [
+            ("claude", "modelBreakdowns", [None, {}, "", [None], [{}]]),
+            ("codex", "models", [None, [], "", {"gpt-5": None}, {"gpt-5": {}}]),
+        ]:
+            for value in invalid + ["missing"]:
+                row = daily_row(source)
+                if value == "missing":
+                    del row[field]
+                else:
+                    row[field] = value
+                with self.subTest(source=source, value=value), \
+                     mock.patch.object(collect, "run_collector", return_value=json.dumps({"daily": [row]})), \
+                     contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit):
+                    collect.fetch_source(["tool"], source, dt.date(2026, 9, 1), dt.date(2026, 9, 1), "UTC")
+
+    def test_zero_metrics_and_empty_model_containers_are_valid(self):
+        for source in ("claude", "codex"):
+            for with_models in (False, True):
+                row = daily_row(source, zero=True)
+                if not with_models:
+                    row["modelBreakdowns" if source == "claude" else "models"] = [] if source == "claude" else {}
+                    row.pop("reasoningOutputTokens", None)
+                with self.subTest(source=source, with_models=with_models), \
+                     mock.patch.object(collect, "run_collector", return_value=json.dumps({"daily": [row]})):
+                    self.assertEqual(collect.fetch_source(["tool"], source, dt.date(2026, 9, 1),
+                                                         dt.date(2026, 9, 1), "UTC"), {row["date"]: row})
+
+    def test_invalid_dates_model_names_and_fallback_flags_are_rejected(self):
+        cases = []
+        for date in ("", "2026-02-30", "20260901", "../2026-09-01"):
+            row = daily_row("claude")
+            row["date"] = date
+            cases.append(("claude", row))
+        for name in (None, "", True, 42):
+            row = daily_row("claude")
+            row["modelBreakdowns"][0]["modelName"] = name
+            cases.append(("claude", row))
+        for flag in (None, "false", 0, 1):
+            row = daily_row("codex")
+            row["models"]["gpt-5"]["isFallback"] = flag
+            cases.append(("codex", row))
+        row = daily_row("codex")
+        row["models"][""] = row["models"].pop("gpt-5")
+        cases.append(("codex", row))
+        for source, row in cases:
+            with self.subTest(source=source, row=row), \
+                 mock.patch.object(collect, "run_collector", return_value=json.dumps({"daily": [row]})), \
+                 contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit):
+                collect.fetch_source(["tool"], source, dt.date(2026, 9, 1), dt.date(2026, 9, 1), "UTC")
+
 
 class SnapshotTests(unittest.TestCase):
-    def run_collection(self, root, custom=False, dry_run=False):
+    def run_collection(self, root, custom=False, dry_run=False, payloads=None):
         cfg = {"host": "test-host", "timezone": "UTC", "sources": ["claude", "codex"]}
         if custom:
             cfg["collector"] = {"executable": "/private/local/path/turbotokens"}
         config = root / "config.json"
         config.write_text(json.dumps(cfg))
-        claude = {"inputTokens": 100, "outputTokens": 20, "cacheCreationTokens": 30,
+        claude = {"date": "2026-09-01", "inputTokens": 100, "outputTokens": 20, "cacheCreationTokens": 30,
                   "cacheReadTokens": 40, "totalTokens": 190, "totalCost": 0.125,
                   "modelBreakdowns": [{"modelName": "claude-sonnet-4", "inputTokens": 100,
                      "outputTokens": 20, "cacheCreationTokens": 30, "cacheReadTokens": 40, "cost": 0.125}]}
-        codex = {"inputTokens": 200, "outputTokens": 50, "cacheReadTokens": 60,
+        codex = {"date": "2026-09-01", "inputTokens": 200, "outputTokens": 50, "cacheCreationTokens": 0, "cacheReadTokens": 60,
                  "totalTokens": 250, "costUSD": 0.25, "reasoningOutputTokens": 10,
                  "models": {"gpt-5": {"inputTokens": 200, "outputTokens": 50,
-                     "cacheReadTokens": 60, "totalTokens": 250, "reasoningOutputTokens": 10}}}
-        def fetch(_command, source, *_args):
-            return {"2026-09-01": claude if source == "claude" else codex}
+                     "cacheCreationTokens": 0, "cacheReadTokens": 60, "totalTokens": 250, "reasoningOutputTokens": 10}}}
+        if payloads is None:
+            payloads = {"claude": {"daily": [claude]}, "codex": {"daily": [codex]}}
+        def run(_command, args, **_kwargs):
+            return json.dumps(payloads[args[0]])
         argv = ["collect.py", "--config", str(config), "--since", "2026-09-01", "--until", "2026-09-01", "--no-git"]
         if dry_run:
             argv.append("--dry-run")
         with mock.patch.object(collect, "DATA_DIR", str(root / "data")), \
              mock.patch.object(collect.shutil, "which", side_effect=lambda name: name), \
              mock.patch.object(collect, "collector_version", return_value="1.1.2" if custom else "20.0.20"), \
-             mock.patch.object(collect, "fetch_source", side_effect=fetch), \
+             mock.patch.object(collect, "run_collector", side_effect=run), \
              mock.patch.object(collect, "today_in", return_value=dt.date(2026, 9, 2)), \
              mock.patch.object(collect, "git_sync") as sync, \
              mock.patch.object(collect.sys, "argv", argv), contextlib.redirect_stdout(io.StringIO()):
             collect.main()
         sync.assert_not_called()
+
+    def test_incompatible_backend_preserves_existing_snapshots_and_metadata(self):
+        for bad_source in ("claude", "codex"):
+            with self.subTest(source=bad_source), tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp)
+                self.run_collection(root, custom=True)
+                host = root / "data/test-host"
+                before = {path.name: path.read_bytes() for path in host.iterdir()}
+                payloads = {source: {"daily": [daily_row(source)]} for source in ("claude", "codex")}
+                # A valid first row/source must not be written before all later rows validate.
+                payloads[bad_source]["daily"].append({"date": "2026-09-01", "tokens": 999})
+                with mock.patch.object(collect, "write_json", wraps=collect.write_json) as write, \
+                     contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit):
+                    self.run_collection(root, custom=True, payloads=payloads)
+                write.assert_not_called()
+                self.assertEqual({path.name: path.read_bytes() for path in host.iterdir()}, before)
+
+    def test_genuine_zero_usage_can_replace_a_recent_snapshot(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.run_collection(root, custom=True)
+            self.run_collection(root, custom=True, payloads={
+                source: {"daily": [daily_row(source, zero=True)]} for source in ("claude", "codex")})
+            record = json.loads((root / "data/test-host/2026-09-01.json").read_text())
+            for source in ("claude", "codex"):
+                self.assertEqual(record["sources"][source]["total"], 0)
+                self.assertEqual(record["sources"][source]["costUSD"], 0)
 
     def test_custom_metadata_and_both_source_normalizers(self):
         with tempfile.TemporaryDirectory() as tmp:
