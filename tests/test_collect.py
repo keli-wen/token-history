@@ -59,8 +59,36 @@ class CollectorTests(unittest.TestCase):
                     collect.resolve_collector({"collector": {"executable": executable}})
         with mock.patch.object(collect.shutil, "which", return_value=None):
             with contextlib.redirect_stderr(io.StringIO()) as stderr, self.assertRaises(SystemExit):
-                collect.resolve_collector({"collector": {"executable": "missing-tool"}})
-        self.assertIn("missing-tool", stderr.getvalue())
+                collect.resolve_collector({"collector": {"executable": "/missing/collector"}})
+        self.assertIn("/missing/collector", stderr.getvalue())
+
+    def test_custom_collector_rejects_names_and_relative_paths_before_resolution(self):
+        for executable in ("turbotokens", "./turbotokens", "../bin/turbotokens",
+                           "~/bin/turbotokens", "tools with spaces/turbotokens"):
+            with self.subTest(executable=executable), \
+                 mock.patch.object(collect.shutil, "which") as which, \
+                 contextlib.redirect_stderr(io.StringIO()) as stderr:
+                with self.assertRaises(SystemExit):
+                    collect.resolve_collector({"collector": {"executable": executable}})
+                which.assert_not_called()
+                self.assertIn("absolute path", stderr.getvalue())
+
+    @unittest.skipIf(collect.os.name == "nt", "POSIX scheduler environment")
+    def test_absolute_collector_runs_with_minimal_scheduler_path(self):
+        with tempfile.TemporaryDirectory() as root:
+            directory = Path(root) / "Collector Tools"
+            directory.mkdir()
+            executable = directory / "custom-collector"
+            executable.write_text("#!/bin/sh\nprintf '%s\\n' 'custom-collector 1.0'\n",
+                                  encoding="utf-8")
+            executable.chmod(0o755)
+            with mock.patch.dict(collect.os.environ,
+                                 {"PATH": "/usr/bin:/bin:/usr/sbin:/sbin"}):
+                command, name = collect.resolve_collector(
+                    {"collector": {"executable": str(executable)}})
+                self.assertEqual(command, [str(executable)])
+                self.assertEqual(name, "custom-collector")
+                self.assertEqual(collect.collector_version(command), "1.0")
 
     def test_collector_section_requires_an_object(self):
         for value in (False, 0, [], None, "turbotokens"):
