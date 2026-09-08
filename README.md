@@ -73,7 +73,7 @@ https://raw.githubusercontent.com/keli-wen/token-history/master/SETUP.md
 
 ### 🧑 For humans
 
-**Prerequisites:** Node (for `npx ccusage`) and [uv](https://docs.astral.sh/uv/) (`curl -LsSf https://astral.sh/uv/install.sh | sh` — no uv? plain `python3` ≥ 3.9 works too).
+**Prerequisites:** Node (for the default `npx ccusage` collector) and [uv](https://docs.astral.sh/uv/) (`curl -LsSf https://astral.sh/uv/install.sh | sh` — no uv? plain `python3` ≥ 3.9 works too). An installed collector executable can replace the Node requirement; see below.
 
 ```bash
 # 1. Fork this repo on GitHub (button top-right), then clone YOUR fork
@@ -91,6 +91,24 @@ git add -A && git commit -m "first snapshot" && git push
 ```
 
 Not on macOS, or prefer a different trigger? The collector is self-contained, idempotent, and backfills its own gaps — anything periodic works: cron, a systemd timer, or running it by hand. The scheduler is not load-bearing.
+
+### Use an installed collector
+
+To use an installed [turbotokens](https://github.com/maxmoneycash/turbotokens) binary, add this section to `config.json`:
+
+```json
+{
+  "collector": {
+    "executable": "/opt/homebrew/bin/turbotokens"
+  }
+}
+```
+
+Use the path printed by `command -v turbotokens` on your machine. An absolute path also works under launchd's minimal `PATH`. This setting accepts one executable, including paths containing spaces; it does not accept shell commands or extra arguments.
+
+The collector still requests `claude daily` and `codex daily` separately, with the configured dates, timezone, and `--mode auto`. Other executables must accept these arguments and emit the same per-source JSON. Removing `collector` restores `npx -y ccusage@latest` (or your existing `ccusage.spec`). A failed custom executable stops collection.
+
+Custom runs record `collector.name` and `collector.version` in day files and `_meta.json`, using only the executable's basename. Default runs retain `ccusageVersion`. These fields identify the collector used when the file was last updated; the existing rule that preserves larger historical counts still applies.
 
 <details>
 <summary><b>How uv is used here</b></summary>
@@ -258,6 +276,15 @@ Everything non-obvious in here has a written reason — measured on real data, n
 All parsing credit goes to [**ccusage**](https://github.com/ccusage/ccusage) — the de-facto standard for reading local AI-CLI usage logs, supporting ~15 coding CLIs. This repo deliberately does not second-guess it; it adds the persistence, merging, and charts on top.
 
 **Contributions welcome** — new data sources and new chart styles alike. A style is a single drop-in module in [`scripts/styles/`](./scripts/styles) exposing `build_all(days, generated)`; see the existing ones for the contract.
+
+Collector tests use only the Python standard library:
+
+```sh
+python3 -m unittest discover -s tests -v
+TOKEN_HISTORY_TEST_TURBOTOKENS=/absolute/path/turbotokens python3 -m unittest discover -s tests -v
+```
+
+The second command also checks synthetic Claude and Codex logs against the installed binary, with isolated data, offline pricing, date filters, and timezone grouping. Set `TOKEN_HISTORY_TEST_CCUSAGE` to an installed ccusage executable as well to compare both collectors' normalized records. Tests do not read your usage history or publish data.
 
 ## License
 

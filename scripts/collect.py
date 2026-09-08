@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Collect local AI coding CLI token usage via ccusage and persist it to this repo.
+"""Collect local AI coding CLI token usage and persist it to this repo.
 
 Why this exists: Claude Code deletes session transcripts older than
 `cleanupPeriodDays` (default 30). ccusage reads those transcripts, so once they
@@ -7,7 +7,8 @@ are gone the numbers are gone too. This script snapshots ccusage's output into
 git before that happens.
 
 Design notes:
-  - ccusage is the ONLY source of truth. We never parse the raw JSONL ourselves.
+  - The configured collector is the source of truth (ccusage by default).
+    We never parse the raw JSONL ourselves.
   - Idempotent: re-running for the same day overwrites that day's file.
   - Self-healing: each run re-collects a recall window, so a missed run (laptop
     was off) is backfilled automatically. No scheduler catch-up needed.
@@ -102,32 +103,52 @@ def daterange(start, end):
         day += dt.timedelta(days=1)
 
 
-# ---------------------------------------------------------------------- ccusage
+# -------------------------------------------------------------------- collector
 
 
-def run_ccusage(spec, args, timeout=300):
+def resolve_collector(cfg):
+    """Resolve one executable, or retain the existing npx ccusage invocation."""
+    collector = cfg.get("collector", {})
+    if not isinstance(collector, dict):
+        die("collector must be an object containing an executable name or path")
+    executable = collector.get("executable")
+    if executable is not None:
+        if not isinstance(executable, str) or not executable.strip():
+            die("collector.executable must be a non-empty executable name or path")
+        path = shutil.which(executable)
+        if not path:
+            die("collector executable not found: {}. Install it or set an absolute path.".format(executable))
+        return [path], os.path.basename(executable)
+
     npx = shutil.which("npx")
     if not npx:
         die("npx not found on PATH. Under launchd, PATH is minimal — set "
             "EnvironmentVariables.PATH in the plist to include your node bin dir.")
-    cmd = [npx, "-y", spec] + args
+    spec = (cfg.get("ccusage") or {}).get("spec", "ccusage@latest")
+    return [npx, "-y", spec], "ccusage"
+
+
+def run_collector(command, args, timeout=300):
+    cmd = command + args
     proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=timeout)
     if proc.returncode != 0:
-        die("ccusage failed ({}): {}\n{}".format(
-            proc.returncode, " ".join(args), proc.stderr.decode(errors="replace")[:2000]))
+        die("{} failed ({}): {}\n{}".format(
+            os.path.basename(command[0]), proc.returncode, " ".join(args),
+            proc.stderr.decode(errors="replace")[:2000]))
     return proc.stdout.decode(errors="replace")
 
 
-def ccusage_version(spec):
+def collector_version(command):
     """Recorded in every data file so a future discontinuity in the series can
     be traced to an upstream change (v15 -> v20 shifted output tokens by ~38%)."""
-    line = run_ccusage(spec, ["--version"], timeout=180).strip().splitlines()[-1].strip()
+    lines = run_collector(command, ["--version"], timeout=180).strip().splitlines()
+    line = lines[-1].strip() if lines else ""
     return line.split()[-1] if line else "unknown"
 
 
-def fetch_source(spec, source, since, until, tz_name):
+def fetch_source(command, source, since, until, tz_name):
     """Return {date: raw ccusage daily record} for one source."""
-    raw = run_ccusage(spec, [
+    raw = run_collector(command, [
         source, "daily", "--json",
         "--since", since.strftime("%Y%m%d"),
         "--until", until.strftime("%Y%m%d"),
@@ -137,9 +158,13 @@ def fetch_source(spec, source, since, until, tz_name):
     try:
         payload = json.loads(raw)
     except ValueError:
-        die("ccusage {} returned non-JSON output".format(source))
-    rows = payload.get("daily") or []
-    return {r["date"]: r for r in rows if r.get("date")}
+        die("collector {} returned non-JSON output".format(source))
+    if not isinstance(payload, dict) or not isinstance(payload.get("daily"), list):
+        die("collector {} JSON is missing the daily array".format(source))
+    rows = payload["daily"]
+    if any(not isinstance(r, dict) or not isinstance(r.get("date"), str) for r in rows):
+        die("collector {} daily rows must use the per-source date field".format(source))
+    return {r["date"]: r for r in rows}
 
 
 # -------------------------------------------------------------------- normalize
@@ -320,7 +345,7 @@ def decide_window(cfg, meta, today, args):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Snapshot ccusage output into this repo.")
+    ap = argparse.ArgumentParser(description="Snapshot coding-agent usage into this repo.")
     ap.add_argument("--config", default=os.path.join(REPO_ROOT, "config.json"))
     ap.add_argument("--since", help="YYYY-MM-DD, overrides the recall window")
     ap.add_argument("--until", help="YYYY-MM-DD, defaults to today")
@@ -332,7 +357,7 @@ def main():
     cfg = load_config(args.config)
     host = cfg["host"]
     tz_name = cfg["timezone"]
-    spec = (cfg.get("ccusage") or {}).get("spec", "ccusage@latest")
+    command, collector_name = resolve_collector(cfg)
     final_after = int((cfg.get("recall") or {}).get("final_after_days", 7))
 
     today = today_in(tz_name)
@@ -345,9 +370,14 @@ def main():
     else:
         start, end = decide_window(cfg, meta, today, args)
 
-    version = ccusage_version(spec)
-    log("ccusage {} | host={} | tz={} | window={}..{}".format(
-        version, host, tz_name, start.isoformat() if start else "(all)", end.isoformat()))
+    version = collector_version(command)
+    # Keep the existing schema for default runs. Custom collectors publish only
+    # the executable's basename, never a potentially identifying local path.
+    provenance = ({"collector": {"name": collector_name, "version": version}}
+                  if (cfg.get("collector") or {}).get("executable") is not None
+                  else {"ccusageVersion": version})
+    log("{} {} | host={} | tz={} | window={}..{}".format(
+        collector_name, version, host, tz_name, start.isoformat() if start else "(all)", end.isoformat()))
 
     # A very early sentinel means "whatever ccusage still knows about".
     fetch_start = start or dt.date(2000, 1, 1)
@@ -356,7 +386,7 @@ def main():
     for source in cfg["sources"]:
         if source not in NORMALIZERS:
             die("unsupported source {!r} (known: {})".format(source, ", ".join(sorted(NORMALIZERS))))
-        rows = fetch_source(spec, source, fetch_start, end, tz_name)
+        rows = fetch_source(command, source, fetch_start, end, tz_name)
         per_source[source] = rows
         log("  {}: {} day(s) returned".format(source, len(rows)))
 
@@ -385,7 +415,7 @@ def main():
             "timezone": tz_name,
             "status": "partial" if day == today else "final",
             "collectedAt": now_iso,
-            "ccusageVersion": version,
+            **provenance,
             "sources": sources,
         }
 
@@ -412,12 +442,16 @@ def main():
         log("dry run, not updating _meta.json or git")
         return
 
+    # Switching collectors must not leave the previous collector's identity on
+    # the metadata for this successful read. Historical day files keep theirs.
+    meta.pop("ccusageVersion", None)
+    meta.pop("collector", None)
     meta.update({
         "host": host,
         "timezone": tz_name,
         "last_success_date": today.isoformat(),
         "last_success_at": now_iso,
-        "ccusageVersion": version,
+        **provenance,
         "earliest_date": min([meta["earliest_date"]] + all_dates) if meta.get("earliest_date") else all_dates[0],
         "latest_date": max([meta.get("latest_date", "")] + all_dates),
     })
