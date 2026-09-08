@@ -1,57 +1,57 @@
 {
   "ccusageVersion": "20.0.20",
-  "collectedAt": "2026-09-08T13:31:05Z",
+  "collectedAt": "2026-09-08T16:30:14Z",
   "date": "2026-09-08",
   "host": "mac-a",
   "sources": {
     "claude": {
-      "cacheCreation": 9989702,
-      "cacheRead": 417057027,
-      "costUSD": 293.792147,
-      "input": 22972,
+      "cacheCreation": 15953287,
+      "cacheRead": 595323581,
+      "costUSD": 414.386588,
+      "input": 27702,
       "models": {
         "claude-fable-5-1": {
-          "cacheCreation": 1737571,
-          "cacheRead": 69228262,
-          "costUSD": 74.066165,
-          "input": 17218,
-          "output": 436710,
-          "total": 71419761
+          "cacheCreation": 2532320,
+          "cacheRead": 110065073,
+          "costUSD": 104.553608,
+          "input": 19634,
+          "output": 523892,
+          "total": 113140919
         },
         "claude-opus-5": {
-          "cacheCreation": 6352018,
-          "cacheRead": 279413922,
-          "costUSD": 199.004008,
-          "input": 4072,
-          "output": 783063,
-          "total": 286553075
+          "cacheCreation": 10290862,
+          "cacheRead": 381347822,
+          "costUSD": 278.290778,
+          "input": 5426,
+          "output": 930874,
+          "total": 392574984
         },
         "claude-sonnet-5": {
-          "cacheCreation": 1900113,
-          "cacheRead": 68414843,
-          "costUSD": 20.721973,
-          "input": 1682,
-          "output": 222843,
-          "total": 70539481
+          "cacheCreation": 3130105,
+          "cacheRead": 103910686,
+          "costUSD": 31.542202,
+          "input": 2642,
+          "output": 287259,
+          "total": 107330692
         }
       },
-      "output": 1442616,
-      "total": 428512317
+      "output": 1742025,
+      "total": 613046595
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 109993856,
-      "costUSD": 160.406103,
-      "input": 4792611,
+      "cacheRead": 132251392,
+      "costUSD": 197.757654,
+      "input": 6239101,
       "models": {
         "gpt-5.5": {
           "cacheCreation": 0,
-          "cacheRead": 3047936,
-          "input": 352055,
+          "cacheRead": 4677376,
+          "input": 607448,
           "modelNameIsFallback": true,
-          "output": 6383,
-          "reasoningOutput": 2623,
-          "total": 3406374
+          "output": 10648,
+          "reasoningOutput": 3745,
+          "total": 5295472
         },
         "gpt-5.6-luna": {
           "cacheCreation": 0,
@@ -63,18 +63,18 @@
         },
         "gpt-6-astra": {
           "cacheCreation": 0,
-          "cacheRead": 96170880,
-          "input": 3989035,
-          "output": 408895,
-          "reasoningOutput": 108964,
-          "total": 100568810
+          "cacheRead": 116798976,
+          "input": 5180132,
+          "output": 460752,
+          "reasoningOutput": 112130,
+          "total": 122439860
         }
       },
-      "output": 481145,
-      "reasoningOutput": 163501,
-      "total": 115267612
+      "output": 537267,
+      "reasoningOutput": 167789,
+      "total": 139027760
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
