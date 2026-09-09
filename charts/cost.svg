@@ -95,8 +95,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <path class="s-codex" d="M779.3,289.5 V280.4 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V289.5 Z"/>
 <path class="s-claude" d="M805.2,202.0 h16.0 v114.0 h-16.0 Z"/>
 <path class="s-codex" d="M805.2,200.0 V146.7 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V200.0 Z"/>
-<path class="s-claude wip" d="M831.0,253.3 h16.0 v62.7 h-16.0 Z"/>
-<path class="s-codex wip" d="M831.0,251.3 V216.4 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V251.3 Z"/>
+<path class="s-claude" d="M831.0,253.3 h16.0 v62.7 h-16.0 Z"/>
+<path class="s-codex" d="M831.0,251.3 V216.4 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V251.3 Z"/>
 <text class="tm" x="839.1" y="336" font-size="10.5" text-anchor="middle">09/09</text>
 <text class="t" x="813.2" y="134.7" font-size="11.5" font-weight="600" text-anchor="middle">$619</text>
 <text class="t" x="839.1" y="204.4" font-size="11.5" font-weight="600" text-anchor="middle">$370</text>
