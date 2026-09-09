@@ -606,9 +606,10 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px s-codex" x="804" y="158" width="8" height="8"><title>CODEX</title></rect>
 </g>
 <g class="col wip" style="animation-delay:522ms">
-<rect class="px s-codex blink" x="830" y="348" width="8" height="8"><title>CODEX</title></rect>
+<rect class="px m-codex-terra blink" x="830" y="348" width="8" height="8"><title>TERRA</title></rect>
+<rect class="px bg blink" x="833" y="351" width="2" height="2"/>
 </g>
 <text class="tm" x="839" y="375" font-size="10.5" text-anchor="middle" font-family="var(--fm)">09/09</text>
 <text class="tn" x="813" y="150" font-size="11" font-weight="700" text-anchor="middle">761M</text>
-<text class="tm" x="28" y="398" font-size="10.5">Generated 2026-09-09 04:00 UTC</text>
+<text class="tm" x="28" y="398" font-size="10.5">Generated 2026-09-09 13:00 UTC</text>
 </svg>
