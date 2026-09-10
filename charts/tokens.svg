@@ -95,9 +95,9 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <path class="s-codex" d="M779.3,144.3 V106.9 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V144.3 Z"/>
 <path class="s-claude" d="M805.2,211.2 h16.0 v104.8 h-16.0 Z"/>
 <path class="s-codex" d="M805.2,209.2 V188.6 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V209.2 Z"/>
-<path class="s-codex wip" d="M831.0,316.0 V316.0 a3.8,3.8 0 0 1 3.8,-3.8 h8.4 a3.8,3.8 0 0 1 3.8,3.8 V316.0 Z"/>
+<path class="s-codex wip" d="M831.0,316.0 V316.0 a4.0,4.0 0 0 1 4.0,-4.0 h8.1 a4.0,4.0 0 0 1 4.0,4.0 V316.0 Z"/>
 <text class="tm" x="839.1" y="336" font-size="10.5" text-anchor="middle">09/10</text>
 <text class="t" x="787.3" y="94.9" font-size="11.5" font-weight="600" text-anchor="middle">761M</text>
-<text class="t" x="839.1" y="304.2" font-size="11.5" font-weight="600" text-anchor="middle">14M</text>
-<text class="tm" x="28" y="354" font-size="10.5">Generated 2026-09-10 13:00 UTC</text>
+<text class="t" x="839.1" y="304.0" font-size="11.5" font-weight="600" text-anchor="middle">14M</text>
+<text class="tm" x="28" y="354" font-size="10.5">Generated 2026-09-10 16:30 UTC</text>
 </svg>
