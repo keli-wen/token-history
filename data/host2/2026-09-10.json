@@ -1,0 +1,54 @@
+{
+  "ccusageVersion": "20.0.20",
+  "collectedAt": "2026-09-10T13:00:15Z",
+  "date": "2026-09-10",
+  "host": "host2",
+  "sources": {
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 8915584,
+      "costUSD": 15.053033,
+      "input": 825214,
+      "models": {
+        "gpt-5.5": {
+          "cacheCreation": 0,
+          "cacheRead": 25856,
+          "input": 26933,
+          "modelNameIsFallback": true,
+          "output": 664,
+          "reasoningOutput": 483,
+          "total": 53453
+        },
+        "gpt-5.6-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 2256128,
+          "input": 123216,
+          "output": 17174,
+          "reasoningOutput": 9625,
+          "total": 2396518
+        },
+        "gpt-5.6-terra": {
+          "cacheCreation": 0,
+          "cacheRead": 1744896,
+          "input": 83438,
+          "output": 9883,
+          "reasoningOutput": 3189,
+          "total": 1838217
+        },
+        "gpt-6-astra": {
+          "cacheCreation": 0,
+          "cacheRead": 4888704,
+          "input": 591627,
+          "output": 34146,
+          "reasoningOutput": 14672,
+          "total": 5514477
+        }
+      },
+      "output": 61867,
+      "reasoningOutput": 27969,
+      "total": 9802665
+    }
+  },
+  "status": "partial",
+  "timezone": "Asia/Shanghai"
+}
