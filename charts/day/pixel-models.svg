@@ -549,7 +549,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px s-codex" x="778" y="328" width="8" height="8"><title>CODEX</title></rect>
 <rect class="px s-codex" x="788" y="328" width="8" height="8"><title>CODEX</title></rect>
 </g>
-<g class="col wip" style="animation-delay:504ms">
+<g class="col" style="animation-delay:504ms">
 <rect class="px m-claude-opus" x="804" y="348" width="8" height="8"><title>OPUS</title></rect>
 <rect class="px bg" x="807" y="351" width="2" height="2"/>
 <rect class="px s-codex" x="814" y="348" width="8" height="8"><title>CODEX</title></rect>
