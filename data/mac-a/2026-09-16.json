@@ -1,19 +1,19 @@
 {
   "ccusageVersion": "20.0.20",
-  "collectedAt": "2026-09-17T04:16:11Z",
+  "collectedAt": "2026-09-17T14:11:01Z",
   "date": "2026-09-16",
   "host": "mac-a",
   "sources": {
     "claude": {
       "cacheCreation": 430461,
       "cacheRead": 5701160,
-      "costUSD": 7.204473,
+      "costUSD": 7.129055,
       "input": 120,
       "models": {
         "claude-fable-5-1": {
           "cacheCreation": 507,
           "cacheRead": 260430,
-          "costUSD": 0.075417,
+          "costUSD": 0.0,
           "input": 2,
           "output": 3,
           "total": 260942
