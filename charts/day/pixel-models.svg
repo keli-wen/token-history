@@ -508,7 +508,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px bg" x="781" y="341" width="2" height="2"/>
 <rect class="px m-codex-core" x="788" y="338" width="8" height="8"><title>5.5 / SOL</title></rect>
 </g>
-<g class="col wip" style="animation-delay:504ms">
+<g class="col" style="animation-delay:504ms">
 <rect class="px m-claude-opus" x="804" y="348" width="8" height="8"><title>OPUS</title></rect>
 <rect class="px bg" x="807" y="351" width="2" height="2"/>
 <rect class="px m-claude-sonnet" x="814" y="348" width="8" height="8"><title>SONNET / HAIKU</title></rect>
