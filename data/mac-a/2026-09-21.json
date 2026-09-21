@@ -1,45 +1,54 @@
 {
   "ccusageVersion": "20.0.23",
-  "collectedAt": "2026-09-20T16:30:13Z",
+  "collectedAt": "2026-09-21T04:00:13Z",
   "date": "2026-09-21",
   "host": "mac-a",
   "sources": {
     "claude": {
-      "cacheCreation": 191756,
-      "cacheRead": 4737905,
-      "costUSD": 7.642766,
-      "input": 632,
+      "cacheCreation": 350865,
+      "cacheRead": 6857272,
+      "costUSD": 14.378198,
+      "input": 1088,
       "models": {
         "claude-fable-5-1": {
-          "cacheCreation": 191756,
-          "cacheRead": 4737905,
-          "costUSD": 7.642766,
-          "input": 632,
-          "output": 52337,
-          "total": 4982630
+          "cacheCreation": 350865,
+          "cacheRead": 6857272,
+          "costUSD": 14.378198,
+          "input": 1088,
+          "output": 112714,
+          "total": 7321939
         }
       },
-      "output": 52337,
-      "total": 4982630
+      "output": 112714,
+      "total": 7321939
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 474496,
-      "costUSD": 0.726086,
-      "input": 9774,
+      "cacheRead": 4858880,
+      "costUSD": 9.339847,
+      "input": 351571,
       "models": {
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 129280,
+          "input": 61734,
+          "modelNameIsFallback": true,
+          "output": 954,
+          "reasoningOutput": 559,
+          "total": 191968
+        },
         "gpt-6-astra": {
           "cacheCreation": 0,
-          "cacheRead": 474496,
-          "input": 9774,
-          "output": 3077,
-          "reasoningOutput": 194,
-          "total": 487347
+          "cacheRead": 4729600,
+          "input": 289837,
+          "output": 33916,
+          "reasoningOutput": 4054,
+          "total": 5053353
         }
       },
-      "output": 3077,
-      "reasoningOutput": 194,
-      "total": 487347
+      "output": 34870,
+      "reasoningOutput": 4613,
+      "total": 5245321
     }
   },
   "status": "partial",
