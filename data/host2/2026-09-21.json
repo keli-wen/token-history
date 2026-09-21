@@ -1,22 +1,22 @@
 {
   "ccusageVersion": "20.0.24",
-  "collectedAt": "2026-09-21T13:00:14Z",
+  "collectedAt": "2026-09-21T16:30:11Z",
   "date": "2026-09-21",
   "host": "host2",
   "sources": {
     "claude": {
-      "cacheCreation": 2813485,
-      "cacheRead": 57913798,
-      "costUSD": 67.55293,
-      "input": 2248,
+      "cacheCreation": 3072754,
+      "cacheRead": 57925281,
+      "costUSD": 72.806951,
+      "input": 2250,
       "models": {
         "claude-fable-5-1": {
-          "cacheCreation": 350340,
-          "cacheRead": 2625560,
-          "costUSD": 13.96542,
-          "input": 528,
-          "output": 125939,
-          "total": 3102367
+          "cacheCreation": 609609,
+          "cacheRead": 2637043,
+          "costUSD": 19.219441,
+          "input": 530,
+          "output": 127254,
+          "total": 3374436
         },
         "claude-haiku-4-5-20251001": {
           "cacheCreation": 27769,
@@ -43,14 +43,14 @@
           "total": 1073515
         }
       },
-      "output": 582354,
-      "total": 61311885
+      "output": 583669,
+      "total": 61583954
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 3972736,
-      "costUSD": 5.815799,
-      "input": 484133,
+      "cacheRead": 6944896,
+      "costUSD": 12.064049,
+      "input": 729182,
       "models": {
         "gpt-5.6-luna": {
           "cacheCreation": 0,
@@ -78,18 +78,18 @@
         },
         "gpt-6-astra": {
           "cacheCreation": 0,
-          "cacheRead": 908160,
-          "input": 240631,
-          "output": 6962,
-          "reasoningOutput": 1948,
-          "total": 1155753
+          "cacheRead": 3880320,
+          "input": 485680,
+          "output": 23474,
+          "reasoningOutput": 9351,
+          "total": 4389474
         }
       },
-      "output": 31598,
-      "reasoningOutput": 9098,
-      "total": 4488467
+      "output": 48110,
+      "reasoningOutput": 16501,
+      "total": 7722188
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
