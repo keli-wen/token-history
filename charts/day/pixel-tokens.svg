@@ -391,6 +391,6 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </g>
 <text class="tm" x="839" y="359" font-size="10.5" text-anchor="middle" font-family="var(--fm)">09/21</text>
 <text class="tn" x="503" y="134" font-size="11" font-weight="700" text-anchor="middle">761M</text>
-<text class="tn" x="839" y="314" font-size="11" font-weight="700" text-anchor="middle">5.5M</text>
-<text class="tm" x="28" y="382" font-size="10.5">Generated 2026-09-20 16:30 UTC</text>
+<text class="tn" x="839" y="314" font-size="11" font-weight="700" text-anchor="middle">13M</text>
+<text class="tm" x="28" y="382" font-size="10.5">Generated 2026-09-21 04:00 UTC</text>
 </svg>
