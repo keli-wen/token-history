@@ -1,0 +1,47 @@
+{
+  "ccusageVersion": "20.0.24",
+  "collectedAt": "2026-09-22T16:30:12Z",
+  "date": "2026-09-23",
+  "host": "mac-a",
+  "sources": {
+    "claude": {
+      "cacheCreation": 17058,
+      "cacheRead": 825293,
+      "costUSD": 1.124183,
+      "input": 130,
+      "models": {
+        "claude-fable-5-1": {
+          "cacheCreation": 17058,
+          "cacheRead": 825293,
+          "costUSD": 1.124183,
+          "input": 130,
+          "output": 11508,
+          "total": 853989
+        }
+      },
+      "output": 11508,
+      "total": 853989
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 478080,
+      "costUSD": 2.03105,
+      "input": 141437,
+      "models": {
+        "gpt-6-astra": {
+          "cacheCreation": 0,
+          "cacheRead": 478080,
+          "input": 141437,
+          "output": 2772,
+          "reasoningOutput": 69,
+          "total": 622289
+        }
+      },
+      "output": 2772,
+      "reasoningOutput": 69,
+      "total": 622289
+    }
+  },
+  "status": "partial",
+  "timezone": "Asia/Shanghai"
+}
