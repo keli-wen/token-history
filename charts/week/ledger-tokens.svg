@@ -25,9 +25,9 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="t2" x="143" y="73" font-size="12">Codex</text>
 <line class="grid" x1="28" y1="128" x2="848" y2="128"/>
 <text class="t2" x="28" y="116.0" font-size="12.5">Sep 21 – 27</text>
-<path class="s-claude wip" d="M186.0,105.5 H198.7 V118.5 H186.0 A6.0,6.0 0 0 1 180.0,112.5 V111.5 A6.0,6.0 0 0 1 186.0,105.5 Z"/>
-<path class="s-codex wip" d="M200.7,105.5 H203.2 A2.5,2.5 0 0 1 205.7,108.0 V116.0 A2.5,2.5 0 0 1 203.2,118.5 H200.7 V105.5 Z"/>
-<text class="tm" x="848" y="116.0" font-size="12" text-anchor="end">87M *</text>
+<path class="s-claude wip" d="M186.0,105.5 H200.4 V118.5 H186.0 A6.0,6.0 0 0 1 180.0,112.5 V111.5 A6.0,6.0 0 0 1 186.0,105.5 Z"/>
+<path class="s-codex wip" d="M202.4,105.5 H205.3 A2.9,2.9 0 0 1 208.1,108.4 V115.6 A2.9,2.9 0 0 1 205.3,118.5 H202.4 V105.5 Z"/>
+<text class="tm" x="848" y="116.0" font-size="12" text-anchor="end">95M *</text>
 <line class="grid" x1="28" y1="160" x2="848" y2="160"/>
 <text class="t2" x="28" y="148.0" font-size="12.5">Sep 14 – 20</text>
 <path class="s-claude" d="M186.0,137.5 H228.2 V150.5 H186.0 A6.0,6.0 0 0 1 180.0,144.5 V143.5 A6.0,6.0 0 0 1 186.0,137.5 Z"/>
@@ -83,5 +83,5 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <path class="s-claude" d="M186.0,457.5 H248.0 V470.5 H186.0 A6.0,6.0 0 0 1 180.0,464.5 V463.5 A6.0,6.0 0 0 1 186.0,457.5 Z"/>
 <path class="s-codex" d="M250.0,457.5 H408.7 A6.0,6.0 0 0 1 414.7,463.5 V464.5 A6.0,6.0 0 0 1 408.7,470.5 H250.0 V457.5 Z"/>
 <text class="tm" x="848" y="468.0" font-size="12" text-anchor="end">794M</text>
-<text class="tm" x="28" y="510" font-size="10.5">Generated 2026-09-21 16:30 UTC</text>
+<text class="tm" x="28" y="510" font-size="10.5">Generated 2026-09-22 04:00 UTC</text>
 </svg>
