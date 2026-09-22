@@ -1,0 +1,38 @@
+{
+  "ccusageVersion": "20.0.24",
+  "collectedAt": "2026-09-22T04:00:13Z",
+  "date": "2026-09-22",
+  "host": "mac-a",
+  "sources": {
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 1766656,
+      "costUSD": 14.928704,
+      "input": 879198,
+      "models": {
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 4864,
+          "input": 25638,
+          "modelNameIsFallback": true,
+          "output": 174,
+          "reasoningOutput": 100,
+          "total": 30676
+        },
+        "gpt-6-astra": {
+          "cacheCreation": 0,
+          "cacheRead": 1761792,
+          "input": 853560,
+          "output": 8797,
+          "reasoningOutput": 1700,
+          "total": 2624149
+        }
+      },
+      "output": 8971,
+      "reasoningOutput": 1800,
+      "total": 2654825
+    }
+  },
+  "status": "partial",
+  "timezone": "Asia/Shanghai"
+}
