@@ -1,13 +1,13 @@
 {
   "ccusageVersion": "20.0.24",
-  "collectedAt": "2026-09-23T13:23:19Z",
+  "collectedAt": "2026-09-23T16:30:12Z",
   "date": "2026-09-23",
   "host": "mac-a",
   "sources": {
     "claude": {
       "cacheCreation": 4013428,
       "cacheRead": 90774938,
-      "costUSD": 4.985889,
+      "costUSD": 55.052458,
       "input": 1582,
       "models": {
         "claude-fable-5-1": {
@@ -29,7 +29,7 @@
         "claude-opus-5-5": {
           "cacheCreation": 3727822,
           "cacheRead": 86762607,
-          "costUSD": 0.0,
+          "costUSD": 50.066568,
           "input": 1252,
           "output": 449198,
           "total": 90940879
@@ -48,26 +48,26 @@
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 79815296,
-      "costUSD": 48.371852,
-      "input": 3101324,
+      "cacheRead": 83139584,
+      "costUSD": 65.547004,
+      "input": 3302820,
       "models": {
         "gpt-5.6-luna": {
           "cacheCreation": 0,
-          "cacheRead": 10922880,
-          "input": 1105284,
+          "cacheRead": 10937728,
+          "input": 1113303,
           "modelNameIsFallback": true,
-          "output": 8588,
-          "reasoningOutput": 3725,
-          "total": 12036752
+          "output": 9049,
+          "reasoningOutput": 4045,
+          "total": 12060080
         },
         "gpt-6-astra": {
           "cacheCreation": 0,
-          "cacheRead": 28079488,
-          "input": 800489,
-          "output": 38808,
-          "reasoningOutput": 7711,
-          "total": 28918785
+          "cacheRead": 31388928,
+          "input": 993966,
+          "output": 52622,
+          "reasoningOutput": 8333,
+          "total": 32435516
         },
         "gpt-6-sol": {
           "cacheCreation": 0,
@@ -78,11 +78,11 @@
           "total": 42076889
         }
       },
-      "output": 115806,
-      "reasoningOutput": 43957,
-      "total": 83032426
+      "output": 130081,
+      "reasoningOutput": 44899,
+      "total": 86572485
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
