@@ -392,7 +392,6 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px s-codex" x="814" y="302" width="8" height="8"/>
 <rect class="px s-codex" x="804" y="292" width="8" height="8"/>
 <rect class="px s-codex" x="814" y="292" width="8" height="8"/>
-<rect class="px s-codex" x="804" y="282" width="8" height="8"/>
 </g>
 <g class="col wip" style="animation-delay:522ms">
 <rect class="px s-claude" x="830" y="332" width="8" height="8"/>
@@ -400,6 +399,6 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </g>
 <text class="tm" x="839" y="359" font-size="10.5" text-anchor="middle" font-family="var(--fm)">09/24</text>
 <text class="tn" x="425" y="134" font-size="11" font-weight="700" text-anchor="middle">761M</text>
-<text class="tn" x="839" y="274" font-size="11" font-weight="700" text-anchor="middle">12M</text>
-<text class="tm" x="28" y="382" font-size="10.5">Generated 2026-09-24 04:00 UTC</text>
+<text class="tn" x="839" y="284" font-size="11" font-weight="700" text-anchor="middle">19M</text>
+<text class="tm" x="28" y="382" font-size="10.5">Generated 2026-09-24 13:00 UTC</text>
 </svg>
