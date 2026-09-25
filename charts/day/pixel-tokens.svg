@@ -342,7 +342,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px s-claude" x="778" y="332" width="8" height="8"/>
 <rect class="px s-codex" x="788" y="332" width="8" height="8"/>
 </g>
-<g class="col wip" style="animation-delay:504ms">
+<g class="col" style="animation-delay:504ms">
 <rect class="px s-codex" x="804" y="332" width="8" height="8"/>
 </g>
 <g class="col wip" style="animation-delay:522ms">
@@ -350,6 +350,6 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </g>
 <text class="tm" x="839" y="359" font-size="10.5" text-anchor="middle" font-family="var(--fm)">09/26</text>
 <text class="tn" x="373" y="134" font-size="11" font-weight="700" text-anchor="middle">761M</text>
-<text class="tn" x="839" y="324" font-size="11" font-weight="700" text-anchor="middle">2.0M</text>
+<text class="tn" x="839" y="324" font-size="11" font-weight="700" text-anchor="middle">2.7M</text>
 <text class="tm" x="28" y="382" font-size="10.5">Generated 2026-09-25 16:30 UTC</text>
 </svg>
