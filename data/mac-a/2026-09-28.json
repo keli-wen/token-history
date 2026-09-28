@@ -1,14 +1,14 @@
 {
   "ccusageVersion": "20.0.26",
-  "collectedAt": "2026-09-28T13:00:13Z",
+  "collectedAt": "2026-09-28T16:30:11Z",
   "date": "2026-09-28",
   "host": "mac-a",
   "sources": {
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 10521728,
-      "costUSD": 25.309524,
-      "input": 1383138,
+      "cacheRead": 13937920,
+      "costUSD": 31.665206,
+      "input": 1652662,
       "models": {
         "gpt-5.6-luna": {
           "cacheCreation": 0,
@@ -21,11 +21,11 @@
         },
         "gpt-6-astra": {
           "cacheCreation": 0,
-          "cacheRead": 8495104,
-          "input": 976610,
-          "output": 18029,
-          "reasoningOutput": 1051,
-          "total": 9489743
+          "cacheRead": 11911296,
+          "input": 1246134,
+          "output": 22914,
+          "reasoningOutput": 1253,
+          "total": 13180344
         },
         "gpt-6-sol": {
           "cacheCreation": 0,
@@ -36,11 +36,11 @@
           "total": 2225007
         }
       },
-      "output": 23513,
-      "reasoningOutput": 3817,
-      "total": 11928379
+      "output": 28398,
+      "reasoningOutput": 4019,
+      "total": 15618980
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
