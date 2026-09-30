@@ -173,10 +173,9 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="t2" x="251.1" y="474" font-size="11" text-anchor="end" font-family="var(--fm)">13M</text>
 </g>
 <g class="pop" style="animation-delay:420ms">
-<rect class="r1 wip" x="269.1" y="420" width="108.6" height="64" rx="10"/>
+<rect class="r1" x="269.1" y="420" width="108.6" height="64" rx="10"/>
 <text class="t2" x="279.1" y="440" font-size="12" font-weight="600" font-family="var(--f)">30</text>
 <text class="t2" x="367.7" y="474" font-size="11" text-anchor="end" font-family="var(--fm)">14M</text>
-<rect class="ring" x="269.9" y="420.75" width="107.1" height="62.5" rx="10"/>
 </g>
 <text class="tm" x="692" y="516" font-size="10.5" text-anchor="end">Less</text>
 <rect class="r0" x="698" y="506" width="13" height="13" rx="3"/>

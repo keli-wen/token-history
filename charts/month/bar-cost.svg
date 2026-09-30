@@ -43,8 +43,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <path class="s-claude" d="M442.0,211.1 h44.0 v104.9 h-44.0 Z"/>
 <path class="s-codex" d="M442.0,209.1 V107.9 a4.0,4.0 0 0 1 4.0,-4.0 h36.0 a4.0,4.0 0 0 1 4.0,4.0 V209.1 Z"/>
 <text class="tm" x="464.0" y="336" font-size="10.5" text-anchor="middle">Aug</text>
-<path class="s-claude wip" d="M700.7,258.0 h44.0 v58.0 h-44.0 Z"/>
-<path class="s-codex wip" d="M700.7,256.0 V197.7 a4.0,4.0 0 0 1 4.0,-4.0 h36.0 a4.0,4.0 0 0 1 4.0,4.0 V256.0 Z"/>
+<path class="s-claude" d="M700.7,258.0 h44.0 v58.0 h-44.0 Z"/>
+<path class="s-codex" d="M700.7,256.0 V197.7 a4.0,4.0 0 0 1 4.0,-4.0 h36.0 a4.0,4.0 0 0 1 4.0,4.0 V256.0 Z"/>
 <text class="tm" x="722.7" y="336" font-size="10.5" text-anchor="middle">Sep</text>
 <text class="t" x="464.0" y="95.9" font-size="11.5" font-weight="600" text-anchor="middle">$5,682</text>
 <text class="t" x="722.7" y="185.7" font-size="11.5" font-weight="600" text-anchor="middle">$3,276</text>
