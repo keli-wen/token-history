@@ -1,27 +1,27 @@
 {
   "ccusageVersion": "20.0.26",
-  "collectedAt": "2026-10-03T04:00:13Z",
+  "collectedAt": "2026-10-03T13:00:09Z",
   "date": "2026-10-03",
   "host": "mac-a",
   "sources": {
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 371584,
-      "costUSD": 1.121764,
-      "input": 67713,
+      "cacheRead": 14411904,
+      "costUSD": 31.225359,
+      "input": 518487,
       "models": {
         "gpt-6-astra": {
           "cacheCreation": 0,
-          "cacheRead": 371584,
-          "input": 67713,
-          "output": 1461,
-          "reasoningOutput": 23,
-          "total": 440758
+          "cacheRead": 14411904,
+          "input": 518487,
+          "output": 19030,
+          "reasoningOutput": 3191,
+          "total": 14949421
         }
       },
-      "output": 1461,
-      "reasoningOutput": 23,
-      "total": 440758
+      "output": 19030,
+      "reasoningOutput": 3191,
+      "total": 14949421
     }
   },
   "status": "partial",
