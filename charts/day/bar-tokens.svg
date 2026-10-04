@@ -84,8 +84,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="tm" x="735.6" y="336" font-size="10.5" text-anchor="middle">10/01</text>
 <path class="s-codex" d="M753.4,316.0 V297.1 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V316.0 Z"/>
 <path class="s-codex" d="M779.3,316.0 V311.5 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V316.0 Z"/>
-<path class="s-claude wip" d="M805.2,313.8 h16.0 v2.2 h-16.0 Z"/>
-<path class="s-codex wip" d="M805.2,311.8 V311.8 a2.2,2.2 0 0 1 2.2,-2.2 h11.7 a2.2,2.2 0 0 1 2.2,2.2 V311.8 Z"/>
+<path class="s-claude" d="M805.2,313.8 h16.0 v2.2 h-16.0 Z"/>
+<path class="s-codex" d="M805.2,311.8 V311.8 a2.2,2.2 0 0 1 2.2,-2.2 h11.7 a2.2,2.2 0 0 1 2.2,2.2 V311.8 Z"/>
 <path class="s-claude wip" d="M831.0,316.0 V316.0 a0.9,0.9 0 0 1 0.9,-0.9 h14.2 a0.9,0.9 0 0 1 0.9,0.9 V316.0 Z"/>
 <text class="tm" x="839.1" y="336" font-size="10.5" text-anchor="middle">10/05</text>
 <text class="t" x="140.7" y="94.9" font-size="11.5" font-weight="600" text-anchor="middle">761M</text>
