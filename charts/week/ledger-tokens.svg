@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="556" viewBox="0 0 880 556" role="img" aria-label="Weekly ledger">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="588" viewBox="0 0 880 588" role="img" aria-label="Weekly ledger">
 <style>
 svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old Style",serif;--fm:ui-monospace,"SF Mono",Menlo,Consolas,monospace;--surface:#faf9f5; --primary:#141413; --secondary:#53524b; --muted:#8a887f; --grid:#e8e6dc; --axis:#cbc8bc; --claude:#d06a41; --codex:#4382c9; --ramp0:#edeae0; --ramp1:#f2cdb9; --ramp2:#e59a70; --ramp3:#d06a41; --ramp4:#9c4a26; --ink3:#141413; --ink4:#ffffff;}
 @media (prefers-color-scheme: dark){svg{--surface:#141413; --primary:#faf9f5; --secondary:#b0aea5; --muted:#85837a; --grid:#292824; --axis:#383630; --claude:#db7448; --codex:#5b95d6; --ramp0:#232221; --ramp1:#4b2b1b; --ramp2:#8a4526; --ramp3:#cf6a3e; --ramp4:#f0a37a; --ink3:#141413; --ink4:#141413;}}
@@ -16,77 +16,81 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 .wip{opacity:.5}
 @media (prefers-reduced-motion: reduce){*{animation:none !important}}
 </style>
-<rect class="bg" width="880" height="556"/>
+<rect class="bg" width="880" height="588"/>
 <text class="ts" x="28" y="32" font-size="20" font-style="italic">Weekly ledger</text>
-<text class="t2" x="28" y="52" font-size="12">Jul 06, 2026 – Oct 04, 2026 · 14B tokens over 13 weeks</text>
+<text class="t2" x="28" y="52" font-size="12">Jul 06, 2026 – Oct 11, 2026 · 14B tokens over 14 weeks</text>
 <rect class="s-claude" x="28" y="64" width="10" height="10" rx="2"/>
 <text class="t2" x="44" y="73" font-size="12">Claude Code</text>
 <rect class="s-codex" x="127" y="64" width="10" height="10" rx="2"/>
 <text class="t2" x="143" y="73" font-size="12">Codex</text>
 <line class="grid" x1="28" y1="128" x2="848" y2="128"/>
-<text class="t2" x="28" y="116.0" font-size="12.5">Sep 28 – Oct 04</text>
-<path class="s-claude wip" d="M180.0,105.5 H180.0 V118.5 H180.0 V105.5 Z"/>
-<path class="s-codex wip" d="M182.0,105.5 H228.3 A6.0,6.0 0 0 1 234.3,111.5 V112.5 A6.0,6.0 0 0 1 228.3,118.5 H182.0 V105.5 Z"/>
-<text class="tm" x="848" y="116.0" font-size="12" text-anchor="end">179M *</text>
+<text class="t2" x="28" y="116.0" font-size="12.5">Oct 05 – 11</text>
+<path class="s-claude wip" d="M180.5,105.5 H180.5 A0.5,0.5 0 0 1 181.0,106.0 V118.0 A0.5,0.5 0 0 1 180.5,118.5 H180.5 A0.5,0.5 0 0 1 180.0,118.0 V106.0 A0.5,0.5 0 0 1 180.5,105.5 Z"/>
+<text class="tm" x="848" y="116.0" font-size="12" text-anchor="end">3.3M *</text>
 <line class="grid" x1="28" y1="160" x2="848" y2="160"/>
-<text class="t2" x="28" y="148.0" font-size="12.5">Sep 21 – 27</text>
-<path class="s-claude" d="M186.0,137.5 H231.9 V150.5 H186.0 A6.0,6.0 0 0 1 180.0,144.5 V143.5 A6.0,6.0 0 0 1 186.0,137.5 Z"/>
-<path class="s-codex" d="M233.9,137.5 H293.7 A6.0,6.0 0 0 1 299.7,143.5 V144.5 A6.0,6.0 0 0 1 293.7,150.5 H233.9 V137.5 Z"/>
-<text class="tm" x="848" y="148.0" font-size="12" text-anchor="end">405M</text>
+<text class="t2" x="28" y="148.0" font-size="12.5">Sep 28 – Oct 04</text>
+<path class="s-claude wip" d="M181.2,137.5 H182.4 V150.5 H181.2 A1.2,1.2 0 0 1 180.0,149.3 V138.7 A1.2,1.2 0 0 1 181.2,137.5 Z"/>
+<path class="s-codex wip" d="M184.4,137.5 H230.7 A6.0,6.0 0 0 1 236.7,143.5 V144.5 A6.0,6.0 0 0 1 230.7,150.5 H184.4 V137.5 Z"/>
+<text class="tm" x="848" y="148.0" font-size="12" text-anchor="end">192M *</text>
 <line class="grid" x1="28" y1="192" x2="848" y2="192"/>
-<text class="t2" x="28" y="180.0" font-size="12.5">Sep 14 – 20</text>
-<path class="s-claude" d="M186.0,169.5 H228.2 V182.5 H186.0 A6.0,6.0 0 0 1 180.0,176.5 V175.5 A6.0,6.0 0 0 1 186.0,169.5 Z"/>
-<path class="s-codex" d="M230.2,169.5 H265.2 A6.0,6.0 0 0 1 271.2,175.5 V176.5 A6.0,6.0 0 0 1 265.2,182.5 H230.2 V169.5 Z"/>
-<text class="tm" x="848" y="180.0" font-size="12" text-anchor="end">308M</text>
+<text class="t2" x="28" y="180.0" font-size="12.5">Sep 21 – 27</text>
+<path class="s-claude" d="M186.0,169.5 H231.9 V182.5 H186.0 A6.0,6.0 0 0 1 180.0,176.5 V175.5 A6.0,6.0 0 0 1 186.0,169.5 Z"/>
+<path class="s-codex" d="M233.9,169.5 H293.7 A6.0,6.0 0 0 1 299.7,175.5 V176.5 A6.0,6.0 0 0 1 293.7,182.5 H233.9 V169.5 Z"/>
+<text class="tm" x="848" y="180.0" font-size="12" text-anchor="end">405M</text>
 <line class="grid" x1="28" y1="224" x2="848" y2="224"/>
-<text class="t2" x="28" y="212.0" font-size="12.5">Sep 07 – 13</text>
-<path class="s-claude" d="M186.0,201.5 H515.8 V214.5 H186.0 A6.0,6.0 0 0 1 180.0,208.5 V207.5 A6.0,6.0 0 0 1 186.0,201.5 Z"/>
-<path class="s-codex" d="M517.8,201.5 H650.7 A6.0,6.0 0 0 1 656.7,207.5 V208.5 A6.0,6.0 0 0 1 650.7,214.5 H517.8 V201.5 Z"/>
-<text class="tm" x="848" y="212.0" font-size="12" text-anchor="end">1.6B</text>
+<text class="t2" x="28" y="212.0" font-size="12.5">Sep 14 – 20</text>
+<path class="s-claude" d="M186.0,201.5 H228.2 V214.5 H186.0 A6.0,6.0 0 0 1 180.0,208.5 V207.5 A6.0,6.0 0 0 1 186.0,201.5 Z"/>
+<path class="s-codex" d="M230.2,201.5 H265.2 A6.0,6.0 0 0 1 271.2,207.5 V208.5 A6.0,6.0 0 0 1 265.2,214.5 H230.2 V201.5 Z"/>
+<text class="tm" x="848" y="212.0" font-size="12" text-anchor="end">308M</text>
 <line class="grid" x1="28" y1="256" x2="848" y2="256"/>
-<text class="t2" x="28" y="244.0" font-size="12.5">Aug 31 – Sep 06</text>
-<path class="s-claude" d="M186.0,233.5 H287.5 V246.5 H186.0 A6.0,6.0 0 0 1 180.0,240.5 V239.5 A6.0,6.0 0 0 1 186.0,233.5 Z"/>
-<path class="s-codex" d="M289.5,233.5 H452.4 A6.0,6.0 0 0 1 458.4,239.5 V240.5 A6.0,6.0 0 0 1 452.4,246.5 H289.5 V233.5 Z"/>
-<text class="tm" x="848" y="244.0" font-size="12" text-anchor="end">941M</text>
+<text class="t2" x="28" y="244.0" font-size="12.5">Sep 07 – 13</text>
+<path class="s-claude" d="M186.0,233.5 H515.8 V246.5 H186.0 A6.0,6.0 0 0 1 180.0,240.5 V239.5 A6.0,6.0 0 0 1 186.0,233.5 Z"/>
+<path class="s-codex" d="M517.8,233.5 H650.7 A6.0,6.0 0 0 1 656.7,239.5 V240.5 A6.0,6.0 0 0 1 650.7,246.5 H517.8 V233.5 Z"/>
+<text class="tm" x="848" y="244.0" font-size="12" text-anchor="end">1.6B</text>
 <line class="grid" x1="28" y1="288" x2="848" y2="288"/>
-<text class="t2" x="28" y="276.0" font-size="12.5">Aug 24 – 30</text>
-<path class="s-claude" d="M186.0,265.5 H385.0 V278.5 H186.0 A6.0,6.0 0 0 1 180.0,272.5 V271.5 A6.0,6.0 0 0 1 186.0,265.5 Z"/>
-<path class="s-codex" d="M387.0,265.5 H652.9 A6.0,6.0 0 0 1 658.9,271.5 V272.5 A6.0,6.0 0 0 1 652.9,278.5 H387.0 V265.5 Z"/>
-<text class="tm" x="848" y="276.0" font-size="12" text-anchor="end">1.6B</text>
+<text class="t2" x="28" y="276.0" font-size="12.5">Aug 31 – Sep 06</text>
+<path class="s-claude" d="M186.0,265.5 H287.5 V278.5 H186.0 A6.0,6.0 0 0 1 180.0,272.5 V271.5 A6.0,6.0 0 0 1 186.0,265.5 Z"/>
+<path class="s-codex" d="M289.5,265.5 H452.4 A6.0,6.0 0 0 1 458.4,271.5 V272.5 A6.0,6.0 0 0 1 452.4,278.5 H289.5 V265.5 Z"/>
+<text class="tm" x="848" y="276.0" font-size="12" text-anchor="end">941M</text>
 <line class="grid" x1="28" y1="320" x2="848" y2="320"/>
-<text class="t2" x="28" y="308.0" font-size="12.5">Aug 17 – 23</text>
-<path class="s-claude" d="M186.0,297.5 H307.2 V310.5 H186.0 A6.0,6.0 0 0 1 180.0,304.5 V303.5 A6.0,6.0 0 0 1 186.0,297.5 Z"/>
-<path class="s-codex" d="M309.2,297.5 H408.4 A6.0,6.0 0 0 1 414.4,303.5 V304.5 A6.0,6.0 0 0 1 408.4,310.5 H309.2 V297.5 Z"/>
-<text class="tm" x="848" y="308.0" font-size="12" text-anchor="end">793M</text>
+<text class="t2" x="28" y="308.0" font-size="12.5">Aug 24 – 30</text>
+<path class="s-claude" d="M186.0,297.5 H385.0 V310.5 H186.0 A6.0,6.0 0 0 1 180.0,304.5 V303.5 A6.0,6.0 0 0 1 186.0,297.5 Z"/>
+<path class="s-codex" d="M387.0,297.5 H652.9 A6.0,6.0 0 0 1 658.9,303.5 V304.5 A6.0,6.0 0 0 1 652.9,310.5 H387.0 V297.5 Z"/>
+<text class="tm" x="848" y="308.0" font-size="12" text-anchor="end">1.6B</text>
 <line class="grid" x1="28" y1="352" x2="848" y2="352"/>
-<text class="t2" x="28" y="340.0" font-size="12.5">Aug 10 – 16</text>
-<path class="s-claude" d="M186.0,329.5 H320.9 V342.5 H186.0 A6.0,6.0 0 0 1 180.0,336.5 V335.5 A6.0,6.0 0 0 1 186.0,329.5 Z"/>
-<path class="s-codex" d="M322.9,329.5 H646.0 A6.0,6.0 0 0 1 652.0,335.5 V336.5 A6.0,6.0 0 0 1 646.0,342.5 H322.9 V329.5 Z"/>
-<text class="tm" x="848" y="340.0" font-size="12" text-anchor="end">1.6B</text>
+<text class="t2" x="28" y="340.0" font-size="12.5">Aug 17 – 23</text>
+<path class="s-claude" d="M186.0,329.5 H307.2 V342.5 H186.0 A6.0,6.0 0 0 1 180.0,336.5 V335.5 A6.0,6.0 0 0 1 186.0,329.5 Z"/>
+<path class="s-codex" d="M309.2,329.5 H408.4 A6.0,6.0 0 0 1 414.4,335.5 V336.5 A6.0,6.0 0 0 1 408.4,342.5 H309.2 V329.5 Z"/>
+<text class="tm" x="848" y="340.0" font-size="12" text-anchor="end">793M</text>
 <line class="grid" x1="28" y1="384" x2="848" y2="384"/>
-<text class="t2" x="28" y="372.0" font-size="12.5">Aug 03 – 09</text>
-<path class="s-claude" d="M186.0,361.5 H469.5 V374.5 H186.0 A6.0,6.0 0 0 1 180.0,368.5 V367.5 A6.0,6.0 0 0 1 186.0,361.5 Z"/>
-<path class="s-codex" d="M471.5,361.5 H739.8 A6.0,6.0 0 0 1 745.8,367.5 V368.5 A6.0,6.0 0 0 1 739.8,374.5 H471.5 V361.5 Z"/>
-<text class="tm" x="848" y="372.0" font-size="12" text-anchor="end">1.9B</text>
+<text class="t2" x="28" y="372.0" font-size="12.5">Aug 10 – 16</text>
+<path class="s-claude" d="M186.0,361.5 H320.9 V374.5 H186.0 A6.0,6.0 0 0 1 180.0,368.5 V367.5 A6.0,6.0 0 0 1 186.0,361.5 Z"/>
+<path class="s-codex" d="M322.9,361.5 H646.0 A6.0,6.0 0 0 1 652.0,367.5 V368.5 A6.0,6.0 0 0 1 646.0,374.5 H322.9 V361.5 Z"/>
+<text class="tm" x="848" y="372.0" font-size="12" text-anchor="end">1.6B</text>
 <line class="grid" x1="28" y1="416" x2="848" y2="416"/>
-<text class="t2" x="28" y="404.0" font-size="12.5">Jul 27 – Aug 02</text>
-<path class="s-claude" d="M186.0,393.5 H256.9 V406.5 H186.0 A6.0,6.0 0 0 1 180.0,400.5 V399.5 A6.0,6.0 0 0 1 186.0,393.5 Z"/>
-<path class="s-codex" d="M258.9,393.5 H342.5 A6.0,6.0 0 0 1 348.5,399.5 V400.5 A6.0,6.0 0 0 1 342.5,406.5 H258.9 V393.5 Z"/>
-<text class="tm" x="848" y="404.0" font-size="12" text-anchor="end">570M</text>
+<text class="t2" x="28" y="404.0" font-size="12.5">Aug 03 – 09</text>
+<path class="s-claude" d="M186.0,393.5 H469.5 V406.5 H186.0 A6.0,6.0 0 0 1 180.0,400.5 V399.5 A6.0,6.0 0 0 1 186.0,393.5 Z"/>
+<path class="s-codex" d="M471.5,393.5 H739.8 A6.0,6.0 0 0 1 745.8,399.5 V400.5 A6.0,6.0 0 0 1 739.8,406.5 H471.5 V393.5 Z"/>
+<text class="tm" x="848" y="404.0" font-size="12" text-anchor="end">1.9B</text>
 <line class="grid" x1="28" y1="448" x2="848" y2="448"/>
-<text class="t2" x="28" y="436.0" font-size="12.5">Jul 20 – 26</text>
-<path class="s-claude" d="M186.0,425.5 H366.7 V438.5 H186.0 A6.0,6.0 0 0 1 180.0,432.5 V431.5 A6.0,6.0 0 0 1 186.0,425.5 Z"/>
-<path class="s-codex" d="M368.7,425.5 H519.7 A6.0,6.0 0 0 1 525.7,431.5 V432.5 A6.0,6.0 0 0 1 519.7,438.5 H368.7 V425.5 Z"/>
-<text class="tm" x="848" y="436.0" font-size="12" text-anchor="end">1.2B</text>
+<text class="t2" x="28" y="436.0" font-size="12.5">Jul 27 – Aug 02</text>
+<path class="s-claude" d="M186.0,425.5 H256.9 V438.5 H186.0 A6.0,6.0 0 0 1 180.0,432.5 V431.5 A6.0,6.0 0 0 1 186.0,425.5 Z"/>
+<path class="s-codex" d="M258.9,425.5 H342.5 A6.0,6.0 0 0 1 348.5,431.5 V432.5 A6.0,6.0 0 0 1 342.5,438.5 H258.9 V425.5 Z"/>
+<text class="tm" x="848" y="436.0" font-size="12" text-anchor="end">570M</text>
 <line class="grid" x1="28" y1="480" x2="848" y2="480"/>
-<text class="t2" x="28" y="468.0" font-size="12.5">Jul 13 – 19</text>
-<path class="s-claude" d="M186.0,457.5 H399.9 V470.5 H186.0 A6.0,6.0 0 0 1 180.0,464.5 V463.5 A6.0,6.0 0 0 1 186.0,457.5 Z"/>
-<path class="s-codex" d="M401.9,457.5 H778.0 A6.0,6.0 0 0 1 784.0,463.5 V464.5 A6.0,6.0 0 0 1 778.0,470.5 H401.9 V457.5 Z"/>
-<text class="tn" x="848" y="468.0" font-size="12" text-anchor="end" font-weight="700">2.0B</text>
+<text class="t2" x="28" y="468.0" font-size="12.5">Jul 20 – 26</text>
+<path class="s-claude" d="M186.0,457.5 H366.7 V470.5 H186.0 A6.0,6.0 0 0 1 180.0,464.5 V463.5 A6.0,6.0 0 0 1 186.0,457.5 Z"/>
+<path class="s-codex" d="M368.7,457.5 H519.7 A6.0,6.0 0 0 1 525.7,463.5 V464.5 A6.0,6.0 0 0 1 519.7,470.5 H368.7 V457.5 Z"/>
+<text class="tm" x="848" y="468.0" font-size="12" text-anchor="end">1.2B</text>
 <line class="grid" x1="28" y1="512" x2="848" y2="512"/>
-<text class="t2" x="28" y="500.0" font-size="12.5">Jul 06 – 12</text>
-<path class="s-claude" d="M186.0,489.5 H248.0 V502.5 H186.0 A6.0,6.0 0 0 1 180.0,496.5 V495.5 A6.0,6.0 0 0 1 186.0,489.5 Z"/>
-<path class="s-codex" d="M250.0,489.5 H408.7 A6.0,6.0 0 0 1 414.7,495.5 V496.5 A6.0,6.0 0 0 1 408.7,502.5 H250.0 V489.5 Z"/>
-<text class="tm" x="848" y="500.0" font-size="12" text-anchor="end">794M</text>
-<text class="tm" x="28" y="542" font-size="10.5">Generated 2026-10-04 13:00 UTC</text>
+<text class="t2" x="28" y="500.0" font-size="12.5">Jul 13 – 19</text>
+<path class="s-claude" d="M186.0,489.5 H399.9 V502.5 H186.0 A6.0,6.0 0 0 1 180.0,496.5 V495.5 A6.0,6.0 0 0 1 186.0,489.5 Z"/>
+<path class="s-codex" d="M401.9,489.5 H778.0 A6.0,6.0 0 0 1 784.0,495.5 V496.5 A6.0,6.0 0 0 1 778.0,502.5 H401.9 V489.5 Z"/>
+<text class="tn" x="848" y="500.0" font-size="12" text-anchor="end" font-weight="700">2.0B</text>
+<line class="grid" x1="28" y1="544" x2="848" y2="544"/>
+<text class="t2" x="28" y="532.0" font-size="12.5">Jul 06 – 12</text>
+<path class="s-claude" d="M186.0,521.5 H248.0 V534.5 H186.0 A6.0,6.0 0 0 1 180.0,528.5 V527.5 A6.0,6.0 0 0 1 186.0,521.5 Z"/>
+<path class="s-codex" d="M250.0,521.5 H408.7 A6.0,6.0 0 0 1 414.7,527.5 V528.5 A6.0,6.0 0 0 1 408.7,534.5 H250.0 V521.5 Z"/>
+<text class="tm" x="848" y="532.0" font-size="12" text-anchor="end">794M</text>
+<text class="tm" x="28" y="574" font-size="10.5">Generated 2026-10-04 16:30 UTC</text>
 </svg>
