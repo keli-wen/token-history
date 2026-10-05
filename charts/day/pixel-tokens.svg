@@ -19,7 +19,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </style>
 <rect class="bg" width="880" height="396"/>
 <text class="tt" x="28" y="36" font-size="17">DAILY TOKENS</text>
-<text class="sub" x="28" y="57" font-size="11">SEP 06 - OCT 05, 2026 / 2.7B TOKENS OVER 30 DAYS / 1PX = 20M</text>
+<text class="sub" x="28" y="57" font-size="11">SEP 06 - OCT 05, 2026 / 3.4B TOKENS OVER 30 DAYS / 1PX = 20M</text>
 <rect class="px s-claude" x="28" y="68" width="8" height="8"/>
 <text class="t2" x="42" y="76" font-size="12" font-family="var(--fm)">Claude Code</text>
 <rect class="px s-codex" x="136" y="68" width="8" height="8"/>
@@ -287,10 +287,46 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <g class="col wip" style="animation-delay:522ms">
 <rect class="px s-claude" x="830" y="332" width="8" height="8"/>
 <rect class="px s-claude" x="840" y="332" width="8" height="8"/>
-<rect class="px s-codex blink" x="830" y="322" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="322" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="322" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="312" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="312" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="302" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="302" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="292" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="292" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="282" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="282" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="272" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="272" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="262" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="262" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="252" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="252" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="242" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="242" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="232" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="232" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="222" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="222" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="212" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="212" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="202" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="202" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="192" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="192" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="182" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="182" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="172" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="172" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="162" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="162" width="8" height="8"/>
+<rect class="px s-claude" x="830" y="152" width="8" height="8"/>
+<rect class="px s-claude" x="840" y="152" width="8" height="8"/>
+<rect class="px s-codex blink" x="830" y="142" width="8" height="8"/>
 </g>
 <text class="tm" x="839" y="359" font-size="10.5" text-anchor="middle" font-family="var(--fm)">10/05</text>
 <text class="tn" x="141" y="134" font-size="11" font-weight="700" text-anchor="middle">761M</text>
-<text class="tn" x="839" y="314" font-size="11" font-weight="700" text-anchor="middle">33M</text>
-<text class="tm" x="28" y="382" font-size="10.5">Generated 2026-10-05 04:00 UTC</text>
+<text class="tn" x="839" y="134" font-size="11" font-weight="700" text-anchor="middle">761M</text>
+<text class="tm" x="28" y="382" font-size="10.5">Generated 2026-10-05 13:00 UTC</text>
 </svg>
