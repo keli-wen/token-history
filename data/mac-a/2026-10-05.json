@@ -1,26 +1,53 @@
 {
   "ccusageVersion": "20.0.26",
-  "collectedAt": "2026-10-04T16:30:12Z",
+  "collectedAt": "2026-10-05T04:00:13Z",
   "date": "2026-10-05",
   "host": "mac-a",
   "sources": {
     "claude": {
-      "cacheCreation": 134269,
-      "cacheRead": 3096559,
-      "costUSD": 2.559112,
-      "input": 92,
+      "cacheCreation": 864014,
+      "cacheRead": 31072606,
+      "costUSD": 18.701501,
+      "input": 312,
       "models": {
         "claude-opus-5-5": {
-          "cacheCreation": 134269,
-          "cacheRead": 3096559,
-          "costUSD": 2.559112,
-          "input": 92,
-          "output": 43264,
-          "total": 3274184
+          "cacheCreation": 864014,
+          "cacheRead": 31072606,
+          "costUSD": 18.701501,
+          "input": 312,
+          "output": 278681,
+          "total": 32215613
         }
       },
-      "output": 43264,
-      "total": 3274184
+      "output": 278681,
+      "total": 32215613
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 577920,
+      "costUSD": 1.510327,
+      "input": 174106,
+      "models": {
+        "gpt-6-astra": {
+          "cacheCreation": 0,
+          "cacheRead": 211328,
+          "input": 107336,
+          "output": 770,
+          "reasoningOutput": 232,
+          "total": 319434
+        },
+        "gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 366592,
+          "input": 66770,
+          "output": 1694,
+          "reasoningOutput": 11,
+          "total": 435056
+        }
+      },
+      "output": 2464,
+      "reasoningOutput": 243,
+      "total": 754490
     }
   },
   "status": "partial",
