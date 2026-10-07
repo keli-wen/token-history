@@ -1,14 +1,14 @@
 {
   "ccusageVersion": "20.0.26",
-  "collectedAt": "2026-10-07T13:00:11Z",
+  "collectedAt": "2026-10-07T16:30:11Z",
   "date": "2026-10-07",
   "host": "host2",
   "sources": {
     "claude": {
-      "cacheCreation": 106085,
-      "cacheRead": 1680886,
-      "costUSD": 1.618302,
-      "input": 72,
+      "cacheCreation": 166386,
+      "cacheRead": 1762300,
+      "costUSD": 2.148908,
+      "input": 76,
       "models": {
         "claude-opus-5": {
           "cacheCreation": 20532,
@@ -19,16 +19,16 @@
           "total": 32517
         },
         "claude-opus-5-5": {
-          "cacheCreation": 85553,
-          "cacheRead": 1669051,
-          "costUSD": 1.403354,
-          "input": 70,
-          "output": 19242,
-          "total": 1773916
+          "cacheCreation": 145854,
+          "cacheRead": 1750465,
+          "costUSD": 1.933961,
+          "input": 74,
+          "output": 20837,
+          "total": 1917230
         }
       },
-      "output": 19390,
-      "total": 1806433
+      "output": 20985,
+      "total": 1949747
     },
     "codex": {
       "cacheCreation": 0,
@@ -75,6 +75,6 @@
       "total": 17874952
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
