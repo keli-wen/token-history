@@ -1,13 +1,13 @@
 {
   "ccusageVersion": "20.0.26",
-  "collectedAt": "2026-10-07T16:30:08Z",
+  "collectedAt": "2026-10-08T04:00:13Z",
   "date": "2026-10-07",
   "host": "mac-a",
   "sources": {
     "claude": {
       "cacheCreation": 11999119,
       "cacheRead": 492137541,
-      "costUSD": 197.859459,
+      "costUSD": 193.997597,
       "input": 4684,
       "models": {
         "claude-opus-5-5": {
@@ -21,7 +21,7 @@
         "claude-sonnet-5-5": {
           "cacheCreation": 1727140,
           "cacheRead": 38618622,
-          "costUSD": 12.439388,
+          "costUSD": 8.577526,
           "input": 1082,
           "output": 39565,
           "total": 40386409
