@@ -18,58 +18,60 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </style>
 <rect class="bg" width="880" height="368"/>
 <text class="t" x="28" y="30" font-size="17" font-weight="600">Weekly token usage</text>
-<text class="t2" x="28" y="50" font-size="12">Jul 06, 2026 – Oct 11, 2026 · 16B tokens over 14 weeks</text>
+<text class="t2" x="28" y="50" font-size="12">Jul 06, 2026 – Oct 11, 2026 · 17B tokens over 14 weeks</text>
 <rect class="s-claude" x="28" y="62" width="10" height="10" rx="2"/>
 <text class="t2" x="44" y="71" font-size="12">Claude Code</text>
 <rect class="s-codex" x="127" y="62" width="10" height="10" rx="2"/>
 <text class="t2" x="143" y="71" font-size="12">Codex</text>
 <text class="tm" x="66" y="320.0" font-size="11" text-anchor="end">0</text>
-<line class="grid" x1="76" y1="271.2" x2="852" y2="271.2"/>
-<text class="tm" x="66" y="275.2" font-size="11" text-anchor="end">500M</text>
-<line class="grid" x1="76" y1="226.4" x2="852" y2="226.4"/>
-<text class="tm" x="66" y="230.4" font-size="11" text-anchor="end">1.0B</text>
-<line class="grid" x1="76" y1="181.6" x2="852" y2="181.6"/>
-<text class="tm" x="66" y="185.6" font-size="11" text-anchor="end">1.5B</text>
-<line class="grid" x1="76" y1="136.8" x2="852" y2="136.8"/>
-<text class="tm" x="66" y="140.8" font-size="11" text-anchor="end">2.0B</text>
+<line class="grid" x1="76" y1="278.7" x2="852" y2="278.7"/>
+<text class="tm" x="66" y="282.7" font-size="11" text-anchor="end">500M</text>
+<line class="grid" x1="76" y1="241.3" x2="852" y2="241.3"/>
+<text class="tm" x="66" y="245.3" font-size="11" text-anchor="end">1.0B</text>
+<line class="grid" x1="76" y1="204.0" x2="852" y2="204.0"/>
+<text class="tm" x="66" y="208.0" font-size="11" text-anchor="end">1.5B</text>
+<line class="grid" x1="76" y1="166.7" x2="852" y2="166.7"/>
+<text class="tm" x="66" y="170.7" font-size="11" text-anchor="end">2.0B</text>
+<line class="grid" x1="76" y1="129.3" x2="852" y2="129.3"/>
+<text class="tm" x="66" y="133.3" font-size="11" text-anchor="end">2.5B</text>
 <line class="grid" x1="76" y1="92.0" x2="852" y2="92.0"/>
-<text class="tm" x="66" y="96.0" font-size="11" text-anchor="end">2.5B</text>
+<text class="tm" x="66" y="96.0" font-size="11" text-anchor="end">3.0B</text>
 <line class="axis" x1="76" y1="316.0" x2="852" y2="316.0"/>
-<path class="s-claude" d="M87.7,296.8 h32.0 v19.2 h-32.0 Z"/>
-<path class="s-codex" d="M87.7,294.8 V248.9 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V294.8 Z"/>
-<path class="s-claude" d="M143.1,250.8 h32.0 v65.2 h-32.0 Z"/>
-<path class="s-codex" d="M143.1,248.8 V137.0 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V248.8 Z"/>
+<path class="s-claude" d="M87.7,300.3 h32.0 v15.7 h-32.0 Z"/>
+<path class="s-codex" d="M87.7,298.3 V260.7 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V298.3 Z"/>
+<path class="s-claude" d="M143.1,262.0 h32.0 v54.0 h-32.0 Z"/>
+<path class="s-codex" d="M143.1,260.0 V167.5 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V260.0 Z"/>
 <text class="tm" x="159.1" y="336" font-size="10.5" text-anchor="middle">07/13</text>
-<path class="s-claude" d="M198.6,260.9 h32.0 v55.1 h-32.0 Z"/>
-<path class="s-codex" d="M198.6,258.9 V215.3 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V258.9 Z"/>
-<path class="s-claude" d="M254.0,294.1 h32.0 v21.9 h-32.0 Z"/>
-<path class="s-codex" d="M254.0,292.1 V269.0 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V292.1 Z"/>
+<path class="s-claude" d="M198.6,270.4 h32.0 v45.6 h-32.0 Z"/>
+<path class="s-codex" d="M198.6,268.4 V232.7 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V268.4 Z"/>
+<path class="s-claude" d="M254.0,298.1 h32.0 v17.9 h-32.0 Z"/>
+<path class="s-codex" d="M254.0,296.1 V277.5 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V296.1 Z"/>
 <text class="tm" x="270.0" y="336" font-size="10.5" text-anchor="middle">07/27</text>
-<path class="s-claude" d="M309.4,229.7 h32.0 v86.3 h-32.0 Z"/>
-<path class="s-codex" d="M309.4,227.7 V148.6 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V227.7 Z"/>
-<path class="s-claude" d="M364.9,274.7 h32.0 v41.3 h-32.0 Z"/>
-<path class="s-codex" d="M364.9,272.7 V177.0 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V272.7 Z"/>
+<path class="s-claude" d="M309.4,244.4 h32.0 v71.6 h-32.0 Z"/>
+<path class="s-codex" d="M309.4,242.4 V177.2 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V242.4 Z"/>
+<path class="s-claude" d="M364.9,281.9 h32.0 v34.1 h-32.0 Z"/>
+<path class="s-codex" d="M364.9,279.9 V200.9 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V279.9 Z"/>
 <text class="tm" x="380.9" y="336" font-size="10.5" text-anchor="middle">08/10</text>
-<path class="s-claude" d="M420.3,278.8 h32.0 v37.2 h-32.0 Z"/>
-<path class="s-codex" d="M420.3,276.8 V249.0 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V276.8 Z"/>
-<path class="s-claude" d="M475.7,255.3 h32.0 v60.7 h-32.0 Z"/>
-<path class="s-codex" d="M475.7,253.3 V174.9 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V253.3 Z"/>
+<path class="s-claude" d="M420.3,285.4 h32.0 v30.6 h-32.0 Z"/>
+<path class="s-codex" d="M420.3,283.4 V260.8 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V283.4 Z"/>
+<path class="s-claude" d="M475.7,265.7 h32.0 v50.3 h-32.0 Z"/>
+<path class="s-codex" d="M475.7,263.7 V199.1 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V263.7 Z"/>
 <text class="tm" x="491.7" y="336" font-size="10.5" text-anchor="middle">08/24</text>
-<path class="s-claude" d="M531.1,284.8 h32.0 v31.2 h-32.0 Z"/>
-<path class="s-codex" d="M531.1,282.8 V235.7 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V282.8 Z"/>
-<path class="s-claude" d="M586.6,215.7 h32.0 v100.3 h-32.0 Z"/>
-<path class="s-codex" d="M586.6,213.7 V175.6 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V213.7 Z"/>
+<path class="s-claude" d="M531.1,290.4 h32.0 v25.6 h-32.0 Z"/>
+<path class="s-codex" d="M531.1,288.4 V249.7 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V288.4 Z"/>
+<path class="s-claude" d="M586.6,232.7 h32.0 v83.3 h-32.0 Z"/>
+<path class="s-codex" d="M586.6,230.7 V199.7 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V230.7 Z"/>
 <text class="tm" x="602.6" y="336" font-size="10.5" text-anchor="middle">09/07</text>
-<path class="s-claude" d="M642.0,302.8 h32.0 v13.2 h-32.0 Z"/>
-<path class="s-codex" d="M642.0,300.8 V292.4 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V300.8 Z"/>
-<path class="s-claude" d="M697.4,301.7 h32.0 v14.3 h-32.0 Z"/>
-<path class="s-codex" d="M697.4,299.7 V283.7 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V299.7 Z"/>
+<path class="s-claude" d="M642.0,305.3 h32.0 v10.7 h-32.0 Z"/>
+<path class="s-codex" d="M642.0,303.3 V297.0 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V303.3 Z"/>
+<path class="s-claude" d="M697.4,304.4 h32.0 v11.6 h-32.0 Z"/>
+<path class="s-codex" d="M697.4,302.4 V289.8 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V302.4 Z"/>
 <text class="tm" x="713.4" y="336" font-size="10.5" text-anchor="middle">09/21</text>
 <path class="s-claude" d="M752.9,316.0 h32.0 v0.0 h-32.0 Z"/>
-<path class="s-codex" d="M752.9,314.7 V302.8 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V314.7 Z"/>
-<path class="s-claude wip" d="M808.3,121.1 h32.0 v194.9 h-32.0 Z"/>
-<path class="s-codex wip" d="M808.3,119.1 V113.2 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V119.1 Z"/>
+<path class="s-codex" d="M752.9,314.9 V305.7 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V314.9 Z"/>
+<path class="s-claude wip" d="M808.3,137.8 h32.0 v178.2 h-32.0 Z"/>
+<path class="s-codex wip" d="M808.3,135.8 V129.0 a4.0,4.0 0 0 1 4.0,-4.0 h24.0 a4.0,4.0 0 0 1 4.0,4.0 V135.8 Z"/>
 <text class="tm" x="824.3" y="336" font-size="10.5" text-anchor="middle">10/05</text>
-<text class="t" x="824.3" y="101.2" font-size="11.5" font-weight="600" text-anchor="middle">2.3B</text>
+<text class="t" x="824.3" y="117.0" font-size="11.5" font-weight="600" text-anchor="middle">2.6B</text>
 <text class="tm" x="28" y="354" font-size="10.5">Generated 2026-10-09 13:00 UTC</text>
 </svg>
