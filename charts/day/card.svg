@@ -40,8 +40,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="tm" x="740" y="122" font-size="11">days with usage</text>
 </g>
 <g class="b" style="animation-delay:320ms">
-<path class="s-claude" d="M52.5,176.0 H652.1 V185.0 H52.5 A4.5,4.5 0 0 1 48.0,180.5 V180.5 A4.5,4.5 0 0 1 52.5,176.0 Z"/>
-<path class="s-codex" d="M654.1,176.0 H827.5 A4.5,4.5 0 0 1 832.0,180.5 V180.5 A4.5,4.5 0 0 1 827.5,185.0 H654.1 V176.0 Z"/>
+<path class="s-claude" d="M52.5,176.0 H652.2 V185.0 H52.5 A4.5,4.5 0 0 1 48.0,180.5 V180.5 A4.5,4.5 0 0 1 52.5,176.0 Z"/>
+<path class="s-codex" d="M654.2,176.0 H827.5 A4.5,4.5 0 0 1 832.0,180.5 V180.5 A4.5,4.5 0 0 1 827.5,185.0 H654.2 V176.0 Z"/>
 <circle class="s-claude" cx="53" cy="203" r="4"/>
 <text class="t2" x="63" y="207" font-size="12">Claude Code 77% · 2.9B</text>
 <circle class="s-codex" cx="667" cy="203" r="4"/>
