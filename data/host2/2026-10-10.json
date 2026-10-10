@@ -1,22 +1,30 @@
 {
   "ccusageVersion": "20.0.28",
-  "collectedAt": "2026-10-10T04:00:18Z",
+  "collectedAt": "2026-10-10T13:00:12Z",
   "date": "2026-10-10",
   "host": "host2",
   "sources": {
     "claude": {
-      "cacheCreation": 603226,
-      "cacheRead": 5276015,
-      "costUSD": 6.235129,
-      "input": 172,
+      "cacheCreation": 1654978,
+      "cacheRead": 25480753,
+      "costUSD": 21.370077,
+      "input": 402,
       "models": {
+        "claude-haiku-4-5-20251001": {
+          "cacheCreation": 14497,
+          "cacheRead": 73343,
+          "costUSD": 0.037298,
+          "input": 30,
+          "output": 188,
+          "total": 88058
+        },
         "claude-opus-5-5": {
-          "cacheCreation": 497867,
-          "cacheRead": 4895337,
-          "costUSD": 5.773655,
-          "input": 128,
-          "output": 40557,
-          "total": 5433889
+          "cacheCreation": 1535122,
+          "cacheRead": 25026732,
+          "costUSD": 20.871305,
+          "input": 328,
+          "output": 182622,
+          "total": 26744804
         },
         "claude-sonnet-5-5": {
           "cacheCreation": 105359,
@@ -27,27 +35,52 @@
           "total": 502073
         }
       },
-      "output": 56549,
-      "total": 5935962
+      "output": 198802,
+      "total": 27334935
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 396288,
-      "costUSD": 0.388019,
-      "input": 39646,
+      "cacheRead": 25739776,
+      "costUSD": 22.291481,
+      "input": 663715,
       "models": {
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 5058048,
+          "input": 250107,
+          "modelNameIsFallback": true,
+          "output": 4220,
+          "reasoningOutput": 1523,
+          "total": 5312375
+        },
         "gpt-5.6-sol": {
           "cacheCreation": 0,
-          "cacheRead": 396288,
-          "input": 39646,
-          "output": 3546,
-          "reasoningOutput": 1439,
-          "total": 439480
+          "cacheRead": 2886784,
+          "input": 98883,
+          "output": 17219,
+          "reasoningOutput": 8376,
+          "total": 3002886
+        },
+        "gpt-5.6-terra": {
+          "cacheCreation": 0,
+          "cacheRead": 2333184,
+          "input": 100783,
+          "output": 12973,
+          "reasoningOutput": 3799,
+          "total": 2446940
+        },
+        "gpt-6-astra": {
+          "cacheCreation": 0,
+          "cacheRead": 15461760,
+          "input": 213942,
+          "output": 36311,
+          "reasoningOutput": 9373,
+          "total": 15712013
         }
       },
-      "output": 3546,
-      "reasoningOutput": 1439,
-      "total": 439480
+      "output": 70723,
+      "reasoningOutput": 23071,
+      "total": 26474214
     }
   },
   "status": "partial",
