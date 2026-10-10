@@ -1,6 +1,6 @@
 {
-  "ccusageVersion": "20.0.26",
-  "collectedAt": "2026-10-09T16:30:09Z",
+  "ccusageVersion": "20.0.28",
+  "collectedAt": "2026-10-10T04:00:18Z",
   "date": "2026-10-08",
   "host": "host2",
   "sources": {
@@ -41,7 +41,7 @@
     "codex": {
       "cacheCreation": 0,
       "cacheRead": 47544960,
-      "costUSD": 63.611151,
+      "costUSD": 63.797913,
       "input": 1535777,
       "models": {
         "gpt-5.6-luna": {
