@@ -25,8 +25,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="t2" x="143" y="73" font-size="12">Codex</text>
 <line class="grid" x1="28" y1="128" x2="848" y2="128"/>
 <text class="t2" x="28" y="116.0" font-size="12.5">Oct 12 – 18</text>
-<path class="s-claude wip" d="M186.0,105.5 H362.2 V118.5 H186.0 A6.0,6.0 0 0 1 180.0,112.5 V111.5 A6.0,6.0 0 0 1 186.0,105.5 Z"/>
-<path class="s-codex wip" d="M364.2,105.5 H389.1 A6.0,6.0 0 0 1 395.1,111.5 V112.5 A6.0,6.0 0 0 1 389.1,118.5 H364.2 V105.5 Z"/>
+<path class="s-claude wip" d="M186.0,105.5 H365.8 V118.5 H186.0 A6.0,6.0 0 0 1 180.0,112.5 V111.5 A6.0,6.0 0 0 1 186.0,105.5 Z"/>
+<path class="s-codex wip" d="M367.8,105.5 H392.7 A6.0,6.0 0 0 1 398.7,111.5 V112.5 A6.0,6.0 0 0 1 392.7,118.5 H367.8 V105.5 Z"/>
 <text class="tm" x="848" y="116.0" font-size="12" text-anchor="end">1.1B *</text>
 <line class="grid" x1="28" y1="160" x2="848" y2="160"/>
 <text class="t2" x="28" y="148.0" font-size="12.5">Oct 05 – 11</text>
@@ -98,5 +98,5 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <path class="s-claude" d="M186.0,553.5 H224.7 V566.5 H186.0 A6.0,6.0 0 0 1 180.0,560.5 V559.5 A6.0,6.0 0 0 1 186.0,553.5 Z"/>
 <path class="s-codex" d="M226.7,553.5 H330.7 A6.0,6.0 0 0 1 336.7,559.5 V560.5 A6.0,6.0 0 0 1 330.7,566.5 H226.7 V553.5 Z"/>
 <text class="tm" x="848" y="564.0" font-size="12" text-anchor="end">794M</text>
-<text class="tm" x="28" y="606" font-size="10.5">Generated 2026-10-14 13:00 UTC</text>
+<text class="tm" x="28" y="606" font-size="10.5">Generated 2026-10-14 16:30 UTC</text>
 </svg>
