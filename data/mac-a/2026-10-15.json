@@ -1,28 +1,65 @@
 {
   "ccusageVersion": "20.0.34",
-  "collectedAt": "2026-10-15T13:00:16Z",
+  "collectedAt": "2026-10-15T16:30:13Z",
   "date": "2026-10-15",
   "host": "mac-a",
   "sources": {
     "claude": {
-      "cacheCreation": 709174,
-      "cacheRead": 8779984,
-      "costUSD": 8.265323,
-      "input": 176,
+      "cacheCreation": 1835402,
+      "cacheRead": 74515540,
+      "costUSD": 36.497205,
+      "input": 858,
       "models": {
+        "claude-haiku-5-5": {
+          "cacheCreation": 77887,
+          "cacheRead": 275004,
+          "costUSD": 0.012501,
+          "input": 12,
+          "output": 28,
+          "total": 352931
+        },
         "claude-opus-5-5": {
-          "cacheCreation": 709174,
-          "cacheRead": 8779984,
-          "costUSD": 8.265323,
-          "input": 176,
-          "output": 96219,
-          "total": 9585553
+          "cacheCreation": 1757515,
+          "cacheRead": 74240536,
+          "costUSD": 36.484704,
+          "input": 846,
+          "output": 483206,
+          "total": 76482103
         }
       },
-      "output": 96219,
-      "total": 9585553
+      "output": 483234,
+      "total": 76835034
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 37508736,
+      "costUSD": 64.811984,
+      "input": 1050570,
+      "models": {
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 3385344,
+          "input": 313532,
+          "modelNameIsFallback": true,
+          "output": 5977,
+          "reasoningOutput": 2934,
+          "total": 3704853
+        },
+        "gpt-6-astra": {
+          "cacheCreation": 0,
+          "cacheRead": 34123392,
+          "input": 737038,
+          "modelNameIsFallback": true,
+          "output": 59163,
+          "reasoningOutput": 10620,
+          "total": 34919593
+        }
+      },
+      "output": 65140,
+      "reasoningOutput": 13554,
+      "total": 38624446
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
