@@ -1,22 +1,22 @@
 {
   "ccusageVersion": "20.0.34",
-  "collectedAt": "2026-10-16T04:00:13Z",
+  "collectedAt": "2026-10-16T13:00:13Z",
   "date": "2026-10-16",
   "host": "mac-a",
   "sources": {
     "claude": {
-      "cacheCreation": 15795276,
-      "cacheRead": 643598706,
-      "costUSD": 229.377113,
-      "input": 4872,
+      "cacheCreation": 18127112,
+      "cacheRead": 740912666,
+      "costUSD": 270.676867,
+      "input": 5720,
       "models": {
         "claude-opus-5-5": {
-          "cacheCreation": 14870896,
-          "cacheRead": 618231864,
-          "costUSD": 224.347863,
-          "input": 4044,
-          "output": 1052602,
-          "total": 634159406
+          "cacheCreation": 17202732,
+          "cacheRead": 715545824,
+          "costUSD": 265.647617,
+          "input": 4892,
+          "output": 1313925,
+          "total": 734067373
         },
         "claude-sonnet-5-5": {
           "cacheCreation": 924380,
@@ -27,14 +27,14 @@
           "total": 26310046
         }
       },
-      "output": 1070598,
-      "total": 660469452
+      "output": 1331921,
+      "total": 760377419
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 26858624,
-      "costUSD": 62.110547,
-      "input": 1511690,
+      "cacheRead": 27112576,
+      "costUSD": 65.240789,
+      "input": 1780124,
       "models": {
         "gpt-5.6-luna": {
           "cacheCreation": 0,
@@ -47,17 +47,17 @@
         },
         "gpt-6-astra": {
           "cacheCreation": 0,
-          "cacheRead": 25572224,
-          "input": 1329983,
+          "cacheRead": 25826176,
+          "input": 1598417,
           "modelNameIsFallback": true,
-          "output": 61267,
-          "reasoningOutput": 16301,
-          "total": 26963474
+          "output": 65106,
+          "reasoningOutput": 16329,
+          "total": 27489699
         }
       },
-      "output": 63740,
-      "reasoningOutput": 17436,
-      "total": 28434054
+      "output": 67579,
+      "reasoningOutput": 17464,
+      "total": 28960279
     }
   },
   "status": "partial",
