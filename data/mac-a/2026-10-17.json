@@ -1,41 +1,41 @@
 {
   "ccusageVersion": "20.0.34",
-  "collectedAt": "2026-10-17T04:00:15Z",
+  "collectedAt": "2026-10-17T13:00:09Z",
   "date": "2026-10-17",
   "host": "mac-a",
   "sources": {
     "claude": {
-      "cacheCreation": 3486850,
-      "cacheRead": 113189299,
-      "costUSD": 52.842632,
-      "input": 712,
+      "cacheCreation": 4277890,
+      "cacheRead": 161074851,
+      "costUSD": 72.998317,
+      "input": 1172,
       "models": {
         "claude-opus-5-5": {
-          "cacheCreation": 3486850,
-          "cacheRead": 113189299,
-          "costUSD": 52.842632,
-          "input": 712,
-          "output": 192356,
-          "total": 116869217
+          "cacheCreation": 4277890,
+          "cacheRead": 161074851,
+          "costUSD": 72.998317,
+          "input": 1172,
+          "output": 441085,
+          "total": 165794998
         }
       },
-      "output": 192356,
-      "total": 116869217
+      "output": 441085,
+      "total": 165794998
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 7865472,
-      "costUSD": 18.481619,
-      "input": 1050163,
+      "cacheRead": 11429632,
+      "costUSD": 20.018181,
+      "input": 1576529,
       "models": {
         "gpt-5.6-luna": {
           "cacheCreation": 0,
-          "cacheRead": 459392,
-          "input": 72890,
+          "cacheRead": 512896,
+          "input": 96485,
           "modelNameIsFallback": true,
-          "output": 1453,
-          "reasoningOutput": 702,
-          "total": 533735
+          "output": 2091,
+          "reasoningOutput": 1132,
+          "total": 611472
         },
         "gpt-6-astra": {
           "cacheCreation": 0,
@@ -44,11 +44,27 @@
           "output": 25546,
           "reasoningOutput": 6298,
           "total": 8408899
+        },
+        "gpt-6-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 526592,
+          "input": 304379,
+          "output": 5441,
+          "reasoningOutput": 380,
+          "total": 836412
+        },
+        "gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 2984064,
+          "input": 198392,
+          "output": 6633,
+          "reasoningOutput": 561,
+          "total": 3189089
         }
       },
-      "output": 26999,
-      "reasoningOutput": 7000,
-      "total": 8942634
+      "output": 39711,
+      "reasoningOutput": 8371,
+      "total": 13045872
     }
   },
   "status": "partial",
