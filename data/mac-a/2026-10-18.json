@@ -1,45 +1,62 @@
 {
   "ccusageVersion": "20.0.35",
-  "collectedAt": "2026-10-18T04:00:18Z",
+  "collectedAt": "2026-10-18T13:00:10Z",
   "date": "2026-10-18",
   "host": "mac-a",
   "sources": {
     "claude": {
-      "cacheCreation": 282399,
-      "cacheRead": 11290252,
-      "costUSD": 4.97323,
-      "input": 100,
+      "cacheCreation": 814354,
+      "cacheRead": 59616987,
+      "costUSD": 22.385121,
+      "input": 336,
       "models": {
         "claude-opus-5-5": {
-          "cacheCreation": 282399,
-          "cacheRead": 11290252,
-          "costUSD": 4.97323,
-          "input": 100,
-          "output": 29143,
-          "total": 11601894
+          "cacheCreation": 814354,
+          "cacheRead": 59616987,
+          "costUSD": 22.385121,
+          "input": 336,
+          "output": 203641,
+          "total": 60635318
         }
       },
-      "output": 29143,
-      "total": 11601894
+      "output": 203641,
+      "total": 60635318
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 971264,
-      "costUSD": 0.290162,
-      "input": 82463,
+      "cacheRead": 16399360,
+      "costUSD": 12.953498,
+      "input": 1139090,
       "models": {
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 427904,
+          "input": 195110,
+          "modelNameIsFallback": true,
+          "output": 2475,
+          "reasoningOutput": 1262,
+          "total": 625489
+        },
+        "gpt-6-astra": {
+          "cacheCreation": 0,
+          "cacheRead": 6443136,
+          "input": 267000,
+          "output": 21529,
+          "reasoningOutput": 2584,
+          "total": 6731665
+        },
         "gpt-6.1-sol": {
           "cacheCreation": 0,
-          "cacheRead": 971264,
-          "input": 82463,
-          "output": 2811,
-          "reasoningOutput": 206,
-          "total": 1056538
+          "cacheRead": 9528320,
+          "input": 676980,
+          "output": 40657,
+          "reasoningOutput": 9510,
+          "total": 10245957
         }
       },
-      "output": 2811,
-      "reasoningOutput": 206,
-      "total": 1056538
+      "output": 64661,
+      "reasoningOutput": 13356,
+      "total": 17603111
     }
   },
   "status": "partial",
