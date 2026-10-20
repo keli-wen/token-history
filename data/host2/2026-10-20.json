@@ -1,22 +1,22 @@
 {
   "ccusageVersion": "20.0.37",
-  "collectedAt": "2026-10-20T04:00:17Z",
+  "collectedAt": "2026-10-20T13:00:12Z",
   "date": "2026-10-20",
   "host": "host2",
   "sources": {
     "claude": {
-      "cacheCreation": 714482,
-      "cacheRead": 9676113,
-      "costUSD": 7.971012,
-      "input": 138,
+      "cacheCreation": 1354855,
+      "cacheRead": 18852303,
+      "costUSD": 15.779146,
+      "input": 196,
       "models": {
         "claude-opus-5-5": {
-          "cacheCreation": 575336,
-          "cacheRead": 9072138,
-          "costUSD": 7.360992,
-          "input": 84,
-          "output": 47177,
-          "total": 9694735
+          "cacheCreation": 1215709,
+          "cacheRead": 18248328,
+          "costUSD": 15.169126,
+          "input": 142,
+          "output": 89661,
+          "total": 19553840
         },
         "claude-sonnet-5-5": {
           "cacheCreation": 139146,
@@ -27,27 +27,35 @@
           "total": 763340
         }
       },
-      "output": 67342,
-      "total": 10458075
+      "output": 109826,
+      "total": 20317180
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 150528,
-      "costUSD": 0.109648,
-      "input": 32685,
+      "cacheRead": 1450624,
+      "costUSD": 0.841881,
+      "input": 107425,
       "models": {
+        "gpt-5.6-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 309632,
+          "input": 38990,
+          "output": 4285,
+          "reasoningOutput": 1348,
+          "total": 352907
+        },
         "gpt-5.6-terra": {
           "cacheCreation": 0,
-          "cacheRead": 150528,
-          "input": 32685,
-          "output": 1181,
-          "reasoningOutput": 338,
-          "total": 184394
+          "cacheRead": 1140992,
+          "input": 68435,
+          "output": 9275,
+          "reasoningOutput": 3407,
+          "total": 1218702
         }
       },
-      "output": 1181,
-      "reasoningOutput": 338,
-      "total": 184394
+      "output": 13560,
+      "reasoningOutput": 4755,
+      "total": 1571609
     }
   },
   "status": "partial",
