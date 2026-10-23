@@ -1,6 +1,6 @@
 {
-  "ccusageVersion": "20.0.40",
-  "collectedAt": "2026-10-22T16:30:11Z",
+  "ccusageVersion": "20.0.41",
+  "collectedAt": "2026-10-23T04:00:16Z",
   "date": "2026-10-22",
   "host": "mac-a",
   "sources": {
@@ -33,7 +33,7 @@
     "codex": {
       "cacheCreation": 0,
       "cacheRead": 396170949,
-      "costUSD": 83.692547,
+      "costUSD": 83.668451,
       "input": 14791596,
       "models": {
         "deepseek/deepseek-flash": {
