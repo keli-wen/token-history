@@ -20,8 +20,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="bg" width="880" height="236"/>
 <g class="b">
 <text class="tm" x="48" y="58" font-size="10.5" letter-spacing="2.5">LAST 30 DAYS · TOKENS</text>
-<text class="ts" x="46" y="122" font-size="58" font-weight="700">10.29B</text>
-<text class="t2" x="48" y="150" font-size="13">≈ $4,946 API-equivalent</text>
+<text class="ts" x="46" y="122" font-size="58" font-weight="700">10.30B</text>
+<text class="t2" x="48" y="150" font-size="13">≈ $4,951 API-equivalent</text>
 </g>
 <line class="axis" x1="400" y1="46" x2="400" y2="150"/>
 <g class="b" style="animation-delay:120ms">
@@ -47,5 +47,5 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <circle class="s-codex" cx="667" cy="203" r="4"/>
 <text class="t2" x="677" y="207" font-size="12">Codex 20% · 2.1B</text>
 </g>
-<text class="tm" x="48" y="226" font-size="10">Generated 2026-10-24 16:30 UTC</text>
+<text class="tm" x="48" y="226" font-size="10">Generated 2026-10-24 16:32 UTC</text>
 </svg>
