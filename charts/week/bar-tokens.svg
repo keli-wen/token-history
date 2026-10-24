@@ -73,8 +73,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <path class="s-claude" d="M764.2,221.7 h30.1 v94.3 h-30.1 Z"/>
 <path class="s-codex" d="M764.2,219.7 V208.0 a4.0,4.0 0 0 1 4.0,-4.0 h22.1 a4.0,4.0 0 0 1 4.0,4.0 V219.7 Z"/>
 <path class="s-claude wip" d="M812.7,175.5 h30.1 v140.5 h-30.1 Z"/>
-<path class="s-codex wip" d="M812.7,173.5 V128.6 a4.0,4.0 0 0 1 4.0,-4.0 h22.1 a4.0,4.0 0 0 1 4.0,4.0 V173.5 Z"/>
+<path class="s-codex wip" d="M812.7,173.5 V128.5 a4.0,4.0 0 0 1 4.0,-4.0 h22.1 a4.0,4.0 0 0 1 4.0,4.0 V173.5 Z"/>
 <text class="tm" x="827.8" y="336" font-size="10.5" text-anchor="middle">10/19</text>
-<text class="t" x="827.8" y="116.6" font-size="11.5" font-weight="600" text-anchor="middle">4.3B</text>
-<text class="tm" x="28" y="354" font-size="10.5">Generated 2026-10-24 04:00 UTC</text>
+<text class="t" x="827.8" y="116.5" font-size="11.5" font-weight="600" text-anchor="middle">4.3B</text>
+<text class="tm" x="28" y="354" font-size="10.5">Generated 2026-10-24 13:00 UTC</text>
 </svg>
