@@ -1,9 +1,9 @@
 {
-  "ccusageVersion": "20.0.42",
+  "ccusageVersion": "20.0.44",
   "earliest_date": "2026-07-07",
   "host": "host2",
-  "last_success_at": "2026-10-24T16:30:26Z",
+  "last_success_at": "2026-10-25T04:00:14Z",
   "last_success_date": "2026-10-25",
-  "latest_date": "2026-10-24",
+  "latest_date": "2026-10-25",
   "timezone": "Asia/Shanghai"
 }
