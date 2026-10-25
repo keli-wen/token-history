@@ -1,8 +1,8 @@
 {
-  "ccusageVersion": "20.0.42",
+  "ccusageVersion": "20.0.44",
   "earliest_date": "2026-07-07",
   "host": "mac-a",
-  "last_success_at": "2026-10-24T16:32:42Z",
+  "last_success_at": "2026-10-25T04:00:17Z",
   "last_success_date": "2026-10-25",
   "latest_date": "2026-10-24",
   "timezone": "Asia/Shanghai"
