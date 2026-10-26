@@ -1,48 +1,75 @@
 {
   "ccusageVersion": "20.0.44",
-  "collectedAt": "2026-10-26T13:00:13Z",
+  "collectedAt": "2026-10-26T16:30:13Z",
   "date": "2026-10-26",
   "host": "mac-a",
   "sources": {
+    "claude": {
+      "cacheCreation": 660879,
+      "cacheRead": 75953019,
+      "costUSD": 24.541574,
+      "input": 580,
+      "models": {
+        "claude-opus-5-5": {
+          "cacheCreation": 660879,
+          "cacheRead": 75953019,
+          "costUSD": 24.541574,
+          "input": 580,
+          "output": 229012,
+          "total": 76843490
+        }
+      },
+      "output": 229012,
+      "total": 76843490
+    },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 463804032,
-      "costUSD": 281.513576,
-      "input": 11074292,
+      "cacheRead": 533184884,
+      "costUSD": 367.416578,
+      "input": 15824627,
       "models": {
+        "google/models/gemini-4-argon": {
+          "cacheCreation": 0,
+          "cacheRead": 4920564,
+          "input": 2988662,
+          "modelNameIsFallback": true,
+          "output": 28415,
+          "reasoningOutput": 0,
+          "total": 7937641
+        },
         "gpt-5.6-luna": {
           "cacheCreation": 0,
-          "cacheRead": 75476992,
-          "input": 6251000,
+          "cacheRead": 82539904,
+          "input": 6652670,
           "modelNameIsFallback": true,
-          "output": 88126,
-          "reasoningOutput": 28769,
-          "total": 81816118
+          "output": 95277,
+          "reasoningOutput": 31280,
+          "total": 89287851
         },
         "gpt-6-astra": {
           "cacheCreation": 0,
-          "cacheRead": 124507648,
-          "input": 2139020,
+          "cacheRead": 174886272,
+          "input": 2934847,
           "modelNameIsFallback": true,
-          "output": 427193,
-          "reasoningOutput": 231909,
-          "total": 127073861
+          "output": 549824,
+          "reasoningOutput": 265860,
+          "total": 178370943
         },
         "gpt-6.1-sol": {
           "cacheCreation": 0,
-          "cacheRead": 263819392,
-          "input": 2684272,
+          "cacheRead": 270838144,
+          "input": 3248448,
           "modelNameIsFallback": true,
-          "output": 1101461,
-          "reasoningOutput": 441712,
-          "total": 267605125
+          "output": 1133902,
+          "reasoningOutput": 443849,
+          "total": 275220494
         }
       },
-      "output": 1616780,
-      "reasoningOutput": 702390,
-      "total": 476495104
+      "output": 1807418,
+      "reasoningOutput": 740989,
+      "total": 550816929
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
