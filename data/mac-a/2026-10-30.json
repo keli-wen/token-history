@@ -1,0 +1,56 @@
+{
+  "ccusageVersion": "20.0.45",
+  "collectedAt": "2026-10-29T16:30:13Z",
+  "date": "2026-10-30",
+  "host": "mac-a",
+  "sources": {
+    "claude": {
+      "cacheCreation": 99086,
+      "cacheRead": 5309698,
+      "costUSD": 3.09468,
+      "input": 73,
+      "models": {
+        "claude-opus-5-5": {
+          "cacheCreation": 99086,
+          "cacheRead": 5309698,
+          "costUSD": 3.09468,
+          "input": 73,
+          "output": 61988,
+          "total": 5470845
+        }
+      },
+      "output": 61988,
+      "total": 5470845
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 1509691,
+      "costUSD": 0.970497,
+      "input": 400926,
+      "models": {
+        "google/models/gemini-4-argon": {
+          "cacheCreation": 0,
+          "cacheRead": 1457723,
+          "input": 385391,
+          "output": 4941,
+          "reasoningOutput": 0,
+          "total": 1848055
+        },
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 51968,
+          "input": 15535,
+          "modelNameIsFallback": true,
+          "output": 322,
+          "reasoningOutput": 256,
+          "total": 67825
+        }
+      },
+      "output": 5263,
+      "reasoningOutput": 256,
+      "total": 1915880
+    }
+  },
+  "status": "partial",
+  "timezone": "Asia/Shanghai"
+}
