@@ -19,7 +19,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </style>
 <rect class="bg" width="880" height="536"/>
 <text class="ts" x="36" y="54" font-size="30">October 2026</text>
-<text class="t2" x="36" y="78" font-size="12.5">12B tokens · $5,975 API-equivalent so far</text>
+<text class="t2" x="36" y="78" font-size="12.5">12B tokens · $5,987 API-equivalent so far</text>
 <text class="tm" x="46.0" y="120" font-size="10" letter-spacing="1.5">MON</text>
 <text class="tm" x="162.6" y="120" font-size="10" letter-spacing="1.5">TUE</text>
 <text class="tm" x="279.1" y="120" font-size="10" letter-spacing="1.5">WED</text>
@@ -53,9 +53,9 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="on4" x="134.6" y="258" font-size="11" text-anchor="end" font-family="var(--fm)">775M</text>
 </g>
 <g class="pop" style="animation-delay:112ms">
-<rect class="r3" x="152.6" y="204" width="108.6" height="64" rx="10"/>
-<text class="on3" x="162.6" y="224" font-size="12" font-weight="600" font-family="var(--f)">6</text>
-<text class="on3" x="251.1" y="258" font-size="11" text-anchor="end" font-family="var(--fm)">580M</text>
+<rect class="r4" x="152.6" y="204" width="108.6" height="64" rx="10"/>
+<text class="on4" x="162.6" y="224" font-size="12" font-weight="600" font-family="var(--f)">6</text>
+<text class="on4" x="251.1" y="258" font-size="11" text-anchor="end" font-family="var(--fm)">580M</text>
 </g>
 <g class="pop" style="animation-delay:126ms">
 <rect class="r3" x="269.1" y="204" width="108.6" height="64" rx="10"/>
@@ -78,9 +78,9 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="t2" x="717.4" y="258" font-size="11" text-anchor="end" font-family="var(--fm)">61M</text>
 </g>
 <g class="pop" style="animation-delay:182ms">
-<rect class="r2" x="735.4" y="204" width="108.6" height="64" rx="10"/>
-<text class="t2" x="745.4" y="224" font-size="12" font-weight="600" font-family="var(--f)">11</text>
-<text class="t2" x="834.0" y="258" font-size="11" text-anchor="end" font-family="var(--fm)">397M</text>
+<rect class="r3" x="735.4" y="204" width="108.6" height="64" rx="10"/>
+<text class="on3" x="745.4" y="224" font-size="12" font-weight="600" font-family="var(--f)">11</text>
+<text class="on3" x="834.0" y="258" font-size="11" text-anchor="end" font-family="var(--fm)">397M</text>
 </g>
 <g class="pop" style="animation-delay:196ms">
 <rect class="r2" x="36.0" y="276" width="108.6" height="64" rx="10"/>
@@ -168,14 +168,16 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="on3" x="367.7" y="474" font-size="11" text-anchor="end" font-family="var(--fm)">473M</text>
 </g>
 <g class="pop" style="animation-delay:434ms">
-<rect class="r1 wip" x="385.7" y="420" width="108.6" height="64" rx="10"/>
+<rect class="r2 wip" x="385.7" y="420" width="108.6" height="64" rx="10"/>
 <text class="t2" x="395.7" y="440" font-size="12" font-weight="600" font-family="var(--f)">29</text>
-<text class="t2" x="484.3" y="474" font-size="11" text-anchor="end" font-family="var(--fm)">169M</text>
+<text class="t2" x="484.3" y="474" font-size="11" text-anchor="end" font-family="var(--fm)">177M</text>
 <rect class="ring" x="386.5" y="420.75" width="107.1" height="62.5" rx="10"/>
 </g>
 <g class="pop" style="animation-delay:448ms">
-<rect class="future" x="502.3" y="420" width="108.6" height="64" rx="10"/>
-<text class="tm" x="512.3" y="440" font-size="12">30</text>
+<rect class="r1 wip" x="502.3" y="420" width="108.6" height="64" rx="10"/>
+<text class="t2" x="512.3" y="440" font-size="12" font-weight="600" font-family="var(--f)">30</text>
+<text class="t2" x="600.9" y="474" font-size="11" text-anchor="end" font-family="var(--fm)">7.4M</text>
+<rect class="ring" x="503.0" y="420.75" width="107.1" height="62.5" rx="10"/>
 </g>
 <g class="pop" style="animation-delay:462ms">
 <rect class="future" x="618.9" y="420" width="108.6" height="64" rx="10"/>
@@ -188,5 +190,5 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="r3" x="746" y="506" width="13" height="13" rx="3"/>
 <rect class="r4" x="762" y="506" width="13" height="13" rx="3"/>
 <text class="tm" x="782" y="516" font-size="10.5">More</text>
-<text class="tm" x="36" y="520" font-size="10.5">Generated 2026-10-29 13:00 UTC</text>
+<text class="tm" x="36" y="520" font-size="10.5">Generated 2026-10-29 16:30 UTC</text>
 </svg>
