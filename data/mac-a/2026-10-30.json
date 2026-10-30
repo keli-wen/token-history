@@ -1,57 +1,58 @@
 {
   "ccusageVersion": "20.0.45",
-  "collectedAt": "2026-10-30T04:00:14Z",
+  "collectedAt": "2026-10-30T13:00:13Z",
   "date": "2026-10-30",
   "host": "mac-a",
   "sources": {
     "claude": {
-      "cacheCreation": 664736,
-      "cacheRead": 48134991,
-      "costUSD": 20.265662,
-      "input": 484,
+      "cacheCreation": 787549,
+      "cacheRead": 49410666,
+      "costUSD": 22.021205,
+      "input": 515,
       "models": {
         "claude-opus-5-5": {
-          "cacheCreation": 664736,
-          "cacheRead": 48134991,
-          "costUSD": 20.265662,
-          "input": 484,
-          "output": 265942,
-          "total": 49066153
+          "cacheCreation": 787549,
+          "cacheRead": 49410666,
+          "costUSD": 22.021205,
+          "input": 515,
+          "output": 291831,
+          "total": 50490561
         }
       },
-      "output": 265942,
-      "total": 49066153
+      "output": 291831,
+      "total": 50490561
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 8250818,
-      "costUSD": 4.820513,
-      "input": 1980671,
+      "cacheRead": 11478468,
+      "costUSD": 8.52963,
+      "input": 2617769,
       "models": {
         "google/models/gemini-4-argon": {
           "cacheCreation": 0,
-          "cacheRead": 7957570,
-          "input": 1686237,
-          "output": 21573,
+          "cacheRead": 11097668,
+          "input": 1972333,
+          "output": 23988,
           "reasoningOutput": 0,
-          "total": 9665380
+          "total": 13093989
         },
         "gpt-5.6-luna": {
           "cacheCreation": 0,
-          "cacheRead": 215680,
-          "input": 162706,
+          "cacheRead": 303232,
+          "input": 252351,
           "modelNameIsFallback": true,
-          "output": 1019,
-          "reasoningOutput": 620,
-          "total": 379405
+          "output": 1615,
+          "reasoningOutput": 1047,
+          "total": 557198
         },
         "gpt-6-astra": {
           "cacheCreation": 0,
           "cacheRead": 7040,
-          "input": 16048,
-          "output": 5,
+          "input": 277405,
+          "modelNameIsFallback": true,
+          "output": 3301,
           "reasoningOutput": 0,
-          "total": 23093
+          "total": 287746
         },
         "gpt-6-luna": {
           "cacheCreation": 0,
@@ -70,9 +71,9 @@
           "total": 166539
         }
       },
-      "output": 25393,
-      "reasoningOutput": 817,
-      "total": 10256882
+      "output": 31700,
+      "reasoningOutput": 1244,
+      "total": 14127937
     }
   },
   "status": "partial",
