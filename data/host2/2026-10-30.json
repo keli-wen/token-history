@@ -1,6 +1,6 @@
 {
   "ccusageVersion": "20.0.45",
-  "collectedAt": "2026-10-30T04:00:13Z",
+  "collectedAt": "2026-10-30T13:00:09Z",
   "date": "2026-10-30",
   "host": "host2",
   "sources": {
@@ -32,22 +32,47 @@
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 677632,
-      "costUSD": 0.333382,
-      "input": 61266,
+      "cacheRead": 16138624,
+      "costUSD": 9.430702,
+      "input": 463286,
       "models": {
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 30208,
+          "input": 19579,
+          "modelNameIsFallback": true,
+          "output": 290,
+          "reasoningOutput": 158,
+          "total": 50077
+        },
+        "gpt-5.6-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 14559872,
+          "input": 289242,
+          "output": 40741,
+          "reasoningOutput": 17284,
+          "total": 14889855
+        },
         "gpt-5.6-terra": {
           "cacheCreation": 0,
-          "cacheRead": 677632,
-          "input": 61266,
-          "output": 6277,
-          "reasoningOutput": 2688,
-          "total": 745175
+          "cacheRead": 1308416,
+          "input": 71599,
+          "output": 11144,
+          "reasoningOutput": 4275,
+          "total": 1391159
+        },
+        "gpt-6-astra": {
+          "cacheCreation": 0,
+          "cacheRead": 240128,
+          "input": 82866,
+          "output": 454,
+          "reasoningOutput": 0,
+          "total": 323448
         }
       },
-      "output": 6277,
-      "reasoningOutput": 2688,
-      "total": 745175
+      "output": 52629,
+      "reasoningOutput": 21717,
+      "total": 16654539
     }
   },
   "status": "partial",
