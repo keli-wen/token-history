@@ -1,0 +1,64 @@
+{
+  "ccusageVersion": "20.0.46",
+  "collectedAt": "2026-10-31T16:30:15Z",
+  "date": "2026-11-01",
+  "host": "mac-a",
+  "sources": {
+    "claude": {
+      "cacheCreation": 0,
+      "cacheRead": 201801,
+      "costUSD": 0.12299,
+      "input": 139552,
+      "models": {
+        "models/gemini-3.8-flash": {
+          "cacheCreation": 0,
+          "cacheRead": 201801,
+          "costUSD": 0.12299,
+          "input": 139552,
+          "output": 851,
+          "total": 342204
+        }
+      },
+      "output": 851,
+      "total": 342204
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 5744088,
+      "costUSD": 1.326836,
+      "input": 410328,
+      "models": {
+        "google/models/gemini-4-argon": {
+          "cacheCreation": 0,
+          "cacheRead": 4683480,
+          "input": 370200,
+          "output": 5108,
+          "reasoningOutput": 0,
+          "total": 5058788
+        },
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 351872,
+          "input": 31979,
+          "modelNameIsFallback": true,
+          "output": 553,
+          "reasoningOutput": 282,
+          "total": 384404
+        },
+        "gpt-6.1-terra": {
+          "cacheCreation": 0,
+          "cacheRead": 708736,
+          "input": 8149,
+          "output": 1865,
+          "reasoningOutput": 548,
+          "total": 718750
+        }
+      },
+      "output": 7526,
+      "reasoningOutput": 830,
+      "total": 6161942
+    }
+  },
+  "status": "partial",
+  "timezone": "Asia/Shanghai"
+}
