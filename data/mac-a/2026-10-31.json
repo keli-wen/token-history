@@ -1,6 +1,6 @@
 {
   "ccusageVersion": "20.0.46",
-  "collectedAt": "2026-10-31T04:00:15Z",
+  "collectedAt": "2026-10-31T13:00:13Z",
   "date": "2026-10-31",
   "host": "mac-a",
   "sources": {
@@ -24,22 +24,55 @@
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 302720,
-      "costUSD": 0.097265,
-      "input": 73709,
+      "cacheRead": 30550038,
+      "costUSD": 13.395369,
+      "input": 5348899,
       "models": {
+        "google/models/gemini-4-argon": {
+          "cacheCreation": 0,
+          "cacheRead": 14334486,
+          "input": 4040563,
+          "output": 53082,
+          "reasoningOutput": 0,
+          "total": 18428131
+        },
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 395776,
+          "input": 96528,
+          "modelNameIsFallback": true,
+          "output": 2173,
+          "reasoningOutput": 1314,
+          "total": 494477
+        },
+        "gpt-6-astra": {
+          "cacheCreation": 0,
+          "cacheRead": 0,
+          "input": 100323,
+          "output": 639,
+          "reasoningOutput": 175,
+          "total": 100962
+        },
+        "gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 1174144,
+          "input": 89957,
+          "output": 5646,
+          "reasoningOutput": 1104,
+          "total": 1269747
+        },
         "gpt-6.1-terra": {
           "cacheCreation": 0,
-          "cacheRead": 302720,
-          "input": 73709,
-          "output": 1684,
-          "reasoningOutput": 18,
-          "total": 378113
+          "cacheRead": 14645632,
+          "input": 1021528,
+          "output": 30760,
+          "reasoningOutput": 1952,
+          "total": 15697920
         }
       },
-      "output": 1684,
-      "reasoningOutput": 18,
-      "total": 378113
+      "output": 92300,
+      "reasoningOutput": 4545,
+      "total": 35991237
     }
   },
   "status": "partial",
