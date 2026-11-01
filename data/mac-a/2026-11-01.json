@@ -1,14 +1,14 @@
 {
   "ccusageVersion": "20.0.46",
-  "collectedAt": "2026-11-01T13:00:15Z",
+  "collectedAt": "2026-11-01T16:30:14Z",
   "date": "2026-11-01",
   "host": "mac-a",
   "sources": {
     "claude": {
       "cacheCreation": 0,
-      "cacheRead": 8180120,
-      "costUSD": 1.969145,
-      "input": 568183,
+      "cacheRead": 12362131,
+      "costUSD": 5.445435,
+      "input": 1851482,
       "models": {
         "gpt-6.1-terra": {
           "cacheCreation": 0,
@@ -20,39 +20,39 @@
         },
         "models/gemini-4-argon": {
           "cacheCreation": 0,
-          "cacheRead": 2343449,
-          "costUSD": 1.516423,
-          "input": 540879,
-          "output": 20032,
-          "total": 2904360
+          "cacheRead": 6525460,
+          "costUSD": 4.992712,
+          "input": 1824178,
+          "output": 69181,
+          "total": 8418819
         }
       },
-      "output": 46749,
-      "total": 8795052
+      "output": 95898,
+      "total": 14309511
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 84109790,
-      "costUSD": 35.408993,
-      "input": 13371931,
+      "cacheRead": 88109746,
+      "costUSD": 40.018255,
+      "input": 15332593,
       "models": {
         "google/models/gemini-4-argon": {
           "cacheCreation": 0,
-          "cacheRead": 30641118,
-          "input": 12294488,
+          "cacheRead": 34255026,
+          "input": 14175256,
           "modelNameIsFallback": true,
-          "output": 46803,
+          "output": 84113,
           "reasoningOutput": 0,
-          "total": 42982409
+          "total": 48514395
         },
         "gpt-5.6-luna": {
           "cacheCreation": 0,
           "cacheRead": 5381120,
-          "input": 326402,
+          "input": 357020,
           "modelNameIsFallback": true,
-          "output": 6445,
-          "reasoningOutput": 2771,
-          "total": 5713967
+          "output": 6614,
+          "reasoningOutput": 2880,
+          "total": 5744754
         },
         "gpt-6-astra": {
           "cacheCreation": 0,
@@ -72,18 +72,18 @@
         },
         "gpt-6.1-terra": {
           "cacheCreation": 0,
-          "cacheRead": 41358848,
-          "input": 519841,
-          "output": 65625,
-          "reasoningOutput": 11014,
-          "total": 41944314
+          "cacheRead": 41744896,
+          "input": 569117,
+          "output": 73291,
+          "reasoningOutput": 11231,
+          "total": 42387304
         }
       },
-      "output": 135392,
-      "reasoningOutput": 16905,
-      "total": 97617113
+      "output": 180537,
+      "reasoningOutput": 17231,
+      "total": 103622876
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }

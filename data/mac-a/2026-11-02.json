@@ -1,0 +1,47 @@
+{
+  "ccusageVersion": "20.0.46",
+  "collectedAt": "2026-11-01T16:30:14Z",
+  "date": "2026-11-02",
+  "host": "mac-a",
+  "sources": {
+    "claude": {
+      "cacheCreation": 0,
+      "cacheRead": 7800007,
+      "costUSD": 3.664243,
+      "input": 1306926,
+      "models": {
+        "models/gemini-4-argon": {
+          "cacheCreation": 0,
+          "cacheRead": 7800007,
+          "costUSD": 3.664243,
+          "input": 1306926,
+          "output": 27039,
+          "total": 9133972
+        }
+      },
+      "output": 27039,
+      "total": 9133972
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 3554618,
+      "costUSD": 1.838436,
+      "input": 656462,
+      "models": {
+        "google/models/gemini-4-argon": {
+          "cacheCreation": 0,
+          "cacheRead": 3554618,
+          "input": 656462,
+          "output": 17005,
+          "reasoningOutput": 0,
+          "total": 4228085
+        }
+      },
+      "output": 17005,
+      "reasoningOutput": 0,
+      "total": 4228085
+    }
+  },
+  "status": "partial",
+  "timezone": "Asia/Shanghai"
+}
