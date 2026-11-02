@@ -1,45 +1,62 @@
 {
-  "ccusageVersion": "20.0.46",
-  "collectedAt": "2026-11-01T16:30:14Z",
+  "ccusageVersion": "20.0.47",
+  "collectedAt": "2026-11-02T02:44:57Z",
   "date": "2026-11-02",
   "host": "mac-a",
   "sources": {
     "claude": {
       "cacheCreation": 0,
-      "cacheRead": 7800007,
-      "costUSD": 3.664243,
-      "input": 1306926,
+      "cacheRead": 15951497,
+      "costUSD": 8.298456,
+      "input": 2924783,
       "models": {
         "models/gemini-4-argon": {
           "cacheCreation": 0,
-          "cacheRead": 7800007,
-          "costUSD": 3.664243,
-          "input": 1306926,
-          "output": 27039,
-          "total": 9133972
+          "cacheRead": 15951497,
+          "costUSD": 8.298456,
+          "input": 2924783,
+          "output": 85374,
+          "total": 18961654
         }
       },
-      "output": 27039,
-      "total": 9133972
+      "output": 85374,
+      "total": 18961654
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 3554618,
-      "costUSD": 1.838436,
-      "input": 656462,
+      "cacheRead": 19172783,
+      "costUSD": 4.320802,
+      "input": 1354919,
       "models": {
         "google/models/gemini-4-argon": {
           "cacheCreation": 0,
-          "cacheRead": 3554618,
-          "input": 656462,
-          "output": 17005,
+          "cacheRead": 13161391,
+          "input": 973034,
+          "output": 36737,
           "reasoningOutput": 0,
-          "total": 4228085
+          "total": 14171162
+        },
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 513024,
+          "input": 60266,
+          "modelNameIsFallback": true,
+          "output": 1003,
+          "reasoningOutput": 464,
+          "total": 574293
+        },
+        "gpt-6.1-terra": {
+          "cacheCreation": 0,
+          "cacheRead": 5498368,
+          "input": 321619,
+          "output": 14234,
+          "reasoningOutput": 882,
+          "total": 5834221
         }
       },
-      "output": 17005,
-      "reasoningOutput": 0,
-      "total": 4228085
+      "output": 51974,
+      "reasoningOutput": 1346,
+      "total": 20579676
     }
   },
   "status": "partial",
