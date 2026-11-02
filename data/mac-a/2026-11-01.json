@@ -1,14 +1,14 @@
 {
   "ccusageVersion": "20.0.47",
-  "collectedAt": "2026-11-02T04:00:13Z",
+  "collectedAt": "2026-11-02T13:17:02Z",
   "date": "2026-11-01",
   "host": "mac-a",
   "sources": {
     "claude": {
       "cacheCreation": 0,
-      "cacheRead": 12362131,
-      "costUSD": 5.445435,
-      "input": 1851482,
+      "cacheRead": 5836671,
+      "costUSD": 0.452723,
+      "input": 27304,
       "models": {
         "gpt-6.1-terra": {
           "cacheCreation": 0,
@@ -17,18 +17,10 @@
           "input": 27304,
           "output": 26717,
           "total": 5890692
-        },
-        "models/gemini-4-argon": {
-          "cacheCreation": 0,
-          "cacheRead": 6525460,
-          "costUSD": 4.992712,
-          "input": 1824178,
-          "output": 69181,
-          "total": 8418819
         }
       },
-      "output": 95898,
-      "total": 14309511
+      "output": 26717,
+      "total": 5890692
     },
     "codex": {
       "cacheCreation": 0,
