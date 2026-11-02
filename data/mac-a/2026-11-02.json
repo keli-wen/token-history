@@ -1,6 +1,6 @@
 {
   "ccusageVersion": "20.0.47",
-  "collectedAt": "2026-11-02T13:17:02Z",
+  "collectedAt": "2026-11-02T16:30:14Z",
   "date": "2026-11-02",
   "host": "mac-a",
   "sources": {
@@ -24,57 +24,57 @@
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 305783487,
-      "costUSD": 76.421393,
-      "input": 8577482,
+      "cacheRead": 328274370,
+      "costUSD": 84.386432,
+      "input": 10419911,
       "models": {
         "google/models/gemini-4-argon": {
           "cacheCreation": 0,
-          "cacheRead": 35737535,
-          "input": 2619901,
-          "output": 114945,
+          "cacheRead": 40412354,
+          "input": 3639478,
+          "output": 143537,
           "reasoningOutput": 0,
-          "total": 38472381
+          "total": 44195369
         },
         "gpt-5.6-luna": {
           "cacheCreation": 0,
-          "cacheRead": 14824064,
-          "input": 1696772,
+          "cacheRead": 16420736,
+          "input": 2055072,
           "modelNameIsFallback": true,
-          "output": 30118,
-          "reasoningOutput": 14349,
-          "total": 16550954
+          "output": 35159,
+          "reasoningOutput": 17038,
+          "total": 18510967
         },
         "gpt-6-astra": {
           "cacheCreation": 0,
-          "cacheRead": 35090304,
-          "input": 297340,
-          "output": 59069,
-          "reasoningOutput": 11333,
-          "total": 35446713
+          "cacheRead": 35529728,
+          "input": 386130,
+          "output": 64456,
+          "reasoningOutput": 11702,
+          "total": 35980314
         },
         "gpt-6.1-sol": {
           "cacheCreation": 0,
-          "cacheRead": 45184128,
-          "input": 1489359,
-          "output": 142590,
-          "reasoningOutput": 48928,
-          "total": 46816077
+          "cacheRead": 60160896,
+          "input": 1702022,
+          "output": 181508,
+          "reasoningOutput": 65351,
+          "total": 62044426
         },
         "gpt-6.1-terra": {
           "cacheCreation": 0,
-          "cacheRead": 174947456,
-          "input": 2474110,
-          "output": 161175,
-          "reasoningOutput": 15011,
-          "total": 177582741
+          "cacheRead": 175750656,
+          "input": 2637209,
+          "output": 163342,
+          "reasoningOutput": 15213,
+          "total": 178551207
         }
       },
-      "output": 507897,
-      "reasoningOutput": 89621,
-      "total": 314868866
+      "output": 588002,
+      "reasoningOutput": 109304,
+      "total": 339282283
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
