@@ -1,40 +1,40 @@
 {
   "ccusageVersion": "20.0.48",
-  "collectedAt": "2026-11-08T13:00:11Z",
+  "collectedAt": "2026-11-08T16:30:11Z",
   "date": "2026-11-08",
   "host": "mac-a",
   "sources": {
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 245386752,
-      "costUSD": 93.01474,
-      "input": 5038523,
+      "cacheRead": 255266176,
+      "costUSD": 105.074381,
+      "input": 5711427,
       "models": {
         "gpt-5.6-luna": {
           "cacheCreation": 0,
-          "cacheRead": 16995456,
-          "input": 1327683,
+          "cacheRead": 17260416,
+          "input": 1412885,
           "modelNameIsFallback": true,
-          "output": 26402,
-          "reasoningOutput": 10322,
-          "total": 18349541
+          "output": 27711,
+          "reasoningOutput": 10939,
+          "total": 18701012
         },
         "gpt-6-astra": {
           "cacheCreation": 0,
-          "cacheRead": 23914112,
-          "input": 785792,
-          "output": 37333,
-          "reasoningOutput": 4894,
-          "total": 24737237
+          "cacheRead": 25622144,
+          "input": 1128180,
+          "output": 39642,
+          "reasoningOutput": 5010,
+          "total": 26789966
         },
         "gpt-6.1-sol": {
           "cacheCreation": 0,
-          "cacheRead": 183721600,
-          "input": 2134670,
+          "cacheRead": 191628032,
+          "input": 2379984,
           "modelNameIsFallback": true,
-          "output": 798994,
-          "reasoningOutput": 391069,
-          "total": 186655264
+          "output": 830740,
+          "reasoningOutput": 394862,
+          "total": 194838756
         },
         "gpt-6.1-terra": {
           "cacheCreation": 0,
@@ -45,11 +45,11 @@
           "total": 21563526
         }
       },
-      "output": 880293,
-      "reasoningOutput": 408839,
-      "total": 251305568
+      "output": 915657,
+      "reasoningOutput": 413365,
+      "total": 261893260
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
