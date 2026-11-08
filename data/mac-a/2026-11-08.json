@@ -1,45 +1,53 @@
 {
   "ccusageVersion": "20.0.48",
-  "collectedAt": "2026-11-08T04:00:09Z",
+  "collectedAt": "2026-11-08T13:00:11Z",
   "date": "2026-11-08",
   "host": "mac-a",
   "sources": {
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 59517056,
-      "costUSD": 21.778442,
-      "input": 1272077,
+      "cacheRead": 245386752,
+      "costUSD": 93.01474,
+      "input": 5038523,
       "models": {
         "gpt-5.6-luna": {
           "cacheCreation": 0,
-          "cacheRead": 2885760,
-          "input": 217881,
+          "cacheRead": 16995456,
+          "input": 1327683,
           "modelNameIsFallback": true,
-          "output": 4826,
-          "reasoningOutput": 1851,
-          "total": 3108467
+          "output": 26402,
+          "reasoningOutput": 10322,
+          "total": 18349541
         },
         "gpt-6-astra": {
           "cacheCreation": 0,
-          "cacheRead": 4920192,
-          "input": 468257,
-          "output": 9518,
-          "reasoningOutput": 504,
-          "total": 5397967
+          "cacheRead": 23914112,
+          "input": 785792,
+          "output": 37333,
+          "reasoningOutput": 4894,
+          "total": 24737237
         },
         "gpt-6.1-sol": {
           "cacheCreation": 0,
-          "cacheRead": 51711104,
-          "input": 585939,
+          "cacheRead": 183721600,
+          "input": 2134670,
           "modelNameIsFallback": true,
-          "output": 304175,
-          "reasoningOutput": 187580,
-          "total": 52601218
+          "output": 798994,
+          "reasoningOutput": 391069,
+          "total": 186655264
+        },
+        "gpt-6.1-terra": {
+          "cacheCreation": 0,
+          "cacheRead": 20755584,
+          "input": 790378,
+          "output": 17564,
+          "reasoningOutput": 2554,
+          "total": 21563526
         }
       },
-      "output": 318519,
-      "reasoningOutput": 189935,
-      "total": 61107652
+      "output": 880293,
+      "reasoningOutput": 408839,
+      "total": 251305568
     }
   },
   "status": "partial",
