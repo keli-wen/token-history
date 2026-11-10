@@ -1,23 +1,31 @@
 {
   "ccusageVersion": "20.0.48",
-  "collectedAt": "2026-11-10T13:00:12Z",
+  "collectedAt": "2026-11-10T16:30:14Z",
   "date": "2026-11-10",
   "host": "mac-a",
   "sources": {
     "codex": {
       "cacheCreation": 292067,
-      "cacheRead": 2823321,
-      "costUSD": 0.988225,
-      "input": 67101,
+      "cacheRead": 4305513,
+      "costUSD": 2.733744,
+      "input": 902979,
       "models": {
+        "google/models/gemini-4-argon": {
+          "cacheCreation": 0,
+          "cacheRead": 596944,
+          "input": 675838,
+          "output": 14862,
+          "reasoningOutput": 0,
+          "total": 1287644
+        },
         "gpt-5.6-luna": {
           "cacheCreation": 0,
-          "cacheRead": 75648,
-          "input": 26174,
+          "cacheRead": 123136,
+          "input": 57060,
           "modelNameIsFallback": true,
-          "output": 826,
-          "reasoningOutput": 598,
-          "total": 102648
+          "output": 1188,
+          "reasoningOutput": 716,
+          "total": 181384
         },
         "gpt-6-astra": {
           "cacheCreation": 0,
@@ -26,6 +34,14 @@
           "output": 813,
           "reasoningOutput": 0,
           "total": 62687
+        },
+        "gpt-6.1-terra": {
+          "cacheCreation": 0,
+          "cacheRead": 837760,
+          "input": 129154,
+          "output": 1385,
+          "reasoningOutput": 133,
+          "total": 968299
         },
         "openai/gpt-6.1-terra": {
           "cacheCreation": 292067,
@@ -36,11 +52,11 @@
           "total": 3040495
         }
       },
-      "output": 23341,
-      "reasoningOutput": 10176,
-      "total": 3205830
+      "output": 39950,
+      "reasoningOutput": 10427,
+      "total": 5540509
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
