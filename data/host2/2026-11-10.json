@@ -1,0 +1,29 @@
+{
+  "ccusageVersion": "20.0.48",
+  "collectedAt": "2026-11-10T04:00:08Z",
+  "date": "2026-11-10",
+  "host": "host2",
+  "sources": {
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 352896,
+      "costUSD": 0.43075,
+      "input": 44118,
+      "models": {
+        "gpt-5.6-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 352896,
+          "input": 44118,
+          "output": 5656,
+          "reasoningOutput": 2086,
+          "total": 402670
+        }
+      },
+      "output": 5656,
+      "reasoningOutput": 2086,
+      "total": 402670
+    }
+  },
+  "status": "partial",
+  "timezone": "Asia/Shanghai"
+}
