@@ -58,9 +58,9 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="tn" x="774" y="325.0" font-size="12.5" font-weight="600">0</text>
 <circle class="s-codex dot" cx="764" cy="260.0" r="4"/>
 <text class="t2" x="774" y="264.0" font-size="12">Codex</text>
-<text class="tn" x="774" y="281.0" font-size="12.5" font-weight="600">27K</text>
+<text class="tn" x="774" y="281.0" font-size="12.5" font-weight="600">255K</text>
 <circle class="dot" cx="285.8" cy="102.6" r="3.5" fill="var(--primary)"/>
 <text class="t" x="285.8" y="92.6" font-size="11.5" font-weight="600" text-anchor="middle">1.4B</text>
 </g>
-<text class="tm" x="28" y="366" font-size="10.5">Generated 2026-11-10 16:30 UTC</text>
+<text class="tm" x="28" y="366" font-size="10.5">Generated 2026-11-11 04:00 UTC</text>
 </svg>
