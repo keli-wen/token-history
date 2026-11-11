@@ -545,7 +545,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px m-codex-terra" x="778" y="348" width="8" height="8"><title>TERRA</title></rect>
 <rect class="px bg" x="781" y="351" width="2" height="2"/>
 </g>
-<g class="col wip" style="animation-delay:504ms">
+<g class="col" style="animation-delay:504ms">
 <rect class="px s-codex" x="804" y="348" width="8" height="8"><title>CODEX</title></rect>
 <rect class="px s-codex" x="814" y="348" width="8" height="8"><title>CODEX</title></rect>
 <rect class="px s-codex" x="804" y="338" width="8" height="8"><title>CODEX</title></rect>
