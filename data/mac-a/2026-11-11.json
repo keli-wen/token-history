@@ -1,27 +1,44 @@
 {
   "ccusageVersion": "20.0.49",
-  "collectedAt": "2026-11-11T04:00:17Z",
+  "collectedAt": "2026-11-11T13:00:13Z",
   "date": "2026-11-11",
   "host": "mac-a",
   "sources": {
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 135680,
-      "costUSD": 1.45993,
-      "input": 116350,
+      "cacheRead": 204984064,
+      "costUSD": 134.237676,
+      "input": 4265229,
       "models": {
         "gpt-6-astra": {
           "cacheCreation": 0,
-          "cacheRead": 135680,
-          "input": 116350,
-          "output": 3215,
-          "reasoningOutput": 0,
-          "total": 255245
+          "cacheRead": 58129024,
+          "input": 766362,
+          "modelNameIsFallback": true,
+          "output": 211442,
+          "reasoningOutput": 121792,
+          "total": 59106828
+        },
+        "gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 146444416,
+          "input": 3397457,
+          "output": 502482,
+          "reasoningOutput": 115024,
+          "total": 150344355
+        },
+        "gpt-6.1-terra": {
+          "cacheCreation": 0,
+          "cacheRead": 410624,
+          "input": 101410,
+          "output": 4717,
+          "reasoningOutput": 116,
+          "total": 516751
         }
       },
-      "output": 3215,
-      "reasoningOutput": 0,
-      "total": 255245
+      "output": 718641,
+      "reasoningOutput": 236932,
+      "total": 209967934
     }
   },
   "status": "partial",
