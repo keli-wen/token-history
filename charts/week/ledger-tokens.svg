@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="652" viewBox="0 0 880 652" role="img" aria-label="Weekly ledger">
 <style>
-svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old Style",serif;--fm:ui-monospace,"SF Mono",Menlo,Consolas,monospace;--surface:#faf9f5; --primary:#141413; --secondary:#53524b; --muted:#8a887f; --grid:#e8e6dc; --axis:#cbc8bc; --claude:#d06a41; --codex:#4382c9; --ramp0:#edeae0; --ramp1:#f2cdb9; --ramp2:#e59a70; --ramp3:#d06a41; --ramp4:#9c4a26; --ink3:#141413; --ink4:#ffffff;}
-@media (prefers-color-scheme: dark){svg{--surface:#141413; --primary:#faf9f5; --secondary:#b0aea5; --muted:#85837a; --grid:#292824; --axis:#383630; --claude:#db7448; --codex:#5b95d6; --ramp0:#232221; --ramp1:#4b2b1b; --ramp2:#8a4526; --ramp3:#cf6a3e; --ramp4:#f0a37a; --ink3:#141413; --ink4:#141413;}}
+svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old Style",serif;--fm:ui-monospace,"SF Mono",Menlo,Consolas,monospace;--surface:#faf9f5; --primary:#141413; --secondary:#53524b; --muted:#8a887f; --grid:#e8e6dc; --axis:#cbc8bc; --claude:#d06a41; --codex:#4382c9; --gemini:#7f4aa3; --ramp0:#edeae0; --ramp1:#f2cdb9; --ramp2:#e59a70; --ramp3:#d06a41; --ramp4:#9c4a26; --ink3:#141413; --ink4:#ffffff;}
+@media (prefers-color-scheme: dark){svg{--surface:#141413; --primary:#faf9f5; --secondary:#b0aea5; --muted:#85837a; --grid:#292824; --axis:#383630; --claude:#db7448; --codex:#5b95d6; --gemini:#8e58b3; --ramp0:#232221; --ramp1:#4b2b1b; --ramp2:#8a4526; --ramp3:#cf6a3e; --ramp4:#f0a37a; --ink3:#141413; --ink4:#141413;}}
 .bg{fill:var(--surface)}
 .grid{stroke:var(--grid);stroke-width:1;shape-rendering:crispEdges}
 .axis{stroke:var(--axis);stroke-width:1;shape-rendering:crispEdges}
@@ -10,7 +10,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 .tm{font-family:var(--f);fill:var(--muted);font-variant-numeric:tabular-nums}
 .ts{font-family:var(--fs);fill:var(--primary)}
 .tn{font-family:var(--fm);fill:var(--primary);font-variant-numeric:tabular-nums}
-.s-claude{fill:var(--claude)}.s-codex{fill:var(--codex)}
+.s-claude{fill:var(--claude)}.s-codex{fill:var(--codex)}.s-gemini{fill:var(--gemini)}
 .r0{fill:var(--ramp0)}.r1{fill:var(--ramp1)}.r2{fill:var(--ramp2)}.r3{fill:var(--ramp3)}.r4{fill:var(--ramp4)}
 .on3{fill:var(--ink3)}.on4{fill:var(--ink4)}
 .wip{opacity:.5}
@@ -23,6 +23,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="t2" x="44" y="73" font-size="12">Claude Code</text>
 <rect class="s-codex" x="127" y="64" width="10" height="10" rx="2"/>
 <text class="t2" x="143" y="73" font-size="12">Codex</text>
+<rect class="s-gemini" x="184" y="64" width="10" height="10" rx="2"/>
+<text class="t2" x="200" y="73" font-size="12">Gemini</text>
 <line class="grid" x1="28" y1="128" x2="848" y2="128"/>
 <text class="t2" x="28" y="116.0" font-size="12.5">Nov 09 – 15</text>
 <path class="s-codex wip" d="M186.0,105.5 H380.8 A6.0,6.0 0 0 1 386.8,111.5 V112.5 A6.0,6.0 0 0 1 380.8,118.5 H186.0 A6.0,6.0 0 0 1 180.0,112.5 V111.5 A6.0,6.0 0 0 1 186.0,105.5 Z"/>
@@ -102,5 +104,5 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <path class="s-claude" d="M186.0,585.5 H213.3 V598.5 H186.0 A6.0,6.0 0 0 1 180.0,592.5 V591.5 A6.0,6.0 0 0 1 186.0,585.5 Z"/>
 <path class="s-codex" d="M215.3,585.5 H249.4 A6.0,6.0 0 0 1 255.4,591.5 V592.5 A6.0,6.0 0 0 1 249.4,598.5 H215.3 V585.5 Z"/>
 <text class="tm" x="848" y="596.0" font-size="12" text-anchor="end">570M</text>
-<text class="tm" x="28" y="638" font-size="10.5">Generated 2026-11-13 04:00 UTC</text>
+<text class="tm" x="28" y="638" font-size="10.5">Generated 2026-11-13 07:27 UTC</text>
 </svg>

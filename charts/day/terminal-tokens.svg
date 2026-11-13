@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="765" viewBox="0 0 880 765" role="img" aria-label="Terminal — daily token usage, last 30 days">
 <style>
-svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old Style",serif;--fm:ui-monospace,"SF Mono",Menlo,Consolas,monospace;--surface:#faf9f5; --primary:#141413; --secondary:#53524b; --muted:#8a887f; --grid:#e8e6dc; --axis:#cbc8bc; --claude:#d06a41; --codex:#4382c9; --ramp0:#edeae0; --ramp1:#f2cdb9; --ramp2:#e59a70; --ramp3:#d06a41; --ramp4:#9c4a26; --ink3:#141413; --ink4:#ffffff;}
-@media (prefers-color-scheme: dark){svg{--surface:#141413; --primary:#faf9f5; --secondary:#b0aea5; --muted:#85837a; --grid:#292824; --axis:#383630; --claude:#db7448; --codex:#5b95d6; --ramp0:#232221; --ramp1:#4b2b1b; --ramp2:#8a4526; --ramp3:#cf6a3e; --ramp4:#f0a37a; --ink3:#141413; --ink4:#141413;}}
+svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old Style",serif;--fm:ui-monospace,"SF Mono",Menlo,Consolas,monospace;--surface:#faf9f5; --primary:#141413; --secondary:#53524b; --muted:#8a887f; --grid:#e8e6dc; --axis:#cbc8bc; --claude:#d06a41; --codex:#4382c9; --gemini:#7f4aa3; --ramp0:#edeae0; --ramp1:#f2cdb9; --ramp2:#e59a70; --ramp3:#d06a41; --ramp4:#9c4a26; --ink3:#141413; --ink4:#ffffff;}
+@media (prefers-color-scheme: dark){svg{--surface:#141413; --primary:#faf9f5; --secondary:#b0aea5; --muted:#85837a; --grid:#292824; --axis:#383630; --claude:#db7448; --codex:#5b95d6; --gemini:#8e58b3; --ramp0:#232221; --ramp1:#4b2b1b; --ramp2:#8a4526; --ramp3:#cf6a3e; --ramp4:#f0a37a; --ink3:#141413; --ink4:#141413;}}
 .bg{fill:var(--surface)}
 .grid{stroke:var(--grid);stroke-width:1;shape-rendering:crispEdges}
 .axis{stroke:var(--axis);stroke-width:1;shape-rendering:crispEdges}
@@ -10,7 +10,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 .tm{font-family:var(--f);fill:var(--muted);font-variant-numeric:tabular-nums}
 .ts{font-family:var(--fs);fill:var(--primary)}
 .tn{font-family:var(--fm);fill:var(--primary);font-variant-numeric:tabular-nums}
-.s-claude{fill:var(--claude)}.s-codex{fill:var(--codex)}
+.s-claude{fill:var(--claude)}.s-codex{fill:var(--codex)}.s-gemini{fill:var(--gemini)}
 .r0{fill:var(--ramp0)}.r1{fill:var(--ramp1)}.r2{fill:var(--ramp2)}.r3{fill:var(--ramp3)}.r4{fill:var(--ramp4)}
 .on3{fill:var(--ink3)}.on4{fill:var(--ink4)}
 .wip{opacity:.5}
@@ -32,7 +32,9 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="tn" x="76.25" y="108" font-size="12"><tspan class="i2">claude-code</tspan></text>
 <text class="tn" x="177.75" y="108" font-size="12" textLength="14.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">██</tspan></text>
 <text class="tn" x="199.50" y="108" font-size="12"><tspan class="i2">codex</tspan></text>
-<text class="tn" x="257.50" y="108" font-size="12"><tspan class="im">stacked · █ ≈ 16M tokens · * in progress (faded)</tspan></text>
+<text class="tn" x="257.50" y="108" font-size="12" textLength="14.50" lengthAdjust="spacingAndGlyphs"><tspan class="s-gemini">██</tspan></text>
+<text class="tn" x="279.25" y="108" font-size="12"><tspan class="i2">gemini</tspan></text>
+<text class="tn" x="344.50" y="108" font-size="12"><tspan class="im">stacked · █ ≈ 16M tokens · * in progress (faded)</tspan></text>
 <g class="row" style="animation-delay:0ms">
 <text class="tn" x="40" y="142" font-size="12"><tspan class="im">10-15</tspan></text>
 <text class="tn" x="98.00" y="142" font-size="12" textLength="65.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">████████▏</tspan></text>
@@ -207,9 +209,11 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="tn" x="40" y="669" font-size="12" font-weight="700">TOTAL  12.10B tokens<tspan class="i2" font-weight="400"> · $5,836 API-equivalent</tspan></text>
 <text class="tn" x="90.75" y="686" font-size="12" textLength="7.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-claude">█</tspan></text>
 <text class="tn" x="105.25" y="686" font-size="12"><tspan class="i2">claude-code 5.4B (45%)</tspan></text>
-<text class="tn" x="286.50" y="686" font-size="12" textLength="7.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">█</tspan></text>
-<text class="tn" x="301.00" y="686" font-size="12"><tspan class="i2">codex 6.7B (55%)</tspan></text>
-<text class="tn" x="438.75" y="686" font-size="12"><tspan class="im">peak 1.4B on 10-22</tspan></text>
-<text class="tn" x="40" y="720" font-size="12"><tspan class="im"># Generated 2026-11-13 04:00 UTC</tspan></text>
+<text class="tn" x="279.25" y="686" font-size="12" textLength="7.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-codex">█</tspan></text>
+<text class="tn" x="293.75" y="686" font-size="12"><tspan class="i2">codex 6.7B (55%)</tspan></text>
+<text class="tn" x="424.25" y="686" font-size="12" textLength="7.25" lengthAdjust="spacingAndGlyphs"><tspan class="s-gemini">█</tspan></text>
+<text class="tn" x="438.75" y="686" font-size="12"><tspan class="i2">gemini 0 (0%)</tspan></text>
+<text class="tn" x="547.50" y="686" font-size="12"><tspan class="im">peak 1.4B on 10-22</tspan></text>
+<text class="tn" x="40" y="720" font-size="12"><tspan class="im"># Generated 2026-11-13 07:27 UTC</tspan></text>
 <text class="tn" x="40" y="737" font-size="12"><tspan class="im">$ </tspan><tspan class="cur">█</tspan></text>
 </svg>

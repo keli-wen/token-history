@@ -77,11 +77,10 @@ def build_terminal(days, generated):
     rows = render.bucket(days, 30)
     n = len(rows)
 
-    totals = [r["claude"]["total"] + r["codex"]["total"] for r in rows]
+    totals = [sum(r[s]["total"] for s, _ in render.SERIES) for r in rows]
     grand = sum(totals)
-    grand_claude = sum(r["claude"]["total"] for r in rows)
-    grand_codex = sum(r["codex"]["total"] for r in rows)
-    cost = sum(r["claude"]["costUSD"] + r["codex"]["costUSD"] for r in rows)
+    grand_by = {s: sum(r[s]["total"] for r in rows) for s, _ in render.SERIES}
+    cost = sum(sum(r[s]["costUSD"] for s, _ in render.SERIES) for r in rows)
     peak = max(totals + [1])
     peak_idx = totals.index(max(totals)) if any(totals) else -1
     scale = peak / float(CELLS)            # tokens per character cell
@@ -160,17 +159,13 @@ def build_terminal(days, generated):
             '</tspan></text>'.format(TEXT_X, y, FS, date_w, date_cls,
                                      row["start"].strftime("%m-%d")))
 
-        cf = row["claude"]["total"] / scale
-        xf = row["codex"]["total"] / scale
-        c_run = _bar_glyphs(cf)
-        x_run = _bar_glyphs(xf)
         wip_cls = " wip" if wip else ""
-        if c_run:
-            _grid_text(add, BAR_X, y, c_run, "s-claude" + wip_cls)
-        if x_run:
-            # Codex starts on the next whole cell after the Claude run; the
-            # fractional end glyph leaves the surface gap between segments.
-            _grid_text(add, BAR_X + len(c_run) * CW, y, x_run, "s-codex" + wip_cls)
+        bx = BAR_X
+        for s, _ in render.SERIES:
+            run = _bar_glyphs(row[s]["total"] / scale)
+            if run:
+                _grid_text(add, bx, y, run, "s-" + s + wip_cls)
+                bx += len(run) * CW
 
         num_w = ' font-weight="700"' if is_peak else ""
         num_cls = "" if is_peak else ' class="i2"'
@@ -197,7 +192,7 @@ def build_terminal(days, generated):
     sy = line(li_split)
     sx = TEXT_X + 7 * CW                   # align under the TOTAL value
     for source, label in render.SERIES:
-        value = grand_claude if source == "claude" else grand_codex
+        value = grand_by[source]
         share = 100.0 * value / grand if grand else 0.0
         _grid_text(add, sx, sy, BLOCK, "s-{}".format(source))
         sx += 2 * CW
@@ -205,8 +200,8 @@ def build_terminal(days, generated):
             label.lower().replace(" ", "-"), render.compact_tokens(value), share)
         add('<text class="tn" x="{:.2f}" y="{}" font-size="{}"><tspan class="i2">{}'
             '</tspan></text>'.format(sx, sy, FS, render.esc(text)))
-        sx += (len(text) + 3) * CW
-    if peak_idx >= 0:
+        sx += (len(text) + 2) * CW
+    if peak_idx >= 0 and sx + 18 * CW < W - WIN_X - PAD_IN:
         add('<text class="tn" x="{:.2f}" y="{}" font-size="{}"><tspan class="im">'
             'peak {} on {}</tspan></text>'.format(
                 sx, sy, FS, render.compact_tokens(peak),

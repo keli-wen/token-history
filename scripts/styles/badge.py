@@ -23,6 +23,7 @@ import render
 # record itself, plus the shields classic brightgreen for the streak stat.
 ORANGE = "#d06a41"   # Claude accent (light-mode validated brand value)
 BLUE = "#4382c9"     # Codex accent
+PURPLE = "#7f4aa3"   # Gemini accent
 GREEN = "#4c1"       # shields brightgreen, streak-style stats
 LABEL_BG = "#555"    # shields flat label segment
 
@@ -128,11 +129,14 @@ def build_all(days, generated):
     avg = total30 / float(active) if active else 0
     claude30 = sum(r["claude"]["total"] for r in rows)
     codex30 = sum(r["codex"]["total"] for r in rows)
-    if claude30 + codex30 > 0:
-        claude_pct = int(round(100.0 * claude30 / (claude30 + codex30)))
+    gemini30 = sum(r["gemini"]["total"] for r in rows)
+    split_sum = claude30 + codex30 + gemini30
+    if split_sum > 0:
+        claude_pct = int(round(100.0 * claude30 / split_sum))
+        codex_pct = int(round(100.0 * codex30 / split_sum))
+        gemini_pct = max(0, 100 - claude_pct - codex_pct)
     else:
-        claude_pct = 0
-    codex_pct = 100 - claude_pct if claude30 + codex30 > 0 else 0
+        claude_pct = codex_pct = gemini_pct = 0
 
     # active-day streak: consecutive recorded days with usage, ending on the
     # newest day in the record (a missing date breaks the streak)
@@ -152,8 +156,10 @@ def build_all(days, generated):
          [(render.compact_cost(cost30), BLUE)]),
         ("badge/daily-avg.svg", "daily avg",
          [(render.compact_tokens(avg), BLUE)]),
-        ("badge/split-30d.svg", "claude / codex",
-         [("{}%".format(claude_pct), ORANGE), ("{}%".format(codex_pct), BLUE)]),
+        ("badge/split-30d.svg", "claude / codex / gemini",
+         [("{}%".format(claude_pct), ORANGE),
+          ("{}%".format(codex_pct), BLUE),
+          ("{}%".format(gemini_pct), PURPLE)]),
         ("badge/streak.svg", "streak",
          [("{} day{}".format(streak, "" if streak == 1 else "s"), GREEN)]),
     ]

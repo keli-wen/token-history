@@ -32,6 +32,7 @@ SKETCH_CSS = (
     ".ln{{fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}}"
     ".lc{{stroke:var(--claude)}}"
     ".lx{{stroke:var(--codex)}}"
+    ".lg{{stroke:var(--gemini)}}"
     ".draw{{stroke-dasharray:3200;animation:dw 1.5s ease-out both}}"
     "@keyframes dw{{from{{stroke-dashoffset:3200}}to{{stroke-dashoffset:0}}}}"
     ".late{{animation:fi .5s ease-out 1.25s both}}"
@@ -145,12 +146,12 @@ def _scribble_ellipse(cx, cy, rx, ry, tag):
 
 def _build_sketch(rows, generated):
     n = len(rows)
-    claude_v = [r["claude"]["total"] for r in rows]
-    codex_v = [r["codex"]["total"] for r in rows]
-    peak = max(claude_v + codex_v + [0])
+    per_s = {s: [r[s]["total"] for r in rows] for s, _ in render.SERIES}
+    all_vals = [v for vals in per_s.values() for v in vals]
+    peak = max(all_vals + [0])
     ticks = render.nice_ticks(peak)
     top = ticks[-1] or 1
-    grand = sum(claude_v) + sum(codex_v)
+    grand = sum(all_vals)
     partial_last = bool(rows[-1].get("partial"))
 
     def x_of(i):
@@ -215,30 +216,40 @@ def _build_sketch(rows, generated):
         hand_text(x, base_y + 22, 12, rows[i]["start"].strftime("%b %d").upper(),
                   cls="hxm", anchor="middle")
 
-    # ---- the two wobbly lines (draw-in animation; resting state fully visible)
+    # ---- the wobbly lines (draw-in animation; resting state fully visible)
+    line_specs = (
+        ("claude", "lc", "0s", "CLAUDE CODE", "var(--claude)"),
+        ("codex", "lx", ".3s", "CODEX", "var(--codex)"),
+        ("gemini", "lg", ".6s", "GEMINI", "var(--gemini)"),
+    )
     series_geom = {}
-    for source, key, vals, cls, delay in (
-            ("claude", "lc", claude_v, "ln lc draw", "0s"),
-            ("codex", "lx", codex_v, "ln lx draw", ".3s")):
+    for source, cls_k, delay, _, _ in line_specs:
+        vals = per_s[source]
         pts = [(x_of(i), y_of(v)) for i, v in enumerate(vals)]
         series_geom[source] = pts
-        add('<path class="{}" style="animation-delay:{}" d="{}"/>'.format(
-            cls, delay, _sketch_path(pts, "line-" + source, amp=2.1, step=8.0,
-                                     overshoot=3.0)))
+        add('<path class="ln {} draw" style="animation-delay:{}" d="{}"/>'.format(
+            cls_k, delay, _sketch_path(pts, "line-" + source, amp=2.1, step=8.0,
+                                       overshoot=3.0)))
 
     # ---- direct hand-written labels at the line ends, with curvy arrows
     mark = "*" if partial_last else ""
-    end_c, end_x = y_of(claude_v[-1]), y_of(codex_v[-1])
     lab_x = PAD_L + PLOT_W + 34
-    y_c, y_x = end_c, end_x
-    if abs(y_c - y_x) < 42:  # push apart if the lines end close together
-        mid = (y_c + y_x) / 2.0
-        y_c, y_x = ((mid - 21, mid + 21) if y_c <= y_x else (mid + 21, mid - 21))
-    y_c = min(max(y_c, PAD_T + 12), base_y - 26)
-    y_x = min(max(y_x, PAD_T + 12), base_y - 26)
-    for source, name, val, ly, ey, stroke in (
-            ("claude", "CLAUDE CODE", claude_v[-1], y_c, end_c, "var(--claude)"),
-            ("codex", "CODEX", codex_v[-1], y_x, end_x, "var(--codex)")):
+    ends = sorted(
+        [(y_of(per_s[s][-1]), s, lbl, per_s[s][-1], stroke)
+         for s, _, _, lbl, stroke in line_specs],
+        key=lambda t: t[0],
+    )
+    placed_y = [min(max(e[0], PAD_T + 12), base_y - 24) for e in ends]
+    for i in range(1, len(placed_y)):
+        if placed_y[i] - placed_y[i - 1] < 40:
+            placed_y[i] = placed_y[i - 1] + 40
+    if placed_y[-1] > base_y - 18:
+        shift = placed_y[-1] - (base_y - 18)
+        placed_y = [y - shift for y in placed_y]
+        for i in range(len(placed_y) - 2, -1, -1):
+            if placed_y[i + 1] - placed_y[i] < 40:
+                placed_y[i] = placed_y[i + 1] - 40
+    for (ey, source, name, val, stroke), ly in zip(ends, placed_y):
         d, ang = _curve_arrow(lab_x - 2, ly - 4, PAD_L + PLOT_W + 7, ey,
                               10.0 if ey > ly else -10.0)
         add('<g class="late">')
@@ -252,10 +263,8 @@ def _build_sketch(rows, generated):
 
     # ---- xkcd annotation: scribble around the peak point + dry caption
     if peak > 0:
-        if peak in codex_v:
-            p_src, p_i = "codex", codex_v.index(peak)
-        else:
-            p_src, p_i = "claude", claude_v.index(peak)
+        p_src = max(per_s, key=lambda s: max(per_s[s]))
+        p_i = per_s[p_src].index(peak)
         px, py = x_of(p_i), y_of(peak)
         add('<g class="late">')
         add('<path class="ink" stroke-width="1.6" d="{}"/>'.format(

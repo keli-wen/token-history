@@ -3,7 +3,7 @@
 
   "timezone": "Asia/Shanghai",
 
-  "sources": ["claude", "codex"],
+  "sources": ["claude", "codex", "gemini", "antigravity"],
 
   "recall": {
     "min_days": 3,

@@ -22,12 +22,12 @@
 
 - **Snapshots your usage into git, daily.** AI coding tools keep usage data only on your disk and quietly expire it — history you don't persist is history you lose. Every number lands in git before that happens, permanently yours.
 - **Renders a whole gallery of SVG charts and badges** — self-updating, and embeddable in a GitHub profile README, a blog, or anywhere an `<img>` tag works.
-- **Merges every machine and every source.** Multiple hosts combine into one history; Claude Code and Codex are the first two sources (riding on ccusage), with more models and feeds on the roadmap.
+- **Merges every machine and every source.** Multiple hosts combine into one history; Claude Code, Codex, and Gemini (including Antigravity via ccusage) are supported out of the box, with more feeds on the roadmap.
 - **Sets itself up through your agent.** Hand Claude Code or Codex [one link](#-for-agents-recommended) and say *"set this up"* — it walks itself from fork to first push.
 
 The repo keeps a day-by-day history; the headline chart shows the last 30 days, and every render also produces [an entire gallery of other styles](#chart-gallery) across daily, weekly, and monthly granularity.
 
-<img src="./charts/day/pixel-tokens.svg" width="880" alt="Daily token usage as pixel-art bars: one square per 10M tokens, Claude orange stacked under Codex blue">
+<img src="./charts/day/pixel-tokens.svg" width="880" alt="Daily token usage as pixel-art bars: one square per quantum, Claude orange stacked under Codex blue and Gemini purple">
 
 ## Contents
 
@@ -116,13 +116,13 @@ Every run renders **every** style below — the same data, over a dozen ways. Th
 ![usage](https://raw.githubusercontent.com/<your-username>/token-history/master/charts/day/card.svg)
 ```
 
-`charts/tokens.svg` and `charts/cost.svg` remain stable aliases of the daily bars, so existing embeds never break. Colors and type follow Anthropic's palette (orange = Claude Code, blue = Codex), tuned per mode to pass a color-vision-deficiency check.
+`charts/tokens.svg` and `charts/cost.svg` remain stable aliases of the daily bars, so existing embeds never break. Colors and type follow Anthropic's editorial palette (orange = Claude Code, blue = Codex, purple = Gemini), tuned per mode to pass a color-vision-deficiency check.
 
 ### Badges
 
 **`charts/badge/*.svg`** — live shields.io-style stats, rendered from the same data. Inline-sized: drop any of them on a single line of your profile README.
 
-<img src="./charts/badge/tokens-today.svg" alt="tokens today"> <img src="./charts/badge/tokens-30d.svg" alt="tokens over the last 30 days"> <img src="./charts/badge/api-equiv-30d.svg" alt="API-equivalent value over the last 30 days"> <img src="./charts/badge/daily-avg.svg" alt="daily average tokens"> <img src="./charts/badge/split-30d.svg" alt="Claude versus Codex share"> <img src="./charts/badge/streak.svg" alt="active-day streak">
+<img src="./charts/badge/tokens-today.svg" alt="tokens today"> <img src="./charts/badge/tokens-30d.svg" alt="tokens over the last 30 days"> <img src="./charts/badge/api-equiv-30d.svg" alt="API-equivalent value over the last 30 days"> <img src="./charts/badge/daily-avg.svg" alt="daily average tokens"> <img src="./charts/badge/split-30d.svg" alt="Claude, Codex, and Gemini share"> <img src="./charts/badge/streak.svg" alt="active-day streak">
 
 **`charts/badge/pixel-*.svg`** — the same stats as stair-cornered 8-bit arcade chips, every glyph pixel-drawn:
 
@@ -134,9 +134,9 @@ Every run renders **every** style below — the same data, over a dozen ways. Th
 
 ### Daily
 
-**`charts/day/pixel-card.svg`** — the last 30 days as an 8-bit game HUD: a bitmap-font HI-SCORE, Claude vs Codex as player HP bars, cost as a coin counter, one pixel heart per active day
+**`charts/day/pixel-card.svg`** — the last 30 days as an 8-bit game HUD: a bitmap-font HI-SCORE, Claude / Codex / Gemini as player HP bars, cost as a coin counter, one pixel heart per active day
 
-<img src="./charts/day/pixel-card.svg" width="880" alt="Pixel game-HUD stat card: HI-SCORE token total, P1/P2 HP bars for Claude and Codex, coin counter, heart streak">
+<img src="./charts/day/pixel-card.svg" width="880" alt="Pixel game-HUD stat card: HI-SCORE token total, P1/P2/P3 HP bars for Claude, Codex, and Gemini, coin counter, heart streak">
 
 **`charts/day/bar-tokens.svg`** — flat daily bars (also published as `charts/tokens.svg`, the stable legacy URL)
 
@@ -152,27 +152,27 @@ Every run renders **every** style below — the same data, over a dozen ways. Th
 
 **`charts/day/area-tokens.svg`** — smoothed stacked area with an animated reveal
 
-<img src="./charts/day/area-tokens.svg" width="880" alt="Daily token flow: stacked area of Claude and Codex tokens">
+<img src="./charts/day/area-tokens.svg" width="880" alt="Daily token flow: stacked area of Claude, Codex, and Gemini tokens">
 
 **`charts/day/card.svg`** — hero-number stat card for the last 30 days
 
-<img src="./charts/day/card.svg" width="880" alt="30-day stat card: total tokens, API-equivalent value, peak day, daily average, and the Claude/Codex split">
+<img src="./charts/day/card.svg" width="880" alt="30-day stat card: total tokens, API-equivalent value, peak day, daily average, and the Claude/Codex/Gemini split">
 
 **`charts/day/pixel-tokens.svg`** — 8-bit pixel bars: every square is 10M tokens on a crisp retro grid, with a blinking cursor on the day still in progress
 
 <img src="./charts/day/pixel-tokens.svg" width="880" alt="Pixel-art daily token bars: stacks of squares, one square per 10M tokens">
 
-**`charts/day/pixel-models.svg`** — the same columns, split by model. Each source keeps its own hue and encodes the tier twice, in lightness *and* in how much of the square is filled — solid, notched, hollow — so the top tier reads even in greyscale (Claude fable › opus › sonnet, Codex 5.5/Sol › Terra › Luna)
+**`charts/day/pixel-models.svg`** — the same columns, split by model. Each source keeps its own hue and encodes the tier twice, in lightness *and* in how much of the square is filled — solid, notched, hollow — so the top tier reads even in greyscale (Claude fable › opus › sonnet, Codex 5.5/Sol › Terra › Luna, Gemini Carbon/Argon › Flash/Hydrogen)
 
-<img src="./charts/day/pixel-models.svg" width="880" alt="Pixel-art daily token bars split by model: three orange steps for Claude and three blue steps for Codex, each tier also marked solid, notched or hollow">
+<img src="./charts/day/pixel-models.svg" width="880" alt="Pixel-art daily token bars split by model: Claude orange steps, Codex blue steps, and Gemini purple steps, each tier also marked solid, notched or hollow">
 
 **`charts/day/terminal-tokens.svg`** — the last 30 days as a terminal session: an htop-style bar per day, a CLI-style `TOTAL` sign-off, and a blinking cursor
 
-<img src="./charts/day/terminal-tokens.svg" width="880" alt="Terminal-style chart: a shell window with one ASCII bar per day, stacked Claude/Codex block glyphs">
+<img src="./charts/day/terminal-tokens.svg" width="880" alt="Terminal-style chart: a shell window with one ASCII bar per day, stacked Claude/Codex/Gemini block glyphs">
 
-**`charts/day/sketch-tokens.svg`** — an xkcd-style hand-drawn take: two wobbly ink lines, hand-lettered labels, and a scribbled circle around the day the agents took over
+**`charts/day/sketch-tokens.svg`** — an xkcd-style hand-drawn take: wobbly ink lines, hand-lettered labels, and a scribbled circle around the day the agents took over
 
-<img src="./charts/day/sketch-tokens.svg" width="880" alt="Hand-drawn xkcd-style chart: wobbly Claude and Codex lines with a circled annotation on the peak day">
+<img src="./charts/day/sketch-tokens.svg" width="880" alt="Hand-drawn xkcd-style chart: wobbly Claude, Codex, and Gemini lines with a circled annotation on the peak day">
 
 ### Weekly
 
@@ -214,7 +214,7 @@ data/mac-b/2026-08-04.json     ← machine B only ever writes here
 Two machines never write the same path, so there is no merge conflict to resolve and no cross-machine deduplication to get wrong. Merging is just addition at render time.
 
 > [!IMPORTANT]
-> This relies on the machines' log directories being **disjoint**. Do not sync `~/.claude` or `~/.codex` between machines via iCloud, Dropbox, Syncthing, or a restored backup — both machines would then see the same sessions and the totals would double. Because ccusage reports daily aggregates rather than session IDs, this repo cannot detect that from the data.
+> This relies on the machines' log directories being **disjoint**. Do not sync `~/.claude`, `~/.codex`, or `~/.gemini` between machines via iCloud, Dropbox, Syncthing, or a restored backup — both machines would then see the same sessions and the totals would double. Because ccusage reports daily aggregates rather than session IDs, this repo cannot detect that from the data.
 
 ## How it stays correct
 
