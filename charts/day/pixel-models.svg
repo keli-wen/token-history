@@ -19,7 +19,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </style>
 <rect class="bg" width="880" height="430"/>
 <text class="tt" x="28" y="36" font-size="17">DAILY TOKENS BY MODEL</text>
-<text class="sub" x="28" y="57" font-size="11">OCT 15 - NOV 13, 2026 / 12B TOKENS OVER 30 DAYS / 1PX = 50M / SOLID TO HOLLOW = TOP TIER DOWN</text>
+<text class="sub" x="28" y="57" font-size="11">OCT 15 - NOV 13, 2026 / 13B TOKENS OVER 30 DAYS / 1PX = 50M / SOLID TO HOLLOW = TOP TIER DOWN</text>
 <text class="tm" x="28" y="76" font-size="9.5" font-family="var(--fm)" letter-spacing="1">CLAUDE</text>
 <rect class="px m-claude-fable" x="90" y="68" width="8" height="8"></rect>
 <text class="t2" x="103" y="76" font-size="10" font-family="var(--fm)">FABLE</text>
@@ -92,6 +92,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px bg" x="83" y="359" width="2" height="2"/>
 <rect class="px m-codex-core" x="90" y="356" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-core" x="80" y="346" width="8" height="8"><title>5.5 / SOL</title></rect>
+<rect class="px m-gemini-flash" x="90" y="346" width="8" height="8"><title>FLASH / HYDROGEN</title></rect>
+<rect class="px bg" x="92" y="348" width="4" height="4"/>
 </g>
 <g class="col" style="animation-delay:18ms">
 <rect class="px m-claude-opus" x="106" y="366" width="8" height="8"><title>OPUS</title></rect>
@@ -140,6 +142,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px bg" x="145" y="359" width="2" height="2"/>
 <rect class="px m-codex-core" x="132" y="346" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-core" x="142" y="346" width="8" height="8"><title>5.5 / SOL</title></rect>
+<rect class="px m-gemini-carbon" x="132" y="336" width="8" height="8"><title>CARBON / ARGON</title></rect>
 </g>
 <g class="col" style="animation-delay:54ms">
 <rect class="px m-claude-opus" x="158" y="366" width="8" height="8"><title>OPUS</title></rect>
@@ -166,6 +169,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px m-codex-core" x="193" y="326" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-luna" x="183" y="316" width="8" height="8"><title>LUNA</title></rect>
 <rect class="px bg" x="185" y="318" width="4" height="4"/>
+<rect class="px m-gemini-carbon" x="193" y="316" width="8" height="8"><title>CARBON / ARGON</title></rect>
 </g>
 <g class="col" style="animation-delay:90ms">
 <rect class="px m-claude-opus" x="209" y="366" width="8" height="8"><title>OPUS</title></rect>
@@ -190,6 +194,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px bg" x="222" y="329" width="2" height="2"/>
 <rect class="px m-codex-core" x="209" y="316" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-core" x="219" y="316" width="8" height="8"><title>5.5 / SOL</title></rect>
+<rect class="px m-gemini-carbon" x="209" y="306" width="8" height="8"><title>CARBON / ARGON</title></rect>
 </g>
 <text class="tm" x="218" y="393" font-size="10.5" text-anchor="middle" font-family="var(--fm)">10/20</text>
 <g class="col" style="animation-delay:108ms">
@@ -236,6 +241,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px m-codex-core" x="235" y="266" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-core" x="245" y="266" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-core" x="235" y="256" width="8" height="8"><title>5.5 / SOL</title></rect>
+<rect class="px m-gemini-carbon" x="245" y="256" width="8" height="8"><title>CARBON / ARGON</title></rect>
 </g>
 <g class="col" style="animation-delay:126ms">
 <rect class="px m-claude-opus" x="261" y="366" width="8" height="8"><title>OPUS</title></rect>
@@ -290,6 +296,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px m-codex-core" x="261" y="226" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-luna" x="271" y="226" width="8" height="8"><title>LUNA</title></rect>
 <rect class="px bg" x="273" y="228" width="4" height="4"/>
+<rect class="px m-gemini-carbon" x="261" y="216" width="8" height="8"><title>CARBON / ARGON</title></rect>
 </g>
 <g class="col" style="animation-delay:144ms">
 <rect class="px m-claude-opus" x="287" y="366" width="8" height="8"><title>OPUS</title></rect>
@@ -429,6 +436,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px m-codex-terra" x="504" y="366" width="8" height="8"><title>TERRA</title></rect>
 <rect class="px bg" x="507" y="369" width="2" height="2"/>
 <rect class="px s-codex" x="494" y="356" width="8" height="8"><title>CODEX</title></rect>
+<rect class="px m-gemini-carbon" x="504" y="356" width="8" height="8"><title>CARBON / ARGON</title></rect>
 </g>
 <g class="col" style="animation-delay:306ms">
 <rect class="px s-claude" x="520" y="366" width="8" height="8"><title>CLAUDE</title></rect>
@@ -467,6 +475,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px m-codex-luna" x="571" y="316" width="8" height="8"><title>LUNA</title></rect>
 <rect class="px bg" x="573" y="318" width="4" height="4"/>
 <rect class="px s-codex" x="581" y="316" width="8" height="8"><title>CODEX</title></rect>
+<rect class="px m-gemini-flash" x="571" y="306" width="8" height="8"><title>FLASH / HYDROGEN</title></rect>
+<rect class="px bg" x="573" y="308" width="4" height="4"/>
 </g>
 <g class="col" style="animation-delay:360ms">
 <rect class="px m-claude-opus" x="597" y="366" width="8" height="8"><title>OPUS</title></rect>
@@ -486,6 +496,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px m-codex-core" x="633" y="356" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-terra" x="623" y="346" width="8" height="8"><title>TERRA</title></rect>
 <rect class="px bg" x="626" y="349" width="2" height="2"/>
+<rect class="px m-gemini-flash" x="633" y="346" width="8" height="8"><title>FLASH / HYDROGEN</title></rect>
+<rect class="px bg" x="635" y="348" width="4" height="4"/>
 </g>
 <text class="tm" x="632" y="393" font-size="10.5" text-anchor="middle" font-family="var(--fm)">11/05</text>
 <g class="col" style="animation-delay:396ms">
@@ -495,6 +507,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px m-codex-core" x="659" y="356" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-terra" x="649" y="346" width="8" height="8"><title>TERRA</title></rect>
 <rect class="px bg" x="652" y="349" width="2" height="2"/>
+<rect class="px m-gemini-carbon" x="659" y="346" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-carbon" x="649" y="336" width="8" height="8"><title>CARBON / ARGON</title></rect>
 </g>
 <g class="col" style="animation-delay:414ms">
 <rect class="px m-codex-core" x="675" y="366" width="8" height="8"><title>5.5 / SOL</title></rect>
@@ -502,6 +516,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px m-codex-core" x="675" y="356" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-core" x="685" y="356" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-core" x="675" y="346" width="8" height="8"><title>5.5 / SOL</title></rect>
+<rect class="px m-gemini-carbon" x="685" y="346" width="8" height="8"><title>CARBON / ARGON</title></rect>
 </g>
 <g class="col" style="animation-delay:432ms">
 <rect class="px m-codex-core" x="701" y="366" width="8" height="8"><title>5.5 / SOL</title></rect>
@@ -511,6 +526,10 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px m-codex-core" x="701" y="346" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-terra" x="711" y="346" width="8" height="8"><title>TERRA</title></rect>
 <rect class="px bg" x="714" y="349" width="2" height="2"/>
+<rect class="px m-gemini-carbon" x="701" y="336" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-carbon" x="711" y="336" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-flash" x="701" y="326" width="8" height="8"><title>FLASH / HYDROGEN</title></rect>
+<rect class="px bg" x="703" y="328" width="4" height="4"/>
 </g>
 <g class="col" style="animation-delay:450ms">
 <rect class="px m-codex-core" x="727" y="366" width="8" height="8"><title>5.5 / SOL</title></rect>
@@ -527,11 +546,21 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px m-codex-core" x="737" y="316" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-core" x="727" y="306" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-core" x="737" y="306" width="8" height="8"><title>5.5 / SOL</title></rect>
+<rect class="px m-gemini-carbon" x="727" y="296" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-carbon" x="737" y="296" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-flash" x="727" y="286" width="8" height="8"><title>FLASH / HYDROGEN</title></rect>
+<rect class="px bg" x="729" y="288" width="4" height="4"/>
 </g>
 <text class="tm" x="736" y="393" font-size="10.5" text-anchor="middle" font-family="var(--fm)">11/09</text>
 <g class="col" style="animation-delay:468ms">
 <rect class="px m-codex-terra" x="752" y="366" width="8" height="8"><title>TERRA</title></rect>
 <rect class="px bg" x="755" y="369" width="2" height="2"/>
+<rect class="px m-gemini-carbon" x="762" y="366" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-carbon" x="752" y="356" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-carbon" x="762" y="356" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-carbon" x="752" y="346" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-flash" x="762" y="346" width="8" height="8"><title>FLASH / HYDROGEN</title></rect>
+<rect class="px bg" x="764" y="348" width="4" height="4"/>
 </g>
 <g class="col" style="animation-delay:486ms">
 <rect class="px m-codex-core" x="778" y="366" width="8" height="8"><title>5.5 / SOL</title></rect>
@@ -543,6 +572,11 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px m-codex-core" x="778" y="336" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-core" x="788" y="336" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-core" x="778" y="326" width="8" height="8"><title>5.5 / SOL</title></rect>
+<rect class="px m-gemini-carbon" x="788" y="326" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-carbon" x="778" y="316" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-carbon" x="788" y="316" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-flash" x="778" y="306" width="8" height="8"><title>FLASH / HYDROGEN</title></rect>
+<rect class="px bg" x="780" y="308" width="4" height="4"/>
 </g>
 <g class="col" style="animation-delay:504ms">
 <rect class="px m-codex-core" x="804" y="366" width="8" height="8"><title>5.5 / SOL</title></rect>
@@ -553,13 +587,25 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <rect class="px m-codex-core" x="814" y="346" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-core" x="804" y="336" width="8" height="8"><title>5.5 / SOL</title></rect>
 <rect class="px m-codex-core" x="814" y="336" width="8" height="8"><title>5.5 / SOL</title></rect>
+<rect class="px m-gemini-carbon" x="804" y="326" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-carbon" x="814" y="326" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-carbon" x="804" y="316" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-carbon" x="814" y="316" width="8" height="8"><title>CARBON / ARGON</title></rect>
 </g>
 <g class="col wip" style="animation-delay:522ms">
 <rect class="px m-codex-core" x="830" y="366" width="8" height="8"><title>5.5 / SOL</title></rect>
-<rect class="px m-codex-core blink" x="840" y="366" width="8" height="8"><title>5.5 / SOL</title></rect>
+<rect class="px m-codex-core" x="840" y="366" width="8" height="8"><title>5.5 / SOL</title></rect>
+<rect class="px m-gemini-carbon" x="830" y="356" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-carbon" x="840" y="356" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-carbon" x="830" y="346" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-carbon" x="840" y="346" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-carbon" x="830" y="336" width="8" height="8"><title>CARBON / ARGON</title></rect>
+<rect class="px m-gemini-flash" x="840" y="336" width="8" height="8"><title>FLASH / HYDROGEN</title></rect>
+<rect class="px bg" x="842" y="338" width="4" height="4"/>
+<rect class="px s-gemini blink" x="830" y="326" width="8" height="8"><title>GEMINI</title></rect>
 </g>
 <text class="tm" x="839" y="393" font-size="10.5" text-anchor="middle" font-family="var(--fm)">11/13</text>
-<text class="tn" x="270" y="218" font-size="11" font-weight="700" text-anchor="middle">1.4B</text>
-<text class="tn" x="839" y="328" font-size="11" font-weight="700" text-anchor="middle">65M</text>
-<text class="tm" x="28" y="416" font-size="10.5">Generated 2026-11-13 07:40 UTC</text>
+<text class="tn" x="270" y="208" font-size="11" font-weight="700" text-anchor="middle">1.4B</text>
+<text class="tn" x="839" y="308" font-size="11" font-weight="700" text-anchor="middle">410M</text>
+<text class="tm" x="28" y="416" font-size="10.5">Generated 2026-11-13 07:41 UTC</text>
 </svg>
