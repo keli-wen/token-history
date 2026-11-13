@@ -1,14 +1,14 @@
 {
   "ccusageVersion": "20.0.50",
-  "collectedAt": "2026-11-13T07:41:11Z",
+  "collectedAt": "2026-11-13T13:00:22Z",
   "date": "2026-11-13",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 322053604,
-      "costUSD": 173.828716,
-      "input": 21098852,
+      "cacheRead": 399252898,
+      "costUSD": 222.144876,
+      "input": 29390312,
       "models": {
         "claude-opus-5-5": {
           "cacheCreation": 0,
@@ -28,55 +28,47 @@
         },
         "gemini-3.8-flash-tiered": {
           "cacheCreation": 0,
-          "cacheRead": 2607871,
-          "costUSD": 0.778345,
-          "input": 515596,
-          "output": 18891,
-          "total": 3142358
+          "cacheRead": 2641463,
+          "costUSD": 1.061384,
+          "input": 760227,
+          "output": 27076,
+          "total": 3428766
         },
         "gemini-4-carbon": {
           "cacheCreation": 0,
-          "cacheRead": 220103420,
-          "costUSD": 142.800268,
-          "input": 15113071,
-          "output": 1152646,
-          "total": 236369137
+          "cacheRead": 280093505,
+          "costUSD": 190.338717,
+          "input": 20789189,
+          "output": 1497228,
+          "total": 302379922
         },
         "gemini-4-hydrogen": {
           "cacheCreation": 0,
-          "cacheRead": 26753229,
-          "costUSD": 6.326771,
-          "input": 1766826,
-          "output": 138226,
-          "total": 28658281
+          "cacheRead": 29019166,
+          "costUSD": 6.821442,
+          "input": 1911095,
+          "output": 146159,
+          "total": 31076420
         },
         "gemini-flash-worker-agy": {
           "cacheCreation": 0,
-          "cacheRead": 7492958,
+          "cacheRead": 11278036,
           "costUSD": 0.0,
-          "input": 937085,
-          "output": 38533,
-          "total": 8468576
+          "input": 1895759,
+          "output": 74028,
+          "total": 13247823
         },
         "gemini-pro-orchestrator": {
           "cacheCreation": 0,
-          "cacheRead": 7220724,
+          "cacheRead": 18497570,
           "costUSD": 0.0,
-          "input": 878954,
-          "output": 40597,
-          "total": 8140275
-        },
-        "model_placeholder_m525": {
-          "cacheCreation": 0,
-          "cacheRead": 152244,
-          "costUSD": 0.0,
-          "input": 2527,
-          "output": 62,
-          "total": 154833
+          "input": 2149249,
+          "output": 108231,
+          "total": 20755050
         }
       },
-      "output": 1641264,
-      "total": 345730082
+      "output": 2105031,
+      "total": 432081255
     },
     "codex": {
       "cacheCreation": 0,
