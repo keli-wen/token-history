@@ -1,9 +1,51 @@
 {
-  "ccusageVersion": "20.0.19",
-  "collectedAt": "2026-08-05T09:32:06Z",
+  "ccusageVersion": "20.0.50",
+  "collectedAt": "2026-11-13T07:41:11Z",
   "date": "2026-07-10",
   "host": "mac-a",
   "sources": {
+    "antigravity": {
+      "cacheCreation": 0,
+      "cacheRead": 5802287,
+      "costUSD": 5.01778,
+      "input": 1405756,
+      "models": {
+        "claude-opus-4-6": {
+          "cacheCreation": 0,
+          "cacheRead": 223910,
+          "costUSD": 1.52249,
+          "input": 211512,
+          "output": 14119,
+          "total": 449541
+        },
+        "claude-sonnet-4-6": {
+          "cacheCreation": 0,
+          "cacheRead": 0,
+          "costUSD": 0.07716,
+          "input": 22840,
+          "output": 576,
+          "total": 23416
+        },
+        "gemini-3.1-flash-lite": {
+          "cacheCreation": 0,
+          "cacheRead": 0,
+          "costUSD": 0.002907,
+          "input": 2056,
+          "output": 1595,
+          "total": 3651
+        },
+        "gemini-3.5-flash-high": {
+          "cacheCreation": 0,
+          "cacheRead": 5578377,
+          "costUSD": 3.415224,
+          "input": 1169348,
+          "output": 27502,
+          "total": 6775227
+        }
+      },
+      "output": 43792,
+      "total": 7315938
+    },
     "claude": {
       "cacheCreation": 787025,
       "cacheRead": 21294348,

@@ -1,9 +1,43 @@
 {
-  "ccusageVersion": "20.0.20",
-  "collectedAt": "2026-08-31T15:23:43Z",
+  "ccusageVersion": "20.0.50",
+  "collectedAt": "2026-11-13T07:41:11Z",
   "date": "2026-08-29",
   "host": "mac-a",
   "sources": {
+    "antigravity": {
+      "cacheCreation": 0,
+      "cacheRead": 8848827,
+      "costUSD": 2.437425,
+      "input": 1920962,
+      "models": {
+        "gemini-3.7-flash-high": {
+          "cacheCreation": 0,
+          "cacheRead": 1274202,
+          "costUSD": 0.784223,
+          "input": 803730,
+          "output": 10746,
+          "total": 2088678
+        },
+        "gemini-3.7-flash-low": {
+          "cacheCreation": 0,
+          "cacheRead": 0,
+          "costUSD": 0.011147,
+          "input": 14857,
+          "output": 1,
+          "total": 14858
+        },
+        "gemini-3.7-flash-medium": {
+          "cacheCreation": 0,
+          "cacheRead": 7574625,
+          "costUSD": 1.642056,
+          "input": 1102375,
+          "output": 25314,
+          "total": 8702314
+        }
+      },
+      "output": 36061,
+      "total": 10858600
+    },
     "claude": {
       "cacheCreation": 138545,
       "cacheRead": 772713,
@@ -36,6 +70,15 @@
           "output": 408869,
           "reasoningOutput": 111252,
           "total": 99990418
+        },
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 3187968,
+          "input": 657369,
+          "modelNameIsFallback": true,
+          "output": 11664,
+          "reasoningOutput": 5257,
+          "total": 3857001
         },
         "gpt-5.6-sol": {
           "cacheCreation": 0,

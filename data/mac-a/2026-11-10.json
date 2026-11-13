@@ -1,9 +1,75 @@
 {
   "ccusageVersion": "20.0.50",
-  "collectedAt": "2026-11-12T13:00:12Z",
+  "collectedAt": "2026-11-13T07:41:11Z",
   "date": "2026-11-10",
   "host": "mac-a",
   "sources": {
+    "antigravity": {
+      "cacheCreation": 0,
+      "cacheRead": 222519619,
+      "costUSD": 120.022415,
+      "input": 14718450,
+      "models": {
+        "claude-opus-5-5-medium": {
+          "cacheCreation": 0,
+          "cacheRead": 448663,
+          "costUSD": 0.422497,
+          "input": 38866,
+          "output": 8865,
+          "total": 496394
+        },
+        "gemini-3.8-flash-high": {
+          "cacheCreation": 0,
+          "cacheRead": 1171236,
+          "costUSD": 0.298018,
+          "input": 220679,
+          "output": 3308,
+          "total": 1395223
+        },
+        "gemini-3.8-flash-low": {
+          "cacheCreation": 0,
+          "cacheRead": 0,
+          "costUSD": 0.006494,
+          "input": 8654,
+          "output": 1,
+          "total": 8655
+        },
+        "gemini-3.8-flash-medium": {
+          "cacheCreation": 0,
+          "cacheRead": 18126893,
+          "costUSD": 2.670918,
+          "input": 1144010,
+          "output": 58452,
+          "total": 19329355
+        },
+        "gemini-3.8-flash-tiered": {
+          "cacheCreation": 0,
+          "cacheRead": 14160470,
+          "costUSD": 2.55268,
+          "input": 921217,
+          "output": 89501,
+          "total": 15171188
+        },
+        "gemini-4-argon": {
+          "cacheCreation": 0,
+          "cacheRead": 181233199,
+          "costUSD": 107.886548,
+          "input": 11764402,
+          "output": 857792,
+          "total": 193855393
+        },
+        "gemini-4-carbon": {
+          "cacheCreation": 0,
+          "cacheRead": 7379158,
+          "costUSD": 6.18526,
+          "input": 620622,
+          "output": 53401,
+          "total": 8053181
+        }
+      },
+      "output": 1071320,
+      "total": 238933475
+    },
     "codex": {
       "cacheCreation": 292067,
       "cacheRead": 4305513,

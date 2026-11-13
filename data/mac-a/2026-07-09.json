@@ -1,9 +1,43 @@
 {
-  "ccusageVersion": "20.0.19",
-  "collectedAt": "2026-08-05T09:32:06Z",
+  "ccusageVersion": "20.0.50",
+  "collectedAt": "2026-11-13T07:41:11Z",
   "date": "2026-07-09",
   "host": "mac-a",
   "sources": {
+    "antigravity": {
+      "cacheCreation": 0,
+      "cacheRead": 471668,
+      "costUSD": 0.475604,
+      "input": 181944,
+      "models": {
+        "gemini-3.1-flash-lite": {
+          "cacheCreation": 0,
+          "cacheRead": 0,
+          "costUSD": 5.7e-05,
+          "input": 156,
+          "output": 12,
+          "total": 168
+        },
+        "gemini-3.1-pro": {
+          "cacheCreation": 0,
+          "cacheRead": 16395,
+          "costUSD": 0.096819,
+          "input": 26742,
+          "output": 1900,
+          "total": 45037
+        },
+        "gemini-3.5-flash-high": {
+          "cacheCreation": 0,
+          "cacheRead": 455273,
+          "costUSD": 0.378728,
+          "input": 155046,
+          "output": 3351,
+          "total": 613670
+        }
+      },
+      "output": 5263,
+      "total": 665614
+    },
     "claude": {
       "cacheCreation": 2973107,
       "cacheRead": 29563353,

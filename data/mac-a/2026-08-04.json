@@ -1,6 +1,6 @@
 {
-  "ccusageVersion": "20.0.19",
-  "collectedAt": "2026-08-06T13:00:13Z",
+  "ccusageVersion": "20.0.50",
+  "collectedAt": "2026-11-13T07:41:11Z",
   "date": "2026-08-04",
   "host": "mac-a",
   "sources": {
@@ -53,6 +53,15 @@
       "input": 4800350,
       "models": {
         "gpt-5.5": {
+          "cacheCreation": 0,
+          "cacheRead": 5693696,
+          "input": 680294,
+          "modelNameIsFallback": true,
+          "output": 10825,
+          "reasoningOutput": 4143,
+          "total": 6384815
+        },
+        "gpt-5.6-luna": {
           "cacheCreation": 0,
           "cacheRead": 5693696,
           "input": 680294,

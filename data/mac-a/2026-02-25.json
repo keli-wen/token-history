@@ -1,0 +1,47 @@
+{
+  "ccusageVersion": "20.0.50",
+  "collectedAt": "2026-11-13T07:41:11Z",
+  "date": "2026-02-25",
+  "host": "mac-a",
+  "sources": {
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 20489088,
+      "costUSD": 6.389474,
+      "input": 751683,
+      "models": {
+        "gpt-5.3-codex": {
+          "cacheCreation": 0,
+          "cacheRead": 20489088,
+          "input": 751683,
+          "output": 106317,
+          "reasoningOutput": 55307,
+          "total": 21347088
+        }
+      },
+      "output": 106317,
+      "reasoningOutput": 55307,
+      "total": 21347088
+    },
+    "gemini": {
+      "cacheCreation": 0,
+      "cacheRead": 48744,
+      "costUSD": 0.258865,
+      "input": 58042,
+      "models": {
+        "gemini-3-pro-preview": {
+          "cacheCreation": 0,
+          "cacheRead": 48744,
+          "costUSD": 0.258865,
+          "input": 58042,
+          "output": 4010,
+          "total": 110796
+        }
+      },
+      "output": 4010,
+      "total": 117872
+    }
+  },
+  "status": "final",
+  "timezone": "Asia/Shanghai"
+}

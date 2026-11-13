@@ -1,9 +1,35 @@
 {
-  "ccusageVersion": "20.0.20",
-  "collectedAt": "2026-09-14T13:00:13Z",
+  "ccusageVersion": "20.0.50",
+  "collectedAt": "2026-11-13T07:41:11Z",
   "date": "2026-09-12",
   "host": "mac-a",
   "sources": {
+    "antigravity": {
+      "cacheCreation": 0,
+      "cacheRead": 28806409,
+      "costUSD": 4.187296,
+      "input": 1723220,
+      "models": {
+        "gemini-3.8-flash-high": {
+          "cacheCreation": 0,
+          "cacheRead": 21480190,
+          "costUSD": 3.081846,
+          "input": 1216774,
+          "output": 65329,
+          "total": 22762293
+        },
+        "gemini-3.8-flash-medium": {
+          "cacheCreation": 0,
+          "cacheRead": 7326219,
+          "costUSD": 1.10545,
+          "input": 506446,
+          "output": 25701,
+          "total": 7858366
+        }
+      },
+      "output": 91030,
+      "total": 30725469
+    },
     "claude": {
       "cacheCreation": 518116,
       "cacheRead": 20111455,
@@ -25,7 +51,7 @@
     "codex": {
       "cacheCreation": 0,
       "cacheRead": 3140736,
-      "costUSD": 9.057288,
+      "costUSD": 12.333232,
       "input": 676972,
       "models": {
         "gpt-5.5": {

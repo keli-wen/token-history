@@ -1,0 +1,38 @@
+{
+  "ccusageVersion": "20.0.50",
+  "collectedAt": "2026-11-13T07:41:11Z",
+  "date": "2026-04-28",
+  "host": "mac-a",
+  "sources": {
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 80963200,
+      "costUSD": 78.432088,
+      "input": 5264424,
+      "models": {
+        "gpt-5.4": {
+          "cacheCreation": 0,
+          "cacheRead": 6528,
+          "input": 12886,
+          "modelNameIsFallback": true,
+          "output": 103,
+          "reasoningOutput": 85,
+          "total": 19517
+        },
+        "gpt-5.5": {
+          "cacheCreation": 0,
+          "cacheRead": 80956672,
+          "input": 5251538,
+          "output": 388689,
+          "reasoningOutput": 143114,
+          "total": 86596899
+        }
+      },
+      "output": 388792,
+      "reasoningOutput": 143199,
+      "total": 86616416
+    }
+  },
+  "status": "final",
+  "timezone": "Asia/Shanghai"
+}

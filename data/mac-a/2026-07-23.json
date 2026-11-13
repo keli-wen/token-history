@@ -1,6 +1,6 @@
 {
-  "ccusageVersion": "20.0.19",
-  "collectedAt": "2026-08-05T09:32:06Z",
+  "ccusageVersion": "20.0.50",
+  "collectedAt": "2026-11-13T07:41:11Z",
   "date": "2026-07-23",
   "host": "mac-a",
   "sources": {
@@ -52,6 +52,15 @@
       "costUSD": 24.850534,
       "input": 2054318,
       "models": {
+        "gpt-5.4": {
+          "cacheCreation": 0,
+          "cacheRead": 16619264,
+          "input": 821546,
+          "modelNameIsFallback": true,
+          "output": 84356,
+          "reasoningOutput": 36633,
+          "total": 17525166
+        },
         "gpt-5.5": {
           "cacheCreation": 0,
           "cacheRead": 16619264,

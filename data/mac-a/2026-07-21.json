@@ -1,9 +1,59 @@
 {
-  "ccusageVersion": "20.0.19",
-  "collectedAt": "2026-08-05T09:32:06Z",
+  "ccusageVersion": "20.0.50",
+  "collectedAt": "2026-11-13T07:41:11Z",
   "date": "2026-07-21",
   "host": "mac-a",
   "sources": {
+    "antigravity": {
+      "cacheCreation": 0,
+      "cacheRead": 40864880,
+      "costUSD": 3.55969,
+      "input": 1565753,
+      "models": {
+        "gemini-3-flash-e": {
+          "cacheCreation": 0,
+          "cacheRead": 40391398,
+          "costUSD": 3.295605,
+          "input": 1488451,
+          "output": 108951,
+          "total": 41988800
+        },
+        "gemini-3.1-flash-lite": {
+          "cacheCreation": 0,
+          "cacheRead": 0,
+          "costUSD": 0.000248,
+          "input": 871,
+          "output": 20,
+          "total": 891
+        },
+        "gemini-3.1-pro": {
+          "cacheCreation": 0,
+          "cacheRead": 105831,
+          "costUSD": 0.233786,
+          "input": 51332,
+          "output": 4061,
+          "total": 161224
+        },
+        "gemini-3.5-flash-medium": {
+          "cacheCreation": 0,
+          "cacheRead": 0,
+          "costUSD": 0.030051,
+          "input": 18648,
+          "output": 15,
+          "total": 18663
+        },
+        "model_placeholder_m186": {
+          "cacheCreation": 0,
+          "cacheRead": 367651,
+          "costUSD": 0.0,
+          "input": 6451,
+          "output": 3925,
+          "total": 378027
+        }
+      },
+      "output": 116972,
+      "total": 42622824
+    },
     "claude": {
       "cacheCreation": 5475181,
       "cacheRead": 172948889,

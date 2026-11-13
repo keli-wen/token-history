@@ -1,0 +1,37 @@
+{
+  "ccusageVersion": "20.0.50",
+  "collectedAt": "2026-11-13T07:41:11Z",
+  "date": "2026-05-20",
+  "host": "mac-a",
+  "sources": {
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 70526080,
+      "costUSD": 75.516107,
+      "input": 5855739,
+      "models": {
+        "gpt-5.4": {
+          "cacheCreation": 0,
+          "cacheRead": 1333632,
+          "input": 12456,
+          "output": 2242,
+          "reasoningOutput": 564,
+          "total": 1348330
+        },
+        "gpt-5.5": {
+          "cacheCreation": 0,
+          "cacheRead": 69192448,
+          "input": 5843283,
+          "output": 376843,
+          "reasoningOutput": 135090,
+          "total": 75412574
+        }
+      },
+      "output": 379085,
+      "reasoningOutput": 135654,
+      "total": 76760904
+    }
+  },
+  "status": "final",
+  "timezone": "Asia/Shanghai"
+}

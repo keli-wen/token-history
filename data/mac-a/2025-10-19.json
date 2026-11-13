@@ -1,0 +1,28 @@
+{
+  "ccusageVersion": "20.0.50",
+  "collectedAt": "2026-11-13T07:41:11Z",
+  "date": "2025-10-19",
+  "host": "mac-a",
+  "sources": {
+    "gemini": {
+      "cacheCreation": 0,
+      "cacheRead": 44261,
+      "costUSD": 0.3107,
+      "input": 165246,
+      "models": {
+        "gemini-2.5-pro": {
+          "cacheCreation": 0,
+          "cacheRead": 44261,
+          "costUSD": 0.3107,
+          "input": 165246,
+          "output": 4983,
+          "total": 214490
+        }
+      },
+      "output": 4983,
+      "total": 219368
+    }
+  },
+  "status": "final",
+  "timezone": "Asia/Shanghai"
+}

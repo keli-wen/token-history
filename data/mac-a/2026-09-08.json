@@ -1,9 +1,51 @@
 {
-  "ccusageVersion": "20.0.20",
-  "collectedAt": "2026-09-10T13:00:15Z",
+  "ccusageVersion": "20.0.50",
+  "collectedAt": "2026-11-13T07:41:11Z",
   "date": "2026-09-08",
   "host": "mac-a",
   "sources": {
+    "antigravity": {
+      "cacheCreation": 0,
+      "cacheRead": 38844085,
+      "costUSD": 5.980182,
+      "input": 2370158,
+      "models": {
+        "gemini-3.8-flash": {
+          "cacheCreation": 0,
+          "cacheRead": 505439,
+          "costUSD": 0.067367,
+          "input": 9234,
+          "output": 4334,
+          "total": 519007
+        },
+        "gemini-3.8-flash-high": {
+          "cacheCreation": 0,
+          "cacheRead": 33587869,
+          "costUSD": 4.868609,
+          "input": 1725837,
+          "output": 127179,
+          "total": 35440885
+        },
+        "gemini-3.8-flash-low": {
+          "cacheCreation": 0,
+          "cacheRead": 16264,
+          "costUSD": 0.101363,
+          "input": 131079,
+          "output": 489,
+          "total": 147832
+        },
+        "gemini-3.8-flash-medium": {
+          "cacheCreation": 0,
+          "cacheRead": 4734513,
+          "costUSD": 0.942843,
+          "input": 504008,
+          "output": 13912,
+          "total": 5252433
+        }
+      },
+      "output": 145914,
+      "total": 41558045
+    },
     "claude": {
       "cacheCreation": 15953287,
       "cacheRead": 595323581,
@@ -40,9 +82,9 @@
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 132251392,
-      "costUSD": 197.757654,
-      "input": 6239101,
+      "cacheRead": 132644736,
+      "costUSD": 248.899904,
+      "input": 6242415,
       "models": {
         "gpt-5.5": {
           "cacheCreation": 0,
@@ -55,24 +97,26 @@
         },
         "gpt-5.6-luna": {
           "cacheCreation": 0,
-          "cacheRead": 10775040,
-          "input": 451521,
-          "output": 65867,
-          "reasoningOutput": 51914,
-          "total": 11292428
+          "cacheRead": 15452416,
+          "input": 1058969,
+          "modelNameIsFallback": true,
+          "output": 76515,
+          "reasoningOutput": 55659,
+          "total": 16587900
         },
         "gpt-6-astra": {
           "cacheCreation": 0,
-          "cacheRead": 116798976,
-          "input": 5180132,
-          "output": 460752,
+          "cacheRead": 117192320,
+          "input": 5183446,
+          "modelNameIsFallback": true,
+          "output": 465401,
           "reasoningOutput": 112130,
-          "total": 122439860
+          "total": 122841167
         }
       },
-      "output": 537267,
+      "output": 541916,
       "reasoningOutput": 167789,
-      "total": 139027760
+      "total": 139429067
     }
   },
   "status": "final",

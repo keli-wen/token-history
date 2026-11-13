@@ -1,9 +1,35 @@
 {
-  "ccusageVersion": "20.0.20",
-  "collectedAt": "2026-08-25T13:09:55Z",
+  "ccusageVersion": "20.0.50",
+  "collectedAt": "2026-11-13T07:41:11Z",
   "date": "2026-08-23",
   "host": "mac-a",
   "sources": {
+    "antigravity": {
+      "cacheCreation": 0,
+      "cacheRead": 2555525,
+      "costUSD": 0.655777,
+      "input": 361502,
+      "models": {
+        "gemini-3.7-flash": {
+          "cacheCreation": 0,
+          "cacheRead": 0,
+          "costUSD": 0.003486,
+          "input": 2248,
+          "output": 10,
+          "total": 2258
+        },
+        "gemini-3.7-flash-high": {
+          "cacheCreation": 0,
+          "cacheRead": 2555525,
+          "costUSD": 0.652291,
+          "input": 359254,
+          "output": 18945,
+          "total": 2933724
+        }
+      },
+      "output": 18955,
+      "total": 2968490
+    },
     "codex": {
       "cacheCreation": 0,
       "cacheRead": 37342464,
@@ -21,11 +47,12 @@
         },
         "gpt-5.6-luna": {
           "cacheCreation": 0,
-          "cacheRead": 15528704,
-          "input": 1075646,
-          "output": 62412,
-          "reasoningOutput": 32706,
-          "total": 16666762
+          "cacheRead": 15874560,
+          "input": 1230064,
+          "modelNameIsFallback": true,
+          "output": 64997,
+          "reasoningOutput": 33922,
+          "total": 17169621
         },
         "gpt-5.6-sol": {
           "cacheCreation": 0,

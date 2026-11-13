@@ -1,9 +1,27 @@
 {
-  "ccusageVersion": "20.0.48",
-  "collectedAt": "2026-11-09T13:00:11Z",
+  "ccusageVersion": "20.0.50",
+  "collectedAt": "2026-11-13T07:41:11Z",
   "date": "2026-11-07",
   "host": "mac-a",
   "sources": {
+    "antigravity": {
+      "cacheCreation": 0,
+      "cacheRead": 2941517,
+      "costUSD": 5.070559,
+      "input": 964814,
+      "models": {
+        "gemini-4-argon": {
+          "cacheCreation": 0,
+          "cacheRead": 2941517,
+          "costUSD": 5.070559,
+          "input": 964814,
+          "output": 16648,
+          "total": 3922979
+        }
+      },
+      "output": 16648,
+      "total": 3937481
+    },
     "codex": {
       "cacheCreation": 0,
       "cacheRead": 207917440,

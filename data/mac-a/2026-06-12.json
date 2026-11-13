@@ -1,0 +1,71 @@
+{
+  "ccusageVersion": "20.0.50",
+  "collectedAt": "2026-11-13T07:41:11Z",
+  "date": "2026-06-12",
+  "host": "mac-a",
+  "sources": {
+    "antigravity": {
+      "cacheCreation": 0,
+      "cacheRead": 4901715,
+      "costUSD": 3.882596,
+      "input": 753199,
+      "models": {
+        "claude-opus-4-6": {
+          "cacheCreation": 0,
+          "cacheRead": 139282,
+          "costUSD": 0.467891,
+          "input": 70500,
+          "output": 1830,
+          "total": 211612
+        },
+        "gemini-3.1-flash-lite": {
+          "cacheCreation": 0,
+          "cacheRead": 0,
+          "costUSD": 0.001236,
+          "input": 3968,
+          "output": 163,
+          "total": 4131
+        },
+        "gemini-3.1-pro": {
+          "cacheCreation": 0,
+          "cacheRead": 4114108,
+          "costUSD": 3.064018,
+          "input": 598736,
+          "output": 25592,
+          "total": 4738436
+        },
+        "gemini-3.5-flash-high": {
+          "cacheCreation": 0,
+          "cacheRead": 648325,
+          "costUSD": 0.349451,
+          "input": 79995,
+          "output": 6971,
+          "total": 735291
+        }
+      },
+      "output": 34556,
+      "total": 5758574
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 60346112,
+      "costUSD": 65.694551,
+      "input": 5093075,
+      "models": {
+        "gpt-5.5": {
+          "cacheCreation": 0,
+          "cacheRead": 60346112,
+          "input": 5093075,
+          "output": 335204,
+          "reasoningOutput": 126605,
+          "total": 65774391
+        }
+      },
+      "output": 335204,
+      "reasoningOutput": 126605,
+      "total": 65774391
+    }
+  },
+  "status": "final",
+  "timezone": "Asia/Shanghai"
+}

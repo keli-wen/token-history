@@ -1,9 +1,51 @@
 {
-  "ccusageVersion": "20.0.49",
-  "collectedAt": "2026-11-11T13:00:13Z",
+  "ccusageVersion": "20.0.50",
+  "collectedAt": "2026-11-13T07:41:11Z",
   "date": "2026-11-09",
   "host": "mac-a",
   "sources": {
+    "antigravity": {
+      "cacheCreation": 0,
+      "cacheRead": 129041569,
+      "costUSD": 74.903857,
+      "input": 11893407,
+      "models": {
+        "claude-opus-5-5-medium": {
+          "cacheCreation": 0,
+          "cacheRead": 799600,
+          "costUSD": 1.099328,
+          "input": 131592,
+          "output": 20652,
+          "total": 951844
+        },
+        "gemini-3.8-flash-medium": {
+          "cacheCreation": 0,
+          "cacheRead": 2664581,
+          "costUSD": 0.875867,
+          "input": 645505,
+          "output": 18959,
+          "total": 3329045
+        },
+        "gemini-3.8-flash-tiered": {
+          "cacheCreation": 0,
+          "cacheRead": 47823756,
+          "costUSD": 7.173015,
+          "input": 2589255,
+          "output": 222408,
+          "total": 50635419
+        },
+        "gemini-4-argon": {
+          "cacheCreation": 0,
+          "cacheRead": 77753632,
+          "costUSD": 65.755646,
+          "input": 8527055,
+          "output": 550047,
+          "total": 86830734
+        }
+      },
+      "output": 812066,
+      "total": 142250113
+    },
     "codex": {
       "cacheCreation": 0,
       "cacheRead": 638443904,

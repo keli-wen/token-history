@@ -1,9 +1,83 @@
 {
   "ccusageVersion": "20.0.50",
-  "collectedAt": "2026-11-13T04:00:06Z",
+  "collectedAt": "2026-11-13T07:41:11Z",
   "date": "2026-11-13",
   "host": "mac-a",
   "sources": {
+    "antigravity": {
+      "cacheCreation": 0,
+      "cacheRead": 322053604,
+      "costUSD": 173.828716,
+      "input": 21098852,
+      "models": {
+        "claude-opus-5-5": {
+          "cacheCreation": 0,
+          "cacheRead": 57723158,
+          "costUSD": 23.875644,
+          "input": 1822203,
+          "output": 252110,
+          "total": 59797471
+        },
+        "gemini-3.8-flash-low": {
+          "cacheCreation": 0,
+          "cacheRead": 0,
+          "costUSD": 0.047689,
+          "input": 62590,
+          "output": 199,
+          "total": 62789
+        },
+        "gemini-3.8-flash-tiered": {
+          "cacheCreation": 0,
+          "cacheRead": 2607871,
+          "costUSD": 0.778345,
+          "input": 515596,
+          "output": 18891,
+          "total": 3142358
+        },
+        "gemini-4-carbon": {
+          "cacheCreation": 0,
+          "cacheRead": 220103420,
+          "costUSD": 142.800268,
+          "input": 15113071,
+          "output": 1152646,
+          "total": 236369137
+        },
+        "gemini-4-hydrogen": {
+          "cacheCreation": 0,
+          "cacheRead": 26753229,
+          "costUSD": 6.326771,
+          "input": 1766826,
+          "output": 138226,
+          "total": 28658281
+        },
+        "gemini-flash-worker-agy": {
+          "cacheCreation": 0,
+          "cacheRead": 7492958,
+          "costUSD": 0.0,
+          "input": 937085,
+          "output": 38533,
+          "total": 8468576
+        },
+        "gemini-pro-orchestrator": {
+          "cacheCreation": 0,
+          "cacheRead": 7220724,
+          "costUSD": 0.0,
+          "input": 878954,
+          "output": 40597,
+          "total": 8140275
+        },
+        "model_placeholder_m525": {
+          "cacheCreation": 0,
+          "cacheRead": 152244,
+          "costUSD": 0.0,
+          "input": 2527,
+          "output": 62,
+          "total": 154833
+        }
+      },
+      "output": 1641264,
+      "total": 345730082
+    },
     "codex": {
       "cacheCreation": 0,
       "cacheRead": 61576832,
