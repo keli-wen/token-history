@@ -220,7 +220,12 @@ def normalize_codex(rec):
     return out
 
 
-NORMALIZERS = {"claude": normalize_claude, "codex": normalize_codex}
+NORMALIZERS = {
+    "claude": normalize_claude,
+    "codex": normalize_codex,
+    "gemini": normalize_claude,
+    "antigravity": normalize_claude,
+}
 
 
 # ------------------------------------------------------------------------ merge

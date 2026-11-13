@@ -22,7 +22,7 @@
 
 - **Snapshots your usage into git, daily.** AI coding tools keep usage data only on your disk and quietly expire it — history you don't persist is history you lose. Every number lands in git before that happens, permanently yours.
 - **Renders a whole gallery of SVG charts and badges** — self-updating, and embeddable in a GitHub profile README, a blog, or anywhere an `<img>` tag works.
-- **Merges every machine and every source.** Multiple hosts combine into one history; Claude Code and Codex are the first two sources (riding on ccusage), with more models and feeds on the roadmap.
+- **Merges every machine and every source.** Multiple hosts combine into one history; Claude Code, Codex, and Gemini (including Antigravity via ccusage) are supported out of the box, with more feeds on the roadmap.
 - **Sets itself up through your agent.** Hand Claude Code or Codex [one link](#-for-agents-recommended) and say *"set this up"* — it walks itself from fork to first push.
 
 The repo keeps a day-by-day history; the headline chart shows the last 30 days, and every render also produces [an entire gallery of other styles](#chart-gallery) across daily, weekly, and monthly granularity.
@@ -162,9 +162,9 @@ Every run renders **every** style below — the same data, over a dozen ways. Th
 
 <img src="./charts/day/pixel-tokens.svg" width="880" alt="Pixel-art daily token bars: stacks of squares, one square per 10M tokens">
 
-**`charts/day/pixel-models.svg`** — the same columns, split by model. Each source keeps its own hue and encodes the tier twice, in lightness *and* in how much of the square is filled — solid, notched, hollow — so the top tier reads even in greyscale (Claude fable › opus › sonnet, Codex 5.5/Sol › Terra › Luna)
+**`charts/day/pixel-models.svg`** — the same columns, split by model. Each source keeps its own hue and encodes the tier twice, in lightness *and* in how much of the square is filled — solid, notched, hollow — so the top tier reads even in greyscale (Claude fable › opus › sonnet, Codex 5.5/Sol › Terra › Luna, Gemini Carbon/Argon › Flash/Hydrogen)
 
-<img src="./charts/day/pixel-models.svg" width="880" alt="Pixel-art daily token bars split by model: three orange steps for Claude and three blue steps for Codex, each tier also marked solid, notched or hollow">
+<img src="./charts/day/pixel-models.svg" width="880" alt="Pixel-art daily token bars split by model: Claude orange steps, Codex blue steps, and Gemini purple steps, each tier also marked solid, notched or hollow">
 
 **`charts/day/terminal-tokens.svg`** — the last 30 days as a terminal session: an htop-style bar per day, a CLI-style `TOTAL` sign-off, and a blinking cursor
 

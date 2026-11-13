@@ -6,7 +6,8 @@ Two charts off one geometry:
 charts/day/pixel-tokens.svg   columns colored by source only — the plain twin
 charts/day/pixel-models.svg   the same columns, each source's pixels shaded by
                               model tier (Claude fable > opus > sonnet, Codex
-                              5.5/Sol > terra > luna)
+                              5.5/Sol > terra > luna, Gemini carbon/argon >
+                              flash/hydrogen)
 
 The split chart is additive, never a replacement: both are rendered every time,
 so a README can embed either. Each daily column is a stack of
@@ -42,34 +43,32 @@ MAX_ROWS = 24         # tallest column the grid allows
 TICK_ROWS = 5         # one y tick every 5 rows = 10 quanta
 
 PAD_L, PAD_R = 76, 28
-PAD_T_PLAIN = 100     # one legend row: the two sources
-PAD_T_SPLIT = 116     # two legend rows: three model tiers per source
+PAD_T_PLAIN = 100     # one legend row: the sources
+PAD_T_SPLIT = 134     # three legend rows: three model tiers per source
 PLOT_H = MAX_ROWS * PITCH                    # 240
 W = render.W                                 # 880
 
-# Model tiers are an ORDINAL scale, so each source keeps its one brand hue and
-# spends only lightness on the tier: deepest = most capable. The middle step of
-# each ladder IS that mode's validated brand accent (render.THEME claude/codex),
-# so a model-split column still reads as the same orange and blue as every other
-# chart. Claude's outer steps are the documented calendar ramp (THEME ramp4 and
-# ramp2 in light); Codex has no documented ramp, so its outer steps mirror the
-# same lightness ladder on the blue hue. Verified with the dataviz validator
-# (ordinal: monotone L, adjacent dL >= 0.06, light end >= 2:1 on the surface):
-# all four ladders PASS, and all nine cross-source pairs clear the CVD dE 8
-# target (worst 15.5 light / 14.1 dark) — which matters because Tetris packing
-# can put a Claude and a Codex pixel side by side in the same row.
+# Model tiers are an ORDINAL scale per source hue: deepest/accent = most capable.
+# Gemini has only 2 model tiers (Carbon/Argon > Flash/Hydrogen), so its top tier
+# uses the brand accent directly (THEME gemini) and Flash/Hydrogen drops to the
+# lighter step with a hollow ring (hole = 4), matching Sonnet/Haiku and Luna.
+# All four 3-step and 2-step ladders pass dataviz `--ordinal` validation.
 MODEL_CSS = (
     "svg{--claude-fable:#9c4a26;--claude-opus:#d06a41;--claude-sonnet:#e59a70;"
-    "--codex-core:#245f9f;--codex-terra:#4382c9;--codex-luna:#78a9dc}"
+    "--codex-core:#245f9f;--codex-terra:#4382c9;--codex-luna:#78a9dc;"
+    "--gemini-carbon:#7f4aa3;--gemini-flash:#b385d6}"
     "@media (prefers-color-scheme:dark){svg{--claude-fable:#a84c2b;"
     "--claude-opus:#db7448;--claude-sonnet:#f2aa84;--codex-core:#2f70b1;"
-    "--codex-terra:#5b95d6;--codex-luna:#8ab9e8}}"
+    "--codex-terra:#5b95d6;--codex-luna:#8ab9e8;"
+    "--gemini-carbon:#8e58b3;--gemini-flash:#b98bdc}}"
     ".m-claude-fable{fill:var(--claude-fable)}"
     ".m-claude-sonnet{fill:var(--claude-sonnet)}"
     ".m-claude-opus{fill:var(--claude-opus)}"
     ".m-codex-core{fill:var(--codex-core)}"
     ".m-codex-terra{fill:var(--codex-terra)}"
     ".m-codex-luna{fill:var(--codex-luna)}"
+    ".m-gemini-carbon{fill:var(--gemini-carbon)}"
+    ".m-gemini-flash{fill:var(--gemini-flash)}"
 )
 
 PIXEL_CSS = (
@@ -94,6 +93,8 @@ PIXEL_CSS = (
 # colorblindness, and for the palest step whose contrast sits near the floor.
 # Ink drops monotonically with the tier, so visual weight and depth agree.
 # Holes are even and centered on the 2px sub-grid: solid, notched, hollow ring.
+# Holes are even and centered on the 2px sub-grid: solid, notched, hollow ring.
+# For 2-tier sources (Gemini), top tier is solid (0) and fast tier is hollow (4).
 TIER_HOLE = (0, 2, 4)
 
 MODEL_GROUPS = {
@@ -107,15 +108,22 @@ MODEL_GROUPS = {
         ("claude-sonnet", "SONNET / HAIKU", ("sonnet", "haiku")),
     ),
     "codex": (
-        ("codex-core", "5.5 / SOL", ("gpt-5.5", "gpt-5.6-sol")),
+        ("codex-core", "5.5 / SOL", ("gpt-5.5", "gpt-5.6-sol", "gpt-6.1-sol", "astra")),
         ("codex-terra", "TERRA", ("terra",)),
         ("codex-luna", "LUNA", ("luna",)),
     ),
+    "gemini": (
+        ("gemini-carbon", "CARBON / ARGON", ("carbon", "argon")),
+        ("gemini-flash", "FLASH / HYDROGEN", ("flash", "hydrogen")),
+    ),
 }
 
-# tier position of every model key, so a pixel knows which texture it wears
-TIER_INDEX = {key: i for groups in MODEL_GROUPS.values()
-              for i, (key, _, _) in enumerate(groups)}
+# tier hole of every model key, so 2-tier sources share the solid/hollow grammar
+TIER_HOLE_BY_KEY = {
+    key: TIER_HOLE[0 if i == 0 else (-1 if i == len(groups) - 1 else i)]
+    for groups in MODEL_GROUPS.values()
+    for i, (key, _, _) in enumerate(groups)
+}
 
 # 7x6 pixel heart, drawn as tiny rects in primary ink (decorative, never a series hue)
 HEART = (
@@ -138,11 +146,11 @@ def _tier_cell(add, key, x, y, size, blink="", label=None):
     The hole is painted rather than cut out, so the dashed gridline behind a
     column can never show through the middle of a pixel.
     """
-    cls = "s-" + key if key in ("claude", "codex") else "m-" + key
+    cls = "s-" + key if key in ("claude", "codex", "gemini") else "m-" + key
     title = "<title>{}</title>".format(render.esc(label)) if label else ""
     add('<rect class="px {}{}" x="{}" y="{}" width="{}" height="{}">{}</rect>'.format(
         cls, blink, x, y, size, size, title))
-    hole = TIER_HOLE[TIER_INDEX[key]] * size // S if key in TIER_INDEX else 0
+    hole = TIER_HOLE_BY_KEY.get(key, 0) * size // S
     if hole:
         off = (size - hole) // 2
         add('<rect class="px bg{}" x="{}" y="{}" width="{}" height="{}"/>'.format(
@@ -253,10 +261,10 @@ def _source_legend(add, x, y):
 
 
 def _model_legend(add, x, y):
-    """Two compact legend rows make the within-source shade scale explicit."""
-    for row_idx, source in enumerate(("claude", "codex")):
+    """Compact legend rows make the within-source shade scale explicit."""
+    for row_idx, (source, _) in enumerate(render.SERIES):
         cy = y + row_idx * 17
-        label = "CLAUDE" if source == "claude" else "CODEX"
+        label = source.upper()
         add('<text class="tm" x="{}" y="{}" font-size="9.5" '
             'font-family="var(--fm)" letter-spacing="1">{}</text>'.format(x, cy + 9, label))
         cursor = x + 62
