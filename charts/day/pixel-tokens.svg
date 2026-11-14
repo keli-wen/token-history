@@ -436,10 +436,12 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <g class="col wip" style="animation-delay:522ms">
 <rect class="px s-codex" x="830" y="332" width="8" height="8"/>
 <rect class="px s-gemini" x="840" y="332" width="8" height="8"/>
-<rect class="px s-gemini blink" x="830" y="322" width="8" height="8"/>
+<rect class="px s-gemini" x="830" y="322" width="8" height="8"/>
+<rect class="px s-gemini" x="840" y="322" width="8" height="8"/>
+<rect class="px s-gemini blink" x="830" y="312" width="8" height="8"/>
 </g>
 <text class="tm" x="839" y="359" font-size="10.5" text-anchor="middle" font-family="var(--fm)">11/14</text>
 <text class="tn" x="244" y="174" font-size="11" font-weight="700" text-anchor="middle">1.4B</text>
-<text class="tn" x="839" y="274" font-size="11" font-weight="700" text-anchor="middle">93M</text>
-<text class="tm" x="28" y="382" font-size="10.5">Generated 2026-11-14 04:00 UTC</text>
+<text class="tn" x="839" y="274" font-size="11" font-weight="700" text-anchor="middle">199M</text>
+<text class="tm" x="28" y="382" font-size="10.5">Generated 2026-11-14 13:00 UTC</text>
 </svg>
