@@ -1,27 +1,35 @@
 {
-  "ccusageVersion": "20.0.50",
-  "collectedAt": "2026-11-14T04:00:10Z",
+  "ccusageVersion": "20.0.51",
+  "collectedAt": "2026-11-14T13:00:14Z",
   "date": "2026-11-14",
   "host": "host2",
   "sources": {
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 606720,
-      "costUSD": 0.311088,
-      "input": 61752,
+      "cacheRead": 1861888,
+      "costUSD": 1.000527,
+      "input": 128328,
       "models": {
+        "gpt-5.6-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 379648,
+          "input": 40496,
+          "output": 3687,
+          "reasoningOutput": 1394,
+          "total": 423831
+        },
         "gpt-5.6-terra": {
           "cacheCreation": 0,
-          "cacheRead": 606720,
-          "input": 61752,
-          "output": 5520,
-          "reasoningOutput": 1992,
-          "total": 673992
+          "cacheRead": 1482240,
+          "input": 87832,
+          "output": 11736,
+          "reasoningOutput": 4350,
+          "total": 1581808
         }
       },
-      "output": 5520,
-      "reasoningOutput": 1992,
-      "total": 673992
+      "output": 15423,
+      "reasoningOutput": 5744,
+      "total": 2005639
     }
   },
   "status": "partial",
