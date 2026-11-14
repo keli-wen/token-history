@@ -1,14 +1,14 @@
 {
-  "ccusageVersion": "20.0.50",
-  "collectedAt": "2026-11-14T04:00:22Z",
+  "ccusageVersion": "20.0.51",
+  "collectedAt": "2026-11-14T13:00:28Z",
   "date": "2026-11-14",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 55810281,
-      "costUSD": 100.174748,
-      "input": 18250068,
+      "cacheRead": 145828681,
+      "costUSD": 141.943886,
+      "input": 32026881,
       "models": {
         "claude-opus-5-5": {
           "cacheCreation": 0,
@@ -18,17 +18,49 @@
           "output": 52588,
           "total": 2126320
         },
+        "gemini-3.8-flash-tiered": {
+          "cacheCreation": 0,
+          "cacheRead": 3142945,
+          "costUSD": 0.702198,
+          "input": 398294,
+          "output": 18672,
+          "total": 3559911
+        },
         "gemini-4-carbon": {
           "cacheCreation": 0,
-          "cacheRead": 53914409,
-          "costUSD": 98.032374,
-          "input": 18072208,
-          "output": 370960,
-          "total": 72357577
+          "cacheRead": 88322230,
+          "costUSD": 137.365422,
+          "input": 23648474,
+          "output": 670989,
+          "total": 112641693
+        },
+        "gemini-4-hydrogen": {
+          "cacheCreation": 0,
+          "cacheRead": 4432418,
+          "costUSD": 1.733892,
+          "input": 528197,
+          "output": 44963,
+          "total": 5005578
+        },
+        "gemini-flash-worker-agy": {
+          "cacheCreation": 0,
+          "cacheRead": 32772754,
+          "costUSD": 0.0,
+          "input": 3770738,
+          "output": 333917,
+          "total": 36877409
+        },
+        "gemini-pro-orchestrator": {
+          "cacheCreation": 0,
+          "cacheRead": 15262462,
+          "costUSD": 0.0,
+          "input": 3503318,
+          "output": 166503,
+          "total": 18932283
         }
       },
-      "output": 423548,
-      "total": 74860970
+      "output": 1287632,
+      "total": 180077193
     },
     "codex": {
       "cacheCreation": 0,
