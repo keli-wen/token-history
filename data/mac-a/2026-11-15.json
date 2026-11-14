@@ -1,0 +1,28 @@
+{
+  "ccusageVersion": "20.0.51",
+  "collectedAt": "2026-11-14T16:30:22Z",
+  "date": "2026-11-15",
+  "host": "mac-a",
+  "sources": {
+    "antigravity": {
+      "cacheCreation": 0,
+      "cacheRead": 13132379,
+      "costUSD": 8.412228,
+      "input": 984328,
+      "models": {
+        "gemini-4-carbon": {
+          "cacheCreation": 0,
+          "cacheRead": 13132379,
+          "costUSD": 8.412228,
+          "input": 984328,
+          "output": 52247,
+          "total": 14168954
+        }
+      },
+      "output": 52247,
+      "total": 14209129
+    }
+  },
+  "status": "partial",
+  "timezone": "Asia/Shanghai"
+}

@@ -1,14 +1,14 @@
 {
   "ccusageVersion": "20.0.51",
-  "collectedAt": "2026-11-14T13:00:28Z",
+  "collectedAt": "2026-11-14T16:30:22Z",
   "date": "2026-11-14",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 145828681,
-      "costUSD": 141.943886,
-      "input": 32026881,
+      "cacheRead": 223507532,
+      "costUSD": 203.313809,
+      "input": 39482883,
       "models": {
         "claude-opus-5-5": {
           "cacheCreation": 0,
@@ -18,21 +18,29 @@
           "output": 52588,
           "total": 2126320
         },
+        "claude-sonnet-5-5-high": {
+          "cacheCreation": 0,
+          "cacheRead": 15695,
+          "costUSD": 0.702672,
+          "input": 55516,
+          "output": 59007,
+          "total": 130218
+        },
         "gemini-3.8-flash-tiered": {
           "cacheCreation": 0,
-          "cacheRead": 3142945,
-          "costUSD": 0.702198,
-          "input": 398294,
-          "output": 18672,
-          "total": 3559911
+          "cacheRead": 5495150,
+          "costUSD": 1.251066,
+          "input": 672388,
+          "output": 39694,
+          "total": 6207232
         },
         "gemini-4-carbon": {
           "cacheCreation": 0,
-          "cacheRead": 88322230,
-          "costUSD": 137.365422,
-          "input": 23648474,
-          "output": 670989,
-          "total": 112641693
+          "cacheRead": 157610324,
+          "costUSD": 197.483805,
+          "input": 29863655,
+          "output": 1241677,
+          "total": 188715656
         },
         "gemini-4-hydrogen": {
           "cacheCreation": 0,
@@ -44,23 +52,23 @@
         },
         "gemini-flash-worker-agy": {
           "cacheCreation": 0,
-          "cacheRead": 32772754,
+          "cacheRead": 37380023,
           "costUSD": 0.0,
-          "input": 3770738,
-          "output": 333917,
-          "total": 36877409
+          "input": 4458278,
+          "output": 391417,
+          "total": 42229718
         },
         "gemini-pro-orchestrator": {
           "cacheCreation": 0,
-          "cacheRead": 15262462,
+          "cacheRead": 16678050,
           "costUSD": 0.0,
-          "input": 3503318,
-          "output": 166503,
-          "total": 18932283
+          "input": 3726989,
+          "output": 175950,
+          "total": 20580989
         }
       },
-      "output": 1287632,
-      "total": 180077193
+      "output": 2005296,
+      "total": 266501955
     },
     "codex": {
       "cacheCreation": 0,
@@ -90,6 +98,6 @@
       "total": 17228257
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
