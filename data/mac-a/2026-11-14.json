@@ -1,45 +1,61 @@
 {
   "ccusageVersion": "20.0.50",
-  "collectedAt": "2026-11-13T16:30:19Z",
+  "collectedAt": "2026-11-14T04:00:22Z",
   "date": "2026-11-14",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 4321912,
-      "costUSD": 11.32797,
-      "input": 2265127,
+      "cacheRead": 55810281,
+      "costUSD": 100.174748,
+      "input": 18250068,
       "models": {
+        "claude-opus-5-5": {
+          "cacheCreation": 0,
+          "cacheRead": 1895872,
+          "costUSD": 2.142374,
+          "input": 177860,
+          "output": 52588,
+          "total": 2126320
+        },
         "gemini-4-carbon": {
           "cacheCreation": 0,
-          "cacheRead": 4321912,
-          "costUSD": 11.32797,
-          "input": 2265127,
-          "output": 32563,
-          "total": 6619602
+          "cacheRead": 53914409,
+          "costUSD": 98.032374,
+          "input": 18072208,
+          "output": 370960,
+          "total": 72357577
         }
       },
-      "output": 32563,
-      "total": 6657193
+      "output": 423548,
+      "total": 74860970
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 240768,
-      "costUSD": 0.093694,
-      "input": 73366,
+      "cacheRead": 16253184,
+      "costUSD": 4.02827,
+      "input": 920621,
       "models": {
+        "gpt-6.1-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 15928064,
+          "input": 804714,
+          "output": 51960,
+          "reasoningOutput": 18413,
+          "total": 16784738
+        },
         "gpt-6.1-terra": {
           "cacheCreation": 0,
-          "cacheRead": 240768,
-          "input": 73366,
-          "output": 1658,
+          "cacheRead": 325120,
+          "input": 115907,
+          "output": 2492,
           "reasoningOutput": 6,
-          "total": 315792
+          "total": 443519
         }
       },
-      "output": 1658,
-      "reasoningOutput": 6,
-      "total": 315792
+      "output": 54452,
+      "reasoningOutput": 18419,
+      "total": 17228257
     }
   },
   "status": "partial",
