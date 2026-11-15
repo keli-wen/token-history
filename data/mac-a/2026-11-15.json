@@ -1,71 +1,79 @@
 {
   "ccusageVersion": "20.0.51",
-  "collectedAt": "2026-11-15T13:00:25Z",
+  "collectedAt": "2026-11-15T16:30:23Z",
   "date": "2026-11-15",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 137348768,
-      "costUSD": 111.992981,
-      "input": 13425292,
+      "cacheRead": 221624643,
+      "costUSD": 179.140991,
+      "input": 21607533,
       "models": {
         "gemini-3.8-flash-tiered": {
           "cacheCreation": 0,
-          "cacheRead": 2942281,
-          "costUSD": 0.729783,
-          "input": 346296,
-          "output": 23668,
-          "total": 3312245
+          "cacheRead": 3257433,
+          "costUSD": 0.83786,
+          "input": 394638,
+          "output": 29089,
+          "total": 3681160
         },
         "gemini-4-carbon": {
           "cacheCreation": 0,
-          "cacheRead": 131184983,
-          "costUSD": 109.839685,
-          "input": 12560632,
-          "output": 945308,
-          "total": 144690923
+          "cacheRead": 213460024,
+          "costUSD": 176.389785,
+          "input": 20321560,
+          "output": 1542684,
+          "total": 235324268
         },
         "gemini-4-hydrogen": {
           "cacheCreation": 0,
-          "cacheRead": 3221504,
-          "costUSD": 1.423514,
-          "input": 518364,
-          "output": 23990,
-          "total": 3763858
+          "cacheRead": 4150429,
+          "costUSD": 1.913347,
+          "input": 757918,
+          "output": 27915,
+          "total": 4936262
+        },
+        "gemini-pro-orchestrator": {
+          "cacheCreation": 0,
+          "cacheRead": 756757,
+          "costUSD": 0.0,
+          "input": 133417,
+          "output": 4835,
+          "total": 895009
         }
       },
-      "output": 992966,
-      "total": 152562486
+      "output": 1604523,
+      "total": 246008417
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 14612480,
-      "costUSD": 2.724351,
-      "input": 727295,
+      "cacheRead": 20068608,
+      "costUSD": 4.270473,
+      "input": 1245333,
       "models": {
         "gpt-6.1-sol": {
           "cacheCreation": 0,
-          "cacheRead": 7199360,
-          "input": 571039,
-          "output": 28675,
-          "reasoningOutput": 17406,
-          "total": 7799074
+          "cacheRead": 12485248,
+          "input": 815362,
+          "output": 50807,
+          "reasoningOutput": 25624,
+          "total": 13351417
         },
         "gpt-6.1-terra": {
           "cacheCreation": 0,
-          "cacheRead": 7413120,
-          "input": 156256,
-          "output": 9735,
+          "cacheRead": 7583360,
+          "input": 429971,
+          "output": 14803,
           "reasoningOutput": 3139,
-          "total": 7579111
+          "total": 8028134
         }
       },
-      "output": 38410,
-      "reasoningOutput": 20545,
-      "total": 15378185
+      "output": 65610,
+      "reasoningOutput": 28763,
+      "total": 21379551
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
