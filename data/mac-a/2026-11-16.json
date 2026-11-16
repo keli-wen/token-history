@@ -1,22 +1,30 @@
 {
   "ccusageVersion": "20.0.51",
-  "collectedAt": "2026-11-16T13:00:25Z",
+  "collectedAt": "2026-11-16T16:30:29Z",
   "date": "2026-11-16",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 898676545,
-      "costUSD": 603.00473,
-      "input": 83268280,
+      "cacheRead": 1118228857,
+      "costUSD": 674.849162,
+      "input": 98017710,
       "models": {
+        "claude-sonnet-5-5-high": {
+          "cacheCreation": 0,
+          "cacheRead": 21637549,
+          "costUSD": 4.357131,
+          "input": 512253,
+          "output": 116887,
+          "total": 22266689
+        },
         "gemini-3.8-flash-tiered": {
           "cacheCreation": 0,
-          "cacheRead": 7181124,
-          "costUSD": 1.551253,
-          "input": 810690,
-          "output": 37601,
-          "total": 8029415
+          "cacheRead": 9257416,
+          "costUSD": 2.040424,
+          "input": 1073729,
+          "output": 49614,
+          "total": 10380759
         },
         "gemini-4-argon": {
           "cacheCreation": 0,
@@ -28,19 +36,19 @@
         },
         "gemini-4-carbon": {
           "cacheCreation": 0,
-          "cacheRead": 806636545,
-          "costUSD": 579.797725,
-          "input": 73270279,
-          "output": 3726538,
-          "total": 883633362
+          "cacheRead": 857378475,
+          "costUSD": 619.003767,
+          "input": 79227663,
+          "output": 3891674,
+          "total": 940497812
         },
         "gemini-4-hydrogen": {
           "cacheCreation": 0,
-          "cacheRead": 72787564,
-          "costUSD": 21.374048,
-          "input": 7505487,
-          "output": 307553,
-          "total": 80600604
+          "cacheRead": 216904689,
+          "costUSD": 49.166135,
+          "input": 15190239,
+          "output": 751496,
+          "total": 232846424
         },
         "gemini-flash-worker-agy": {
           "cacheCreation": 0,
@@ -52,21 +60,39 @@
         },
         "gemini-pro-orchestrator": {
           "cacheCreation": 0,
-          "cacheRead": 3448985,
+          "cacheRead": 4428401,
           "costUSD": 0.0,
-          "input": 542461,
-          "output": 10651,
-          "total": 4002097
+          "input": 874463,
+          "output": 12702,
+          "total": 5315566
         }
       },
-      "output": 4107207,
-      "total": 989013097
+      "output": 4847237,
+      "total": 1224461624
+    },
+    "claude": {
+      "cacheCreation": 0,
+      "cacheRead": 33263752,
+      "costUSD": 7.133456,
+      "input": 2722990,
+      "models": {
+        "models/gemini-4-hydrogen": {
+          "cacheCreation": 0,
+          "cacheRead": 33263752,
+          "costUSD": 7.133456,
+          "input": 2722990,
+          "output": 73892,
+          "total": 36060634
+        }
+      },
+      "output": 73892,
+      "total": 36060634
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 145189504,
-      "costUSD": 34.558813,
-      "input": 7643550,
+      "cacheRead": 145375872,
+      "costUSD": 34.630757,
+      "input": 7695451,
       "models": {
         "gpt-6.1-sol": {
           "cacheCreation": 0,
@@ -78,18 +104,18 @@
         },
         "gpt-6.1-terra": {
           "cacheCreation": 0,
-          "cacheRead": 17343872,
-          "input": 2006661,
-          "output": 86416,
-          "reasoningOutput": 14579,
-          "total": 19436949
+          "cacheRead": 17530240,
+          "input": 2058562,
+          "output": 88561,
+          "reasoningOutput": 14848,
+          "total": 19677363
         }
       },
-      "output": 607170,
-      "reasoningOutput": 210246,
-      "total": 153440224
+      "output": 609315,
+      "reasoningOutput": 210515,
+      "total": 153680638
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
