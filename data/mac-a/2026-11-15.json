@@ -1,13 +1,13 @@
 {
   "ccusageVersion": "20.0.51",
-  "collectedAt": "2026-11-17T04:00:29Z",
+  "collectedAt": "2026-11-17T13:00:30Z",
   "date": "2026-11-15",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
       "cacheRead": 221624643,
-      "costUSD": 179.0138,
+      "costUSD": 178.710209,
       "input": 21607533,
       "models": {
         "gemini-3.8-flash-tiered": {
@@ -20,19 +20,19 @@
         },
         "gemini-4-carbon": {
           "cacheCreation": 0,
-          "cacheRead": 213205154,
-          "costUSD": 176.186279,
-          "input": 20319287,
-          "output": 1535619,
-          "total": 235060060
+          "cacheRead": 212710649,
+          "costUSD": 175.700534,
+          "input": 20291526,
+          "output": 1522566,
+          "total": 234524741
         },
         "gemini-4-hydrogen": {
           "cacheCreation": 0,
-          "cacheRead": 4405299,
-          "costUSD": 1.989661,
-          "input": 760191,
-          "output": 34980,
-          "total": 5200470
+          "cacheRead": 4899804,
+          "costUSD": 2.171816,
+          "input": 787952,
+          "output": 48033,
+          "total": 5735789
         },
         "gemini-pro-orchestrator": {
           "cacheCreation": 0,

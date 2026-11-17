@@ -1,14 +1,14 @@
 {
   "ccusageVersion": "20.0.51",
-  "collectedAt": "2026-11-17T04:00:29Z",
+  "collectedAt": "2026-11-17T13:00:30Z",
   "date": "2026-11-16",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 1118228857,
-      "costUSD": 674.849162,
-      "input": 98017710,
+      "cacheRead": 1117152460,
+      "costUSD": 673.478007,
+      "input": 97476058,
       "models": {
         "claude-sonnet-5-5-high": {
           "cacheCreation": 0,
@@ -36,19 +36,19 @@
         },
         "gemini-4-carbon": {
           "cacheCreation": 0,
-          "cacheRead": 857378475,
-          "costUSD": 619.003767,
-          "input": 79227663,
-          "output": 3891674,
-          "total": 940497812
+          "cacheRead": 856362261,
+          "costUSD": 618.35196,
+          "input": 79217072,
+          "output": 3873049,
+          "total": 939452382
         },
         "gemini-4-hydrogen": {
           "cacheCreation": 0,
-          "cacheRead": 216904689,
-          "costUSD": 49.166135,
-          "input": 15190239,
-          "output": 751496,
-          "total": 232846424
+          "cacheRead": 216844506,
+          "costUSD": 48.446787,
+          "input": 14659178,
+          "output": 765109,
+          "total": 232268793
         },
         "gemini-flash-worker-agy": {
           "cacheCreation": 0,
@@ -67,8 +67,8 @@
           "total": 5315566
         }
       },
-      "output": 4847237,
-      "total": 1224461624
+      "output": 4842225,
+      "total": 1222834166
     },
     "claude": {
       "cacheCreation": 0,
