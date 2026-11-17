@@ -1,26 +1,60 @@
 {
   "ccusageVersion": "20.0.51",
-  "collectedAt": "2026-11-16T16:30:29Z",
+  "collectedAt": "2026-11-17T04:00:29Z",
   "date": "2026-11-17",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 1344931,
-      "costUSD": 1.27859,
-      "input": 171051,
+      "cacheRead": 90952630,
+      "costUSD": 33.753382,
+      "input": 6948288,
       "models": {
         "gemini-4-argon": {
           "cacheCreation": 0,
           "cacheRead": 1344931,
-          "costUSD": 1.27859,
-          "input": 171051,
-          "output": 7532,
-          "total": 1523514
+          "costUSD": 2.767642,
+          "input": 509449,
+          "output": 10750,
+          "total": 1865130
+        },
+        "gemini-4-carbon": {
+          "cacheCreation": 0,
+          "cacheRead": 18853951,
+          "costUSD": 18.115574,
+          "input": 2924711,
+          "output": 72557,
+          "total": 21851219
+        },
+        "gemini-4-hydrogen": {
+          "cacheCreation": 0,
+          "cacheRead": 70753748,
+          "costUSD": 12.870166,
+          "input": 3514128,
+          "output": 155227,
+          "total": 74423103
         }
       },
-      "output": 7532,
-      "total": 1532252
+      "output": 238534,
+      "total": 98361917
+    },
+    "claude": {
+      "cacheCreation": 0,
+      "cacheRead": 1467244,
+      "costUSD": 0.366411,
+      "input": 157192,
+      "models": {
+        "models/gemini-4-hydrogen": {
+          "cacheCreation": 0,
+          "cacheRead": 1467244,
+          "costUSD": 0.366411,
+          "input": 157192,
+          "output": 2744,
+          "total": 1627180
+        }
+      },
+      "output": 2744,
+      "total": 1627180
     }
   },
   "status": "partial",
