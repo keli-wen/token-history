@@ -1,13 +1,13 @@
 {
   "ccusageVersion": "20.0.51",
-  "collectedAt": "2026-11-17T13:00:30Z",
+  "collectedAt": "2026-11-17T16:30:30Z",
   "date": "2026-11-16",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
       "cacheRead": 1117152460,
-      "costUSD": 673.478007,
+      "costUSD": 982.481428,
       "input": 97476058,
       "models": {
         "claude-sonnet-5-5-high": {
@@ -45,7 +45,7 @@
         "gemini-4-hydrogen": {
           "cacheCreation": 0,
           "cacheRead": 216844506,
-          "costUSD": 48.446787,
+          "costUSD": 357.450208,
           "input": 14659178,
           "output": 765109,
           "total": 232268793

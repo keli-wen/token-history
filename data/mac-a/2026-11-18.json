@@ -1,0 +1,44 @@
+{
+  "ccusageVersion": "20.0.51",
+  "collectedAt": "2026-11-17T16:30:30Z",
+  "date": "2026-11-18",
+  "host": "mac-a",
+  "sources": {
+    "antigravity": {
+      "cacheCreation": 0,
+      "cacheRead": 14061067,
+      "costUSD": 16.168752,
+      "input": 1752916,
+      "models": {
+        "gemini-4-carbon": {
+          "cacheCreation": 0,
+          "cacheRead": 9312357,
+          "costUSD": 7.992407,
+          "input": 1202789,
+          "output": 43959,
+          "total": 10559105
+        },
+        "gemini-4-hydrogen": {
+          "cacheCreation": 0,
+          "cacheRead": 4466483,
+          "costUSD": 7.994299,
+          "input": 493930,
+          "output": 56123,
+          "total": 5016536
+        },
+        "gemini-4-hydrogen-tiered-high": {
+          "cacheCreation": 0,
+          "cacheRead": 282227,
+          "costUSD": 0.182045,
+          "input": 56197,
+          "output": 3739,
+          "total": 342163
+        }
+      },
+      "output": 103821,
+      "total": 15963957
+    }
+  },
+  "status": "partial",
+  "timezone": "Asia/Shanghai"
+}

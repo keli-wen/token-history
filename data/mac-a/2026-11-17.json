@@ -1,14 +1,14 @@
 {
   "ccusageVersion": "20.0.51",
-  "collectedAt": "2026-11-17T13:00:30Z",
+  "collectedAt": "2026-11-17T16:30:30Z",
   "date": "2026-11-17",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 259696932,
-      "costUSD": 113.006686,
-      "input": 20922740,
+      "cacheRead": 315046281,
+      "costUSD": 392.888618,
+      "input": 30650427,
       "models": {
         "claude-sonnet-5-5-low": {
           "cacheCreation": 0,
@@ -44,27 +44,27 @@
         },
         "gemini-4-carbon": {
           "cacheCreation": 0,
-          "cacheRead": 110175537,
-          "costUSD": 78.587603,
-          "input": 11636139,
-          "output": 283504,
-          "total": 122095180
+          "cacheRead": 149415411,
+          "costUSD": 120.634486,
+          "input": 18267316,
+          "output": 546267,
+          "total": 168228994
         },
         "gemini-4-hydrogen": {
           "cacheCreation": 0,
-          "cacheRead": 146056821,
-          "costUSD": 29.274267,
-          "input": 8189237,
-          "output": 435601,
-          "total": 154681659
+          "cacheRead": 161838375,
+          "costUSD": 266.855545,
+          "input": 11207962,
+          "output": 546446,
+          "total": 173592783
         },
         "gemini-4-hydrogen-tiered-high": {
           "cacheCreation": 0,
-          "cacheRead": 24512,
-          "costUSD": 0.086264,
-          "input": 51569,
-          "output": 275,
-          "total": 76356
+          "cacheRead": 352433,
+          "costUSD": 0.340036,
+          "input": 129354,
+          "output": 6746,
+          "total": 488533
         },
         "gemini-4-hydrogen-tiered-xhigh": {
           "cacheCreation": 0,
@@ -75,8 +75,8 @@
           "total": 95350
         }
       },
-      "output": 744765,
-      "total": 281977714
+      "output": 1124844,
+      "total": 347620112
     },
     "claude": {
       "cacheCreation": 0,
@@ -116,6 +116,6 @@
       "total": 3827723
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
