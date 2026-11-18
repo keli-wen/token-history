@@ -1,42 +1,50 @@
 {
   "ccusageVersion": "20.0.51",
-  "collectedAt": "2026-11-17T16:30:30Z",
+  "collectedAt": "2026-11-18T04:00:30Z",
   "date": "2026-11-18",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 14061067,
-      "costUSD": 16.168752,
-      "input": 1752916,
+      "cacheRead": 68010742,
+      "costUSD": 84.515847,
+      "input": 8621476,
       "models": {
+        "claude-opus-5-5": {
+          "cacheCreation": 0,
+          "cacheRead": 161080,
+          "costUSD": 2.369804,
+          "input": 191637,
+          "output": 78552,
+          "total": 431269
+        },
         "gemini-4-carbon": {
           "cacheCreation": 0,
-          "cacheRead": 9312357,
-          "costUSD": 7.992407,
-          "input": 1202789,
-          "output": 43959,
-          "total": 10559105
+          "cacheRead": 39850207,
+          "costUSD": 34.663301,
+          "input": 5418880,
+          "output": 163961,
+          "total": 45433048
         },
         "gemini-4-hydrogen": {
           "cacheCreation": 0,
-          "cacheRead": 4466483,
-          "costUSD": 7.994299,
-          "input": 493930,
-          "output": 56123,
-          "total": 5016536
+          "cacheRead": 27223889,
+          "costUSD": 46.798281,
+          "input": 2790815,
+          "output": 158543,
+          "total": 30173247
         },
         "gemini-4-hydrogen-tiered-high": {
           "cacheCreation": 0,
-          "cacheRead": 282227,
-          "costUSD": 0.182045,
-          "input": 56197,
-          "output": 3739,
-          "total": 342163
+          "cacheRead": 775566,
+          "costUSD": 0.684461,
+          "input": 220144,
+          "output": 14718,
+          "total": 1010428
         }
       },
-      "output": 103821,
-      "total": 15963957
+      "output": 415774,
+      "total": 77237964
     }
   },
   "status": "partial",
