@@ -41,8 +41,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 </g>
 <g class="b" style="animation-delay:320ms">
 <path class="s-claude" d="M52.5,176.0 H202.3 V185.0 H52.5 A4.5,4.5 0 0 1 48.0,180.5 V180.5 A4.5,4.5 0 0 1 52.5,176.0 Z"/>
-<path class="s-codex" d="M204.3,176.0 H586.9 V185.0 H204.3 V176.0 Z"/>
-<path class="s-gemini" d="M588.9,176.0 H827.5 A4.5,4.5 0 0 1 832.0,180.5 V180.5 A4.5,4.5 0 0 1 827.5,185.0 H588.9 V176.0 Z"/>
+<path class="s-codex" d="M204.3,176.0 H587.0 V185.0 H204.3 V176.0 Z"/>
+<path class="s-gemini" d="M589.0,176.0 H827.5 A4.5,4.5 0 0 1 832.0,180.5 V180.5 A4.5,4.5 0 0 1 827.5,185.0 H589.0 V176.0 Z"/>
 <circle class="s-claude" cx="53" cy="203" r="4"/>
 <text class="t2" x="63" y="207" font-size="12">Claude Code 20% · 2.6B</text>
 <circle class="s-codex" cx="236.6" cy="203" r="4"/>
@@ -50,5 +50,5 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <circle class="s-gemini" cx="379.4" cy="203" r="4"/>
 <text class="t2" x="389.4" y="207" font-size="12">Gemini 31% · 4.1B</text>
 </g>
-<text class="tm" x="48" y="226" font-size="10">Generated 2026-11-20 04:00 UTC</text>
+<text class="tm" x="48" y="226" font-size="10">Generated 2026-11-20 13:00 UTC</text>
 </svg>
