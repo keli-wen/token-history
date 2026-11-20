@@ -1,13 +1,13 @@
 {
   "ccusageVersion": "20.0.51",
-  "collectedAt": "2026-11-19T16:30:27Z",
+  "collectedAt": "2026-11-20T04:00:26Z",
   "date": "2026-11-19",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
       "cacheRead": 242637409,
-      "costUSD": 180.000524,
+      "costUSD": 162.748909,
       "input": 24068203,
       "models": {
         "claude-opus-5-5": {
@@ -45,7 +45,7 @@
         "gemini-4-hydrogen": {
           "cacheCreation": 0,
           "cacheRead": 12664849,
-          "costUSD": 21.231515,
+          "costUSD": 3.9799,
           "input": 963074,
           "output": 40838,
           "total": 13668761
