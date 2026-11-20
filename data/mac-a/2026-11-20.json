@@ -1,14 +1,14 @@
 {
   "ccusageVersion": "20.0.51",
-  "collectedAt": "2026-11-20T13:00:26Z",
+  "collectedAt": "2026-11-20T16:30:30Z",
   "date": "2026-11-20",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 319957545,
-      "costUSD": 181.045335,
-      "input": 29434334,
+      "cacheRead": 357083770,
+      "costUSD": 206.819026,
+      "input": 32662456,
       "models": {
         "gemini-4-argon": {
           "cacheCreation": 0,
@@ -20,23 +20,31 @@
         },
         "gemini-4-carbon": {
           "cacheCreation": 0,
-          "cacheRead": 113480474,
-          "costUSD": 74.485755,
-          "input": 9970960,
-          "output": 327887,
-          "total": 123779321
+          "cacheRead": 148354817,
+          "costUSD": 98.149903,
+          "input": 12881365,
+          "output": 445550,
+          "total": 161681732
+        },
+        "gemini-4-hydrogen": {
+          "cacheCreation": 0,
+          "cacheRead": 14910,
+          "costUSD": 0.108379,
+          "input": 54426,
+          "output": 140,
+          "total": 69476
         },
         "gemini-4-neon": {
           "cacheCreation": 0,
-          "cacheRead": 203076559,
-          "costUSD": 104.50497,
-          "input": 19157092,
-          "output": 696635,
-          "total": 222930286
+          "cacheRead": 205313531,
+          "costUSD": 106.506134,
+          "input": 19420383,
+          "output": 724713,
+          "total": 225458627
         }
       },
-      "output": 1031991,
-      "total": 351099453
+      "output": 1177872,
+      "total": 391765092
     },
     "codex": {
       "cacheCreation": 0,
@@ -66,6 +74,6 @@
       "total": 39821073
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
