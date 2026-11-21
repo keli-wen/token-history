@@ -1,0 +1,71 @@
+{
+  "ccusageVersion": "20.0.51",
+  "collectedAt": "2026-11-21T04:00:28Z",
+  "date": "2026-11-21",
+  "host": "mac-a",
+  "sources": {
+    "antigravity": {
+      "cacheCreation": 0,
+      "cacheRead": 120505492,
+      "costUSD": 50.424433,
+      "input": 5926009,
+      "models": {
+        "gemini-3.8-flash-low": {
+          "cacheCreation": 0,
+          "cacheRead": 0,
+          "costUSD": 0.023693,
+          "input": 31571,
+          "output": 4,
+          "total": 31575
+        },
+        "gemini-4-argon": {
+          "cacheCreation": 0,
+          "cacheRead": 1799163,
+          "costUSD": 1.674089,
+          "input": 243204,
+          "output": 10371,
+          "total": 2052738
+        },
+        "gemini-4-carbon": {
+          "cacheCreation": 0,
+          "cacheRead": 19631212,
+          "costUSD": 14.257878,
+          "input": 2184424,
+          "output": 35393,
+          "total": 21851029
+        },
+        "gemini-4-neon": {
+          "cacheCreation": 0,
+          "cacheRead": 99075117,
+          "costUSD": 34.468773,
+          "input": 3466810,
+          "output": 323668,
+          "total": 102865595
+        }
+      },
+      "output": 369436,
+      "total": 127142079
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 11119744,
+      "costUSD": 2.360444,
+      "input": 382125,
+      "models": {
+        "gpt-6.2-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 11119744,
+          "input": 382125,
+          "output": 48422,
+          "reasoningOutput": 16912,
+          "total": 11550291
+        }
+      },
+      "output": 48422,
+      "reasoningOutput": 16912,
+      "total": 11550291
+    }
+  },
+  "status": "partial",
+  "timezone": "Asia/Shanghai"
+}
