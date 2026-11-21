@@ -1,14 +1,14 @@
 {
   "ccusageVersion": "20.0.51",
-  "collectedAt": "2026-11-21T13:00:30Z",
+  "collectedAt": "2026-11-21T16:30:23Z",
   "date": "2026-11-21",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 226385757,
-      "costUSD": 94.918167,
-      "input": 10868191,
+      "cacheRead": 229146386,
+      "costUSD": 98.282685,
+      "input": 11456694,
       "models": {
         "gemini-3.8-flash-low": {
           "cacheCreation": 0,
@@ -28,23 +28,23 @@
         },
         "gemini-4-carbon": {
           "cacheCreation": 0,
-          "cacheRead": 73243038,
-          "costUSD": 39.355872,
-          "input": 4585321,
-          "output": 181521,
-          "total": 78009880
+          "cacheRead": 75938069,
+          "costUSD": 42.58605,
+          "input": 5145109,
+          "output": 190563,
+          "total": 81273741
         },
         "gemini-4-neon": {
           "cacheCreation": 0,
-          "cacheRead": 151343556,
-          "costUSD": 53.864513,
-          "input": 6008095,
-          "output": 491304,
-          "total": 157842955
+          "cacheRead": 151409154,
+          "costUSD": 53.998853,
+          "input": 6036810,
+          "output": 492400,
+          "total": 157938364
         }
       },
-      "output": 683200,
-      "total": 238465236
+      "output": 693338,
+      "total": 241839526
     },
     "codex": {
       "cacheCreation": 0,
@@ -83,6 +83,6 @@
       "total": 45163883
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
