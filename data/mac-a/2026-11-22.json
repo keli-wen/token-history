@@ -1,26 +1,45 @@
 {
   "ccusageVersion": "20.0.51",
-  "collectedAt": "2026-11-22T04:00:24Z",
+  "collectedAt": "2026-11-22T13:00:27Z",
   "date": "2026-11-22",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 3129978,
-      "costUSD": 3.138356,
-      "input": 517365,
+      "cacheRead": 11752287,
+      "costUSD": 12.187005,
+      "input": 2067322,
       "models": {
         "gemini-4-carbon": {
           "cacheCreation": 0,
-          "cacheRead": 3129978,
-          "costUSD": 3.138356,
-          "input": 517365,
-          "output": 11220,
-          "total": 3658563
+          "cacheRead": 11752287,
+          "costUSD": 12.187005,
+          "input": 2067322,
+          "output": 33380,
+          "total": 13852989
         }
       },
-      "output": 11220,
-      "total": 3669488
+      "output": 33380,
+      "total": 13897972
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 657408,
+      "costUSD": 0.08433,
+      "input": 44215,
+      "models": {
+        "gpt-6.1-terra": {
+          "cacheCreation": 0,
+          "cacheRead": 657408,
+          "input": 44215,
+          "output": 1449,
+          "reasoningOutput": 254,
+          "total": 703072
+        }
+      },
+      "output": 1449,
+      "reasoningOutput": 254,
+      "total": 703072
     }
   },
   "status": "partial",
