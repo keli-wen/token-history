@@ -21,7 +21,7 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <g class="b">
 <text class="tm" x="48" y="58" font-size="10.5" letter-spacing="2.5">LAST 30 DAYS · TOKENS</text>
 <text class="ts" x="46" y="122" font-size="58" font-weight="700">11.52B</text>
-<text class="t2" x="48" y="150" font-size="13">≈ $6,759 API-equivalent</text>
+<text class="t2" x="48" y="150" font-size="13">≈ $6,760 API-equivalent</text>
 </g>
 <line class="axis" x1="400" y1="46" x2="400" y2="150"/>
 <g class="b" style="animation-delay:120ms">
@@ -50,5 +50,5 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <circle class="s-gemini" cx="379.4" cy="203" r="4"/>
 <text class="t2" x="389.4" y="207" font-size="12">Gemini 39% · 4.5B</text>
 </g>
-<text class="tm" x="48" y="226" font-size="10">Generated 2026-11-22 04:00 UTC</text>
+<text class="tm" x="48" y="226" font-size="10">Generated 2026-11-22 13:00 UTC</text>
 </svg>
