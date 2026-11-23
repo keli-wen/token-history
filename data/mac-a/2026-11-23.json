@@ -1,34 +1,61 @@
 {
   "ccusageVersion": "20.0.51",
-  "collectedAt": "2026-11-22T16:30:31Z",
+  "collectedAt": "2026-11-23T04:00:29Z",
   "date": "2026-11-23",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 9647166,
-      "costUSD": 6.443614,
-      "input": 1104282,
+      "cacheRead": 49023668,
+      "costUSD": 38.081849,
+      "input": 5214678,
       "models": {
+        "gemini-4-argon": {
+          "cacheCreation": 0,
+          "cacheRead": 2413262,
+          "costUSD": 1.717524,
+          "input": 183003,
+          "output": 15615,
+          "total": 2611880
+        },
         "gemini-4-carbon": {
           "cacheCreation": 0,
-          "cacheRead": 7137910,
-          "costUSD": 3.666494,
-          "input": 428973,
-          "output": 18879,
-          "total": 7585762
+          "cacheRead": 35892145,
+          "costUSD": 30.655453,
+          "input": 4045241,
+          "output": 199571,
+          "total": 40136957
         },
         "gemini-4-neon": {
           "cacheCreation": 0,
-          "cacheRead": 2509256,
-          "costUSD": 2.77712,
-          "input": 675309,
-          "output": 14050,
-          "total": 3198615
+          "cacheRead": 10718261,
+          "costUSD": 5.708871,
+          "input": 986434,
+          "output": 43112,
+          "total": 11747807
         }
       },
-      "output": 32929,
-      "total": 10802586
+      "output": 258298,
+      "total": 54704414
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 1374848,
+      "costUSD": 2.752531,
+      "input": 207874,
+      "models": {
+        "gpt-6.2-astra": {
+          "cacheCreation": 0,
+          "cacheRead": 1374848,
+          "input": 207874,
+          "output": 13490,
+          "reasoningOutput": 324,
+          "total": 1596212
+        }
+      },
+      "output": 13490,
+      "reasoningOutput": 324,
+      "total": 1596212
     }
   },
   "status": "partial",
