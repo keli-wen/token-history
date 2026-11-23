@@ -28,8 +28,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <line class="grid" x1="28" y1="128" x2="848" y2="128"/>
 <text class="t2" x="28" y="116.0" font-size="12.5">Nov 23 – 29</text>
 <path class="s-codex wip" d="M180.0,105.5 H180.0 V118.5 H180.0 V105.5 Z"/>
-<path class="s-gemini wip" d="M182.0,105.5 H182.7 A0.7,0.7 0 0 1 183.4,106.2 V117.8 A0.7,0.7 0 0 1 182.7,118.5 H182.0 V105.5 Z"/>
-<text class="tm" x="848" y="116.0" font-size="12" text-anchor="end">12M *</text>
+<path class="s-gemini wip" d="M182.0,105.5 H185.6 A3.6,3.6 0 0 1 189.2,109.1 V114.9 A3.6,3.6 0 0 1 185.6,118.5 H182.0 V105.5 Z"/>
+<text class="tm" x="848" y="116.0" font-size="12" text-anchor="end">58M *</text>
 <line class="grid" x1="28" y1="160" x2="848" y2="160"/>
 <text class="t2" x="28" y="148.0" font-size="12.5">Nov 16 – 22</text>
 <path class="s-claude" d="M181.5,137.5 H183.0 V150.5 H181.5 A1.5,1.5 0 0 1 180.0,149.0 V139.0 A1.5,1.5 0 0 1 181.5,137.5 Z"/>
