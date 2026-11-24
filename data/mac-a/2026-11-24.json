@@ -1,15 +1,23 @@
 {
-  "ccusageVersion": "20.1.0",
-  "collectedAt": "2026-11-23T16:30:32Z",
+  "ccusageVersion": "20.1.1",
+  "collectedAt": "2026-11-24T04:00:33Z",
   "date": "2026-11-24",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 35541656,
-      "costUSD": 9.441664,
-      "input": 491767,
+      "cacheRead": 484873589,
+      "costUSD": 177.944317,
+      "input": 19102022,
       "models": {
+        "gemini-4-argon": {
+          "cacheCreation": 0,
+          "cacheRead": 19713898,
+          "costUSD": 8.413564,
+          "input": 1968747,
+          "output": 187048,
+          "total": 21869693
+        },
         "gemini-4-carbon": {
           "cacheCreation": 0,
           "cacheRead": 394346,
@@ -20,34 +28,34 @@
         },
         "gemini-4-neon": {
           "cacheCreation": 0,
-          "cacheRead": 35147310,
-          "costUSD": 9.364753,
-          "input": 483574,
-          "output": 130574,
-          "total": 35761458
+          "cacheRead": 464765345,
+          "costUSD": 169.453843,
+          "input": 17125082,
+          "output": 2064872,
+          "total": 483955299
         }
       },
-      "output": 132353,
-      "total": 36211661
+      "output": 2253699,
+      "total": 507452441
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 3978624,
-      "costUSD": 2.199642,
-      "input": 50014,
+      "cacheRead": 85329152,
+      "costUSD": 74.047213,
+      "input": 1790834,
       "models": {
         "gpt-6.2-astra": {
           "cacheCreation": 0,
-          "cacheRead": 3978624,
-          "input": 50014,
-          "output": 5202,
-          "reasoningOutput": 651,
-          "total": 4033840
+          "cacheRead": 85329152,
+          "input": 1790834,
+          "output": 174242,
+          "reasoningOutput": 29091,
+          "total": 87294228
         }
       },
-      "output": 5202,
-      "reasoningOutput": 651,
-      "total": 4033840
+      "output": 174242,
+      "reasoningOutput": 29091,
+      "total": 87294228
     }
   },
   "status": "partial",
