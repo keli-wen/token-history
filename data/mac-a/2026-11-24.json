@@ -1,14 +1,14 @@
 {
   "ccusageVersion": "20.1.1",
-  "collectedAt": "2026-11-24T13:00:25Z",
+  "collectedAt": "2026-11-24T16:30:24Z",
   "date": "2026-11-24",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 720616569,
-      "costUSD": 285.500444,
-      "input": 38039218,
+      "cacheRead": 744951058,
+      "costUSD": 296.431836,
+      "input": 39680506,
       "models": {
         "claude-opus-5-5": {
           "cacheCreation": 0,
@@ -44,21 +44,21 @@
         },
         "gemini-4-neon": {
           "cacheCreation": 0,
-          "cacheRead": 642528471,
-          "costUSD": 252.78143,
-          "input": 29217668,
-          "output": 2963721,
-          "total": 674709860
+          "cacheRead": 666862960,
+          "costUSD": 263.712822,
+          "input": 30858956,
+          "output": 3050965,
+          "total": 700772881
         }
       },
-      "output": 3349310,
-      "total": 763803352
+      "output": 3436554,
+      "total": 789936286
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 111597440,
-      "costUSD": 86.078416,
-      "input": 2771574,
+      "cacheRead": 112871808,
+      "costUSD": 86.536635,
+      "input": 2898045,
       "models": {
         "gpt-6.2-astra": {
           "cacheCreation": 0,
@@ -70,18 +70,18 @@
         },
         "gpt-6.2-sol": {
           "cacheCreation": 0,
-          "cacheRead": 17045632,
-          "input": 429557,
-          "output": 48296,
-          "reasoningOutput": 13096,
-          "total": 17523485
+          "cacheRead": 18320000,
+          "input": 556028,
+          "output": 56080,
+          "reasoningOutput": 15519,
+          "total": 18932108
         }
       },
-      "output": 244689,
-      "reasoningOutput": 45191,
-      "total": 114613703
+      "output": 252473,
+      "reasoningOutput": 47614,
+      "total": 116022326
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
