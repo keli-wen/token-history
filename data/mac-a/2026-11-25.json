@@ -1,40 +1,48 @@
 {
   "ccusageVersion": "20.1.2",
-  "collectedAt": "2026-11-25T04:00:36Z",
+  "collectedAt": "2026-11-25T13:00:31Z",
   "date": "2026-11-25",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 182011725,
-      "costUSD": 75.421907,
-      "input": 10574575,
+      "cacheRead": 352708824,
+      "costUSD": 168.232595,
+      "input": 32659584,
       "models": {
+        "gemini-4-argon": {
+          "cacheCreation": 0,
+          "cacheRead": 4276545,
+          "costUSD": 4.316206,
+          "input": 1625176,
+          "output": 41195,
+          "total": 5942916
+        },
         "gemini-4-carbon": {
           "cacheCreation": 0,
-          "cacheRead": 7666068,
-          "costUSD": 3.063273,
-          "input": 836808,
-          "output": 23506,
-          "total": 8526382
+          "cacheRead": 52796865,
+          "costUSD": 37.812425,
+          "input": 14003829,
+          "output": 252336,
+          "total": 67053030
         },
         "gemini-4-neon": {
           "cacheCreation": 0,
-          "cacheRead": 174345657,
-          "costUSD": 72.358635,
-          "input": 9737767,
-          "output": 685453,
-          "total": 184768877
+          "cacheRead": 295635414,
+          "costUSD": 126.103964,
+          "input": 17030579,
+          "output": 1252553,
+          "total": 313918546
         }
       },
-      "output": 708959,
-      "total": 193781504
+      "output": 1546084,
+      "total": 387929197
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 21162240,
-      "costUSD": 14.499442,
-      "input": 836336,
+      "cacheRead": 31672960,
+      "costUSD": 21.042507,
+      "input": 1621570,
       "models": {
         "gpt-6.1-terra": {
           "cacheCreation": 0,
@@ -46,24 +54,24 @@
         },
         "gpt-6.2-astra": {
           "cacheCreation": 0,
-          "cacheRead": 12389120,
-          "input": 408381,
-          "output": 28012,
-          "reasoningOutput": 6999,
-          "total": 12825513
+          "cacheRead": 16281216,
+          "input": 692167,
+          "output": 47267,
+          "reasoningOutput": 8011,
+          "total": 17020650
         },
         "gpt-6.2-sol": {
           "cacheCreation": 0,
-          "cacheRead": 5269376,
-          "input": 276651,
-          "output": 17645,
-          "reasoningOutput": 5692,
-          "total": 5563672
+          "cacheRead": 11888000,
+          "input": 778099,
+          "output": 45743,
+          "reasoningOutput": 15168,
+          "total": 12711842
         }
       },
-      "output": 60282,
-      "reasoningOutput": 13802,
-      "total": 22058858
+      "output": 107635,
+      "reasoningOutput": 24290,
+      "total": 33402165
     }
   },
   "status": "partial",

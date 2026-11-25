@@ -1,14 +1,14 @@
 {
   "ccusageVersion": "20.1.2",
-  "collectedAt": "2026-11-25T04:00:36Z",
+  "collectedAt": "2026-11-25T13:00:31Z",
   "date": "2026-11-24",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 744951058,
-      "costUSD": 296.431836,
-      "input": 39680506,
+      "cacheRead": 744517831,
+      "costUSD": 295.041047,
+      "input": 39245001,
       "models": {
         "claude-opus-5-5": {
           "cacheCreation": 0,
@@ -44,15 +44,15 @@
         },
         "gemini-4-neon": {
           "cacheCreation": 0,
-          "cacheRead": 666862960,
-          "costUSD": 263.712822,
-          "input": 30858956,
-          "output": 3050965,
-          "total": 700772881
+          "cacheRead": 666429733,
+          "costUSD": 262.322033,
+          "input": 30423451,
+          "output": 3050401,
+          "total": 699903585
         }
       },
-      "output": 3436554,
-      "total": 789936286
+      "output": 3435990,
+      "total": 789066268
     },
     "codex": {
       "cacheCreation": 0,
