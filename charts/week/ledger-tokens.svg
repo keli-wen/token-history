@@ -27,9 +27,9 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="t2" x="200" y="73" font-size="12">Gemini</text>
 <line class="grid" x1="28" y1="128" x2="848" y2="128"/>
 <text class="t2" x="28" y="116.0" font-size="12.5">Nov 23 – 29</text>
-<path class="s-codex wip" d="M186.0,105.5 H206.1 V118.5 H186.0 A6.0,6.0 0 0 1 180.0,112.5 V111.5 A6.0,6.0 0 0 1 186.0,105.5 Z"/>
-<path class="s-gemini wip" d="M208.1,105.5 H417.7 A6.0,6.0 0 0 1 423.7,111.5 V112.5 A6.0,6.0 0 0 1 417.7,118.5 H208.1 V105.5 Z"/>
-<text class="tm" x="848" y="116.0" font-size="12" text-anchor="end">1.8B *</text>
+<path class="s-codex wip" d="M186.0,105.5 H206.2 V118.5 H186.0 A6.0,6.0 0 0 1 180.0,112.5 V111.5 A6.0,6.0 0 0 1 186.0,105.5 Z"/>
+<path class="s-gemini wip" d="M208.2,105.5 H417.9 A6.0,6.0 0 0 1 423.9,111.5 V112.5 A6.0,6.0 0 0 1 417.9,118.5 H208.2 V105.5 Z"/>
+<text class="tm" x="848" y="116.0" font-size="12" text-anchor="end">1.9B *</text>
 <line class="grid" x1="28" y1="160" x2="848" y2="160"/>
 <text class="t2" x="28" y="148.0" font-size="12.5">Nov 16 – 22</text>
 <path class="s-claude" d="M181.5,137.5 H183.0 V150.5 H181.5 A1.5,1.5 0 0 1 180.0,149.0 V139.0 A1.5,1.5 0 0 1 181.5,137.5 Z"/>
@@ -119,5 +119,5 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <path class="s-codex" d="M243.7,585.5 H388.3 V598.5 H243.7 V585.5 Z"/>
 <path class="s-gemini" d="M390.3,585.5 H390.4 A0.1,0.1 0 0 1 390.5,585.6 V598.4 A0.1,0.1 0 0 1 390.4,598.5 H390.3 V585.5 Z"/>
 <text class="tm" x="848" y="596.0" font-size="12" text-anchor="end">1.6B</text>
-<text class="tm" x="28" y="638" font-size="10.5">Generated 2026-11-25 16:30 UTC</text>
+<text class="tm" x="28" y="638" font-size="10.5">Generated 2026-11-26 04:00 UTC</text>
 </svg>
