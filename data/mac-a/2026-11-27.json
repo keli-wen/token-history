@@ -1,0 +1,47 @@
+{
+  "ccusageVersion": "20.1.2",
+  "collectedAt": "2026-11-26T16:30:27Z",
+  "date": "2026-11-27",
+  "host": "mac-a",
+  "sources": {
+    "antigravity": {
+      "cacheCreation": 0,
+      "cacheRead": 14758693,
+      "costUSD": 3.199616,
+      "input": 139359,
+      "models": {
+        "gemini-4-neon": {
+          "cacheCreation": 0,
+          "cacheRead": 14758693,
+          "costUSD": 3.199616,
+          "input": 139359,
+          "output": 25704,
+          "total": 14923756
+        }
+      },
+      "output": 25704,
+      "total": 14935901
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 1940736,
+      "costUSD": 0.556656,
+      "input": 121531,
+      "models": {
+        "gpt-6.2-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 1940736,
+          "input": 121531,
+          "output": 11952,
+          "reasoningOutput": 2972,
+          "total": 2074219
+        }
+      },
+      "output": 11952,
+      "reasoningOutput": 2972,
+      "total": 2074219
+    }
+  },
+  "status": "partial",
+  "timezone": "Asia/Shanghai"
+}
