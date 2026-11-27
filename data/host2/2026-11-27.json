@@ -1,0 +1,29 @@
+{
+  "ccusageVersion": "20.1.2",
+  "collectedAt": "2026-11-27T04:00:06Z",
+  "date": "2026-11-27",
+  "host": "host2",
+  "sources": {
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 57600,
+      "costUSD": 0.083284,
+      "input": 30842,
+      "models": {
+        "gpt-5.6-terra": {
+          "cacheCreation": 0,
+          "cacheRead": 57600,
+          "input": 30842,
+          "output": 840,
+          "reasoningOutput": 239,
+          "total": 89282
+        }
+      },
+      "output": 840,
+      "reasoningOutput": 239,
+      "total": 89282
+    }
+  },
+  "status": "partial",
+  "timezone": "Asia/Shanghai"
+}
