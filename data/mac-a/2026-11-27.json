@@ -1,53 +1,53 @@
 {
   "ccusageVersion": "20.1.2",
-  "collectedAt": "2026-11-27T04:00:29Z",
+  "collectedAt": "2026-11-27T13:00:29Z",
   "date": "2026-11-27",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 25934573,
-      "costUSD": 13.0788,
-      "input": 2245744,
+      "cacheRead": 39880643,
+      "costUSD": 20.839705,
+      "input": 3496934,
       "models": {
         "gemini-4-carbon": {
           "cacheCreation": 0,
-          "cacheRead": 1114178,
-          "costUSD": 0.856516,
-          "input": 301244,
-          "output": 5390,
-          "total": 1420812
+          "cacheRead": 3555319,
+          "costUSD": 1.726666,
+          "input": 512907,
+          "output": 17776,
+          "total": 4086002
         },
         "gemini-4-neon": {
           "cacheCreation": 0,
-          "cacheRead": 24820395,
-          "costUSD": 12.222284,
-          "input": 1944500,
-          "output": 89950,
-          "total": 26854845
+          "cacheRead": 36325324,
+          "costUSD": 19.11304,
+          "input": 2984027,
+          "output": 152966,
+          "total": 39462317
         }
       },
-      "output": 95340,
-      "total": 28372293
+      "output": 170742,
+      "total": 43726253
     },
     "codex": {
       "cacheCreation": 0,
-      "cacheRead": 1940736,
-      "costUSD": 0.556656,
-      "input": 121531,
+      "cacheRead": 2226816,
+      "costUSD": 0.722678,
+      "input": 180168,
       "models": {
         "gpt-6.2-sol": {
           "cacheCreation": 0,
-          "cacheRead": 1940736,
-          "input": 121531,
-          "output": 11952,
-          "reasoningOutput": 2972,
-          "total": 2074219
+          "cacheRead": 2226816,
+          "input": 180168,
+          "output": 13966,
+          "reasoningOutput": 3543,
+          "total": 2420950
         }
       },
-      "output": 11952,
-      "reasoningOutput": 2972,
-      "total": 2074219
+      "output": 13966,
+      "reasoningOutput": 3543,
+      "total": 2420950
     }
   },
   "status": "partial",
