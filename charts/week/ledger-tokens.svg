@@ -27,8 +27,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <text class="t2" x="200" y="73" font-size="12">Gemini</text>
 <line class="grid" x1="28" y1="128" x2="848" y2="128"/>
 <text class="t2" x="28" y="116.0" font-size="12.5">Nov 23 – 29</text>
-<path class="s-codex wip" d="M186.0,105.5 H216.0 V118.5 H186.0 A6.0,6.0 0 0 1 180.0,112.5 V111.5 A6.0,6.0 0 0 1 186.0,105.5 Z"/>
-<path class="s-gemini wip" d="M218.0,105.5 H501.0 A6.0,6.0 0 0 1 507.0,111.5 V112.5 A6.0,6.0 0 0 1 501.0,118.5 H218.0 V105.5 Z"/>
+<path class="s-codex wip" d="M186.0,105.5 H216.1 V118.5 H186.0 A6.0,6.0 0 0 1 180.0,112.5 V111.5 A6.0,6.0 0 0 1 186.0,105.5 Z"/>
+<path class="s-gemini wip" d="M218.1,105.5 H503.0 A6.0,6.0 0 0 1 509.0,111.5 V112.5 A6.0,6.0 0 0 1 503.0,118.5 H218.1 V105.5 Z"/>
 <text class="tm" x="848" y="116.0" font-size="12" text-anchor="end">2.5B *</text>
 <line class="grid" x1="28" y1="160" x2="848" y2="160"/>
 <text class="t2" x="28" y="148.0" font-size="12.5">Nov 16 – 22</text>
