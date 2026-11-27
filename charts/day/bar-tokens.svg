@@ -106,8 +106,8 @@ svg{--f:Poppins,Arial,"Helvetica Neue",sans-serif;--fs:Lora,Georgia,"Iowan Old S
 <path class="s-gemini" d="M779.3,309.4 V241.1 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V309.4 Z"/>
 <path class="s-codex" d="M805.2,306.2 h16.0 v9.8 h-16.0 Z"/>
 <path class="s-gemini" d="M805.2,304.2 V226.9 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V304.2 Z"/>
-<path class="s-codex wip" d="M831.0,316.0 h16.0 v0.0 h-16.0 Z"/>
-<path class="s-gemini wip" d="M831.0,314.3 V311.8 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V314.3 Z"/>
+<path class="s-codex" d="M831.0,316.0 h16.0 v0.0 h-16.0 Z"/>
+<path class="s-gemini" d="M831.0,314.3 V311.8 a4.0,4.0 0 0 1 4.0,-4.0 h8.0 a4.0,4.0 0 0 1 4.0,4.0 V314.3 Z"/>
 <text class="tm" x="839.1" y="336" font-size="10.5" text-anchor="middle">11/27</text>
 <text class="t" x="554.5" y="96.9" font-size="11.5" font-weight="600" text-anchor="middle">1.4B</text>
 <text class="t" x="839.1" y="299.8" font-size="11.5" font-weight="600" text-anchor="middle">55M</text>
