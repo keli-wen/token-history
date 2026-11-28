@@ -1,28 +1,72 @@
 {
   "ccusageVersion": "20.1.2",
-  "collectedAt": "2026-11-28T13:00:23Z",
+  "collectedAt": "2026-11-28T16:30:35Z",
   "date": "2026-11-28",
   "host": "mac-a",
   "sources": {
     "antigravity": {
       "cacheCreation": 0,
-      "cacheRead": 1166013,
-      "costUSD": 0.8189,
-      "input": 142901,
+      "cacheRead": 13461874,
+      "costUSD": 6.746143,
+      "input": 1705264,
       "models": {
+        "gemini-4-carbon": {
+          "cacheCreation": 0,
+          "cacheRead": 7016990,
+          "costUSD": 3.410225,
+          "input": 1078013,
+          "output": 25860,
+          "total": 8120863
+        },
+        "gemini-4-hydrogen": {
+          "cacheCreation": 0,
+          "cacheRead": 0,
+          "costUSD": 0.063802,
+          "input": 41445,
+          "output": 97,
+          "total": 41542
+        },
         "gemini-4-neon": {
           "cacheCreation": 0,
-          "cacheRead": 1166013,
-          "costUSD": 0.8189,
-          "input": 142901,
-          "output": 4157,
-          "total": 1313071
+          "cacheRead": 6444884,
+          "costUSD": 3.272116,
+          "input": 585806,
+          "output": 15671,
+          "total": 7046361
         }
       },
-      "output": 4157,
-      "total": 1323267
+      "output": 41628,
+      "total": 15259137
+    },
+    "codex": {
+      "cacheCreation": 0,
+      "cacheRead": 31683200,
+      "costUSD": 7.660899,
+      "input": 931732,
+      "models": {
+        "gpt-5.6-luna": {
+          "cacheCreation": 0,
+          "cacheRead": 864000,
+          "input": 255780,
+          "modelNameIsFallback": true,
+          "output": 3886,
+          "reasoningOutput": 1848,
+          "total": 1123666
+        },
+        "gpt-6.2-sol": {
+          "cacheCreation": 0,
+          "cacheRead": 30819200,
+          "input": 675952,
+          "output": 170984,
+          "reasoningOutput": 56414,
+          "total": 31666136
+        }
+      },
+      "output": 174870,
+      "reasoningOutput": 58262,
+      "total": 32789802
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
