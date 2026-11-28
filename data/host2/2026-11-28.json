@@ -1,6 +1,6 @@
 {
   "ccusageVersion": "20.1.2",
-  "collectedAt": "2026-11-28T13:00:08Z",
+  "collectedAt": "2026-11-28T16:30:07Z",
   "date": "2026-11-28",
   "host": "host2",
   "sources": {
@@ -32,6 +32,6 @@
       "total": 1827902
     }
   },
-  "status": "partial",
+  "status": "final",
   "timezone": "Asia/Shanghai"
 }
